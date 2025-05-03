@@ -1,3 +1,6 @@
+:- use_module(library(http/json)). % <-- ADD THIS LINE AT THE TOP
+:- use_module(library(lists)). % For sum_list, length, append, reverse, keysort
+:- use_module(library(apply)). % For maplist
 % city_iata facts
 city_iata('Anaa', 'AAA').
 city_iata('Arrabury', 'AAB').
@@ -29574,47 +29577,28 @@ filter_vibe(City, User, Length) :-
     intersection(Pref, CList, Inter), 
     length(Inter, Length).
 
-% Main execution control
-main :-
-    write('City Recommendation System'), nl,
-    write('========================='), nl, nl,
-    
-    % Get all cities that have both coordinates and vibes data
-    findall(City, city_lat(City, _), ValidCities),
-    % Score and rank all valid cities
-    score_and_rank_cities(ValidCities, RankedCities1),
-    
-    print("Ranked Cities1"),
-    take_first(1000, RankedCities1, ListaRanked),
-    display_results(ListaRanked).
-    
-% Scoring and ranking logic - FIXED THIS PREDICATE
 score_and_rank_cities(Cities, Ranked) :-
     maplist(score_city, Cities, ScoredCities),
-    keysort(ScoredCities, Sorted),
-    reverse(Sorted, Ranked).
+    keysort(ScoredCities, Sorted), % Sorts by score (ascending)
+    reverse(Sorted, Ranked).      % Reverses to get highest score first
 
-% Score a city based on all criteria
 score_city(City, Score-City) :-
-    (overall_city_desti(City, DestiFit) -> true ; DestiFit = 'NoneDest'),
-    (overall_city_dist(City, DistFit) -> true ; DistFit = 'LongDist'),
-    (overall_city_vibe(City, VibeFit) -> true ; VibeFit = 'None'),
+    (overall_city_desti(City, DestiFit) -> true ; DestiFit = 'NoneDest'), % Use default if predicate fails
+    (overall_city_dist(City, DistFit) -> true ; DistFit = 'LongDist'),   % Use default if predicate fails
+    (overall_city_vibe(City, VibeFit) -> true ; VibeFit = 'None'),       % Use default if predicate fails
     fit_to_score(DestiFit, DestiScore),
     fit_to_score(DistFit, DistScore),
     fit_to_score(VibeFit, VibeScore),
     Score is DestiScore * 0.4 + DistScore * 0.3 + VibeScore * 0.3.
 
-% Conversion from symbolic fits to numeric scores
 fit_to_score('HighDest', 4.0).
 fit_to_score('MidDest', 3.0).
 fit_to_score('LowDest', 2.0).
 fit_to_score('NoneDest', 0.1).
-
 fit_to_score('Local', 4.0).
 fit_to_score('ShortDist', 3.5).
 fit_to_score('MediumDist', 2.5).
 fit_to_score('LongDist', 1.0).
-
 fit_to_score('High', 4.0).
 fit_to_score('Mid', 3.0).
 fit_to_score('Low', 2.0).
@@ -29629,11 +29613,90 @@ display_results([Score-City|Rest], Rank) :-
     (overall_city_desti(City, Desti) -> true ; Desti = 'NoneDest'),
     (overall_city_dist(City, Dist) -> true ; Dist = 'LongDist'),
     (overall_city_vibe(City, Vibe) -> true ; Vibe = 'None'),
-    format('~d~t~8+~2f~t~8+~w~t~8+~w~t~8+~w~t~8+~w~n', 
+    format('~d~t~8+~2f~t~8+~w~t~8+~w~t~8+~w~t~8+~w~n',
            [Rank, Score, Desti, Dist, Vibe, City]),
     NextRank is Rank + 1,
-    display_results(Rest, NextRank).% Helper predicate to take first N elements
+    display_results(Rest, NextRank).
 
-take_first(N, List, FirstN) :- 
-    length(FirstN, N), 
-    append(FirstN, _, List).
+take_first(0, _, []) :- !.
+take_first(_, [], []) :- !.
+take_first(N, [H|T], [H|R]) :-
+    N > 0,
+    N1 is N - 1,
+    take_first(N1, T, R).
+
+ranked_cities_to_dicts(RankedCities, DictList) :-
+    ranked_cities_to_dicts(RankedCities, 1, DictList).
+
+ranked_cities_to_dicts([], _, []).
+ranked_cities_to_dicts([Score-City | RestRanked], Rank, [CityDict | RestDicts]) :-
+    (overall_city_desti(City, DestiFit) -> true ; DestiFit = 'NoneDest'),
+    (overall_city_dist(City, DistFit) -> true ; DistFit = 'LongDist'),
+    (overall_city_vibe(City, VibeFit) -> true ; VibeFit = 'None'),
+    CityDict = json{
+        rank: Rank,
+        score: Score,
+        city: City,
+        destination_fit: DestiFit,
+        distance_fit: DistFit,
+        vibe_fit: VibeFit
+    },
+    NextRank is Rank + 1,
+    ranked_cities_to_dicts(RestRanked, NextRank, RestDicts).
+
+export_ranked_cities_to_json(DictList, Filename) :-
+    setup_call_cleanup(
+        open(Filename, write, Stream, [encoding(utf8)]),
+        json_write_dict(Stream, DictList, [width(0)]),
+        close(Stream)
+    ).
+% --- End of existing predicates ---
+
+% --- Main Execution Control (MODIFIED) ---
+
+main(Filename, NumResults) :- % Pass the desired output filename AND number of results
+    write('City Recommendation System'), nl,
+    write('========================='), nl, nl,
+
+    % Get all valid cities
+    findall(City, city_lat(City, _), AllCitiesWithLat),
+    list_to_set(AllCitiesWithLat, ValidCities),
+
+    write('Scoring and ranking all valid cities...'), nl,
+    score_and_rank_cities(ValidCities, FullRankedCities), % Get the full ranking
+
+    % --- Select Top N for both display and export ---
+    writef('Selecting top %t results...~n', [NumResults]),
+    take_first(NumResults, FullRankedCities, TopRankedCities), % <--- APPLY take_first HERE
+
+    length(TopRankedCities, ActualNum), % Check how many we actually got (might be < NumResults)
+    ( ActualNum == 0 ->
+        write('No cities found or ranked to display or export.'), nl
+    ;
+        % --- Optional: Display top N results to console ---
+        nl, writef('--- Top %t Cities (Console) ---~n', [ActualNum]),
+        display_results(TopRankedCities), % Display the selected top cities
+        nl,
+
+        % --- Convert SELECTED Top N to Dictionaries and Export to JSON ---
+        writef('Converting top %t results to JSON format...~n', [ActualNum]),
+        ranked_cities_to_dicts(TopRankedCities, JsonDictList), % Convert only the top N
+
+        writef('Exporting top %t results to %w...~n', [ActualNum, Filename]),
+        export_ranked_cities_to_json(JsonDictList, Filename), % Export the limited list
+
+        nl, write('Processing complete.'), nl
+    ).
+
+
+% Default entry point if no filename/number is given
+main :-
+    NumTop = 100, % Define the default number of results here
+    atomic_list_concat(['ranked_cities_top', NumTop, '.json'], DefaultFilename), % Create filename like ranked_cities_top100.json
+    main(DefaultFilename, NumTop).
+
+% Entry point to specify only the number of results, using default filename pattern
+main(NumResults) :-
+    integer(NumResults), NumResults >= 0, % Basic validation
+    atomic_list_concat(['ranked_cities_top', NumResults, '.json'], Filename),
+    main(Filename, NumResults).
