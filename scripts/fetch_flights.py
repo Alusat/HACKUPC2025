@@ -5,6 +5,10 @@ import csv
 from datetime import datetime, date
 from time import sleep
 from typing import Dict, List, Any, Optional
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Constants
 API_KEY = os.getenv('API_KEY')
