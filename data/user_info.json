@@ -1,19 +1,58 @@
 {
-  "timestamp": "2025-05-03T14:10:06.009Z",
+  "timestamp": "2025-05-03T14:21:41.055Z",
   "dateRange": {
-    "startDate": "2025-05-21",
-    "endDate": "2025-05-31"
+    "startDate": "2025-05-01",
+    "endDate": "2025-05-03"
   },
   "travelers": [
     {
       "travelerNumber": 1,
       "budgetRange": {
         "min": "0",
+        "max": "2637"
+      },
+      "preferredVibes": [
+        "beach",
+        "outdoor_adventures"
+      ],
+      "preferredDestination": "Candala",
+      "startingPoint": "Barcelona"
+    },
+    {
+      "travelerNumber": 2,
+      "budgetRange": {
+        "min": "1332",
         "max": "5000"
       },
-      "preferredVibes": [],
-      "preferredDestination": "Barcelona",
-      "startingPoint": "Tijuana"
+      "preferredVibes": [
+        "nightlife_and_entertainment"
+      ],
+      "preferredDestination": "Hong Kong Intl",
+      "startingPoint": "New York John F. Kennedy"
+    },
+    {
+      "travelerNumber": 3,
+      "budgetRange": {
+        "min": "1133",
+        "max": "5000"
+      },
+      "preferredVibes": [
+        "great_food"
+      ],
+      "preferredDestination": "Madrid",
+      "startingPoint": "Beijing Capital"
+    },
+    {
+      "travelerNumber": 4,
+      "budgetRange": {
+        "min": "0",
+        "max": "3262"
+      },
+      "preferredVibes": [
+        "outdoor_adventures"
+      ],
+      "preferredDestination": "Lisbon",
+      "startingPoint": "Amarillo International"
     }
   ]
 }
