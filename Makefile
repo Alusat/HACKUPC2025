@@ -28,7 +28,7 @@ $(DATA_DIR)/users.pl: $(DATA_DIR)/input.json
 	@$(PYTHON) $(SCRIPTS_DIR)/json_to_prolog.py $< $@
 
 prepinfo: cities users
-	@echo "[PL] Checked cities and users facts."
+	@echo "[PL] Checked cities and users facts."score_and_rank
 
 # --- 2. Filter destinations using Prolog ---
 filter: prepinfo
