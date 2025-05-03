@@ -29,7 +29,7 @@ body {
   }
 
   h3 {
-    color: #ffffff;
+    color: #000000;
   }
 
   .question {
@@ -62,13 +62,6 @@ body {
   
   label {
     color: #000000;
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-
-  label-2 {
-    color: #ffffff;
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
