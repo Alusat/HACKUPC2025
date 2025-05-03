@@ -6,9 +6,10 @@
     "rank": 1,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ARJ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 1
   },
   {
     "city": "Victoria International",
@@ -17,9 +18,10 @@
     "rank": 2,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 2
   },
   {
     "city": "Calgary",
@@ -28,9 +30,10 @@
     "rank": 3,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "YYC",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 3
   },
   {
     "city": "Abbotsford",
@@ -39,9 +42,10 @@
     "rank": 4,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "KBS",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 4
   },
   {
     "city": "Victoria Inner Harbor",
@@ -50,9 +54,10 @@
     "rank": 5,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "KBS",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 5
   },
   {
     "city": "Halifax Dwtown Waterfront H / P",
@@ -61,9 +66,10 @@
     "rank": 6,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "WZA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 6
   },
   {
     "city": "Vancouver International",
@@ -72,9 +78,10 @@
     "rank": 7,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 7
   },
   {
     "city": "Montreal Pierre Elliott Trudeau",
@@ -83,9 +90,10 @@
     "rank": 8,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "PIR",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 8
   },
   {
     "city": "Toronto Island",
@@ -94,9 +102,10 @@
     "rank": 9,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "YTZ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 9
   },
   {
     "city": "Ottawa Rockcliffe St",
@@ -105,9 +114,10 @@
     "rank": 10,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "TWY",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 10
   },
   {
     "city": "Quebec",
@@ -116,9 +126,10 @@
     "rank": 11,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "XFZ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 11
   },
   {
     "city": "Ottawa International",
@@ -127,9 +138,10 @@
     "rank": 12,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 12
   },
   {
     "city": "Ottawa Gatineau",
@@ -138,9 +150,10 @@
     "rank": 13,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 13
   },
   {
     "city": "Montreal Mirabel",
@@ -149,9 +162,10 @@
     "rank": 14,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "YMX",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 14
   },
   {
     "city": "Toronto Buttonville",
@@ -160,9 +174,10 @@
     "rank": 15,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "YKZ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 15
   },
   {
     "city": "Kitchener / Waterloo",
@@ -171,9 +186,10 @@
     "rank": 16,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "WLO",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 16
   },
   {
     "city": "Halifax International",
@@ -182,9 +198,10 @@
     "rank": 17,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 17
   },
   {
     "city": "Montreal St Hubert",
@@ -193,9 +210,10 @@
     "rank": 18,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "YHU",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 18
   },
   {
     "city": "Edmonton International",
@@ -204,9 +222,10 @@
     "rank": 19,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 19
   },
   {
     "city": "Vancouver Boundary Bay",
@@ -215,9 +234,10 @@
     "rank": 20,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "BYA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 20
   },
   {
     "city": "Halifax Shearwater",
@@ -226,9 +246,10 @@
     "rank": 21,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "WZA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 21
   },
   {
     "city": "Quebec Charny",
@@ -237,9 +258,10 @@
     "rank": 22,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "XFZ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 22
   },
   {
     "city": "Ottawa Train Station",
@@ -248,9 +270,10 @@
     "rank": 23,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 23
   },
   {
     "city": "Philadelphia Trenton-Mercer",
@@ -259,9 +282,10 @@
     "rank": 24,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "RNT",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 24
   },
   {
     "city": "Stewart International",
@@ -270,9 +294,10 @@
     "rank": 25,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 25
   },
   {
     "city": "Savannah Hunter AAF",
@@ -281,9 +306,10 @@
     "rank": 26,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "SVN",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 26
   },
   {
     "city": "San Antonio Stinson Municipal",
@@ -292,9 +318,10 @@
     "rank": 27,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "SSF",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 27
   },
   {
     "city": "San Antonio Kelly AFB",
@@ -303,9 +330,10 @@
     "rank": 28,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "SKF",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 28
   },
   {
     "city": "Savannah / Hilton Head",
@@ -314,9 +342,10 @@
     "rank": 29,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "HHH",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 29
   },
   {
     "city": "San Antonio International",
@@ -325,9 +354,10 @@
     "rank": 30,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 30
   },
   {
     "city": "San Antonio Randolph AFB",
@@ -336,9 +366,10 @@
     "rank": 31,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "RND",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 31
   },
   {
     "city": "Chicago Rockford",
@@ -347,9 +378,10 @@
     "rank": 32,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "RFD",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 32
   },
   {
     "city": "Chicago Pal-Waukee",
@@ -358,9 +390,10 @@
     "rank": 33,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "PWK",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 33
   },
   {
     "city": "Philadelphia SPB",
@@ -369,9 +402,10 @@
     "rank": 34,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "PSQ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 34
   },
   {
     "city": "North Philadelphia",
@@ -380,9 +414,10 @@
     "rank": 35,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "PNE",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 35
   },
   {
     "city": "Philadelphia International",
@@ -391,9 +426,10 @@
     "rank": 36,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 36
   },
   {
     "city": "Atlanta De Kalb / Peachtree",
@@ -402,9 +438,10 @@
     "rank": 37,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 37
   },
   {
     "city": "Chicago OHare International",
@@ -413,9 +450,10 @@
     "rank": 38,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 38
   },
   {
     "city": "Skyports Seaplane Base",
@@ -424,9 +462,10 @@
     "rank": 39,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "NYS",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 39
   },
   {
     "city": "Chicago NAS",
@@ -435,9 +474,10 @@
     "rank": 40,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "NOH",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 40
   },
   {
     "city": "New Orleans Lakefront",
@@ -446,9 +486,10 @@
     "rank": 41,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "NEW",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 41
   },
   {
     "city": "New Orleans NAS / Alvin Callendar",
@@ -457,9 +498,10 @@
     "rank": 42,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "NBG",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 42
   },
   {
     "city": "Philadelphia Mustin Alf",
@@ -468,9 +510,10 @@
     "rank": 43,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "MSR",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 43
   },
   {
     "city": "Baltimore Glenn L Martin",
@@ -479,9 +522,10 @@
     "rank": 44,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "MTN",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 44
   },
   {
     "city": "New Orleans Louis Armstrong",
@@ -490,9 +534,10 @@
     "rank": 45,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "MSY",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 45
   },
   {
     "city": "Chicago Midway",
@@ -501,9 +546,10 @@
     "rank": 46,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "MDW",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 46
   },
   {
     "city": "San Antonio Martindale AAF",
@@ -512,9 +558,10 @@
     "rank": 47,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "MDA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 47
   },
   {
     "city": "New York LaGuardia",
@@ -523,9 +570,10 @@
     "rank": 48,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "LGA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 48
   },
   {
     "city": "Washington Pentagon Army",
@@ -534,9 +582,10 @@
     "rank": 49,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "JPN",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 49
   },
   {
     "city": "Atlanta Galleria",
@@ -545,9 +594,10 @@
     "rank": 50,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 50
   },
   {
     "city": "New York John F. Kennedy",
@@ -556,9 +606,10 @@
     "rank": 51,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "JFK",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 51
   },
   {
     "city": "Boston City Heliport",
@@ -567,9 +618,10 @@
     "rank": 52,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "BST",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 52
   },
   {
     "city": "Atlanta Beaver Ruin",
@@ -578,9 +630,10 @@
     "rank": 53,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 53
   },
   {
     "city": "Atlanta Perimeter Mall",
@@ -589,9 +642,10 @@
     "rank": 54,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 54
   },
   {
     "city": "Washington Dulles",
@@ -600,9 +654,10 @@
     "rank": 55,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "IAD",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 55
   },
   {
     "city": "Baltimore Greenbelt T",
@@ -611,9 +666,10 @@
     "rank": 56,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "GBO",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 56
   },
   {
     "city": "Atlanta Fulton County",
@@ -622,9 +678,10 @@
     "rank": 57,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 57
   },
   {
     "city": "Freeport",
@@ -633,9 +690,10 @@
     "rank": 58,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "FPO",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 58
   },
   {
     "city": "New York Newark",
@@ -644,9 +702,10 @@
     "rank": 59,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "EWR",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 59
   },
   {
     "city": "Chicago Dupage County",
@@ -655,9 +714,10 @@
     "rank": 60,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "DPA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 60
   },
   {
     "city": "Denver International",
@@ -666,9 +726,10 @@
     "rank": 61,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 61
   },
   {
     "city": "Washington Ronald Reagan",
@@ -677,9 +738,10 @@
     "rank": 62,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "DCA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 62
   },
   {
     "city": "Dublin",
@@ -688,9 +750,10 @@
     "rank": 63,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "PSK",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 63
   },
   {
     "city": "Vancouver Coal Harbour",
@@ -699,9 +762,10 @@
     "rank": 64,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "CXH",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 64
   },
   {
     "city": "Charleston",
@@ -710,9 +774,10 @@
     "rank": 65,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "CRW",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 65
   },
   {
     "city": "Washington Buzzards Pt S",
@@ -721,9 +786,10 @@
     "rank": 66,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "BZS",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 66
   },
   {
     "city": "Baltimore Washington International",
@@ -732,9 +798,10 @@
     "rank": 67,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 67
   },
   {
     "city": "Boston Logan International",
@@ -743,9 +810,10 @@
     "rank": 68,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 68
   },
   {
     "city": "Washington Bolling AFB",
@@ -754,9 +822,10 @@
     "rank": 69,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "BOF",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 69
   },
   {
     "city": "Denver Buckley ANGB",
@@ -765,9 +834,10 @@
     "rank": 70,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "BFK",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 70
   },
   {
     "city": "Atlanta Hartsfield-Jackson",
@@ -776,9 +846,10 @@
     "rank": 71,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "ATA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 71
   },
   {
     "city": "Denver Arapahoe Co",
@@ -787,9 +858,10 @@
     "rank": 72,
     "score": 2.45,
     "vibe_fit": "Mid",
-    "iata": "AHF",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 72
   },
   {
     "city": "Zanzibar",
@@ -798,9 +870,10 @@
     "rank": 73,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "ZNZ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 73
   },
   {
     "city": "Nassau Seaplane Base",
@@ -809,9 +882,10 @@
     "rank": 74,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "WZY",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 74
   },
   {
     "city": "Vientiane",
@@ -820,9 +894,10 @@
     "rank": 75,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "VTE",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 75
   },
   {
     "city": "St Lucia Hewanorra",
@@ -831,9 +906,10 @@
     "rank": 76,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "UVF",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 76
   },
   {
     "city": "Quito",
@@ -842,9 +918,10 @@
     "rank": 77,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "IQT",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 77
   },
   {
     "city": "Chinggis Khaan",
@@ -853,9 +930,10 @@
     "rank": 78,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "UBN",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 78
   },
   {
     "city": "Santa Marta",
@@ -864,9 +942,10 @@
     "rank": 79,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "ATA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 79
   },
   {
     "city": "St Lucia Vigie",
@@ -875,9 +954,10 @@
     "rank": 80,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "SLU",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 80
   },
   {
     "city": "Basseterre",
@@ -886,9 +966,10 @@
     "rank": 81,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "SKB",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 81
   },
   {
     "city": "San Juan Luis Munoz Marin",
@@ -897,9 +978,10 @@
     "rank": 82,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "WSJ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 82
   },
   {
     "city": "San Juan Isla Grande",
@@ -908,20 +990,22 @@
     "rank": 83,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "YGL",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 83
   },
   {
-    "city": "Siem Reap\u2013Angkor",
+    "city": "Siem Reap–Angkor",
     "destination_fit": "LowDest",
     "distance_fit": "LongDist",
     "rank": 84,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "SAI",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 84
   },
   {
     "city": "Reykjavik Domestic",
@@ -930,9 +1014,10 @@
     "rank": 85,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "RKV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 85
   },
   {
     "city": "Marrakech Menara",
@@ -941,9 +1026,10 @@
     "rank": 86,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "MZX",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 86
   },
   {
     "city": "Nassau Paradise Island",
@@ -952,9 +1038,10 @@
     "rank": 87,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "ARW",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 87
   },
   {
     "city": "Penang",
@@ -963,9 +1050,10 @@
     "rank": 88,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "ZJR",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 88
   },
   {
     "city": "Nassau International",
@@ -974,9 +1062,10 @@
     "rank": 89,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "ATV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 89
   },
   {
     "city": "Muscat",
@@ -985,9 +1074,10 @@
     "rank": 90,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "MCT",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 90
   },
   {
     "city": "Mombasa",
@@ -996,9 +1086,10 @@
     "rank": 91,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "MBA",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 91
   },
   {
     "city": "Manaus",
@@ -1007,9 +1098,10 @@
     "rank": 92,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "MAO",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 92
   },
   {
     "city": "Luang Prabang",
@@ -1018,9 +1110,10 @@
     "rank": 93,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "LPQ",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 93
   },
   {
     "city": "Kingston Tinson",
@@ -1029,9 +1122,10 @@
     "rank": 94,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "KTP",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 94
   },
   {
     "city": "Krakow",
@@ -1040,9 +1134,10 @@
     "rank": 95,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "KRK",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 95
   },
   {
     "city": "Kingston Norman Manley",
@@ -1051,9 +1146,10 @@
     "rank": 96,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "KIN",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 96
   },
   {
     "city": "Reykjavik Keflavik",
@@ -1062,9 +1158,10 @@
     "rank": 97,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "KEF",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 97
   },
   {
     "city": "Kuching",
@@ -1073,9 +1170,10 @@
     "rank": 98,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "KCH",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 98
   },
   {
     "city": "Honiara",
@@ -1084,9 +1182,10 @@
     "rank": 99,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "HIR",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 99
   },
   {
     "city": "Havana",
@@ -1095,8 +1194,9 @@
     "rank": 100,
     "score": 2.3,
     "vibe_fit": "High",
-    "iata": "HAV",
     "flight_score": 0,
-    "note": "Error: Failed to create session"
+    "traveler_scores": [],
+    "note": "Invalid/Missing IATA in input: None",
+    "final_rank": 100
   }
 ]
