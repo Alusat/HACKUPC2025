@@ -226,16 +226,22 @@ body {
 }
 
 .edit-date-range {
-  background-color: #FF9800; /* Change to your desired color */
-  color: white;             /* Text color */
+  position:relative;
+  width: 175px;
+  background-color: #0062e4;
+  color: white;
+  padding: 10px 15px;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
+  left: -10px;
+  margin-top: 10px;
+  display: block;
 }
 
 .edit-date-range:hover {
-  background-color: #fb0000; /* Optional: Hover effect */
+  background-color: #024cae; /* Optional: Hover effect */
 }
 
   /* Fix dropdown height/visibility */
