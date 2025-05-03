@@ -66,8 +66,8 @@
       "great_food": "1",
       "outdoor_adventures": "1"
     },
-    "price_eur": 1162.0,
-    "outbound_airline": "Vueling Airlines",
+    "price_eur": 1312.0,
+    "outbound_airline": "Air Europa",
     "outbound_origin_airport": "BCN",
     "outbound_destination_airport": "UIO",
     "outbound_departure_time": null,
@@ -79,11 +79,11 @@
     "return_departure_time": null,
     "return_arrival_time": null,
     "return_duration_minutes": null,
-    "flight_score": 8.51,
+    "flight_score": 8.44,
     "traveler_scores": [
       {
         "travelerNumber": 1,
-        "score": 7.87
+        "score": 7.66
       },
       {
         "travelerNumber": 2,
@@ -115,8 +115,8 @@
       "great_food": "1",
       "outdoor_adventures": "1"
     },
-    "price_eur": 489.0,
-    "outbound_airline": "Wizz Air Malta",
+    "price_eur": 429.0,
+    "outbound_airline": "Ryanair",
     "outbound_origin_airport": "BCN",
     "outbound_destination_airport": "UVF",
     "outbound_departure_time": null,
@@ -128,11 +128,11 @@
     "return_departure_time": null,
     "return_arrival_time": null,
     "return_duration_minutes": null,
-    "flight_score": 8.38,
+    "flight_score": 8.41,
     "traveler_scores": [
       {
         "travelerNumber": 1,
-        "score": 7.48
+        "score": 7.56
       },
       {
         "travelerNumber": 2,
@@ -213,8 +213,8 @@
       "great_food": "1",
       "outdoor_adventures": "0"
     },
-    "price_eur": 238.0,
-    "outbound_airline": "Ryanair",
+    "price_eur": 223.0,
+    "outbound_airline": "Vueling Airlines",
     "outbound_origin_airport": "BCN",
     "outbound_destination_airport": "YEG",
     "outbound_departure_time": null,
@@ -226,11 +226,11 @@
     "return_departure_time": null,
     "return_arrival_time": null,
     "return_duration_minutes": null,
-    "flight_score": 8.05,
+    "flight_score": 8.06,
     "traveler_scores": [
       {
         "travelerNumber": 1,
-        "score": 7.83
+        "score": 7.85
       },
       {
         "travelerNumber": 2,
@@ -1666,6 +1666,55 @@
     "final_rank": 34
   },
   {
+    "city": "Tauranga",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "TRG",
+    "lat": -37.670833,
+    "long": 176.194444,
+    "rank": 99,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "city_vibes": {
+      "nightlife_and_entertainment": "1",
+      "underrated_destinations": "0",
+      "beach": "1",
+      "art_and_culture": "0",
+      "great_food": "1",
+      "outdoor_adventures": "1"
+    },
+    "price_eur": 718.0,
+    "outbound_airline": "Vueling Airlines",
+    "outbound_origin_airport": "BCN",
+    "outbound_destination_airport": "TRG",
+    "outbound_departure_time": null,
+    "outbound_arrival_time": null,
+    "outbound_duration_minutes": null,
+    "return_airline": null,
+    "return_origin_airport": null,
+    "return_destination_airport": null,
+    "return_departure_time": null,
+    "return_arrival_time": null,
+    "return_duration_minutes": null,
+    "flight_score": 6.94,
+    "traveler_scores": [
+      {
+        "travelerNumber": 1,
+        "score": 5.83
+      },
+      {
+        "travelerNumber": 2,
+        "score": 8.17
+      },
+      {
+        "travelerNumber": 3,
+        "score": 6.83
+      }
+    ],
+    "note": "Indicative price found",
+    "final_rank": 35
+  },
+  {
     "city": "Toronto Pearson International",
     "destination_fit": "NoneDest",
     "distance_fit": "LongDist",
@@ -1712,7 +1761,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 35
+    "final_rank": 36
   },
   {
     "city": "Calgary",
@@ -1761,7 +1810,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 36
+    "final_rank": 37
   },
   {
     "city": "Oslo Torp",
@@ -1810,7 +1859,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 37
+    "final_rank": 38
   },
   {
     "city": "Stockholm Vasteras",
@@ -1852,55 +1901,6 @@
       {
         "travelerNumber": 2,
         "score": 6.83
-      },
-      {
-        "travelerNumber": 3,
-        "score": 6.83
-      }
-    ],
-    "note": "Indicative price found",
-    "final_rank": 38
-  },
-  {
-    "city": "Tauranga",
-    "destination_fit": "NoneDest",
-    "distance_fit": "LongDist",
-    "iata": "TRG",
-    "lat": -37.670833,
-    "long": 176.194444,
-    "rank": 99,
-    "score": 0.94,
-    "vibe_fit": "Low",
-    "city_vibes": {
-      "nightlife_and_entertainment": "1",
-      "underrated_destinations": "0",
-      "beach": "1",
-      "art_and_culture": "0",
-      "great_food": "1",
-      "outdoor_adventures": "1"
-    },
-    "price_eur": 1142.0,
-    "outbound_airline": "Ryanair",
-    "outbound_origin_airport": "BCN",
-    "outbound_destination_airport": "TRG",
-    "outbound_departure_time": null,
-    "outbound_arrival_time": null,
-    "outbound_duration_minutes": null,
-    "return_airline": null,
-    "return_origin_airport": null,
-    "return_destination_airport": null,
-    "return_departure_time": null,
-    "return_arrival_time": null,
-    "return_duration_minutes": null,
-    "flight_score": 6.74,
-    "traveler_scores": [
-      {
-        "travelerNumber": 1,
-        "score": 5.23
-      },
-      {
-        "travelerNumber": 2,
-        "score": 8.17
       },
       {
         "travelerNumber": 3,
@@ -2744,6 +2744,55 @@
     "final_rank": 56
   },
   {
+    "city": "Yanbu",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "YNB",
+    "lat": 24.116667,
+    "long": 38.066667,
+    "rank": 28,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "city_vibes": {
+      "nightlife_and_entertainment": "0",
+      "underrated_destinations": "0",
+      "beach": "1",
+      "art_and_culture": "0",
+      "great_food": "0",
+      "outdoor_adventures": "0"
+    },
+    "price_eur": 163.0,
+    "outbound_airline": "Vueling Airlines",
+    "outbound_origin_airport": "BCN",
+    "outbound_destination_airport": "YNB",
+    "outbound_departure_time": null,
+    "outbound_arrival_time": null,
+    "outbound_duration_minutes": null,
+    "return_airline": null,
+    "return_origin_airport": null,
+    "return_destination_airport": null,
+    "return_departure_time": null,
+    "return_arrival_time": null,
+    "return_duration_minutes": null,
+    "flight_score": 5.87,
+    "traveler_scores": [
+      {
+        "travelerNumber": 1,
+        "score": 5.27
+      },
+      {
+        "travelerNumber": 2,
+        "score": 6.83
+      },
+      {
+        "travelerNumber": 3,
+        "score": 5.5
+      }
+    ],
+    "note": "Indicative price found",
+    "final_rank": 57
+  },
+  {
     "city": "Tetuan S. Ramel",
     "destination_fit": "NoneDest",
     "distance_fit": "LongDist",
@@ -2790,7 +2839,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 57
+    "final_rank": 58
   },
   {
     "city": "Zurich",
@@ -2839,7 +2888,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 58
+    "final_rank": 59
   },
   {
     "city": "Winnipeg",
@@ -2888,7 +2937,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 59
+    "final_rank": 60
   },
   {
     "city": "Warsaw Chopin",
@@ -2937,7 +2986,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 60
+    "final_rank": 61
   },
   {
     "city": "Warsaw Modlin",
@@ -2986,7 +3035,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 61
+    "final_rank": 62
   },
   {
     "city": "Zante (Zakynthos)",
@@ -3035,7 +3084,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 62
+    "final_rank": 63
   },
   {
     "city": "Samui International",
@@ -3084,7 +3133,56 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 63
+    "final_rank": 64
+  },
+  {
+    "city": "Ukunda",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "UKA",
+    "lat": -4.3,
+    "long": 39.566667,
+    "rank": 83,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "city_vibes": {
+      "nightlife_and_entertainment": "0",
+      "underrated_destinations": "0",
+      "beach": "1",
+      "art_and_culture": "0",
+      "great_food": "0",
+      "outdoor_adventures": "0"
+    },
+    "price_eur": 362.0,
+    "outbound_airline": "Ryanair",
+    "outbound_origin_airport": "BCN",
+    "outbound_destination_airport": "UKA",
+    "outbound_departure_time": null,
+    "outbound_arrival_time": null,
+    "outbound_duration_minutes": null,
+    "return_airline": null,
+    "return_origin_airport": null,
+    "return_destination_airport": null,
+    "return_departure_time": null,
+    "return_arrival_time": null,
+    "return_duration_minutes": null,
+    "flight_score": 5.77,
+    "traveler_scores": [
+      {
+        "travelerNumber": 1,
+        "score": 4.99
+      },
+      {
+        "travelerNumber": 2,
+        "score": 6.83
+      },
+      {
+        "travelerNumber": 3,
+        "score": 5.5
+      }
+    ],
+    "note": "Indicative price found",
+    "final_rank": 65
   },
   {
     "city": "Busuanga",
@@ -3104,8 +3202,8 @@
       "great_food": "0",
       "outdoor_adventures": "0"
     },
-    "price_eur": 427.0,
-    "outbound_airline": "Wizz Air Malta",
+    "price_eur": 384.0,
+    "outbound_airline": "Vueling Airlines",
     "outbound_origin_airport": "BCN",
     "outbound_destination_airport": "USU",
     "outbound_departure_time": null,
@@ -3117,11 +3215,11 @@
     "return_departure_time": null,
     "return_arrival_time": null,
     "return_duration_minutes": null,
-    "flight_score": 5.74,
+    "flight_score": 5.76,
     "traveler_scores": [
       {
         "travelerNumber": 1,
-        "score": 4.9
+        "score": 4.96
       },
       {
         "travelerNumber": 2,
@@ -3133,7 +3231,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 64
+    "final_rank": 66
   },
   {
     "city": "Quepos",
@@ -3182,7 +3280,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 65
+    "final_rank": 67
   },
   {
     "city": "Wollongong",
@@ -3231,7 +3329,56 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 66
+    "final_rank": 68
+  },
+  {
+    "city": "Vero Beach",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "VRB",
+    "lat": 27.6525,
+    "long": -80.413611,
+    "rank": 61,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "city_vibes": {
+      "nightlife_and_entertainment": "0",
+      "underrated_destinations": "0",
+      "beach": "1",
+      "art_and_culture": "0",
+      "great_food": "0",
+      "outdoor_adventures": "0"
+    },
+    "price_eur": 799.0,
+    "outbound_airline": "Turkish Airlines",
+    "outbound_origin_airport": "BCN",
+    "outbound_destination_airport": "VRB",
+    "outbound_departure_time": null,
+    "outbound_arrival_time": null,
+    "outbound_duration_minutes": null,
+    "return_airline": null,
+    "return_origin_airport": null,
+    "return_destination_airport": null,
+    "return_departure_time": null,
+    "return_arrival_time": null,
+    "return_duration_minutes": null,
+    "flight_score": 5.57,
+    "traveler_scores": [
+      {
+        "travelerNumber": 1,
+        "score": 4.38
+      },
+      {
+        "travelerNumber": 2,
+        "score": 6.83
+      },
+      {
+        "travelerNumber": 3,
+        "score": 5.5
+      }
+    ],
+    "note": "Indicative price found",
+    "final_rank": 69
   },
   {
     "city": "Chongqing",
@@ -3280,7 +3427,7 @@
       }
     ],
     "note": "Indicative price found",
-    "final_rank": 67
+    "final_rank": 70
   },
   {
     "city": "Carmel Fritzsche AAF",
@@ -3296,7 +3443,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 68
+    "final_rank": 71
   },
   {
     "city": "Anapolis",
@@ -3312,7 +3459,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 69
+    "final_rank": 72
   },
   {
     "city": "Whistler",
@@ -3335,7 +3482,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 70
+    "final_rank": 73
   },
   {
     "city": "Halifax Dwtown Waterfront H / P",
@@ -3358,7 +3505,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 71
+    "final_rank": 74
   },
   {
     "city": "Tofino Seaplane Base",
@@ -3381,7 +3528,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 72
+    "final_rank": 75
   },
   {
     "city": "Ottawa Rockcliffe St",
@@ -3404,7 +3551,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 73
+    "final_rank": 76
   },
   {
     "city": "Ottawa Gatineau",
@@ -3427,30 +3574,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 74
-  },
-  {
-    "city": "Yanbu",
-    "destination_fit": "NoneDest",
-    "distance_fit": "LongDist",
-    "iata": "YNB",
-    "lat": 24.116667,
-    "long": 38.066667,
-    "rank": 28,
-    "score": 0.94,
-    "vibe_fit": "Low",
-    "city_vibes": {
-      "nightlife_and_entertainment": "0",
-      "underrated_destinations": "0",
-      "beach": "1",
-      "art_and_culture": "0",
-      "great_food": "0",
-      "outdoor_adventures": "0"
-    },
-    "flight_score": 0,
-    "traveler_scores": [],
-    "note": "No indicative prices available",
-    "final_rank": 75
+    "final_rank": 77
   },
   {
     "city": "Montreal Mirabel",
@@ -3473,7 +3597,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 76
+    "final_rank": 78
   },
   {
     "city": "Toronto Buttonville",
@@ -3496,7 +3620,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 77
+    "final_rank": 79
   },
   {
     "city": "Detroit Willow Run",
@@ -3519,7 +3643,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 78
+    "final_rank": 80
   },
   {
     "city": "Bursa",
@@ -3542,7 +3666,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 79
+    "final_rank": 81
   },
   {
     "city": "Vancouver Boundary Bay",
@@ -3565,7 +3689,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 80
+    "final_rank": 82
   },
   {
     "city": "Halifax Shearwater",
@@ -3588,7 +3712,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 81
+    "final_rank": 83
   },
   {
     "city": "Doha Free Zone",
@@ -3611,7 +3735,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 82
+    "final_rank": 84
   },
   {
     "city": "Air Base",
@@ -3634,7 +3758,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 83
+    "final_rank": 85
   },
   {
     "city": "Quebec Charny",
@@ -3657,7 +3781,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 84
+    "final_rank": 86
   },
   {
     "city": "Ottawa Train Station",
@@ -3680,7 +3804,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 85
+    "final_rank": 87
   },
   {
     "city": "Nassau Seaplane Base",
@@ -3703,7 +3827,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 86
+    "final_rank": 88
   },
   {
     "city": "Weerawila",
@@ -3726,7 +3850,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 87
+    "final_rank": 89
   },
   {
     "city": "Los Angeles Whiteman",
@@ -3749,30 +3873,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 88
-  },
-  {
-    "city": "Vero Beach",
-    "destination_fit": "NoneDest",
-    "distance_fit": "LongDist",
-    "iata": "VRB",
-    "lat": 27.6525,
-    "long": -80.413611,
-    "rank": 61,
-    "score": 0.94,
-    "vibe_fit": "Low",
-    "city_vibes": {
-      "nightlife_and_entertainment": "0",
-      "underrated_destinations": "0",
-      "beach": "1",
-      "art_and_culture": "0",
-      "great_food": "0",
-      "outdoor_adventures": "0"
-    },
-    "flight_score": 0,
-    "traveler_scores": [],
-    "note": "No indicative prices available",
-    "final_rank": 89
+    "final_rank": 90
   },
   {
     "city": "Vipingo Airstrip",
@@ -3795,7 +3896,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 90
+    "final_rank": 91
   },
   {
     "city": "Los Angeles Van Nuys",
@@ -3818,7 +3919,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 91
+    "final_rank": 92
   },
   {
     "city": "Durban Virginia",
@@ -3841,7 +3942,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 92
+    "final_rank": 93
   },
   {
     "city": "Las Vegas North Air Terminal",
@@ -3864,7 +3965,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 93
+    "final_rank": 94
   },
   {
     "city": "Verona Brescia",
@@ -3887,7 +3988,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 94
+    "final_rank": 95
   },
   {
     "city": "St Augustine",
@@ -3910,7 +4011,7 @@
     "flight_score": 0,
     "traveler_scores": [],
     "note": "No indicative prices available",
-    "final_rank": 95
+    "final_rank": 96
   },
   {
     "city": "Santiago Los Cerrillos",
@@ -3928,29 +4029,6 @@
       "beach": "0",
       "art_and_culture": "1",
       "great_food": "1",
-      "outdoor_adventures": "0"
-    },
-    "flight_score": 0,
-    "traveler_scores": [],
-    "note": "No indicative prices available",
-    "final_rank": 96
-  },
-  {
-    "city": "Ukunda",
-    "destination_fit": "NoneDest",
-    "distance_fit": "LongDist",
-    "iata": "UKA",
-    "lat": -4.3,
-    "long": 39.566667,
-    "rank": 83,
-    "score": 0.94,
-    "vibe_fit": "Low",
-    "city_vibes": {
-      "nightlife_and_entertainment": "0",
-      "underrated_destinations": "0",
-      "beach": "1",
-      "art_and_culture": "0",
-      "great_food": "0",
       "outdoor_adventures": "0"
     },
     "flight_score": 0,
