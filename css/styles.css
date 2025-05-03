@@ -1,15 +1,17 @@
 body {
     background-color: #05203c;
     font-family: Arial, sans-serif;
-    max-width: 800px;
+    
+    max-width: 100%;
     margin: 0;        /* Remove default margin */
     padding: 0px 30px 30px; /* Top, Right/Left, Bottom */
   }
   
   .logo {
-    width: 190px;
+    width:200px;
     height: auto;
-    margin-top: -65px;    /* Ensure no extra space */
+  
+    margin-top: 3%;/* Ensure no extra space */
     margin-bottom: 0px;
     display: block;   /* Removes inline element spacing */
   
