@@ -1,12 +1,22 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    max-width: calc(100vw - 30px);
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #05203C;
+}
+
+/* Add this to your existing style.css */
+#mapid {
+    height: 500px; /* Adjust height as needed */
+    width: 100%;
+    margin-top: 30px; /* Add some space above the map */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Match other elements */
 }
 
 .flight-results {
-    max-width: 1000px;
+    max-width: /* Increased max-width to better fit more columns */ 1200px;
     margin: 0 auto;
     background: white;
     padding: 20px;
@@ -43,42 +53,87 @@ h1 {
 .results-table {
     border: 1px solid #ddd;
     border-radius: 4px;
-    overflow: hidden;
+    overflow: hidden; /* Keeps rounded corners nice */
+    /* Consider adding overflow-x: auto; if the table might still be too wide */
+    /* overflow-x: auto; */
 }
 
 .table-header, .table-row {
     display: grid;
-    grid-template-columns: 80px 80px 2fr 1fr 1fr 1fr;
+    /* Updated for 8 columns: Pos, IATA, City, Dest, Dist, Vibe, Lat, Long */
+    /* --- WIDENED the last two columns --- */
+    grid-template-columns: 70px 80px 2fr 1fr 1fr 1fr 150px 150px; /* Changed 120px to 150px */
+    border-bottom: 1px solid #eee; /* Apply bottom border to both */
+    align-items: center; /* Vertically align items in cells */
 }
 
 .table-header {
     background-color: #3498db;
     color: white;
     font-weight: bold;
+    border-bottom: none; /* Remove double border */
 }
 
 .header-cell {
-    padding: 12px;
+    padding: 12px 10px; /* Adjust padding slightly if needed */
     cursor: pointer;
     user-select: none;
+    white-space: nowrap; /* Prevent header text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ... if header text is too long */
 }
 
 .header-cell.active {
     background-color: #2980b9;
 }
 
+/* Specific alignment for header cells */
+.table-header .header-cell:first-child { /* Posicion */
+    text-align: center;
+}
+/* Ensure Lat/Long headers are also aligned if needed */
+.table-header .header-cell:nth-child(7),
+.table-header .header-cell:nth-child(8) {
+    text-align: left; /* Or center, depending on preference */
+}
+
+
 .table-row {
     background-color: white;
+    /* Remove border-bottom from here, handled by the shared rule */
 }
+
+.table-row:last-child {
+     border-bottom: none; /* No border below the very last row */
+}
+
 
 .table-row:nth-child(even) {
     background-color: #f9f9f9;
 }
 
 .row-cell {
-    padding: 12px;
-    border-bottom: 1px solid #eee;
+    padding: 12px 10px; /* Match header padding */
+    /* Removed border-bottom: 1px solid #eee; as it's handled above */
+    white-space: nowrap; /* Prevent cell content wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Add ... if cell content is too long */
 }
+
+/* Specific alignment/styling for data cells */
+.table-row .row-cell:first-child { /* Rank */
+    text-align: center;
+}
+
+.table-row .row-cell:nth-child(7), /* Latitud */
+.table-row .row-cell:nth-child(8) { /* Longitud */
+    font-family: monospace; /* Better for numbers */
+    font-size: 18px;/* -- Removing this, seemed potentially too large? Re-add if desired. Defaulting to standard size */
+    /*font-size: 0.95em; /* Slightly smaller than standard can look good for coords */
+    color: #555; /* Slightly dimmer */
+    text-align: left; /* Ensure alignment */
+}
+
 
 /* Efecto hover para filas */
 .table-row:hover {
