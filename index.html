@@ -27,6 +27,15 @@
       <button id="generate-forms">Generate Forms</button>
     </div>
 
+    <div id="date-range-container">
+      <h3>Select Date Range</h3>
+      <label for="start-date">Start Date:</label>
+      <input type="date" class="start-date" name="start-date" />
+      <label for="end-date">End Date:</label>
+      <input type="date" class="end-date" name="end-date" />
+      <button class="save-date-range">Save Date Range</button>
+    </div>
+
     <div id="forms-container"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -37,5 +46,6 @@
     <script type="module" src="js/formHandler.js"></script>
     <script src="js/main.js"></script>
     <script src="js/saveAnswers.js"></script>
+    <script src="js/date.js"></script>
   </body>
 </html>

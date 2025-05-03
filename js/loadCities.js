@@ -12,7 +12,7 @@ async function loadCities() {
     cachedCities = csvData.split('\n')
       .filter(city => city.trim() !== '')
       .map(city => ({
-        id: city.trim().toLowerCase(),
+        id: city.trim(),//.toLowerCase(),
         text: city.trim()
       }));
     return cachedCities;

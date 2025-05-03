@@ -181,6 +181,32 @@ body {
     padding-bottom: 5px;
   }
 
+  .save-date-range {
+    background-color: #45a049; /* Change to your desired color */
+    color: white;             /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-date-range:hover {
+    background-color: #45a049; /* Optional: Hover effect */
+}
+
+.edit-date-range {
+  background-color: #FF9800; /* Change to your desired color */
+  color: white;             /* Text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-date-range:hover {
+  background-color: #fb0000; /* Optional: Hover effect */
+}
+
   /* Fix dropdown height/visibility */
 .select2-container .select2-selection--single {
     height: 38px !important;
