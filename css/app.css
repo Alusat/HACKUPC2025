@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.flight-results {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+.status-message {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.loading {
+    color: #3498db;
+}
+
+.error {
+    color: #e74c3c;
+    background-color: #fadbd8;
+    border-radius: 4px;
+}
+
+.no-results {
+    color: #7f8c8d;
+}
+
+.results-table {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.table-header, .table-row {
+    display: grid;
+    grid-template-columns: 80px 80px 2fr 1fr 1fr 1fr;
+}
+
+.table-header {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}
+
+.header-cell {
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.header-cell.active {
+    background-color: #2980b9;
+}
+
+.table-row {
+    background-color: white;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.row-cell {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Efecto hover para filas */
+.table-row:hover {
+    background-color: #f0f7ff;
+}

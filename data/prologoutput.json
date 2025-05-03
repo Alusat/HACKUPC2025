@@ -1,0 +1,5 @@
+[
+    {"IATA":"YYZ", "city":"Toronto Pearson International", "destination_fit":"NoneDest", "distance_fit":"MediumDist", "rank":1, "score":1.3900000000000001, "vibe_fit":"Low"},
+    {"IATA":"YWF", "city":"Halifax Dwtown Waterfront H / P", "destination_fit":"NoneDest", "distance_fit":"MediumDist", "rank":2, "score":1.3900000000000001, "vibe_fit":"Low"}, 
+    {"IATA":"YUL", "city":"Montreal Pierre Elliott Trudeau", "destination_fit":"NoneDest", "distance_fit":"MediumDist", "rank":3, "score":1.3900000000000001, "vibe_fit":"Low"}
+]
