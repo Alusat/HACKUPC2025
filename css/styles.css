@@ -1,42 +1,43 @@
 body {
     background-color: #05203c;
     font-family: Arial, sans-serif;
-    
-    max-width: 100%;
+    max-width: calc(100vw - 30px);
     margin: 0;        /* Remove default margin */
-    padding: 0px 30px 30px; /* Top, Right/Left, Bottom */
+    padding: 5px 40px 30px; /* Top, Right/Left, Bottom */
   }
   
   .logo {
     width:200px;
     height: auto;
-  
-    margin-top: 3%;/* Ensure no extra space */
-    margin-bottom: 0px;
+    margin-top: -50px;    /* Ensure no extra space */
+    margin-bottom: 40px;
+    margin-left: -5px;
     display: block;   /* Removes inline element spacing */
   
   }
 
   h1 {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 25px;
     margin-top: -60px; /* Reduced from default ~21px */
     margin-bottom: 15px;
   }
 
-  h2 {
+  h3 {
     color: #2c3e50;
     border-bottom: 2px solid #eee;
     padding-bottom: 5px;
   }
 
-  h3 {
+  h2 {
     color: #000000;
+    font-size: 17px;
   }
 
   .question {
+    margin-top: 20px;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 5px 20px 25px;
     background-color: #ffffff;
     border-radius: 20px;
   }
@@ -45,7 +46,7 @@ body {
     margin-bottom: 30px;
     padding: 20px;
     border: 1px solid #ddd;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #f9f9f9;
     transition: all 0.3s ease;
   }
@@ -65,8 +66,9 @@ body {
   label {
     color: #000000;
     display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
   }
   
   input[type="text"],
@@ -103,7 +105,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     height: 6px;
-    background: #4caf50;
+    background: #0062e4;
     z-index: 2;
   }
   
@@ -112,7 +114,7 @@ body {
     top: 50%;
     width: 20px;
     height: 20px;
-    background: #4caf50;
+    background: #024cae;
     border-radius: 50%;
     transform: translate(-50%, -50%);
     z-index: 3;
@@ -143,6 +145,7 @@ body {
   }
   
   button {
+    width: 175px;
     background-color: #0062e4;
     color: white;
     padding: 10px 15px;
@@ -206,12 +209,16 @@ body {
   }
 
   .save-date-range {
-    background-color: #0062e4; /* Change to your desired color */
-    color: white;             /* Text color */
+    width: 175px;
+    background-color: #0062e4;
+    color: white;
+    padding: 10px 15px;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
 }
 
 .save-date-range:hover {
