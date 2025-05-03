@@ -6,6 +6,24 @@ body {
     background-color: #05203C;
 }
 
+.table-row {
+    background-color: white;
+    cursor: pointer; /* ***** ADD THIS LINE ***** */
+}
+
+.table-row:last-child {
+     border-bottom: none;
+}
+
+.table-row:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Keep the existing hover effect */
+.table-row:hover {
+    background-color: #f0f7ff;
+}
+
 /* Add this to your existing style.css */
 #mapid {
     height: 500px; /* Adjust height as needed */
@@ -60,11 +78,10 @@ h1 {
 
 .table-header, .table-row {
     display: grid;
-    /* Updated for 8 columns: Pos, IATA, City, Dest, Dist, Vibe, Lat, Long */
-    /* --- WIDENED the last two columns --- */
-    grid-template-columns: 70px 80px 2fr 1fr 1fr 1fr 150px 150px; /* Changed 120px to 150px */
-    border-bottom: 1px solid #eee; /* Apply bottom border to both */
-    align-items: center; /* Vertically align items in cells */
+    /* Adjust first value for Position column width */
+    grid-template-columns: 100px 80px 2fr 1fr 1fr 1fr 150px 150px; /* Changed 70px to 100px */
+    border-bottom: 1px solid #eee;
+    align-items: center;
 }
 
 .table-header {
