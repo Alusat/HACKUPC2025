@@ -12,28 +12,23 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <a href="/">
+      <!-- Optional: Link the logo to homepage -->
+      <img src="img/skyscanner-ltd-vector-logo.svg" alt="Logo" class="logo" />
+    </a>
+    <h1>The perfect reunion</h1>
 
-      <a href="/"> <!-- Optional: Link the logo to homepage -->
-            <img 
-              src="img/skyscanner-ltd-vector-logo.svg" 
-              alt="Logo" 
-              class="logo"
-            >
-          </a>
-          <h1>Skyscanner: the perfect reunion</h1>
-    
     <div id="initial-question" class="question">
-
       <div id="date-range-container">
-        <h3>Select Date Range</h3>
-        <label for="start-date">Start Date:</label>
+        <h2>Select a date range</h2>
+        <label for="start-date">Start date:</label>
         <input type="date" class="start-date" name="start-date" />
-        <label for="end-date">End Date:</label>
+        <label for="end-date">End date:</label>
         <input type="date" class="end-date" name="end-date" />
         <button class="save-date-range">Save Date Range</button>
       </div>
 
-      <h3>How many people will travel?</h3>
+      <h2>How many people will travel?</h2>
       <input
         type="number"
         id="people-count"
@@ -42,6 +37,7 @@
         max="10"
         value="1"
       />
+      <div class="spacer" style="height: 10px"></div>
       <button id="generate-forms">Generate Forms</button>
     </div>
     <div id="forms-container"></div>

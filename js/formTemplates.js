@@ -43,7 +43,7 @@ export function generatePersonForm(i) {
         <label>2. Select your desired vibes (add multiple):</label>
         <div class="multi-select-container">
           <select id="product-features-${i}">
-            <option value="">-- Select a vibe --</option>
+            <option value=""> </option>
             <option value="nightlife_and_entertainment">Nightlife and entertainment</option>
             <option value="underrated_destinations">Underrated destinations</option>
             <option value="beach">Beach</option>
@@ -63,7 +63,7 @@ export function generatePersonForm(i) {
     return `
       <div class="question">
         <label for="destination-${i}">3. What is your preferred destination?</label>
-        <select id="destination-${i}" name="destination-${i}" data-placeholder="-- Select your destination --">
+        <select id="destination-${i}" name="destination-${i}" data-placeholder=" ">
           <option value=""></option>
         </select>
       </div>
@@ -74,7 +74,7 @@ export function generatePersonForm(i) {
     return `
       <div class="question">
         <label for="starting-point-${i}">4. What's your starting point?</label>
-        <select id="starting-point-${i}" name="starting-point-${i}" data-placeholder="-- Select starting point --">
+        <select id="starting-point-${i}" name="starting-point-${i}" data-placeholder=" ">
           <option value=""></option>
         </select>
       </div>
