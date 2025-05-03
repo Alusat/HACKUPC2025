@@ -17,19 +17,18 @@ if not API_KEY:
     print("CRITICAL: Skyscanner API Key not found in environment variables (.env file). Exiting.")
     exit()
 
-CREATE_URL = "https://partners.api.skyscanner.net/apiservices/v3/flights/live/search/create"
-POLL_URL = "https://partners.api.skyscanner.net/apiservices/v3/flights/live/search/poll"
+# Using the INDICATIVE API endpoint instead of the live search
+INDICATIVE_URL = "https://partners.api.skyscanner.net/apiservices/v3/flights/indicative/search"
 HEADERS = {
     "x-api-key": API_KEY,
     "Content-Type": "application/json"
 }
 
 # File paths
-# Assuming the input JSON from Prolog now contains 'city' and 'iata'
-FILTERED_JSON = "../data/ranked_cities_top100.json"
-OUTPUT_JSON = "../data/enriched_routes.json"
-AIRPORTS_CSV = "../data/iata_airports_and_locations_with_vibes.csv"
-USER_INFO_JSON = "../data/user_info.json"
+FILTERED_JSON = "data/ranked_cities_top100.json"
+OUTPUT_JSON = "data/enriched_routes.json"
+AIRPORTS_CSV = "data/iata_airports_and_locations_with_vibes.csv"
+USER_INFO_JSON = "data/user_info.json"
 
 # --- Data Loading Functions ---
 
@@ -66,7 +65,6 @@ def load_airport_data_by_iata(file_path: str) -> Dict[str, Dict]:
                             vibes = json.loads(vibes_str_fixed)
                         except json.JSONDecodeError as json_err:
                             # Only print warning if parsing fails after attempts
-                            # print(f"Warning: Could not parse vibes JSON for IATA {iata_code}: {row['vibes']} - Error: {json_err}")
                             pass # Keep vibes as empty dict
 
                 airports_by_iata[iata_code] = {
@@ -185,50 +183,66 @@ def load_filtered_routes(file_path: str) -> List[Dict]:
         exit()
 
 
-# --- Skyscanner API Functions --- (Mostly unchanged, minor logging tweaks)
+# --- Skyscanner API Functions (UPDATED to use Indicative API) ---
 
-def create_session(origin: str, destination: str, departure_date: date, return_date: Optional[date] = None) -> Optional[str]:
-    """Creates a flight search session with Skyscanner API V3."""
+def get_indicative_price(origin: str, destination: str, departure_date: Optional[date] = None, return_date: Optional[date] = None) -> Optional[Dict]:
+    """Get indicative flight prices from Skyscanner's Indicative API.
+    
+    This is much faster than live search as it returns cached prices.
+    If departure_date is None, it will search for "anytime" flights.
+    """
     query = {
-        "market": "ES", # Assuming market, adjust if needed
+        "market": "ES",  # Assuming Spain market
         "locale": "en-GB",
-        "currency": "EUR", # Assuming currency
+        "currency": "EUR",
         "queryLegs": [
             {
-                "originPlaceId": {"iata": origin},
-                "destinationPlaceId": {"iata": destination},
-                "date": {
-                    "year": departure_date.year,
-                    "month": departure_date.month,
-                    "day": departure_date.day
+                "originPlace": {
+                    "queryPlace": {"iata": origin}
+                },
+                "destinationPlace": {
+                    "queryPlace": {"iata": destination}
+                }
+            },
+            {
+                "originPlace": {
+                    "queryPlace": {"iata": destination}
+                },
+                "destinationPlace": {
+                    "queryPlace": {"iata": origin}
                 }
             }
-        ],
-        "cabinClass": "CABIN_CLASS_ECONOMY",
-        "adults": 1 # Assuming 1 adult, adjust if needed based on user_info
+        ]
     }
+    
+    # Add date if specified, otherwise use "anytime" parameter
+    if departure_date and return_date:
+        print(f"hay dates: {departure_date} and {return_date}")
+        query["queryLegs"][0]["fixedDate"] = {
+            "year": departure_date.year,
+            "month": departure_date.month,
+            "day": departure_date.day
+        }
+        query["queryLegs"][1]["fixedDate"] = {
+            "year": return_date.year,
+            "month": return_date.month,
+            "day": return_date.day
+        }
+    else:
+        print("WARNING: No dates provided, searching for 'anytime' flights. ONLY ONE WAY FLIGHT.")
+        query["queryLegs"][0]["anytime"] = True       # Delete the second leg if no return date is provided
+        del query["queryLegs"][1] # Delete the second leg if no return date is provided 
 
-    if return_date:
-        query["queryLegs"].append({
-            "originPlaceId": {"iata": destination},
-            "destinationPlaceId": {"iata": origin},
-            "date": {
-                "year": return_date.year,
-                "month": return_date.month,
-                "day": return_date.day
-            }
-        })
-
+    
     payload = {"query": query}
-    print(f"Attempting to create session: {origin} -> {destination} on {departure_date}")
-    # print(f"Payload: {json.dumps(payload, indent=2)}") # Uncomment for debugging
-
+    print(f"Getting indicative price: {origin} -> {destination} {'on ' + str(departure_date) if departure_date else 'anytime'}")
+    
     try:
-        res = requests.post(CREATE_URL, headers=HEADERS, json=payload, timeout=30)
-        print(f"Create session response status code for {destination}: {res.status_code}")
-
+        res = requests.post(INDICATIVE_URL, headers=HEADERS, json=payload, timeout=10)
+        print(f"Indicative API response status code for {destination}: {res.status_code}")
+        
         if res.status_code != 200:
-            print(f"Error creating session for {destination}: Status Code {res.status_code}")
+            print(f"Error getting indicative price for {destination}: Status Code {res.status_code}")
             error_details = {}
             try:
                 error_details = res.json()
@@ -236,199 +250,99 @@ def create_session(origin: str, destination: str, departure_date: date, return_d
             except json.JSONDecodeError:
                 print(f"API Error Response (non-JSON): {res.text}")
             # Check for specific invalid IATA error
-            if "QueryPlace ID is not valid IATA" in error_details.get("message", "") or "INVALID_PLACE" in str(error_details):
-                 print(f"*** API rejected IATA code '{destination}'. Please verify the IATA in the input file '{FILTERED_JSON}'. ***")
+            if "QueryPlace ID is not valid IATA" in str(error_details) or "INVALID_PLACE" in str(error_details):
+                print(f"*** API rejected IATA code '{destination}'. Please verify the IATA in the input file '{FILTERED_JSON}'. ***")
             return None
-
+        
         response_json = res.json()
-        session_token = response_json.get("sessionToken")
-        if not session_token:
-             print(f"Error: Session token not found in successful response for {destination}. Response: {response_json}")
-             return None
+        print(f"Indicative API response for {destination}: {json.dumps(response_json, indent=2)}")
 
-        print(f"Session created successfully for {destination}.")
-        return session_token
-
+        return response_json
+        
     except requests.exceptions.Timeout:
-        print(f"Error creating session for {destination}: Request timed out.")
+        print(f"Error getting indicative price for {destination}: Request timed out.")
         return None
     except requests.exceptions.RequestException as e:
-        print(f"Error creating session for {destination}: Request failed: {str(e)}")
+        print(f"Error getting indicative price for {destination}: Request failed: {str(e)}")
         return None
     except Exception as e:
-        print(f"An unexpected error occurred during session creation for {destination}: {str(e)}")
+        print(f"An unexpected error occurred getting indicative price for {destination}: {str(e)}")
         return None
 
-def poll_results(token: str) -> Optional[Dict]:
-    """Polls Skyscanner API for flight results using the session token."""
-    url = f"{POLL_URL}/{token}"
-    print(f"Polling results for token: ...{token[-6:]}")
-    initial_wait = 1
-    sleep(initial_wait)
-    max_attempts = 15
-    base_sleep = 2
-
-    for attempt in range(max_attempts):
-        print(f"Polling attempt {attempt + 1}/{max_attempts}...")
-        try:
-            res = requests.post(url, headers=HEADERS, timeout=25)
-            # print(f"Poll response status code: {res.status_code}") # Optional debug logging
-
-            if res.status_code != 200:
-                 print(f"Error polling results (Status {res.status_code})")
-                 try:
-                     print(f"Poll Error Response: {res.text}")
-                 except Exception: pass
-                 # Handle specific errors if needed (400, 410, 429)
-                 if res.status_code in [400, 410]: # Bad request or session expired
-                     print("Polling failed: Invalid session or expired.")
-                     return None
-                 elif res.status_code == 429:
-                     print("Rate limit hit during polling. Waiting longer...")
-                     sleep(10)
-                     continue # Retry same attempt count
-                 res.raise_for_status() # Raise for other errors
-
-            data = res.json()
-            status = data.get("status")
-            # print(f"Polling status: {status}") # Optional debug logging
-
-            if status == "RESULT_STATUS_COMPLETE":
-                print("Polling complete.")
-                return data
-            elif status in ["RESULT_STATUS_INCOMPLETE", "RESULT_STATUS_PARTIAL", "RESULT_STATUS_UPDATING"]:
-                 current_sleep = base_sleep + attempt
-                 # print(f"Results not ready, sleeping for {current_sleep} seconds...") # Optional debug
-                 sleep(current_sleep)
-            elif status == "RESULT_STATUS_FAILED":
-                 print(f"Warning: Polling status indicates failure. Response: {data}")
-                 return None # Indicate failure
-            else:
-                 print(f"Warning: Unexpected polling status '{status}'. Retrying...")
-                 sleep(base_sleep)
-
-        except requests.exceptions.Timeout:
-            print(f"Polling attempt {attempt + 1} timed out.")
-            sleep(base_sleep + attempt)
-        except requests.exceptions.RequestException as e:
-            print(f"Error polling results (attempt {attempt + 1}): {str(e)}")
-            sleep(base_sleep * 2)
-        except Exception as e:
-            print(f"Unexpected error during polling (attempt {attempt + 1}): {str(e)}")
-            sleep(base_sleep)
-
-    print("Error: Polling timed out or failed after multiple attempts.")
-    return None # Indicate failure
-
-def extract_flight_data(poll_data: Dict) -> List[Dict]:
-    """Extracts and sorts flight details from the poll response."""
-    if not poll_data or "content" not in poll_data:
-        print("Warning: No 'content' found in poll data for extraction.")
-        return []
-
-    content = poll_data.get("content", {})
+# --- Flight Data Extraction Function ---
+def extract_indicative_flight_data(indicative_data: Dict) -> Optional[Dict]:
+    """
+    Extracts flight details from the indicative search response.
+    Ahora navega a content.results.quotes en lugar de buscar quotes arriba.
+    """
+    # Asegurarnos de que tenemos el bloque esperado
+    content = indicative_data.get("content", {})
     results = content.get("results", {})
-    itineraries = results.get("itineraries", {})
-    legs = results.get("legs", {})
+    
+    quotes_dict = results.get("quotes", {})
+    if not isinstance(quotes_dict, dict) or not quotes_dict:
+        print("No quotes found in content.results.quotes.")
+        return None
+
+    # Tomamos la cotización más barata
+    try:
+        cheapest_quote = min(
+            quotes_dict.values(),
+            key=lambda q: float(q.get("minPrice", {}).get("amount", float("inf")))
+        )
+    except (ValueError, TypeError):
+        print("Warning: Could not find valid price in quotes.")
+        return None
+
     carriers = results.get("carriers", {})
-    places = results.get("places", {})
+    places   = results.get("places", {})
 
-    if not itineraries:
-        # print("No itineraries found in results.") # Common, reduce noise
-        return []
+    # Precio
+    price_str = cheapest_quote.get("minPrice", {}).get("amount")
+    if price_str is None:
+        return None
+    price = float(price_str)
+    if price > 10000:
+        price /= 1000.0
+    price = round(price, 2)
 
-    flights = []
-    # print(f"Extracting data from {len(itineraries)} itineraries...") # Optional debug
-    itinerary_count = 0
-    processed_count = 0
+    # Carrier (aerolínea)
+    outbound = cheapest_quote.get("outboundLeg", {})
+    carrier_id = outbound.get("marketingCarrierId")
+    carrier_name = carriers.get(carrier_id, {}).get("name", "Unknown Airline") if carrier_id else "Unknown Airline"
 
-    for key, itinerary in itineraries.items():
-        itinerary_count += 1
-        pricing_options = itinerary.get("pricingOptions", [])
-        if not pricing_options:
-            continue
+    # Aeropuertos origen/destino
+    origin_id      = outbound.get("originPlaceId")
+    destination_id = outbound.get("destinationPlaceId")
+    origin_code      = places.get(origin_id, {}).get("iata", "Unknown") if origin_id else "Unknown"
+    destination_code = places.get(destination_id, {}).get("iata", "Unknown") if destination_id else "Unknown"
 
-        try:
-            cheapest_option = min(pricing_options, key=lambda x: float(x.get("price", {}).get("amount", "inf") or "inf"))
-            price_str = cheapest_option.get("price", {}).get("amount")
-            if price_str is None or price_str == "inf":
-                 continue
-            # Price is often in thousandths of the currency unit (e.g., milli-euros)
-            price = int(price_str) / 1000.0
-        except (ValueError, TypeError):
-             # print(f"Warning: Could not parse price for itinerary {key}.") # Optional debug
-             continue
-
-        leg_ids = itinerary.get("legIds", [])
-        if not leg_ids:
-            continue
-
-        # --- Process Outbound Leg ---
-        outbound_leg_id = leg_ids[0]
-        outbound_leg_data = legs.get(outbound_leg_id)
-        if not outbound_leg_data:
-            continue
-
-        operating_carrier_ids_out = outbound_leg_data.get("operatingCarrierIds", [])
-        carrier_name_out = carriers.get(operating_carrier_ids_out[0], {}).get("name", "Unknown Airline") if operating_carrier_ids_out else "Unknown Airline"
-
-        departure_out = outbound_leg_data.get("departureDateTime", {})
-        arrival_out = outbound_leg_data.get("arrivalDateTime", {})
-        departure_time_str_out = f"{departure_out.get('year')}-{departure_out.get('month'):02d}-{departure_out.get('day'):02d}T{departure_out.get('hour'):02d}:{departure_out.get('minute'):02d}:00" if departure_out.get('year') else None
-        arrival_time_str_out = f"{arrival_out.get('year')}-{arrival_out.get('month'):02d}-{arrival_out.get('day'):02d}T{arrival_out.get('hour'):02d}:{arrival_out.get('minute'):02d}:00" if arrival_out.get('year') else None
-        duration_out = outbound_leg_data.get("durationInMinutes")
-        origin_id_out = outbound_leg_data.get("originPlaceId")
-        destination_id_out = outbound_leg_data.get("destinationPlaceId")
-        origin_airport_out = places.get(origin_id_out, {}).get("iata")
-        destination_airport_out = places.get(destination_id_out, {}).get("iata")
-
-        # --- Process Return Leg (if exists) ---
-        return_leg_data = None
-        carrier_name_ret, departure_time_str_ret, arrival_time_str_ret, duration_ret, origin_airport_ret, destination_airport_ret = [None] * 6
-        if len(leg_ids) > 1:
-            return_leg_id = leg_ids[1]
-            return_leg_data = legs.get(return_leg_id)
-            if return_leg_data:
-                 operating_carrier_ids_ret = return_leg_data.get("operatingCarrierIds", [])
-                 carrier_name_ret = carriers.get(operating_carrier_ids_ret[0], {}).get("name", "Unknown Airline") if operating_carrier_ids_ret else "Unknown Airline"
-                 departure_ret = return_leg_data.get("departureDateTime", {})
-                 arrival_ret = return_leg_data.get("arrivalDateTime", {})
-                 departure_time_str_ret = f"{departure_ret.get('year')}-{departure_ret.get('month'):02d}-{departure_ret.get('day'):02d}T{departure_ret.get('hour'):02d}:{departure_ret.get('minute'):02d}:00" if departure_ret.get('year') else None
-                 arrival_time_str_ret = f"{arrival_ret.get('year')}-{arrival_ret.get('month'):02d}-{arrival_ret.get('day'):02d}T{arrival_ret.get('hour'):02d}:{arrival_ret.get('minute'):02d}:00" if arrival_ret.get('year') else None
-                 duration_ret = return_leg_data.get("durationInMinutes")
-                 origin_id_ret = return_leg_data.get("originPlaceId")
-                 destination_id_ret = return_leg_data.get("destinationPlaceId")
-                 origin_airport_ret = places.get(origin_id_ret, {}).get("iata")
-                 destination_airport_ret = places.get(destination_id_ret, {}).get("iata")
-
-        # --- Assemble Flight Data ---
-        flight = {
-            "price_eur": price,
-            "outbound_airline": carrier_name_out,
-            "outbound_departure_time": departure_time_str_out,
-            "outbound_arrival_time": arrival_time_str_out,
-            "outbound_duration_minutes": duration_out,
-            "outbound_origin_airport": origin_airport_out,
-            "outbound_destination_airport": destination_airport_out,
-            "return_airline": carrier_name_ret,
-            "return_departure_time": departure_time_str_ret,
-            "return_arrival_time": arrival_time_str_ret,
-            "return_duration_minutes": duration_ret,
-            "return_origin_airport": origin_airport_ret,
-            "return_destination_airport": destination_airport_ret,
-        }
-        flights.append(flight)
-        processed_count += 1
-
-    # print(f"Extracted data for {processed_count}/{itinerary_count} flights.") # Optional debug
-    return sorted(flights, key=lambda x: x.get("price_eur", float("inf")))
+    # Construimos el dict simplificado
+    flight = {
+        "price_eur": price,
+        "outbound_airline": carrier_name,
+        "outbound_origin_airport": origin_code,
+        "outbound_destination_airport": destination_code,
+        # Note: La API indicativa no da tiempos exactos, pero si quieres podrías usar groupingOptions:
+        "outbound_departure_time": None,
+        "outbound_arrival_time": None,
+        "outbound_duration_minutes": None,
+        # Para simetría, dejamos campos de vuelta
+        "return_airline": None,
+        "return_origin_airport": None,
+        "return_destination_airport": None,
+        "return_departure_time": None,
+        "return_arrival_time": None,
+        "return_duration_minutes": None,
+    }
+    return flight
 
 # --- Scoring Function --- (Unchanged)
 def compute_grade(flight: Dict, traveler: Dict, city_vibes: Dict) -> float:
     """Computes a score for a flight based on traveler preferences and city vibes."""
     score = 0.0
     price_weight = 5.0
-    duration_weight = 3.0
+    duration_weight = 1.0  # Reduced from 3.0 since we don't have duration in indicative results
     vibe_weight = 4.0
 
     # Price score
@@ -451,15 +365,10 @@ def compute_grade(flight: Dict, traveler: Dict, city_vibes: Dict) -> float:
         elif price > max_budget: price_score = 0.0
         else: price_score = 1.0 - ((price - min_budget) / budget_range) if budget_range > 0 else 0.0
         score += price_score * price_weight
-    # else: print("Debug: Price missing for grade calc.") # Optional debug
 
-    # Duration score (using outbound duration)
-    duration = flight.get("outbound_duration_minutes")
-    if duration is not None:
-        max_acceptable_duration = 960 # 16 hours, adjust as needed
-        duration_score = max(0.0, (max_acceptable_duration - duration) / max_acceptable_duration) if max_acceptable_duration > 0 else 0.0
-        score += duration_score * duration_weight
-    # else: print("Debug: Duration missing for grade calc.") # Optional debug
+    # Duration score - not available in indicative data, use a default mid-range score
+    # We could remove this entirely, but keeping a neutral score helps maintain relative weighting
+    score += 0.5 * duration_weight  # Default middle score for duration
 
     # Vibe score
     preferred_vibes = traveler.get("preferredVibes", [])
@@ -477,14 +386,13 @@ def compute_grade(flight: Dict, traveler: Dict, city_vibes: Dict) -> float:
         if valid_preferred_vibes_count > 0:
             vibe_score = matches / valid_preferred_vibes_count
             score += vibe_score * vibe_weight
-    # else: print("Debug: No vibes/prefs for grade calc.") # Optional debug
 
     return round(score, 2)
 
 # --- Main Execution Logic ---
 
 def main():
-    """Main function to orchestrate the flight fetching and scoring process."""
+    """Main function to orchestrate the flight fetching and scoring process using the Indicative API."""
     # --- 1. Load Data ---
     airports_by_iata = load_airport_data_by_iata(AIRPORTS_CSV)
     user_info = load_user_info(USER_INFO_JSON)
@@ -492,27 +400,26 @@ def main():
 
     # --- 2. Get Origin and Dates ---
     travelers = user_info["travelers"]
-    origin_city_name = travelers[0].get("startingPoint", "Madrid") # Default if missing
+    origin_city_name = travelers[0].get("startingPoint", "Default") # Default if missing
     if not isinstance(origin_city_name, str) or not origin_city_name:
         print("Warning: Invalid startingPoint in first traveler, defaulting to Madrid.")
         origin_city_name = "Madrid"
 
-    # Find IATA for the origin city (still needed)
+    # Find IATA for the origin city
     origin_iata = find_iata_for_city(origin_city_name, AIRPORTS_CSV)
     if not origin_iata:
         print(f"CRITICAL Error: Could not determine IATA code for origin city '{origin_city_name}'. Please check the city name or CSV data. Exiting.")
-        # You could fallback to a default like "MAD" here if acceptable:
-        # print("Warning: Falling back to 'MAD' as origin IATA.")
-        # origin_iata = "MAD"
-        exit() # Safer to exit if origin is unknown
+        exit()
 
     date_range = user_info["dateRange"]
     try:
         departure_date = datetime.fromisoformat(date_range["startDate"]).date()
-        # Handle optional return date
-        return_date_str = date_range.get("endDate")
-        return_date = datetime.fromisoformat(return_date_str).date() if return_date_str else None
-        print(f"Using Departure: {departure_date}, Return: {return_date if return_date else 'One-way'}")
+        print(f"Using Departure: {departure_date}")
+        return_date = datetime.fromisoformat(date_range["endDate"]).date() 
+        print(f"Using Return: {return_date}")
+        if return_date < departure_date:
+            print(f"CRITICAL Error: Return date {return_date} is before departure date {departure_date}. Exiting.")
+            exit()
     except (ValueError, TypeError, KeyError) as e:
         print(f"CRITICAL Error parsing dates from user info: {e}. Check 'dateRange' format. Exiting.")
         exit()
@@ -520,11 +427,14 @@ def main():
     # --- 3. Process Each Destination ---
     enriched_destinations = []
     total_destinations = len(destinations_input)
-    print(f"\nStarting flight search for {total_destinations} destinations from {origin_iata}...")
+    print(f"\nStarting indicative flight search for {total_destinations} destinations from {origin_iata}...")
+    
+    # Track successful and failed searches
+    success_count = 0
+    failure_count = 0
 
     for index, dest_data in enumerate(destinations_input):
         city_name = dest_data.get("city", "Unknown City")
-        # *** Get IATA directly from input ***
         destination_iata = dest_data.get("iata")
 
         print(f"\nProcessing destination {index + 1}/{total_destinations}: {city_name} (Input IATA: {destination_iata})...")
@@ -536,75 +446,85 @@ def main():
             dest_data["traveler_scores"] = []
             dest_data["note"] = f"Invalid/Missing IATA in input: {destination_iata}"
             enriched_destinations.append(dest_data)
+            failure_count += 1
             continue
 
         # Get vibes using the validated IATA
         airport_info = airports_by_iata.get(destination_iata, {})
         city_vibes = airport_info.get('vibes', {})
-        if not city_vibes:
-            # print(f"Debug: No vibe data found for IATA {destination_iata}") # Optional debug
-            pass
         dest_data["city_vibes"] = city_vibes # Add vibes to output data
-
-        # Search for flights
-        session_token = None
-        poll_data = None
-        flights = []
+        # Get indicative flight prices
+        indicative_data = None
+        flight = None
         api_error_note = None
+        
         try:
-            session_token = create_session(origin_iata, destination_iata, departure_date, return_date)
-            if session_token:
-                poll_data = poll_results(session_token) # Can return None on failure
-                if poll_data:
-                    flights = extract_flight_data(poll_data)
-                else:
-                    api_error_note = "Polling failed or timed out"
-            else:
-                # Error logged in create_session
-                api_error_note = f"Failed to create flight session (API rejected IATA?)"
+            # 1) Attempt date‐specific search
+            indicative_data = get_indicative_price(origin_iata, destination_iata, departure_date, return_date)
 
+            # 2) Drill down to the actual quotes dict
+            results = (indicative_data or {}) \
+                    .get("content", {}) \
+                    .get("results", {})
+
+            quotes = results.get("quotes", {})
+
+            # 3) If no date‐specific quotes, fallback to anytime
+            if not quotes:
+                print(f"No quotes found for specific date, trying anytime search for {destination_iata}...")
+                indicative_data = get_indicative_price(origin_iata, destination_iata, None)
+                results = (indicative_data or {}) \
+                        .get("content", {}) \
+                        .get("results", {})
+                quotes = results.get("quotes", {})
+
+            # 4) If we finally have quotes, extract; otherwise record no‐data
+            if quotes:
+                flight = extract_indicative_flight_data(indicative_data)
+            else:
+                api_error_note = "No indicative prices available"
+
+                
         except Exception as e:
-            # Catch unexpected errors during API interaction/processing
-            print(f"Error processing flights for {city_name} ({destination_iata}): {str(e)}")
+            print(f"Error processing indicative prices for {city_name} ({destination_iata}): {str(e)}")
             api_error_note = f"Runtime error during search: {type(e).__name__}"
 
-
         # --- 4. Score and Record Results ---
-        if flights:
-            best_flight = flights[0] # Cheapest flight
-            dest_data.update(best_flight) # Add flight details to the dict
-            print(f"Best flight found: €{best_flight.get('price_eur', 'N/A')}, {best_flight.get('outbound_airline', 'N/A')}")
+        if flight:
+            dest_data.update(flight) # Add flight details to the dict
+            print(f"Found indicative price: €{flight.get('price_eur', 'N/A')}, {flight.get('outbound_airline', 'N/A')}")
 
             total_score = 0.0
             traveler_scores = []
             for i, traveler in enumerate(travelers):
                  traveler_num = traveler.get("travelerNumber", f"T{i+1}")
-                 score = compute_grade(best_flight, traveler, city_vibes)
+                 score = compute_grade(flight, traveler, city_vibes)
                  traveler_scores.append({"travelerNumber": traveler_num, "score": score})
                  total_score += score
 
             avg_score = round(total_score / len(travelers), 2) if travelers else 0.0
             dest_data["flight_score"] = avg_score
             dest_data["traveler_scores"] = traveler_scores
-            dest_data["note"] = "Flight found"
+            dest_data["note"] = "Indicative price found"
             print(f"Average flight score: {avg_score}")
-
+            success_count += 1
         else:
             # No flights found or API error occurred
             dest_data["flight_score"] = 0
             dest_data["traveler_scores"] = []
-            dest_data["note"] = api_error_note if api_error_note else "No flights found"
-            print(f"Note: {dest_data['note']}")
-
+            dest_data["note"] = api_error_note if api_error_note else "No indicative prices found"
+            print(f"Note: {dest_data.get('note', 'No flight data')}")
+            failure_count += 1
 
         enriched_destinations.append(dest_data)
-        # Rate limiting delay
-        sleep_duration = 1.5 # Adjust as needed (1.5-2 seconds is often safe)
-        # print(f"Sleeping for {sleep_duration} seconds...") # Optional debug
+        
+        # Very small rate limiting delay (can be reduced further since indicative API is less rate-limited)
+        sleep_duration = 0.2  # Much shorter than before
         sleep(sleep_duration)
 
     # --- 5. Finalize and Save ---
     print(f"\nFinished processing all {total_destinations} destinations.")
+    print(f"Success: {success_count}, Failed: {failure_count}")
 
     # Sort by final flight score (descending)
     enriched_destinations.sort(key=lambda x: x.get("flight_score", 0), reverse=True)
@@ -627,17 +547,11 @@ def main():
     for dest in enriched_destinations:
         if rank_count >= 10: break
         # Only show if score > 0 or flight was explicitly noted as found
-        if dest.get("flight_score", 0) > 0 or "Flight found" == dest.get("note", ""):
+        if dest.get("flight_score", 0) > 0 or "price found" in dest.get("note", "").lower():
             price = f"€{dest.get('price_eur', 'N/A')}" if dest.get('price_eur') is not None else "N/A"
             print(f"Rank {dest.get('final_rank', 'N/A')}. {dest.get('city', 'N/A')} ({dest.get('iata', 'N/A')}) "
                   f"- Score: {dest.get('flight_score', 0)}, Price: {price}, Note: {dest.get('note', 'OK')}")
             rank_count += 1
-        # Optionally print failures too for debugging:
-        # else:
-        #     print(f"Rank {dest.get('final_rank', 'N/A')}. {dest.get('city', 'N/A')} ({dest.get('iata', 'N/A')}) "
-        #           f"- Score: {dest.get('flight_score', 0)}, Note: {dest.get('note', 'Error')}")
-        #     rank_count +=1
-
 
 if __name__ == "__main__":
     main()
