@@ -1,0 +1,32 @@
+{
+    "timestamp": "2025-05-03T09:34:06.505Z",
+    "dateRange": {
+      "startDate": "2025-05-14",
+      "endDate": "2025-05-30"
+    },
+    "travelers": [
+      {
+        "travelerNumber": 1,
+        "budgetRange": {
+          "min": "1414",
+          "max": "2413"
+        },
+        "preferredVibes": [
+          "underrated_destinations",
+          "art_and_culture"
+        ],
+        "preferredDestination": "Barcelona",
+        "startingPoint": "Madrid"
+      },
+      {
+        "travelerNumber": 2,
+        "budgetRange": {
+          "min": "4714",
+          "max": "5000"
+        },
+        "preferredVibes": [],
+        "preferredDestination": "East London",
+        "startingPoint": "Madrid"
+      }
+    ]
+  }
