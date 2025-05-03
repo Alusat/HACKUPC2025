@@ -14,14 +14,14 @@ app.use(cors()); // Allow all origins (for development only)
 app.use(express.json());
 
 // Create i_json directory if it doesn't exist
-const jsonDir = path.join(__dirname, '../i_json');
+const jsonDir = path.join(__dirname, '../data');
 if (!fs.existsSync(jsonDir)) {
     fs.mkdirSync(jsonDir);
 }
 
 app.post('/save-json', (req, res) => {
     const jsonData = JSON.stringify(req.body, null, 2);
-    const fileName = `skyscanner_answers_${Date.now()}.json`;
+    const fileName = `user_info.json`;
     const filePath = path.join(jsonDir, fileName);
     
     fs.writeFile(filePath, jsonData, (err) => {

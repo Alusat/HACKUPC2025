@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-05-03T14:10:06.009Z",
+  "dateRange": {
+    "startDate": "2025-05-21",
+    "endDate": "2025-05-31"
+  },
+  "travelers": [
+    {
+      "travelerNumber": 1,
+      "budgetRange": {
+        "min": "0",
+        "max": "5000"
+      },
+      "preferredVibes": [],
+      "preferredDestination": "Barcelona",
+      "startingPoint": "Tijuana"
+    }
+  ]
+}
