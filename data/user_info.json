@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-05-03T16:47:07.903Z",
+  "dateRange": {
+    "startDate": "2025-05-03",
+    "endDate": "2025-05-06"
+  },
+  "travelers": [
+    {
+      "travelerNumber": 1,
+      "budgetRange": {
+        "min": "0",
+        "max": "3565"
+      },
+      "preferredVibes": [
+        "art_and_culture",
+        "outdoor_adventures",
+        "underrated_destinations"
+      ],
+      "preferredDestination": "Atbara",
+      "startingPoint": "Barcelona"
+    },
+    {
+      "travelerNumber": 2,
+      "budgetRange": {
+        "min": "1909",
+        "max": "5000"
+      },
+      "preferredVibes": [
+        "art_and_culture",
+        "beach",
+        "outdoor_adventures"
+      ],
+      "preferredDestination": "Bellary",
+      "startingPoint": "Baramita"
+    },
+    {
+      "travelerNumber": 3,
+      "budgetRange": {
+        "min": "1312",
+        "max": "3523"
+      },
+      "preferredVibes": [
+        "underrated_destinations",
+        "nightlife_and_entertainment",
+        "art_and_culture"
+      ],
+      "preferredDestination": "Aguaclara",
+      "startingPoint": "A Coruña"
+    }
+  ]
+}
