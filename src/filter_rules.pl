@@ -1,6 +1,10 @@
 :- use_module(library(http/json)). % <-- ADD THIS LINE AT THE TOP
 :- use_module(library(lists)). % For sum_list, length, append, reverse, keysort
 :- use_module(library(apply)). % For maplist
+
+ensure_data_directory :-
+    (exists_directory('data') -> true ; make_directory('data')).
+
 num_users(Num) :-
     findall(User, user_city(User, _), UserList),
     length(UserList, Num).
@@ -151,14 +155,15 @@ ranked_cities_to_dicts([Score-City | RestRanked], Rank, [CityDict | RestDicts]) 
     ranked_cities_to_dicts(RestRanked, NextRank, RestDicts).
 
 export_ranked_cities_to_json(DictList, Filename) :-
+    ensure_data_directory,
+    atomic_list_concat(['data/', Filename], OutputPath),
     setup_call_cleanup(
-        open(Filename, write, Stream, [encoding(utf8)]),
+        open(OutputPath, write, Stream, [encoding(utf8)]),
         json_write_dict(Stream, DictList, [width(0)]),
         close(Stream)
     ).
 % --- End of existing predicates ---
 
-% --- Main Execution Control (MODIFIED) ---
 main(Filename, NumResults) :-
     write('City Recommendation System'), nl,
     write('========================='), nl, nl,
@@ -176,12 +181,13 @@ main(Filename, NumResults) :-
         display_results(TopRankedCities),
         nl,
         writef('Converting top %t results to JSON format...~n', [ActualNum]),
-        ranked_cities_to_dicts(TopRankedCities, JsonDictList), % <--- This now includes IATA
-        writef('Exporting top %t results to %w...~n', [ActualNum, Filename]),
+        ranked_cities_to_dicts(TopRankedCities, JsonDictList),
+        writef('Exporting top %t results to data/%w...~n', [ActualNum, Filename]),
         export_ranked_cities_to_json(JsonDictList, Filename),
         nl, write('Processing complete.'), nl
     ).
 
+% Keep the other main predicates the same
 main :-
     NumTop = 100,
     atomic_list_concat(['ranked_cities_top', NumTop, '.json'], DefaultFilename),
