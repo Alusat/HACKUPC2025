@@ -10,8 +10,7 @@ overall_city_desti(City, Fit) :-
     length(EvalList, NInterest),
     num_users(NumUsers),
     Avg is NInterest/NumUsers,
-    (
-    Avg > 0.50 -> Fit = 'HighDest' ;
+    (Avg > 0.50 -> Fit = 'HighDest' ;
     Avg =< 0.50 , Avg > 0.25 -> Fit = 'MidDest' ; 
     Avg > 0.001 , Avg < 0.25 -> Fit = 'LowDest' ;
     Avg =< 0.001 -> Fit = 'NoneDest').
@@ -128,17 +127,26 @@ ranked_cities_to_dicts(RankedCities, DictList) :-
 
 ranked_cities_to_dicts([], _, []).
 ranked_cities_to_dicts([Score-City | RestRanked], Rank, [CityDict | RestDicts]) :-
+    % Retrieve the fits (as before)
     (overall_city_desti(City, DestiFit) -> true ; DestiFit = 'NoneDest'),
     (overall_city_dist(City, DistFit) -> true ; DistFit = 'LongDist'),
     (overall_city_vibe(City, VibeFit) -> true ; VibeFit = 'None'),
+
+    % --- NEW: Lookup IATA code ---
+    % Use a default value if the IATA code is not found for the city
+    ( city_iata(City, Iata) -> true ; Iata = 'unknown' ), % Assign 'unknown' if city_iata fails
+
+    % Create the dictionary for this city, now including IATA
     CityDict = json{
         rank: Rank,
         score: Score,
-        city: City,
+        city: City,           % City name (e.g., 'London')
+        'IATA': Iata,           % IATA code (e.g., 'LHR' or 'unknown')
         destination_fit: DestiFit,
         distance_fit: DistFit,
         vibe_fit: VibeFit
     },
+
     NextRank is Rank + 1,
     ranked_cities_to_dicts(RestRanked, NextRank, RestDicts).
 
@@ -151,50 +159,35 @@ export_ranked_cities_to_json(DictList, Filename) :-
 % --- End of existing predicates ---
 
 % --- Main Execution Control (MODIFIED) ---
-
-main(Filename, NumResults) :- % Pass the desired output filename AND number of results
+main(Filename, NumResults) :-
     write('City Recommendation System'), nl,
     write('========================='), nl, nl,
-
-    % Get all valid cities
     findall(City, city_lat(City, _), AllCitiesWithLat),
     list_to_set(AllCitiesWithLat, ValidCities),
-
     write('Scoring and ranking all valid cities...'), nl,
-    score_and_rank_cities(ValidCities, FullRankedCities), % Get the full ranking
-
-    % --- Select Top N for both display and export ---
+    score_and_rank_cities(ValidCities, FullRankedCities),
     writef('Selecting top %t results...~n', [NumResults]),
-    take_first(NumResults, FullRankedCities, TopRankedCities), % <--- APPLY take_first HERE
-
-    length(TopRankedCities, ActualNum), % Check how many we actually got (might be < NumResults)
+    take_first(NumResults, FullRankedCities, TopRankedCities),
+    length(TopRankedCities, ActualNum),
     ( ActualNum == 0 ->
         write('No cities found or ranked to display or export.'), nl
     ;
-        % --- Optional: Display top N results to console ---
         nl, writef('--- Top %t Cities (Console) ---~n', [ActualNum]),
-        display_results(TopRankedCities), % Display the selected top cities
+        display_results(TopRankedCities),
         nl,
-
-        % --- Convert SELECTED Top N to Dictionaries and Export to JSON ---
         writef('Converting top %t results to JSON format...~n', [ActualNum]),
-        ranked_cities_to_dicts(TopRankedCities, JsonDictList), % Convert only the top N
-
+        ranked_cities_to_dicts(TopRankedCities, JsonDictList), % <--- This now includes IATA
         writef('Exporting top %t results to %w...~n', [ActualNum, Filename]),
-        export_ranked_cities_to_json(JsonDictList, Filename), % Export the limited list
-
+        export_ranked_cities_to_json(JsonDictList, Filename),
         nl, write('Processing complete.'), nl
     ).
 
-
-% Default entry point if no filename/number is given
 main :-
-    NumTop = 100, % Define the default number of results here
-    atomic_list_concat(['ranked_cities_top', NumTop, '.json'], DefaultFilename), % Create filename like ranked_cities_top100.json
+    NumTop = 100,
+    atomic_list_concat(['ranked_cities_top', NumTop, '.json'], DefaultFilename),
     main(DefaultFilename, NumTop).
 
-% Entry point to specify only the number of results, using default filename pattern
 main(NumResults) :-
-    integer(NumResults), NumResults >= 0, % Basic validation
+    integer(NumResults), NumResults >= 0,
     atomic_list_concat(['ranked_cities_top', NumResults, '.json'], Filename),
     main(Filename, NumResults).

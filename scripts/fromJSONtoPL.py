@@ -133,7 +133,7 @@ if __name__ == "__main__":
     # It's often better to pass these as command-line arguments
     default_output_pl_filename = "users.pl"
 
-    input_json_path = "../i_json/user_info.json"
+    input_json_path = "../data/user_info.json"
     output_pl_path = base_dir / "data" / default_output_pl_filename
 
     print(f"--- Prolog Fact Generator ---")

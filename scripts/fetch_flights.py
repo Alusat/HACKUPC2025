@@ -26,10 +26,10 @@ HEADERS = {
 
 # File paths
 # Assuming the input JSON from Prolog now contains 'city' and 'iata'
-FILTERED_JSON = "data/ranked_cities_top100.json"
-OUTPUT_JSON = "data/enriched_routes.json"
-AIRPORTS_CSV = "data/iata_airports_and_locations_with_vibes.csv"
-USER_INFO_JSON = "i_json/user_info.json"
+FILTERED_JSON = "../data/ranked_cities_top100.json"
+OUTPUT_JSON = "../data/enriched_routes.json"
+AIRPORTS_CSV = "../data/iata_airports_and_locations_with_vibes.csv"
+USER_INFO_JSON = "../data/user_info.json"
 
 # --- Data Loading Functions ---
 
