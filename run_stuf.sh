@@ -43,7 +43,7 @@ sleep 1
 
 # 6. 
 echo "[6/6] Running 'npx live-server..."
-#npx live-server --open=output.html &
+npx live-server --open=output.html &
 
 sleep 1
 

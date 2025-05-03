@@ -5,13 +5,16 @@ import csv
 from datetime import datetime
 from time import sleep
 from typing import Dict, Optional, List
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ── Configuration ─────────────────────────────────────────────────────────────
 API_KEY        = os.getenv("API_KEY")
 HEADERS        = {"x-api-key": API_KEY, "Content-Type": "application/json"}
 INDICATIVE_URL = "https://partners.api.skyscanner.net/apiservices/v3/flights/indicative/search"
 
-INPUT_JSON   = "data/ranked_cities_top100.json"
+INPUT_JSON   = "data/ranked_cities_top20.json"
 USER_JSON    = "data/user_info.json"
 OUTPUT_JSON  = "data/final_scored.json"
 AIRPORTS_CSV = "data/iata_airports_and_locations_with_vibes.csv"
@@ -28,8 +31,6 @@ def load_airport_mapping(csv_path: str) -> Dict[str, str]:
         for row in csv.DictReader(f):
             name = row.get('en-GB', '').strip()
             code = row.get('IATA', '').strip().upper()
-            if name == "Barcelona":
-                print(row)
             if name and code:
                 mapping[name] = code
     return mapping
@@ -41,6 +42,7 @@ def extract_quotes(resp: Dict) -> Dict:
 def get_indicative(origin: str, dest: str,
                    dep_date: Optional[datetime.date] = None,
                    ret_date: Optional[datetime.date] = None) -> Dict:
+    print(f"DATES: {dep_date} {ret_date}")
     legs = [{
         "originPlace": {"queryPlace": {"iata": origin}},
         "destinationPlace": {"queryPlace": {"iata": dest}}
@@ -65,6 +67,7 @@ def get_indicative(origin: str, dest: str,
     if r.status_code != 200:
         print(f"Error {r.status_code} for {origin}->{dest}: {r.text}")
         return {}
+    print(f"dates: {dep_date} - {ret_date} | {origin}->{dest} | {r.status_code}")
     return r.json()
 
 def pick_cheapest(quotes: Dict) -> (Optional[Dict], Optional[float]):
@@ -100,7 +103,6 @@ def main():
 
     # 2) Build exact-name → IATA map
     city_to_iata = load_airport_mapping(AIRPORTS_CSV)
-    print(city_to_iata["Barcelona"])
 
     # 3) Derive each traveler's origin IATA (exact match)
     for t in travelers:
@@ -121,6 +123,7 @@ def main():
         for t in travelers:
             org = t["origin_iata"]
             # first try specific dates
+            print(f"DATES PRE CALL: {dep} {ret}")
             data = get_indicative(org, dest_iata, dep, ret)
             quotes = extract_quotes(data)
             used_any = False

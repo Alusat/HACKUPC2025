@@ -69,7 +69,7 @@ function saveAnswersToJson(peopleCount, submittedData) {
     .then(message => console.log(message))
     .catch(error => console.error('Error:', error));
     
-    window.location.href = 'loading-screen.html?destination=output.html';
+    // window.location.href = 'loading-screen.html?destination=output.html';
     
 }
 

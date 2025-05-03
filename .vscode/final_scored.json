@@ -1,0 +1,963 @@
+[
+  {
+    "city": "Santorini (Thira) (JTR)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "JTR",
+    "lat": 36.402959,
+    "long": 25.473093,
+    "rank": 40,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      68.0,
+      604.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 336.0,
+    "composite_score": 0.866,
+    "final_rank": 1
+  },
+  {
+    "city": "Crete Chania (CHQ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "CHQ",
+    "lat": 35.5325,
+    "long": 24.148333,
+    "rank": 64,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      134.0,
+      550.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 342.0,
+    "composite_score": 0.864,
+    "final_rank": 2
+  },
+  {
+    "city": "Crete Heraklion (HER)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "HER",
+    "lat": 35.340278,
+    "long": 25.183333,
+    "rank": 52,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      98.0,
+      606.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 352.0,
+    "composite_score": 0.86,
+    "final_rank": 3
+  },
+  {
+    "city": "Jeddah (JED)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "JED",
+    "lat": 21.6621967,
+    "long": 39.1733294,
+    "rank": 44,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      218.0,
+      500.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 359.0,
+    "composite_score": 0.856,
+    "final_rank": 4
+  },
+  {
+    "city": "Dalaman (DLM)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "DLM",
+    "lat": 36.716667,
+    "long": 28.783333,
+    "rank": 61,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      138.0,
+      580.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 359.0,
+    "composite_score": 0.856,
+    "final_rank": 5
+  },
+  {
+    "city": "Antalya (AYT)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "AYT",
+    "lat": 36.905556,
+    "long": 30.790556,
+    "rank": 67,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      130.0,
+      594.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 362.0,
+    "composite_score": 0.855,
+    "final_rank": 6
+  },
+  {
+    "city": "Muscat (MCT)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "MCT",
+    "lat": 23.591667,
+    "long": 58.279167,
+    "rank": 33,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      224.0,
+      524.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 374.0,
+    "composite_score": 0.85,
+    "final_rank": 7
+  },
+  {
+    "city": "Larnaca (LCA)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "LCA",
+    "lat": 34.8725074,
+    "long": 33.6203301,
+    "rank": 38,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      102.0,
+      652.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 377.0,
+    "composite_score": 0.849,
+    "final_rank": 8
+  },
+  {
+    "city": "Kuwait (KWI)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "KWI",
+    "lat": 29.2409482,
+    "long": 47.9711266,
+    "rank": 39,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      186.0,
+      598.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 392.0,
+    "composite_score": 0.842,
+    "final_rank": 9
+  },
+  {
+    "city": "Rhodes (RHO)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "RHO",
+    "lat": 36.406501,
+    "long": 28.08629,
+    "rank": 23,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      102.0,
+      718.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 410.0,
+    "composite_score": 0.834,
+    "final_rank": 10
+  },
+  {
+    "city": "Goa Dabolim (GOI)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "GOI",
+    "lat": 15.383333,
+    "long": 73.833333,
+    "rank": 56,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      408.0,
+      440.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 424.0,
+    "composite_score": 0.828,
+    "final_rank": 11
+  },
+  {
+    "city": "Islamabad (ISB)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "ISB",
+    "lat": 33.5562322,
+    "long": 72.8335624,
+    "rank": 49,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      332.0,
+      546.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 439.0,
+    "composite_score": 0.822,
+    "final_rank": 12
+  },
+  {
+    "city": "Goa North Manohar International (GOX)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "GOX",
+    "lat": 15.732552433046504,
+    "long": 73.8683135613662,
+    "rank": 55,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      442.0,
+      440.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 441.0,
+    "composite_score": 0.821,
+    "final_rank": 13
+  },
+  {
+    "city": "Sharjah (SHJ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "SHJ",
+    "lat": 25.328611,
+    "long": 55.500556,
+    "rank": 17,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      375.0,
+      538.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 456.5,
+    "composite_score": 0.814,
+    "final_rank": 14
+  },
+  {
+    "city": "Beirut (BEY)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "BEY",
+    "lat": 33.8194647,
+    "long": 35.4912258,
+    "rank": 65,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      170.0,
+      754.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 462.0,
+    "composite_score": 0.812,
+    "final_rank": 15
+  },
+  {
+    "city": "Mehrabad International (THR)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "THR",
+    "lat": 35.689722,
+    "long": 51.315833,
+    "rank": 13,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      240.0,
+      710.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 475.0,
+    "composite_score": 0.806,
+    "final_rank": 16
+  },
+  {
+    "city": "Imam Khomeini International (IKA)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "IKA",
+    "lat": 35.4097,
+    "long": 51.1508,
+    "rank": 50,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      240.0,
+      710.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 475.0,
+    "composite_score": 0.806,
+    "final_rank": 17
+  },
+  {
+    "city": "Addis Ababa (ADD)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "ADD",
+    "lat": 8.977778,
+    "long": 38.798056,
+    "rank": 71,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      356.0,
+      658.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 507.0,
+    "composite_score": 0.792,
+    "final_rank": 18
+  },
+  {
+    "city": "Velana International (MLE)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "MLE",
+    "lat": 4.201389,
+    "long": 73.524444,
+    "rank": 31,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      566.0,
+      584.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 575.0,
+    "composite_score": 0.763,
+    "final_rank": 19
+  },
+  {
+    "city": "Abha (AHB)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "AHB",
+    "lat": 18.233333,
+    "long": 42.65,
+    "rank": 70,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      246.0,
+      918.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 582.0,
+    "composite_score": 0.76,
+    "final_rank": 20
+  },
+  {
+    "city": "Aqaba (AQJ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "AQJ",
+    "lat": 29.611619,
+    "long": 35.018067,
+    "rank": 69,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      206.0,
+      966.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 586.0,
+    "composite_score": 0.758,
+    "final_rank": 21
+  },
+  {
+    "city": "Dushanbe (DYU)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "DYU",
+    "lat": 38.55,
+    "long": 68.823611,
+    "rank": 59,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      468.0,
+      798.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 633.0,
+    "composite_score": 0.738,
+    "final_rank": 22
+  },
+  {
+    "city": "Zanzibar (ZNZ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "ZNZ",
+    "lat": -6.219167,
+    "long": 39.221944,
+    "rank": 3,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      560.0,
+      762.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 661.0,
+    "composite_score": 0.726,
+    "final_rank": 23
+  },
+  {
+    "city": "Mombasa (MBA)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "MBA",
+    "lat": -4.031389,
+    "long": 39.593056,
+    "rank": 34,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      694.0,
+      640.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 667.0,
+    "composite_score": 0.723,
+    "final_rank": 24
+  },
+  {
+    "city": "Leh (IXL)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "IXL",
+    "lat": 34.166667,
+    "long": 77.583333,
+    "rank": 46,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      820.0,
+      618.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 719.0,
+    "composite_score": 0.701,
+    "final_rank": 25
+  },
+  {
+    "city": "Seychelles (SEZ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "SEZ",
+    "lat": -4.672222,
+    "long": 55.5225,
+    "rank": 18,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      736.0,
+      878.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 807.0,
+    "composite_score": 0.663,
+    "final_rank": 26
+  },
+  {
+    "city": "Arusha (ARK)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "ARK",
+    "lat": -3.3643844518007584,
+    "long": 36.624683536940566,
+    "rank": 68,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      792.0,
+      852.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 822.0,
+    "composite_score": 0.656,
+    "final_rank": 27
+  },
+  {
+    "city": "Durban King Shaka International (DUR)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "DUR",
+    "lat": -29.611081,
+    "long": 31.114062,
+    "rank": 60,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      830.0,
+      972.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 901.0,
+    "composite_score": 0.622,
+    "final_rank": 28
+  },
+  {
+    "city": "George (GRJ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "GRJ",
+    "lat": -34.005556,
+    "long": 22.378889,
+    "rank": 54,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      826.0,
+      1082.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 954.0,
+    "composite_score": 0.599,
+    "final_rank": 29
+  },
+  {
+    "city": "Antananarivo (TNR)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "TNR",
+    "lat": -18.8,
+    "long": 47.483333,
+    "rank": 10,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      932.0,
+      992.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 962.0,
+    "composite_score": 0.595,
+    "final_rank": 30
+  },
+  {
+    "city": "Djibouti (JIB)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "JIB",
+    "lat": 11.546667,
+    "long": 43.158889,
+    "rank": 43,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      552.0,
+      1404.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 978.0,
+    "composite_score": 0.589,
+    "final_rank": 31
+  },
+  {
+    "city": "Victoria Falls (VFA)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "VFA",
+    "lat": -18.093056,
+    "long": 25.840278,
+    "rank": 7,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      866.0,
+      1492.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 1179.0,
+    "composite_score": 0.502,
+    "final_rank": 32
+  },
+  {
+    "city": "Sulaymaniyah International (ISU)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "ISU",
+    "lat": 35.5608,
+    "long": 45.314701,
+    "rank": 47,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      712.0,
+      1852.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 1282.0,
+    "composite_score": 0.457,
+    "final_rank": 33
+  },
+  {
+    "city": "Lusaka (LUN)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "LUN",
+    "lat": -15.329221,
+    "long": 28.449783,
+    "rank": 36,
+    "score": 1.3900000000000001,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      1052.0,
+      1544.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 1298.0,
+    "composite_score": 0.45,
+    "final_rank": 34
+  },
+  {
+    "city": "Valencia (VLC)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "VLC",
+    "lat": 39.4891002,
+    "long": -0.4778432,
+    "rank": 86,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      83.0,
+      434.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 258.5,
+    "composite_score": 0.45,
+    "final_rank": 35
+  },
+  {
+    "city": "Varna (VAR)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "VAR",
+    "lat": 43.2325,
+    "long": 27.825556,
+    "rank": 87,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      112.0,
+      542.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 327.0,
+    "composite_score": 0.42,
+    "final_rank": 36
+  },
+  {
+    "city": "Stockholm Vasteras (VST)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "VST",
+    "lat": 59.589167,
+    "long": 16.630556,
+    "rank": 82,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      130.0,
+      568.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 349.0,
+    "composite_score": 0.411,
+    "final_rank": 37
+  },
+  {
+    "city": "Tawau (TWU)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "TWU",
+    "lat": 4.31337,
+    "long": 118.12195,
+    "rank": 95,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      654.0,
+      184.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 419.0,
+    "composite_score": 0.381,
+    "final_rank": 38
+  },
+  {
+    "city": "Vientiane (VTE)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "VTE",
+    "lat": 17.984722,
+    "long": 102.566667,
+    "rank": 81,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      640.0,
+      210.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 425.0,
+    "composite_score": 0.378,
+    "final_rank": 39
+  },
+  {
+    "city": "Zante (Zakynthos) (ZTH)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "ZTH",
+    "lat": 37.7558,
+    "long": 20.8883,
+    "rank": 72,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      120.0,
+      746.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 433.0,
+    "composite_score": 0.374,
+    "final_rank": 40
+  },
+  {
+    "city": "Chinggis Khaan (UBN)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "UBN",
+    "lat": 47.65,
+    "long": 106.818889,
+    "rank": 94,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      750.0,
+      272.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 511.0,
+    "composite_score": 0.341,
+    "final_rank": 41
+  },
+  {
+    "city": "Busuanga (USU)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "USU",
+    "lat": 12.1,
+    "long": 120.166667,
+    "rank": 89,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      768.0,
+      284.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 526.0,
+    "composite_score": 0.334,
+    "final_rank": 42
+  },
+  {
+    "city": "Quito (UIO)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "UIO",
+    "lat": -0.137778,
+    "long": -78.486111,
+    "rank": 93,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      670.0,
+      1202.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 936.0,
+    "composite_score": 0.157,
+    "final_rank": 43
+  },
+  {
+    "city": "Queenstown (ZQN)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "LongDist",
+    "iata": "ZQN",
+    "lat": -45.021389,
+    "long": 168.738889,
+    "rank": 73,
+    "score": 0.94,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      1258.0,
+      762.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 1010.0,
+    "composite_score": 0.125,
+    "final_rank": 44
+  }
+]

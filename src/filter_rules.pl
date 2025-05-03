@@ -59,7 +59,7 @@ num_users(Num) :-
 
 overall_city_desti(City, Fit) :-
     % Corrected logic: Count users interested in THIS city, not all cities
-    findall(User, user_city(User, City), InterestedUsers), % Find users whose city IS City
+    findall(User, user_dest(User, City), InterestedUsers), % Find users whose city IS City
     length(InterestedUsers, NInterest),
     num_users(NumUsers),
     ( NumUsers == 0 -> Avg = 0 ; Avg is NInterest / NumUsers ), % Avoid division by zero
@@ -278,7 +278,7 @@ main(Filename, NumResults) :-
 
 
 main :-
-    NumTop = 100, % Define the default number of results here
+    NumTop = 20, % Define the default number of results here
     atomic_list_concat(['ranked_cities_top', NumTop, '.json'], DefaultFilename),
     main(DefaultFilename, NumTop).
 

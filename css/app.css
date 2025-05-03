@@ -79,7 +79,7 @@ h1 {
 .table-header, .table-row {
     display: grid;
     /* Adjust first value for Position column width */
-    grid-template-columns: 100px 80px 2fr 1fr 1fr 1fr 150px 150px; /* Changed 70px to 100px */
+    grid-template-columns: 150px 2fr 1fr 1fr 1fr 150px; /* Changed 70px to 100px */
     border-bottom: 1px solid #eee;
     align-items: center;
 }

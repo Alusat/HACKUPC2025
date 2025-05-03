@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-05-03T23:50:14.974Z",
+  "dateRange": {
+    "startDate": "2025-05-10",
+    "endDate": "2025-05-16"
+  },
+  "travelers": [
+    {
+      "travelerNumber": 1,
+      "budgetRange": {
+        "min": "0",
+        "max": "1502"
+      },
+      "preferredVibes": [
+        "beach",
+        "art_and_culture",
+        "great_food"
+      ],
+      "preferredDestination": "Vienna (VIE)",
+      "startingPoint": "Barcelona (BCN)"
+    },
+    {
+      "travelerNumber": 2,
+      "budgetRange": {
+        "min": "0",
+        "max": "2503"
+      },
+      "preferredVibes": [
+        "art_and_culture",
+        "outdoor_adventures",
+        "underrated_destinations"
+      ],
+      "preferredDestination": "Rome (RME)",
+      "startingPoint": "Berlin Brandenburg (BER)"
+    }
+  ]
+}

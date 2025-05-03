@@ -1,1 +1,332 @@
-[]
+[
+  {
+    "city": "Vienna (VIE)",
+    "destination_fit": "MidDest",
+    "distance_fit": "ShortDist",
+    "iata": "VIE",
+    "lat": 48.1221,
+    "long": 16.55751,
+    "rank": 1,
+    "score": 2.85,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      92.0,
+      185.0
+    ],
+    "price_eur": 138.5,
+    "composite_score": 0.754,
+    "final_rank": 1
+  },
+  {
+    "city": "Trieste (TRS)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "TRS",
+    "lat": 45.833333,
+    "long": 13.466667,
+    "rank": 19,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      34.0,
+      34.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 34.0,
+    "composite_score": 0.45,
+    "final_rank": 2
+  },
+  {
+    "city": "Amsterdam Schiphol (AMS)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "AMS",
+    "lat": 52.308333,
+    "long": 4.768056,
+    "rank": 8,
+    "score": 1.99,
+    "vibe_fit": "Mid",
+    "traveler_prices": [
+      144.0,
+      56.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 100.0,
+    "composite_score": 0.426,
+    "final_rank": 3
+  },
+  {
+    "city": "Lyon (LYS)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "LYS",
+    "lat": 45.725556,
+    "long": 5.081667,
+    "rank": 3,
+    "score": 1.99,
+    "vibe_fit": "Mid",
+    "traveler_prices": [
+      145.0,
+      58.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 101.5,
+    "composite_score": 0.423,
+    "final_rank": 4
+  },
+  {
+    "city": "Brussels International (BRU)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "BRU",
+    "lat": 50.9009854,
+    "long": 4.4855529,
+    "rank": 7,
+    "score": 1.99,
+    "vibe_fit": "Mid",
+    "traveler_prices": [
+      134.0,
+      86.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 110.0,
+    "composite_score": 0.405,
+    "final_rank": 5
+  },
+  {
+    "city": "Brussels S. Charleroi (CRL)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "CRL",
+    "lat": 50.459197,
+    "long": 4.453817,
+    "rank": 6,
+    "score": 1.99,
+    "vibe_fit": "Mid",
+    "traveler_prices": [
+      138.0,
+      86.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 112.0,
+    "composite_score": 0.401,
+    "final_rank": 6
+  },
+  {
+    "city": "Zaragoza (ZAZ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "ZAZ",
+    "lat": 41.663423,
+    "long": -1.011086,
+    "rank": 10,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      62.0,
+      106.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 84.0,
+    "composite_score": 0.344,
+    "final_rank": 7
+  },
+  {
+    "city": "San Sebastian (EAS)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "EAS",
+    "lat": 43.357778,
+    "long": -1.79,
+    "rank": 5,
+    "score": 1.99,
+    "vibe_fit": "Mid",
+    "traveler_prices": [
+      178.0,
+      104.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 141.0,
+    "composite_score": 0.339,
+    "final_rank": 8
+  },
+  {
+    "city": "Venice Marco Polo (VCE)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "VCE",
+    "lat": 45.5,
+    "long": 12.35,
+    "rank": 15,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      83.0,
+      146.0
+    ],
+    "price_eur": 114.5,
+    "composite_score": 0.31,
+    "final_rank": 9
+  },
+  {
+    "city": "Turin (TRN)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "TRN",
+    "lat": 45.1965208,
+    "long": 7.6480601,
+    "rank": 20,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      87.0,
+      118.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 102.5,
+    "composite_score": 0.305,
+    "final_rank": 10
+  },
+  {
+    "city": "Wroclaw (WRO)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "WRO",
+    "lat": 51.1,
+    "long": 16.883333,
+    "rank": 13,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      70.0,
+      140.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)",
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 105.0,
+    "composite_score": 0.299,
+    "final_rank": 11
+  },
+  {
+    "city": "Verona International (VRN)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "VRN",
+    "lat": 45.395706,
+    "long": 10.888533,
+    "rank": 14,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      134.0,
+      130.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 132.0,
+    "composite_score": 0.242,
+    "final_rank": 12
+  },
+  {
+    "city": "Venice Treviso (TSF)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "TSF",
+    "lat": 45.6484,
+    "long": 12.194422,
+    "rank": 18,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      94.0,
+      203.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 148.5,
+    "composite_score": 0.207,
+    "final_rank": 13
+  },
+  {
+    "city": "Tunis Carthage (TUN)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "MediumDist",
+    "iata": "TUN",
+    "lat": 36.851111,
+    "long": 10.227222,
+    "rank": 17,
+    "score": 1.69,
+    "vibe_fit": "Mid",
+    "traveler_prices": [
+      96.0,
+      215.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 155.5,
+    "composite_score": 0.192,
+    "final_rank": 14
+  },
+  {
+    "city": "Zurich (ZRH)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "ZRH",
+    "lat": 47.4612134,
+    "long": 8.5534547,
+    "rank": 9,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      148.0,
+      210.0
+    ],
+    "price_eur": 179.0,
+    "composite_score": 0.158,
+    "final_rank": 15
+  },
+  {
+    "city": "Zagreb (ZAG)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "ZAG",
+    "lat": 45.7408627,
+    "long": 16.067501,
+    "rank": 2,
+    "score": 1.99,
+    "vibe_fit": "Mid",
+    "traveler_prices": [
+      354.0,
+      138.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 246.0,
+    "composite_score": 0.116,
+    "final_rank": 16
+  }
+]
