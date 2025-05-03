@@ -35,28 +35,21 @@ function collectAllAnswers(peopleCount, submittedData) {
 }
 
 // Function to save answers to a JSON file
+// Modified saveAnswersToJson function
 function saveAnswersToJson(peopleCount, submittedData) {
     const answers = collectAllAnswers(peopleCount, submittedData);
     
-    // Convert the answers object to a JSON string
-    const jsonData = JSON.stringify(answers, null, 2);
-    
-    // Create a blob from the JSON string
-    const blob = new Blob([jsonData], { type: 'application/json' });
-    
-    // Create a download link
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = `skyscanner_reunion_answers_${new Date().toISOString().slice(0, 10)}.json`;
-    
-    // Trigger the download
-    document.body.appendChild(a);
-    a.click();
-    
-    // Clean up
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    // Send data to Node.js server
+    fetch('http://localhost:3000/save-json', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(answers),
+    })
+    .then(response => response.text())
+    .then(message => console.log(message))
+    .catch(error => console.error('Error:', error));
 }
 
 // Function to show or hide the save button based on submission status
