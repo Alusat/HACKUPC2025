@@ -83,7 +83,7 @@ function updateSaveButtonVisibility(peopleCount, submittedData) {
     const dateLocked = isDateRangeLocked();
     const allSubmitted = allTravelersSubmitted(peopleCount, submittedData);
     // Only show the save button if all travelers have submitted and the date range is decided
-    if (allSubmitted && dateLocked) {
+    if (allSubmitted) {
         if (!saveButton) {
             // Create the save button if it doesn't exist
             const newSaveButton = document.createElement('button');

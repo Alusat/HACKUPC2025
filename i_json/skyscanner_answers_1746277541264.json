@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-05-03T13:05:41.217Z",
+  "dateRange": {
+    "startDate": "2025-05-08",
+    "endDate": "2025-06-05"
+  },
+  "travelers": [
+    {
+      "travelerNumber": 1,
+      "budgetRange": {
+        "min": "0",
+        "max": "5000"
+      },
+      "preferredVibes": [],
+      "preferredDestination": "A Coruña",
+      "startingPoint": "A Coruña"
+    }
+  ]
+}
