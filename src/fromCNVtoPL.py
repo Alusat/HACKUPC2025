@@ -64,7 +64,7 @@ def csv_to_prolog(input_csv, output_pl):
             city_name = city_name.replace("'", "")
             
             # Store basic facts
-            facts['city'].append(f"city('{city_name}').")
+            #facts['city'].append(f"city('{city_name}').")
             facts['city_iata'].append(f"city_iata('{city_name}', '{row['IATA']}').")
             facts['city_lat'].append(f"city_lat('{city_name}', {row['latitude']}).")
             facts['city_long'].append(f"city_long('{city_name}', {row['longitude']}).")
@@ -87,4 +87,4 @@ def csv_to_prolog(input_csv, output_pl):
             prologfile.write(f"% {fact_type} facts\n")
             prologfile.write("\n".join(facts[fact_type]) + "\n\n")
             
-csv_to_prolog('../data/iata_airports_and_locations_with_vibes.csv', 'newCities.pl')
+csv_to_prolog('../data/iata_airports_and_locations_with_vibes.csv', '../data/cities.pl')
