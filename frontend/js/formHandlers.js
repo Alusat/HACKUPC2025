@@ -62,27 +62,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 <!-- Dropdown menu question -->
                 <div class="question">
                 <label for="color-${i}">3. What is your preferred destination?</label>
-                <select id="color-${i}" name="color-${i}">
-                    <option value="">-- Select a destination --</option>
-                    <option value="europe">Europe</option>
-                    <option value="asia">Asia</option>
-                    <option value="america">America</option>
-                    <option value="africa">Africa</option>
-                    <option value="oceania">Oceania</option>
-                </select>
+                    <select id="color-${i}" name="color-${i}">
+                    <option value="">-- Select destination --</option>
+                    ${window.dynamicCities.map(city => 
+                        `<option value="${city.toLowerCase()}">${city}</option>`
+                    ).join('')}
+                    </select>
                 </div>
     
                 <!-- New dropdown question for starting point -->
                 <div class="question">
                 <label for="starting-point-${i}">4. What's your starting point?</label>
-                <select id="starting-point-${i}" name="starting-point-${i}">
-                    <option value="">-- Select a starting point --</option>
-                    <option value="europe">Europe</option>
-                    <option value="asia">Asia</option>
-                    <option value="america">America</option>
-                    <option value="africa">Africa</option>
-                    <option value="oceania">Oceania</option>
-                </select>
+                   <select id="starting-point-${i}" name="starting-point-${i}">
+                    <option value="">-- Select starting point --</option>
+                    ${window.dynamicCities.map(city => 
+                        `<option value="${city.toLowerCase()}">${city}</option>`
+                    ).join('')}
+                    </select>
                 </div>
     
                 <button type="button" class="submit-person" data-person="${i}">Submit Traveler ${i}</button>
