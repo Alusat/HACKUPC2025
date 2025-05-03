@@ -82,7 +82,7 @@ city('Aarhus').
 city_iata('Aarhus', 'AAR').
 city_lat('Aarhus', 56.310278).
 city_long('Aarhus', 10.618056).
-has_vibes('Aarhus', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Aarhus', [underrated_destinations]).
 
 city('Apalapsili').
 city_iata('Apalapsili', 'AAS').
@@ -173,7 +173,7 @@ city('Abidjan').
 city_iata('Abidjan', 'ABJ').
 city_lat('Abidjan', 5.256389).
 city_long('Abidjan', -3.926944).
-has_vibes('Abidjan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Abidjan', [nightlife_and_entertainment]).
 
 city('Kabri Dar').
 city_iata('Kabri Dar', 'ABK').
@@ -209,7 +209,7 @@ city('Albuquerque').
 city_iata('Albuquerque', 'ABQ').
 city_lat('Albuquerque', 35.042084).
 city_long('Albuquerque', -106.609268).
-has_vibes('Albuquerque', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Albuquerque', [underrated_destinations]).
 
 city('Aberdeen').
 city_iata('Aberdeen', 'ABR').
@@ -235,7 +235,7 @@ city('Abuja').
 city_iata('Abuja', 'ABV').
 city_lat('Abuja', 9).
 city_long('Abuja', 7.266667).
-has_vibes('Abuja', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Abuja', [nightlife_and_entertainment]).
 
 city('Abau').
 city_iata('Abau', 'ABW').
@@ -256,13 +256,13 @@ city('Aberdeen').
 city_iata('Aberdeen', 'ABZ').
 city_lat('Aberdeen', 57.204167).
 city_long('Aberdeen', -2.198056).
-has_vibes('Aberdeen', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Aberdeen', [underrated_destinations]).
 
 city('Acapulco').
 city_iata('Acapulco', 'ACA').
 city_lat('Acapulco', 16.755556).
 city_long('Acapulco', -99.766944).
-has_vibes('Acapulco', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Acapulco', [nightlife_and_entertainment]).
 
 city('Bellaire').
 city_iata('Bellaire', 'ACB').
@@ -273,7 +273,7 @@ city('Accra').
 city_iata('Accra', 'ACC').
 city_lat('Accra', 5.595278).
 city_long('Accra', -0.170833).
-has_vibes('Accra', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Accra', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Acandi').
 city_iata('Acandi', 'ACD').
@@ -384,7 +384,7 @@ city('Izmir').
 city_iata('Izmir', 'ADB').
 city_lat('Izmir', 38.283333).
 city_long('Izmir', 27.15).
-has_vibes('Izmir', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Izmir', [underrated_destinations, art_and_culture]).
 
 city('Andakombe').
 city_iata('Andakombe', 'ADC').
@@ -395,7 +395,7 @@ city('Addis Ababa').
 city_iata('Addis Ababa', 'ADD').
 city_lat('Addis Ababa', 8.977778).
 city_long('Addis Ababa', 38.798056).
-has_vibes('Addis Ababa', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Addis Ababa', [nightlife_and_entertainment, great_food, outdoor_adventures]).
 
 city('Aden').
 city_iata('Aden', 'ADE').
@@ -426,7 +426,7 @@ city('Amman Civil - Marka').
 city_iata('Amman Civil - Marka', 'ADJ').
 city_lat('Amman Civil - Marka', 31.95).
 city_long('Amman Civil - Marka', 35.983333).
-has_vibes('Amman Civil - Marka', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Amman Civil - Marka', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Adak Island').
 city_iata('Adak Island', 'ADK').
@@ -437,7 +437,7 @@ city('Adelaide').
 city_iata('Adelaide', 'ADL').
 city_lat('Adelaide', -34.948333).
 city_long('Adelaide', 138.534722).
-has_vibes('Adelaide', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Adelaide', [underrated_destinations, great_food]).
 
 city('Ardmore Municipal Arpt').
 city_iata('Ardmore Municipal Arpt', 'ADM').
@@ -498,7 +498,7 @@ city('San Andres Island').
 city_iata('San Andres Island', 'ADZ').
 city_lat('San Andres Island', 12.583333).
 city_long('San Andres Island', -81.7).
-has_vibes('San Andres Island', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Andres Island', [beach]).
 
 city('Abemama').
 city_iata('Abemama', 'AEA').
@@ -559,7 +559,7 @@ city('Buenos Aires Jorge Newbery').
 city_iata('Buenos Aires Jorge Newbery', 'AEP').
 city_lat('Buenos Aires Jorge Newbery', -34.558889).
 city_long('Buenos Aires Jorge Newbery', -58.415833).
-has_vibes('Buenos Aires Jorge Newbery', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Buenos Aires Jorge Newbery', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Sochi').
 city_iata('Sochi', 'AER').
@@ -590,7 +590,7 @@ city('Akureyri').
 city_iata('Akureyri', 'AEY').
 city_lat('Akureyri', 65.666667).
 city_long('Akureyri', -18.166667).
-has_vibes('Akureyri', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Akureyri', [underrated_destinations]).
 
 city('San Rafael').
 city_iata('San Rafael', 'AFA').
@@ -646,7 +646,7 @@ city('Dallas Fort Worth Alliance').
 city_iata('Dallas Fort Worth Alliance', 'AFW').
 city_lat('Dallas Fort Worth Alliance', 32.986667).
 city_long('Dallas Fort Worth Alliance', -97.316667).
-has_vibes('Dallas Fort Worth Alliance', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas Fort Worth Alliance', [nightlife_and_entertainment]).
 
 city('Afyon').
 city_iata('Afyon', 'AFY').
@@ -672,7 +672,7 @@ city('Pittsburgh Allegheny County').
 city_iata('Pittsburgh Allegheny County', 'AGC').
 city_lat('Pittsburgh Allegheny County', 40.354722).
 city_long('Pittsburgh Allegheny County', -79.93).
-has_vibes('Pittsburgh Allegheny County', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pittsburgh Allegheny County', [underrated_destinations]).
 
 city('Anggi').
 city_iata('Anggi', 'AGD').
@@ -738,7 +738,7 @@ city('Malaga').
 city_iata('Malaga', 'AGP').
 city_lat('Malaga', 36.6765707).
 city_long('Malaga', -4.4940091).
-has_vibes('Malaga', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Malaga', [nightlife_and_entertainment, great_food]).
 
 city('Agrinion').
 city_iata('Agrinion', 'AGQ').
@@ -749,7 +749,7 @@ city('Agra').
 city_iata('Agra', 'AGR').
 city_lat('Agra', 27.158333).
 city_long('Agra', 77.962778).
-has_vibes('Agra', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Agra', [art_and_culture]).
 
 city('Augusta Bush Field').
 city_iata('Augusta Bush Field', 'AGS').
@@ -795,7 +795,7 @@ city('Abha').
 city_iata('Abha', 'AHB').
 city_lat('Abha', 18.233333).
 city_long('Abha', 42.65).
-has_vibes('Abha', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Abha', [outdoor_adventures]).
 
 city('Herlong').
 city_iata('Herlong', 'AHC').
@@ -851,7 +851,7 @@ city('Alghero Sardinia').
 city_iata('Alghero Sardinia', 'AHO').
 city_lat('Alghero Sardinia', 40.630556).
 city_long('Alghero Sardinia', 8.288889).
-has_vibes('Alghero Sardinia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Alghero Sardinia', [underrated_destinations]).
 
 city('Ahuas').
 city_iata('Ahuas', 'AHS').
@@ -1112,7 +1112,7 @@ city('Auckland International').
 city_iata('Auckland International', 'AKL').
 city_lat('Auckland International', -37.0089158).
 city_long('Auckland International', 174.7862589).
-has_vibes('Auckland International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Auckland International', [nightlife_and_entertainment, great_food]).
 
 city('Zakouma').
 city_iata('Zakouma', 'AKM').
@@ -1148,7 +1148,7 @@ city('Auki').
 city_iata('Auki', 'AKS').
 city_lat('Auki', -8.697778).
 city_long('Auki', 160.680833).
-has_vibes('Auki', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Auki', [outdoor_adventures]).
 
 city('Akrotiri').
 city_iata('Akrotiri', 'AKT').
@@ -1184,7 +1184,7 @@ city('Almaty').
 city_iata('Almaty', 'ALA').
 city_lat('Almaty', 43.35).
 city_long('Almaty', 77.033333).
-has_vibes('Almaty', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Almaty', [nightlife_and_entertainment, underrated_destinations, art_and_culture]).
 
 city('Albany').
 city_iata('Albany', 'ALB').
@@ -1215,7 +1215,7 @@ city('Algiers').
 city_iata('Algiers', 'ALG').
 city_lat('Algiers', 36.693333).
 city_long('Algiers', 3.217222).
-has_vibes('Algiers', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Algiers', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Albany').
 city_iata('Albany', 'ALH').
@@ -1261,7 +1261,7 @@ city('Aleppo').
 city_iata('Aleppo', 'ALP').
 city_lat('Aleppo', 36.180833).
 city_long('Aleppo', 37.226667).
-has_vibes('Aleppo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Aleppo', [great_food]).
 
 city('Alegrete').
 city_iata('Alegrete', 'ALQ').
@@ -1302,7 +1302,7 @@ city('Alexandria El Nohza').
 city_iata('Alexandria El Nohza', 'ALY').
 city_lat('Alexandria El Nohza', 31.183903).
 city_long('Alexandria El Nohza', 29.948889).
-has_vibes('Alexandria El Nohza', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Alexandria El Nohza', [great_food]).
 
 city('Alitak').
 city_iata('Alitak', 'ALZ').
@@ -1328,7 +1328,7 @@ city('Ahmedabad').
 city_iata('Ahmedabad', 'AMD').
 city_lat('Ahmedabad', 23.066389).
 city_long('Ahmedabad', 72.624167).
-has_vibes('Ahmedabad', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Ahmedabad', [underrated_destinations]).
 
 city('Alto Molocue').
 city_iata('Alto Molocue', 'AME').
@@ -1369,7 +1369,7 @@ city('Amman Queen Alia').
 city_iata('Amman Queen Alia', 'AMM').
 city_lat('Amman Queen Alia', 31.7222741).
 city_long('Amman Queen Alia', 35.9864199).
-has_vibes('Amman Queen Alia', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Amman Queen Alia', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Alma').
 city_iata('Alma', 'AMN').
@@ -1390,7 +1390,7 @@ city('Ambon').
 city_iata('Ambon', 'AMQ').
 city_lat('Ambon', -3.71026).
 city_long('Ambon', 128.08914).
-has_vibes('Ambon', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Ambon', [beach]).
 
 city('Arno').
 city_iata('Arno', 'AMR').
@@ -1401,7 +1401,7 @@ city('Amsterdam Schiphol').
 city_iata('Amsterdam Schiphol', 'AMS').
 city_lat('Amsterdam Schiphol', 52.308333).
 city_long('Amsterdam Schiphol', 4.768056).
-has_vibes('Amsterdam Schiphol', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Amsterdam Schiphol', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Amata').
 city_iata('Amata', 'AMT').
@@ -1452,7 +1452,7 @@ city('Anchorage International').
 city_iata('Anchorage International', 'ANC').
 city_lat('Anchorage International', 61.169167).
 city_long('Anchorage International', -149.985278).
-has_vibes('Anchorage International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Anchorage International', [outdoor_adventures]).
 
 city('Anderson').
 city_iata('Anderson', 'AND').
@@ -1468,7 +1468,7 @@ city('Antofagasta').
 city_iata('Antofagasta', 'ANF').
 city_lat('Antofagasta', -23.439444).
 city_long('Antofagasta', -70.442778).
-has_vibes('Antofagasta', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Antofagasta', [beach, outdoor_adventures]).
 
 city('Angouleme').
 city_iata('Angouleme', 'ANG').
@@ -1524,7 +1524,7 @@ city('Antwerp Deurne').
 city_iata('Antwerp Deurne', 'ANR').
 city_lat('Antwerp Deurne', 51.19).
 city_long('Antwerp Deurne', 4.46).
-has_vibes('Antwerp Deurne', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Antwerp Deurne', [nightlife_and_entertainment, art_and_culture]).
 
 city('Andahuaylas').
 city_iata('Andahuaylas', 'ANS').
@@ -1540,7 +1540,7 @@ city('Saint Johns').
 city_iata('Saint Johns', 'ANU').
 city_lat('Saint Johns', 17.141111).
 city_long('Saint Johns', -61.785556).
-has_vibes('Saint Johns', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Saint Johns', [nightlife_and_entertainment, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Anvik').
 city_iata('Anvik', 'ANV').
@@ -1591,7 +1591,7 @@ city('Eskisehir').
 city_iata('Eskisehir', 'AOE').
 city_lat('Eskisehir', 39.809722).
 city_long('Eskisehir', 30.519167).
-has_vibes('Eskisehir', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Eskisehir', [nightlife_and_entertainment]).
 
 city('Anshan').
 city_iata('Anshan', 'AOG').
@@ -1607,7 +1607,7 @@ city('Ancona').
 city_iata('Ancona', 'AOI').
 city_lat('Ancona', 43.616342).
 city_long('Ancona', 13.362319).
-has_vibes('Ancona', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Ancona', [underrated_destinations]).
 
 city('Aomori').
 city_iata('Aomori', 'AOJ').
@@ -1658,7 +1658,7 @@ city('Denver Arapahoe Co').
 city_iata('Denver Arapahoe Co', 'APA').
 city_lat('Denver Arapahoe Co', 39.733333).
 city_long('Denver Arapahoe Co', -104.983333).
-has_vibes('Denver Arapahoe Co', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Denver Arapahoe Co', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Apolo').
 city_iata('Apolo', 'APB').
@@ -1684,7 +1684,7 @@ city('Naples').
 city_iata('Naples', 'APF').
 city_lat('Naples', 26.152778).
 city_long('Naples', -81.775278).
-has_vibes('Naples', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Naples', [beach]).
 
 city('Aberdeen').
 city_iata('Aberdeen', 'APG').
@@ -1760,7 +1760,7 @@ city('Apia Faleolo').
 city_iata('Apia Faleolo', 'APW').
 city_lat('Apia Faleolo', -13.833333).
 city_long('Apia Faleolo', -172).
-has_vibes('Apia Faleolo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Apia Faleolo', [nightlife_and_entertainment, underrated_destinations, great_food, outdoor_adventures]).
 
 city('Arapongas').
 city_iata('Arapongas', 'APX').
@@ -1801,7 +1801,7 @@ city('Aqaba').
 city_iata('Aqaba', 'AQJ').
 city_lat('Aqaba', 29.611619).
 city_long('Aqaba', 35.018067).
-has_vibes('Aqaba', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Aqaba', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Ariquemes').
 city_iata('Ariquemes', 'AQM').
@@ -1812,7 +1812,7 @@ city('Arequipa').
 city_iata('Arequipa', 'AQP').
 city_lat('Arequipa', -16.34107).
 city_long('Arequipa', -71.58308).
-has_vibes('Arequipa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Arequipa', [underrated_destinations, art_and_culture, great_food]).
 
 city('Saqani').
 city_iata('Saqani', 'AQS').
@@ -1878,7 +1878,7 @@ city('Arusha').
 city_iata('Arusha', 'ARK').
 city_lat('Arusha', -3.3643844518007584).
 city_long('Arusha', 36.624683536940566).
-has_vibes('Arusha', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Arusha', [outdoor_adventures]).
 
 city('Arly').
 city_iata('Arly', 'ARL').
@@ -1894,7 +1894,7 @@ city('Stockholm Arlanda').
 city_iata('Stockholm Arlanda', 'ARN').
 city_lat('Stockholm Arlanda', 59.6497405).
 city_long('Stockholm Arlanda', 17.9237592).
-has_vibes('Stockholm Arlanda', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Stockholm Arlanda', [nightlife_and_entertainment, great_food, outdoor_adventures]).
 
 city('Arboletas').
 city_iata('Arboletas', 'ARO').
@@ -1965,7 +1965,7 @@ city('Ashgabat').
 city_iata('Ashgabat', 'ASB').
 city_lat('Ashgabat', 37.981667).
 city_long('Ashgabat', 58.360833).
-has_vibes('Ashgabat', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Ashgabat', [art_and_culture]).
 
 city('Ascension').
 city_iata('Ascension', 'ASC').
@@ -2021,7 +2021,7 @@ city('Asmara').
 city_iata('Asmara', 'ASM').
 city_lat('Asmara', 15.291111).
 city_long('Asmara', 38.910278).
-has_vibes('Asmara', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Asmara', [art_and_culture, great_food]).
 
 city('Talladega').
 city_iata('Talladega', 'ASN').
@@ -2062,7 +2062,7 @@ city('Asuncion').
 city_iata('Asuncion', 'ASU').
 city_lat('Asuncion', -25.239167).
 city_long('Asuncion', -57.519167).
-has_vibes('Asuncion', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Asuncion', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Amboseli').
 city_iata('Amboseli', 'ASV').
@@ -2073,7 +2073,7 @@ city('Aswan').
 city_iata('Aswan', 'ASW').
 city_lat('Aswan', 23.965).
 city_long('Aswan', 32.821667).
-has_vibes('Aswan', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Aswan', [art_and_culture]).
 
 city('Ashland (Wisconsin)').
 city_iata('Ashland (Wisconsin)', 'ASX').
@@ -2129,7 +2129,7 @@ city('Athens International').
 city_iata('Athens International', 'ATH').
 city_lat('Athens International', 37.9354774).
 city_long('Athens International', 23.9482976).
-has_vibes('Athens International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Athens International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Artigas').
 city_iata('Artigas', 'ATI').
@@ -2150,7 +2150,7 @@ city('Atlanta Hartsfield-Jackson').
 city_iata('Atlanta Hartsfield-Jackson', 'ATL').
 city_lat('Atlanta Hartsfield-Jackson', 33.640833).
 city_long('Atlanta Hartsfield-Jackson', -84.427222).
-has_vibes('Atlanta Hartsfield-Jackson', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Atlanta Hartsfield-Jackson', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Altamira').
 city_iata('Altamira', 'ATM').
@@ -2261,7 +2261,7 @@ city('Zayed International').
 city_iata('Zayed International', 'AUH').
 city_lat('Zayed International', 24.433333).
 city_long('Zayed International', 54.65).
-has_vibes('Zayed International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Zayed International', [nightlife_and_entertainment, art_and_culture]).
 
 city('Aua Island').
 city_iata('Aua Island', 'AUI').
@@ -2317,7 +2317,7 @@ city('Austin-Bergstrom').
 city_iata('Austin-Bergstrom', 'AUS').
 city_lat('Austin-Bergstrom', 30.2).
 city_long('Austin-Bergstrom', -97.666667).
-has_vibes('Austin-Bergstrom', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Austin-Bergstrom', [nightlife_and_entertainment, underrated_destinations]).
 
 city('Atauro').
 city_iata('Atauro', 'AUT').
@@ -2383,7 +2383,7 @@ city('Asheville').
 city_iata('Asheville', 'AVL').
 city_lat('Asheville', 35.435).
 city_long('Asheville', -82.541111).
-has_vibes('Asheville', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Asheville', [underrated_destinations]).
 
 city('Avon Park').
 city_iata('Avon Park', 'AVO').
@@ -2404,7 +2404,7 @@ city('Melbourne Avalon').
 city_iata('Melbourne Avalon', 'AVV').
 city_lat('Melbourne Avalon', -38.03944).
 city_long('Melbourne Avalon', 144.46944).
-has_vibes('Melbourne Avalon', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Melbourne Avalon', [nightlife_and_entertainment, great_food]).
 
 city('Tucson Avra Valley').
 city_iata('Tucson Avra Valley', 'AVW').
@@ -2610,7 +2610,7 @@ city('Yas Island SPB').
 city_iata('Yas Island SPB', 'AYM').
 city_lat('Yas Island SPB', 24.464503).
 city_long('Yas Island SPB', 54.610497).
-has_vibes('Yas Island SPB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Yas Island SPB', [nightlife_and_entertainment, art_and_culture]).
 
 city('Anyang').
 city_iata('Anyang', 'AYN').
@@ -2646,7 +2646,7 @@ city('Antalya').
 city_iata('Antalya', 'AYT').
 city_lat('Antalya', 36.905556).
 city_long('Antalya', 30.790556).
-has_vibes('Antalya', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Antalya', [nightlife_and_entertainment, outdoor_adventures]).
 
 city('Aiyura').
 city_iata('Aiyura', 'AYU').
@@ -2667,7 +2667,7 @@ city('Phoenix-Mesa Gateway').
 city_iata('Phoenix-Mesa Gateway', 'AZA').
 city_lat('Phoenix-Mesa Gateway', 33.307778).
 city_long('Phoenix-Mesa Gateway', -111.655556).
-has_vibes('Phoenix-Mesa Gateway', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Phoenix-Mesa Gateway', [beach]).
 
 city('Amazon Bay').
 city_iata('Amazon Bay', 'AZB').
@@ -2693,7 +2693,7 @@ city('Abu Dhabi Bateen').
 city_iata('Abu Dhabi Bateen', 'AZI').
 city_lat('Abu Dhabi Bateen', 24.419167).
 city_long('Abu Dhabi Bateen', 54.451667).
-has_vibes('Abu Dhabi Bateen', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Abu Dhabi Bateen', [nightlife_and_entertainment, art_and_culture]).
 
 city('Andizhan').
 city_iata('Andizhan', 'AZN').
@@ -2709,7 +2709,7 @@ city('Mexico City Atizapan').
 city_iata('Mexico City Atizapan', 'AZP').
 city_lat('Mexico City Atizapan', 19.416667).
 city_long('Mexico City Atizapan', -99.1).
-has_vibes('Mexico City Atizapan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Mexico City Atizapan', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Adrar').
 city_iata('Adrar', 'AZR').
@@ -2770,7 +2770,7 @@ city('Bahrain').
 city_iata('Bahrain', 'BAH').
 city_lat('Bahrain', 26.270833).
 city_long('Bahrain', 50.6375).
-has_vibes('Bahrain', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bahrain', [nightlife_and_entertainment, underrated_destinations, art_and_culture]).
 
 city('Buenos Aires').
 city_iata('Buenos Aires', 'BAI').
@@ -2806,7 +2806,7 @@ city('Barranquilla').
 city_iata('Barranquilla', 'BAQ').
 city_lat('Barranquilla', 10.896111).
 city_long('Barranquilla', -74.778889).
-has_vibes('Barranquilla', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Barranquilla', [nightlife_and_entertainment, great_food]).
 
 city('Boao').
 city_iata('Boao', 'BAR').
@@ -2887,7 +2887,7 @@ city('Bhubaneswar').
 city_iata('Bhubaneswar', 'BBI').
 city_lat('Bhubaneswar', 20.243611).
 city_long('Bhubaneswar', 85.82).
-has_vibes('Bhubaneswar', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bhubaneswar', [underrated_destinations]).
 
 city('Bitburg').
 city_iata('Bitburg', 'BBJ').
@@ -2898,7 +2898,7 @@ city('Kasane').
 city_iata('Kasane', 'BBK').
 city_lat('Kasane', -17.83288).
 city_long('Kasane', 25.1624).
-has_vibes('Kasane', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Kasane', [outdoor_adventures]).
 
 city('Battambang').
 city_iata('Battambang', 'BBM').
@@ -2944,7 +2944,7 @@ city('Bucharest Baneasa').
 city_iata('Bucharest Baneasa', 'BBU').
 city_lat('Bucharest Baneasa', 44.5).
 city_long('Bucharest Baneasa', 26.1).
-has_vibes('Bucharest Baneasa', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bucharest Baneasa', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Bereby').
 city_iata('Bereby', 'BBV').
@@ -2975,7 +2975,7 @@ city('Baracoa').
 city_iata('Baracoa', 'BCA').
 city_lat('Baracoa', 20.36532).
 city_long('Baracoa', -74.50621).
-has_vibes('Baracoa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Baracoa', [art_and_culture, outdoor_adventures]).
 
 city('Blacksburg').
 city_iata('Blacksburg', 'BCB').
@@ -3041,7 +3041,7 @@ city('Barcelona').
 city_iata('Barcelona', 'BCN').
 city_lat('Barcelona', 41.2973241).
 city_long('Barcelona', 2.0833156).
-has_vibes('Barcelona', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Barcelona', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Jinka').
 city_iata('Jinka', 'BCO').
@@ -3082,7 +3082,7 @@ city('Belmopan').
 city_iata('Belmopan', 'BCV').
 city_lat('Belmopan', 17.266667).
 city_long('Belmopan', -88.783333).
-has_vibes('Belmopan', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Belmopan', [art_and_culture]).
 
 city('Benguera Island').
 city_iata('Benguera Island', 'BCW').
@@ -3113,7 +3113,7 @@ city('Bundaberg').
 city_iata('Bundaberg', 'BDB').
 city_lat('Bundaberg', -24.905833).
 city_long('Bundaberg', 152.320833).
-has_vibes('Bundaberg', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Bundaberg', [outdoor_adventures]).
 
 city('Barra Do Corda').
 city_iata('Barra Do Corda', 'BDC').
@@ -3179,7 +3179,7 @@ city('Bandung').
 city_iata('Bandung', 'BDO').
 city_lat('Bandung', -6.901667).
 city_long('Bandung', 107.575833).
-has_vibes('Bandung', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bandung', [art_and_culture]).
 
 city('Bhadrapur').
 city_iata('Bhadrapur', 'BDP').
@@ -3200,7 +3200,7 @@ city('Brindisi').
 city_iata('Brindisi', 'BDS').
 city_lat('Brindisi', 40.658056).
 city_long('Brindisi', 17.946667).
-has_vibes('Brindisi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Brindisi', [great_food]).
 
 city('Gbadolite').
 city_iata('Gbadolite', 'BDT').
@@ -3271,7 +3271,7 @@ city('Belgrade Nikola Tesla').
 city_iata('Belgrade Nikola Tesla', 'BEG').
 city_lat('Belgrade Nikola Tesla', 44.819167).
 city_long('Belgrade Nikola Tesla', 20.312222).
-has_vibes('Belgrade Nikola Tesla', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Belgrade Nikola Tesla', [nightlife_and_entertainment, great_food]).
 
 city('Benton Harbor').
 city_iata('Benton Harbor', 'BEH').
@@ -3297,7 +3297,7 @@ city('Belem').
 city_iata('Belem', 'BEL').
 city_lat('Belem', -1.379167).
 city_long('Belem', -48.476111).
-has_vibes('Belem', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Belem', [nightlife_and_entertainment]).
 
 city('Beni Mellal').
 city_iata('Beni Mellal', 'BEM').
@@ -3313,7 +3313,7 @@ city('Newcastle Belmont').
 city_iata('Newcastle Belmont', 'BEO').
 city_lat('Newcastle Belmont', -33.033333).
 city_long('Newcastle Belmont', 151.666667).
-has_vibes('Newcastle Belmont', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Newcastle Belmont', [nightlife_and_entertainment, beach, great_food]).
 
 city('Bellary').
 city_iata('Bellary', 'BEP').
@@ -3329,7 +3329,7 @@ city('Berlin Brandenburg').
 city_iata('Berlin Brandenburg', 'BER').
 city_lat('Berlin Brandenburg', 52.366667).
 city_long('Berlin Brandenburg', 13.50333).
-has_vibes('Berlin Brandenburg', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Berlin Brandenburg', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Brest').
 city_iata('Brest', 'BES').
@@ -3360,7 +3360,7 @@ city('Beirut').
 city_iata('Beirut', 'BEY').
 city_lat('Beirut', 33.8194647).
 city_long('Beirut', 35.4912258).
-has_vibes('Beirut', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Beirut', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Beru').
 city_iata('Beru', 'BEZ').
@@ -3406,13 +3406,13 @@ city('Bacacheri').
 city_iata('Bacacheri', 'BFH').
 city_lat('Bacacheri', -25.4025).
 city_long('Bacacheri', -49.233889).
-has_vibes('Bacacheri', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bacacheri', [nightlife_and_entertainment, underrated_destinations]).
 
 city('Seattle Boeing Fld').
 city_iata('Seattle Boeing Fld', 'BFI').
 city_lat('Seattle Boeing Fld', 47.528889).
 city_long('Seattle Boeing Fld', -122.299444).
-has_vibes('Seattle Boeing Fld', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Seattle Boeing Fld', [nightlife_and_entertainment]).
 
 city('Bijie Feixiong').
 city_iata('Bijie Feixiong', 'BFJ').
@@ -3423,7 +3423,7 @@ city('Denver Buckley ANGB').
 city_iata('Denver Buckley ANGB', 'BFK').
 city_lat('Denver Buckley ANGB', 39.733333).
 city_long('Denver Buckley ANGB', -104.866667).
-has_vibes('Denver Buckley ANGB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Denver Buckley ANGB', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Bakersfield').
 city_iata('Bakersfield', 'BFL').
@@ -3464,7 +3464,7 @@ city('Belfast International').
 city_iata('Belfast International', 'BFS').
 city_lat('Belfast International', 54.656371).
 city_long('Belfast International', -6.2172632).
-has_vibes('Belfast International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Belfast International', [underrated_destinations, art_and_culture]).
 
 city('Beaufort').
 city_iata('Beaufort', 'BFT').
@@ -3535,7 +3535,7 @@ city('Bridgetown').
 city_iata('Bridgetown', 'BGI').
 city_lat('Bridgetown', 13.072222).
 city_long('Bridgetown', -59.493056).
-has_vibes('Bridgetown', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bridgetown', [nightlife_and_entertainment, beach, art_and_culture, great_food]).
 
 city('Borgarfjordur Eystri').
 city_iata('Borgarfjordur Eystri', 'BGJ').
@@ -3566,7 +3566,7 @@ city('Bergen').
 city_iata('Bergen', 'BGO').
 city_lat('Bergen', 60.293611).
 city_long('Bergen', 5.219444).
-has_vibes('Bergen', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bergen', [underrated_destinations, art_and_culture, great_food]).
 
 city('Bongo').
 city_iata('Bongo', 'BGP').
@@ -3607,7 +3607,7 @@ city('Baghdad International').
 city_iata('Baghdad International', 'BGW').
 city_lat('Baghdad International', 33.2556).
 city_long('Baghdad International', 44.225).
-has_vibes('Baghdad International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Baghdad International', [nightlife_and_entertainment, great_food]).
 
 city('Bage').
 city_iata('Bage', 'BGX').
@@ -3643,13 +3643,13 @@ city('Belfast City').
 city_iata('Belfast City', 'BHD').
 city_lat('Belfast City', 54.616667).
 city_long('Belfast City', -5.883333).
-has_vibes('Belfast City', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Belfast City', [underrated_destinations, art_and_culture]).
 
 city('Blenheim').
 city_iata('Blenheim', 'BHE').
 city_lat('Blenheim', -41.516667).
 city_long('Blenheim', 173.872222).
-has_vibes('Blenheim', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Blenheim', [great_food]).
 
 city('Bahia Cupica').
 city_iata('Bahia Cupica', 'BHF').
@@ -3680,7 +3680,7 @@ city('Bukhara').
 city_iata('Bukhara', 'BHK').
 city_lat('Bukhara', 39.766667).
 city_long('Bukhara', 64.483333).
-has_vibes('Bukhara', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bukhara', [art_and_culture, great_food]).
 
 city('Bahia Angeles').
 city_iata('Bahia Angeles', 'BHL').
@@ -3721,7 +3721,7 @@ city('Bathurst').
 city_iata('Bathurst', 'BHS').
 city_lat('Bathurst', -33.409167).
 city_long('Bathurst', 149.653333).
-has_vibes('Bathurst', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bathurst', [art_and_culture]).
 
 city('Brighton Downs').
 city_iata('Brighton Downs', 'BHT').
@@ -3757,7 +3757,7 @@ city('Bastia - Corsica').
 city_iata('Bastia - Corsica', 'BIA').
 city_lat('Bastia - Corsica', 42.549167).
 city_long('Bastia - Corsica', 9.486111).
-has_vibes('Bastia - Corsica', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bastia - Corsica', [underrated_destinations]).
 
 city('Baidoa').
 city_iata('Baidoa', 'BIB').
@@ -3828,7 +3828,7 @@ city('Bilbao').
 city_iata('Bilbao', 'BIO').
 city_lat('Bilbao', 43.3023769).
 city_long('Bilbao', -2.9112662).
-has_vibes('Bilbao', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bilbao', [underrated_destinations]).
 
 city('Bulimba').
 city_iata('Bulimba', 'BIP').
@@ -3839,7 +3839,7 @@ city('Biarritz').
 city_iata('Biarritz', 'BIQ').
 city_lat('Biarritz', 43.469722).
 city_long('Biarritz', -1.522778).
-has_vibes('Biarritz', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Biarritz', [underrated_destinations, beach]).
 
 city('Biratnagar').
 city_iata('Biratnagar', 'BIR').
@@ -3940,13 +3940,13 @@ city('Banjul').
 city_iata('Banjul', 'BJL').
 city_lat('Banjul', 13.35).
 city_long('Banjul', -16.666667).
-has_vibes('Banjul', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Banjul', [nightlife_and_entertainment, great_food]).
 
 city('Bujumbura').
 city_iata('Bujumbura', 'BJM').
 city_lat('Bujumbura', -3.323889).
 city_long('Bujumbura', 29.318333).
-has_vibes('Bujumbura', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bujumbura', [great_food]).
 
 city('Bajone').
 city_iata('Bajone', 'BJN').
@@ -3982,7 +3982,7 @@ city('Milas–Bodrum').
 city_iata('Milas–Bodrum', 'BJV').
 city_lat('Milas–Bodrum', 37.25).
 city_long('Milas–Bodrum', 27.683333).
-has_vibes('Milas–Bodrum', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Milas–Bodrum', [nightlife_and_entertainment, underrated_destinations]).
 
 city('Bajawa').
 city_iata('Bajawa', 'BJW').
@@ -3998,7 +3998,7 @@ city('Belgrade Batajnica').
 city_iata('Belgrade Batajnica', 'BJY').
 city_lat('Belgrade Batajnica', 44.9353).
 city_long('Belgrade Batajnica', 20.2575).
-has_vibes('Belgrade Batajnica', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Belgrade Batajnica', [nightlife_and_entertainment, great_food]).
 
 city('Badajoz').
 city_iata('Badajoz', 'BJZ').
@@ -4049,7 +4049,7 @@ city('Kota Kinabalu').
 city_iata('Kota Kinabalu', 'BKI').
 city_lat('Kota Kinabalu', 5.940833).
 city_long('Kota Kinabalu', 116.05).
-has_vibes('Kota Kinabalu', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Kota Kinabalu', [nightlife_and_entertainment, beach, outdoor_adventures]).
 
 city('Boke').
 city_iata('Boke', 'BKJ').
@@ -4060,7 +4060,7 @@ city('Bangkok Suvarnabhumi').
 city_iata('Bangkok Suvarnabhumi', 'BKK').
 city_lat('Bangkok Suvarnabhumi', 13.6900825).
 city_long('Bangkok Suvarnabhumi', 100.7501553).
-has_vibes('Bangkok Suvarnabhumi', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bangkok Suvarnabhumi', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Cleveland Burke Lakefront').
 city_iata('Cleveland Burke Lakefront', 'BKL').
@@ -4081,7 +4081,7 @@ city('Modibo Keita International').
 city_iata('Modibo Keita International', 'BKO').
 city_lat('Modibo Keita International', 12.533611).
 city_long('Modibo Keita International', -7.933333).
-has_vibes('Modibo Keita International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Modibo Keita International', [nightlife_and_entertainment]).
 
 city('Barkly Downs').
 city_iata('Barkly Downs', 'BKP').
@@ -4142,7 +4142,7 @@ city('Balboa').
 city_iata('Balboa', 'BLB').
 city_lat('Balboa', 8.973056).
 city_long('Balboa', -79.5575).
-has_vibes('Balboa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Balboa', [great_food]).
 
 city('Bali').
 city_iata('Bali', 'BLC').
@@ -4218,7 +4218,7 @@ city('Bologna International').
 city_iata('Bologna International', 'BLQ').
 city_lat('Bologna International', 44.530556).
 city_long('Bologna International', 11.2925).
-has_vibes('Bologna International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bologna International', [underrated_destinations, great_food]).
 
 city('Bengaluru').
 city_iata('Bengaluru', 'BLR').
@@ -4269,7 +4269,7 @@ city('Stockholm Bromma').
 city_iata('Stockholm Bromma', 'BMA').
 city_lat('Stockholm Bromma', 59.352778).
 city_long('Stockholm Bromma', 17.946389).
-has_vibes('Stockholm Bromma', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Stockholm Bromma', [nightlife_and_entertainment, great_food, outdoor_adventures]).
 
 city('Bumba').
 city_iata('Bumba', 'BMB').
@@ -4395,7 +4395,7 @@ city('Nashville').
 city_iata('Nashville', 'BNA').
 city_lat('Nashville', 36.126667).
 city_long('Nashville', -86.681944).
-has_vibes('Nashville', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Nashville', [nightlife_and_entertainment]).
 
 city('Boende').
 city_iata('Boende', 'BNB').
@@ -4416,7 +4416,7 @@ city('Brisbane').
 city_iata('Brisbane', 'BNE').
 city_lat('Brisbane', -27.3942334).
 city_long('Brisbane', 153.1218088).
-has_vibes('Brisbane', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Brisbane', [nightlife_and_entertainment, great_food]).
 
 city('Baranof').
 city_iata('Baranof', 'BNF').
@@ -4482,7 +4482,7 @@ city('Barinas').
 city_iata('Barinas', 'BNS').
 city_lat('Barinas', 8.618056).
 city_long('Barinas', -70.221111).
-has_vibes('Barinas', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Barinas', [art_and_culture]).
 
 city('Bundi').
 city_iata('Bundi', 'BNT').
@@ -4533,13 +4533,13 @@ city('Bocas Del Toro').
 city_iata('Bocas Del Toro', 'BOC').
 city_lat('Bocas Del Toro', 9.34).
 city_long('Bocas Del Toro', -82.251944).
-has_vibes('Bocas Del Toro', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Bocas Del Toro', [nightlife_and_entertainment, beach, great_food, outdoor_adventures]).
 
 city('Bordeaux').
 city_iata('Bordeaux', 'BOD').
 city_lat('Bordeaux', 44.8294607).
 city_long('Bordeaux', -0.7129053).
-has_vibes('Bordeaux', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bordeaux', [nightlife_and_entertainment, underrated_destinations, great_food]).
 
 city('Boundji').
 city_iata('Boundji', 'BOE').
@@ -4550,13 +4550,13 @@ city('Washington Bolling AFB').
 city_iata('Washington Bolling AFB', 'BOF').
 city_lat('Washington Bolling AFB', 38.9).
 city_long('Washington Bolling AFB', -77.033333).
-has_vibes('Washington Bolling AFB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Washington Bolling AFB', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Bogota').
 city_iata('Bogota', 'BOG').
 city_lat('Bogota', 4.7010253).
 city_long('Bogota', -74.1461187).
-has_vibes('Bogota', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Bogota', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Bournemouth').
 city_iata('Bournemouth', 'BOH').
@@ -4572,7 +4572,7 @@ city('Bourgas').
 city_iata('Bourgas', 'BOJ').
 city_lat('Bourgas', 42.5696).
 city_long('Bourgas', 27.5152).
-has_vibes('Bourgas', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bourgas', [beach]).
 
 city('Brookings').
 city_iata('Brookings', 'BOK').
@@ -4588,7 +4588,7 @@ city('Mumbai').
 city_iata('Mumbai', 'BOM').
 city_lat('Mumbai', 19.088056).
 city_long('Mumbai', 72.851667).
-has_vibes('Mumbai', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Mumbai', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Flamingo International').
 city_iata('Flamingo International', 'BON').
@@ -4599,7 +4599,7 @@ city('Bodo').
 city_iata('Bodo', 'BOO').
 city_lat('Bodo', 67.269167).
 city_long('Bodo', 14.372222).
-has_vibes('Bodo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bodo', [art_and_culture]).
 
 city('Bouar').
 city_iata('Bouar', 'BOP').
@@ -4620,7 +4620,7 @@ city('Boston Logan International').
 city_iata('Boston Logan International', 'BOS').
 city_lat('Boston Logan International', 42.365).
 city_long('Boston Logan International', -71.005278).
-has_vibes('Boston Logan International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Boston Logan International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Boset').
 city_iata('Boset', 'BOT').
@@ -4791,7 +4791,7 @@ city('Aguadilla').
 city_iata('Aguadilla', 'BQN').
 city_lat('Aguadilla', 18.495833).
 city_long('Aguadilla', -67.13).
-has_vibes('Aguadilla', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Aguadilla', [beach]).
 
 city('Bouna').
 city_iata('Bouna', 'BQO').
@@ -4817,7 +4817,7 @@ city('J. F. Mitchell').
 city_iata('J. F. Mitchell', 'BQU').
 city_lat('J. F. Mitchell', 12.986667).
 city_long('J. F. Mitchell', -61.264167).
-has_vibes('J. F. Mitchell', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('J. F. Mitchell', [beach]).
 
 city('Gustavus Bartlett SPB').
 city_iata('Gustavus Bartlett SPB', 'BQV').
@@ -4843,7 +4843,7 @@ city('San Carlos DeBariloche').
 city_iata('San Carlos DeBariloche', 'BRC').
 city_lat('San Carlos DeBariloche', -41.149722).
 city_long('San Carlos DeBariloche', -71.158333).
-has_vibes('San Carlos DeBariloche', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('San Carlos DeBariloche', [underrated_destinations, outdoor_adventures]).
 
 city('Brainerd').
 city_iata('Brainerd', 'BRD').
@@ -4854,7 +4854,7 @@ city('Bremen').
 city_iata('Bremen', 'BRE').
 city_lat('Bremen', 53.046667).
 city_long('Bremen', 8.79).
-has_vibes('Bremen', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bremen', [underrated_destinations]).
 
 city('Bradford').
 city_iata('Bradford', 'BRF').
@@ -4875,7 +4875,7 @@ city('Bari').
 city_iata('Bari', 'BRI').
 city_lat('Bari', 41.141111).
 city_long('Bari', 16.788333).
-has_vibes('Bari', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bari', [underrated_destinations]).
 
 city('Bright').
 city_iata('Bright', 'BRJ').
@@ -4916,7 +4916,7 @@ city('Brno-Turany').
 city_iata('Brno-Turany', 'BRQ').
 city_lat('Brno-Turany', 49.152745).
 city_long('Brno-Turany', 16.687202).
-has_vibes('Brno-Turany', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Brno-Turany', [art_and_culture]).
 
 city('Barra').
 city_iata('Barra', 'BRR').
@@ -4927,7 +4927,7 @@ city('Bristol').
 city_iata('Bristol', 'BRS').
 city_lat('Bristol', 51.383688).
 city_long('Bristol', -2.713563).
-has_vibes('Bristol', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bristol', [underrated_destinations]).
 
 city('Bathurst Island').
 city_iata('Bathurst Island', 'BRT').
@@ -4938,7 +4938,7 @@ city('Brussels International').
 city_iata('Brussels International', 'BRU').
 city_lat('Brussels International', 50.9009854).
 city_long('Brussels International', 4.4855529).
-has_vibes('Brussels International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Brussels International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Barrow Wiley Post / W.Rogers M').
 city_iata('Barrow Wiley Post / W.Rogers M', 'BRW').
@@ -5044,7 +5044,7 @@ city('Basra').
 city_iata('Basra', 'BSR').
 city_lat('Basra', 30.549167).
 city_long('Basra', 47.662222).
-has_vibes('Basra', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Basra', [great_food]).
 
 city('Balsas').
 city_iata('Balsas', 'BSS').
@@ -5100,7 +5100,7 @@ city('Batticaloa').
 city_iata('Batticaloa', 'BTC').
 city_lat('Batticaloa', 7.703333).
 city_long('Batticaloa', 81.678611).
-has_vibes('Batticaloa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Batticaloa', [beach]).
 
 city('Brunette Downs').
 city_iata('Brunette Downs', 'BTD').
@@ -5126,7 +5126,7 @@ city('Batam').
 city_iata('Batam', 'BTH').
 city_lat('Batam', 1.121111).
 city_long('Batam', 104.118889).
-has_vibes('Batam', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Batam', [art_and_culture]).
 
 city('Barter Island').
 city_iata('Barter Island', 'BTI').
@@ -5137,7 +5137,7 @@ city('Banda Aceh').
 city_iata('Banda Aceh', 'BTJ').
 city_lat('Banda Aceh', 5.52).
 city_long('Banda Aceh', 95.419444).
-has_vibes('Banda Aceh', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Banda Aceh', [beach]).
 
 city('Bratsk').
 city_iata('Bratsk', 'BTK').
@@ -5183,7 +5183,7 @@ city('Bratislava').
 city_iata('Bratislava', 'BTS').
 city_lat('Bratislava', 48.1702133).
 city_long('Bratislava', 17.2104702).
-has_vibes('Bratislava', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bratislava', [underrated_destinations, art_and_culture]).
 
 city('Bettles').
 city_iata('Bettles', 'BTT').
@@ -5199,7 +5199,7 @@ city('Burlington').
 city_iata('Burlington', 'BTV').
 city_lat('Burlington', 44.472778).
 city_long('Burlington', -73.153056).
-has_vibes('Burlington', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Burlington', [underrated_destinations]).
 
 city('Batu Licin').
 city_iata('Batu Licin', 'BTW').
@@ -5240,7 +5240,7 @@ city('Budapest').
 city_iata('Budapest', 'BUD').
 city_lat('Budapest', 47.4384151).
 city_long('Budapest', 19.2523173).
-has_vibes('Budapest', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Budapest', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Buffalo Niagara').
 city_iata('Buffalo Niagara', 'BUF').
@@ -5301,13 +5301,13 @@ city('Burbank').
 city_iata('Burbank', 'BUR').
 city_lat('Burbank', 34.2).
 city_long('Burbank', -118.357778).
-has_vibes('Burbank', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Burbank', [beach]).
 
 city('Batumi').
 city_iata('Batumi', 'BUS').
 city_lat('Batumi', 41.610833).
 city_long('Batumi', 41.600556).
-has_vibes('Batumi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Batumi', [great_food]).
 
 city('Bathpalathang').
 city_iata('Bathpalathang', 'BUT').
@@ -5348,7 +5348,7 @@ city('Paris Beauvais').
 city_iata('Paris Beauvais', 'BVA').
 city_lat('Paris Beauvais', 49.455833).
 city_long('Paris Beauvais', 2.1125).
-has_vibes('Paris Beauvais', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Paris Beauvais', [art_and_culture, great_food]).
 
 city('Boa Vista').
 city_iata('Boa Vista', 'BVB').
@@ -5494,7 +5494,7 @@ city('Baltimore Washington International').
 city_iata('Baltimore Washington International', 'BWI').
 city_lat('Baltimore Washington International', 39.175556).
 city_long('Baltimore Washington International', -76.671389).
-has_vibes('Baltimore Washington International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Baltimore Washington International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Bawan').
 city_iata('Bawan', 'BWJ').
@@ -5520,7 +5520,7 @@ city('Bandar Seri Begawan').
 city_iata('Bandar Seri Begawan', 'BWN').
 city_lat('Bandar Seri Begawan', 4.9442).
 city_long('Bandar Seri Begawan', 114.92835).
-has_vibes('Bandar Seri Begawan', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Bandar Seri Begawan', [beach, great_food, outdoor_adventures]).
 
 city('Balakovo').
 city_iata('Balakovo', 'BWO').
@@ -5601,7 +5601,7 @@ city('Bendigo').
 city_iata('Bendigo', 'BXG').
 city_lat('Bendigo', -36.734722).
 city_long('Bendigo', 144.301944).
-has_vibes('Bendigo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Bendigo', [art_and_culture]).
 
 city('Balhash').
 city_iata('Balhash', 'BXH').
@@ -5752,7 +5752,7 @@ city('Bonito').
 city_iata('Bonito', 'BYO').
 city_lat('Bonito', -21.229444).
 city_long('Bonito', -56.456111).
-has_vibes('Bonito', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Bonito', [outdoor_adventures]).
 
 city('Barimunya').
 city_iata('Barimunya', 'BYP').
@@ -5853,7 +5853,7 @@ city('Bozeman Yellowstone International').
 city_iata('Bozeman Yellowstone International', 'BZN').
 city_lat('Bozeman Yellowstone International', 45.77782).
 city_long('Bozeman Yellowstone International', -111.151772).
-has_vibes('Bozeman Yellowstone International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Bozeman Yellowstone International', [outdoor_adventures]).
 
 city('Bolzano').
 city_iata('Bolzano', 'BZO').
@@ -5874,7 +5874,7 @@ city('Washington Buzzards Pt S').
 city_iata('Washington Buzzards Pt S', 'BZS').
 city_lat('Washington Buzzards Pt S', 38.863333).
 city_long('Washington Buzzards Pt S', -77.013333).
-has_vibes('Washington Buzzards Pt S', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Washington Buzzards Pt S', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Brazoria').
 city_iata('Brazoria', 'BZT').
@@ -5940,7 +5940,7 @@ city('Cagliari').
 city_iata('Cagliari', 'CAG').
 city_lat('Cagliari', 39.247222).
 city_long('Cagliari', 9.061111).
-has_vibes('Cagliari', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cagliari', [underrated_destinations, beach]).
 
 city('Ca Mau').
 city_iata('Ca Mau', 'CAH').
@@ -5951,7 +5951,7 @@ city('Cairo').
 city_iata('Cairo', 'CAI').
 city_lat('Cairo', 30.1128361).
 city_long('Cairo', 31.3997046).
-has_vibes('Cairo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Cairo', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Canaima').
 city_iata('Canaima', 'CAJ').
@@ -5977,7 +5977,7 @@ city('Guangzhou').
 city_iata('Guangzhou', 'CAN').
 city_lat('Guangzhou', 23.39244).
 city_long('Guangzhou', 113.29879).
-has_vibes('Guangzhou', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Guangzhou', [nightlife_and_entertainment]).
 
 city('Clayton').
 city_iata('Clayton', 'CAO').
@@ -5988,7 +5988,7 @@ city('Cap Haitien').
 city_iata('Cap Haitien', 'CAP').
 city_lat('Cap Haitien', 19.732778).
 city_long('Cap Haitien', -72.195).
-has_vibes('Cap Haitien', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cap Haitien', [nightlife_and_entertainment, beach]).
 
 city('Caucasia').
 city_iata('Caucasia', 'CAQ').
@@ -6044,7 +6044,7 @@ city('Cochabamba').
 city_iata('Cochabamba', 'CBB').
 city_lat('Cochabamba', -17.428333).
 city_long('Cochabamba', -66.171667).
-has_vibes('Cochabamba', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Cochabamba', [great_food]).
 
 city('Cherrabun').
 city_iata('Cherrabun', 'CBC').
@@ -6120,7 +6120,7 @@ city('Canberra').
 city_iata('Canberra', 'CBR').
 city_lat('Canberra', -35.308889).
 city_long('Canberra', 149.195).
-has_vibes('Canberra', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Canberra', [art_and_culture, great_food]).
 
 city('Cabimas').
 city_iata('Cabimas', 'CBS').
@@ -6181,13 +6181,13 @@ city('Los Angeles Century City').
 city_iata('Los Angeles Century City', 'CCD').
 city_lat('Los Angeles Century City', 34.066667).
 city_long('Los Angeles Century City', -118.266667).
-has_vibes('Los Angeles Century City', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles Century City', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Capital International').
 city_iata('Capital International', 'CCE').
 city_lat('Capital International', 30.075833).
 city_long('Capital International', 31.833333).
-has_vibes('Capital International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Capital International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Carcassonne').
 city_iata('Carcassonne', 'CCF').
@@ -6253,13 +6253,13 @@ city('Concord').
 city_iata('Concord', 'CCR').
 city_lat('Concord', 37.988889).
 city_long('Concord', -122.055556).
-has_vibes('Concord', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Concord', [beach]).
 
 city('Caracas').
 city_iata('Caracas', 'CCS').
 city_lat('Caracas', 10.606389).
 city_long('Caracas', -66.989167).
-has_vibes('Caracas', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Caracas', [nightlife_and_entertainment, art_and_culture]).
 
 city('Colonia Catriel').
 city_iata('Colonia Catriel', 'CCT').
@@ -6270,7 +6270,7 @@ city('Kolkata').
 city_iata('Kolkata', 'CCU').
 city_lat('Kolkata', 22.6525).
 city_long('Kolkata', 88.449167).
-has_vibes('Kolkata', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kolkata', [nightlife_and_entertainment, art_and_culture]).
 
 city('Craig Cove').
 city_iata('Craig Cove', 'CCV').
@@ -6331,7 +6331,7 @@ city('Paris Charles de Gaulle').
 city_iata('Paris Charles de Gaulle', 'CDG').
 city_lat('Paris Charles de Gaulle', 49.0096176).
 city_long('Paris Charles de Gaulle', 2.5481698).
-has_vibes('Paris Charles de Gaulle', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Paris Charles de Gaulle', [art_and_culture, great_food]).
 
 city('Camden').
 city_iata('Camden', 'CDH').
@@ -6422,7 +6422,7 @@ city('Mactan-Cebu International').
 city_iata('Mactan-Cebu International', 'CEB').
 city_lat('Mactan-Cebu International', 10.307222).
 city_long('Mactan-Cebu International', 123.978889).
-has_vibes('Mactan-Cebu International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Mactan-Cebu International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food, outdoor_adventures]).
 
 city('Crescent City').
 city_iata('Crescent City', 'CEC').
@@ -6458,7 +6458,7 @@ city('Chiang Rai').
 city_iata('Chiang Rai', 'CEI').
 city_lat('Chiang Rai', 19.9525).
 city_long('Chiang Rai', 99.883056).
-has_vibes('Chiang Rai', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chiang Rai', [underrated_destinations, great_food]).
 
 city('Chernihiv').
 city_iata('Chernihiv', 'CEJ').
@@ -6549,7 +6549,7 @@ city('Cabo Frio').
 city_iata('Cabo Frio', 'CFB').
 city_lat('Cabo Frio', -22.925).
 city_long('Cabo Frio', -42.078611).
-has_vibes('Cabo Frio', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cabo Frio', [beach]).
 
 city('Cacador').
 city_iata('Cacador', 'CFC').
@@ -6575,7 +6575,7 @@ city('Cienfuegos').
 city_iata('Cienfuegos', 'CFG').
 city_lat('Cienfuegos', 22.15).
 city_long('Cienfuegos', -80.414167).
-has_vibes('Cienfuegos', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cienfuegos', [nightlife_and_entertainment, art_and_culture]).
 
 city('Clifton Hills').
 city_iata('Clifton Hills', 'CFH').
@@ -6621,7 +6621,7 @@ city('Coffs Harbour').
 city_iata('Coffs Harbour', 'CFS').
 city_lat('Coffs Harbour', -30.321667).
 city_long('Coffs Harbour', 153.120833).
-has_vibes('Coffs Harbour', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Coffs Harbour', [nightlife_and_entertainment, great_food]).
 
 city('Clifton').
 city_iata('Clifton', 'CFT').
@@ -6632,7 +6632,7 @@ city('Corfu').
 city_iata('Corfu', 'CFU').
 city_lat('Corfu', 39.601389).
 city_long('Corfu', 19.910278).
-has_vibes('Corfu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Corfu', [beach, outdoor_adventures]).
 
 city('Coffeyville').
 city_iata('Coffeyville', 'CFV').
@@ -6678,7 +6678,7 @@ city('Sao Paulo Congonhas').
 city_iata('Sao Paulo Congonhas', 'CGH').
 city_lat('Sao Paulo Congonhas', -23.625).
 city_long('Sao Paulo Congonhas', -46.66).
-has_vibes('Sao Paulo Congonhas', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sao Paulo Congonhas', [great_food]).
 
 city('Cape Girardeau').
 city_iata('Cape Girardeau', 'CGI').
@@ -6714,7 +6714,7 @@ city('Chittagong').
 city_iata('Chittagong', 'CGP').
 city_lat('Chittagong', 22.2575).
 city_long('Chittagong', 91.825556).
-has_vibes('Chittagong', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chittagong', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Changchun').
 city_iata('Changchun', 'CGQ').
@@ -6755,7 +6755,7 @@ city('Cagayan De Oro').
 city_iata('Cagayan De Oro', 'CGY').
 city_lat('Cagayan De Oro', 8.416111).
 city_long('Cagayan De Oro', 124.610556).
-has_vibes('Cagayan De Oro', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cagayan De Oro', [nightlife_and_entertainment]).
 
 city('Casa Grande').
 city_iata('Casa Grande', 'CGZ').
@@ -6776,7 +6776,7 @@ city('Christchurch').
 city_iata('Christchurch', 'CHC').
 city_lat('Christchurch', -43.488333).
 city_long('Christchurch', 172.533333).
-has_vibes('Christchurch', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Christchurch', [great_food]).
 
 city('Chandler Williams AFB').
 city_iata('Chandler Williams AFB', 'CHD').
@@ -6797,7 +6797,7 @@ city('Chachapoyas').
 city_iata('Chachapoyas', 'CHH').
 city_lat('Chachapoyas', -6.216667).
 city_long('Chachapoyas', -77.85).
-has_vibes('Chachapoyas', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Chachapoyas', [outdoor_adventures]).
 
 city('Chipinge').
 city_iata('Chipinge', 'CHJ').
@@ -6838,7 +6838,7 @@ city('Crete Chania').
 city_iata('Crete Chania', 'CHQ').
 city_lat('Crete Chania', 35.5325).
 city_long('Crete Chania', 24.148333).
-has_vibes('Crete Chania', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Crete Chania', [beach]).
 
 city('Chateauroux').
 city_iata('Chateauroux', 'CHR').
@@ -6849,7 +6849,7 @@ city('Charleston').
 city_iata('Charleston', 'CHS').
 city_lat('Charleston', 32.899167).
 city_long('Charleston', -80.038889).
-has_vibes('Charleston', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Charleston', [underrated_destinations, art_and_culture, great_food]).
 
 city('Tuuta').
 city_iata('Tuuta', 'CHT').
@@ -6890,7 +6890,7 @@ city('Rome Ciampino').
 city_iata('Rome Ciampino', 'CIA').
 city_lat('Rome Ciampino', 41.799444).
 city_long('Rome Ciampino', 12.593333).
-has_vibes('Rome Ciampino', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Rome Ciampino', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Catalina Island Ap In The Sky').
 city_iata('Catalina Island Ap In The Sky', 'CIB').
@@ -7076,7 +7076,7 @@ city('Jeju').
 city_iata('Jeju', 'CJU').
 city_lat('Jeju', 33.505556).
 city_long('Jeju', 126.495).
-has_vibes('Jeju', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Jeju', [outdoor_adventures]).
 
 city('Cajazeiras').
 city_iata('Cajazeiras', 'CJZ').
@@ -7112,7 +7112,7 @@ city('Chongqing').
 city_iata('Chongqing', 'CKG').
 city_lat('Chongqing', 29.719167).
 city_long('Chongqing', 106.641667).
-has_vibes('Chongqing', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Chongqing', [nightlife_and_entertainment]).
 
 city('Chokurdah').
 city_iata('Chokurdah', 'CKH').
@@ -7188,7 +7188,7 @@ city('Conakry').
 city_iata('Conakry', 'CKY').
 city_lat('Conakry', 9.576389).
 city_long('Conakry', -13.610833).
-has_vibes('Conakry', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Conakry', [great_food]).
 
 city('Canakkale').
 city_iata('Canakkale', 'CKZ').
@@ -7214,7 +7214,7 @@ city('McClellan-Palomar').
 city_iata('McClellan-Palomar', 'CLD').
 city_lat('McClellan-Palomar', 33.128136).
 city_long('McClellan-Palomar', -117.278194).
-has_vibes('McClellan-Palomar', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('McClellan-Palomar', [nightlife_and_entertainment]).
 
 city('Cleveland Hopkins International').
 city_iata('Cleveland Hopkins International', 'CLE').
@@ -7265,7 +7265,7 @@ city('Cali').
 city_iata('Cali', 'CLO').
 city_lat('Cali', 3.546111).
 city_long('Cali', -76.385).
-has_vibes('Cali', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Cali', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Clarks Point').
 city_iata('Clarks Point', 'CLP').
@@ -7301,7 +7301,7 @@ city('Clearwater Executive').
 city_iata('Clearwater Executive', 'CLW').
 city_lat('Clearwater Executive', 27.976667).
 city_long('Clearwater Executive', -82.758611).
-has_vibes('Clearwater Executive', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Clearwater Executive', [beach]).
 
 city('Clorinda').
 city_iata('Clorinda', 'CLX').
@@ -7327,7 +7327,7 @@ city('Colombo Bandaranayake').
 city_iata('Colombo Bandaranayake', 'CMB').
 city_lat('Colombo Bandaranayake', 7.175).
 city_long('Colombo Bandaranayake', 79.884722).
-has_vibes('Colombo Bandaranayake', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Colombo Bandaranayake', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Camocim').
 city_iata('Camocim', 'CMC').
@@ -7388,7 +7388,7 @@ city('Casablanca Mohamed V.').
 city_iata('Casablanca Mohamed V.', 'CMN').
 city_lat('Casablanca Mohamed V.', 33.366667).
 city_long('Casablanca Mohamed V.', -7.586667).
-has_vibes('Casablanca Mohamed V.', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Casablanca Mohamed V.', [nightlife_and_entertainment, underrated_destinations, great_food]).
 
 city('Obbia').
 city_iata('Obbia', 'CMO').
@@ -7434,7 +7434,7 @@ city('Camaguey').
 city_iata('Camaguey', 'CMW').
 city_lat('Camaguey', 21.42043).
 city_long('Camaguey', -77.84743).
-has_vibes('Camaguey', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Camaguey', [art_and_culture]).
 
 city('Hancock').
 city_iata('Hancock', 'CMX').
@@ -7480,7 +7480,7 @@ city('Belo Horizonte Tancredo Neves Intl.').
 city_iata('Belo Horizonte Tancredo Neves Intl.', 'CNF').
 city_lat('Belo Horizonte Tancredo Neves Intl.', -19.633333).
 city_long('Belo Horizonte Tancredo Neves Intl.', -43.968611).
-has_vibes('Belo Horizonte Tancredo Neves Intl.', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Belo Horizonte Tancredo Neves Intl.', [nightlife_and_entertainment]).
 
 city('Cognac').
 city_iata('Cognac', 'CNG').
@@ -7521,7 +7521,7 @@ city('Kannur International').
 city_iata('Kannur International', 'CNN').
 city_lat('Kannur International', 11.92).
 city_long('Kannur International', 75.55).
-has_vibes('Kannur International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kannur International', [beach]).
 
 city('Chino').
 city_iata('Chino', 'CNO').
@@ -7547,7 +7547,7 @@ city('Cairns').
 city_iata('Cairns', 'CNS').
 city_lat('Cairns', -16.883333).
 city_long('Cairns', 145.751667).
-has_vibes('Cairns', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Cairns', [great_food, outdoor_adventures]).
 
 city('Charata').
 city_iata('Charata', 'CNT').
@@ -7573,13 +7573,13 @@ city('Chiang Mai').
 city_iata('Chiang Mai', 'CNX').
 city_lat('Chiang Mai', 18.7678912).
 city_long('Chiang Mai', 98.9639981).
-has_vibes('Chiang Mai', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Chiang Mai', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Moab').
 city_iata('Moab', 'CNY').
 city_lat('Moab', 38.759444).
 city_long('Moab', -109.746112).
-has_vibes('Moab', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Moab', [outdoor_adventures]).
 
 city('Cangamba').
 city_iata('Cangamba', 'CNZ').
@@ -7660,7 +7660,7 @@ city('Cotonou').
 city_iata('Cotonou', 'COO').
 city_lat('Cotonou', 6.354167).
 city_long('Cotonou', 2.385556).
-has_vibes('Cotonou', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cotonou', [nightlife_and_entertainment]).
 
 city('Cooperstown').
 city_iata('Cooperstown', 'COP').
@@ -7676,7 +7676,7 @@ city('Cordoba').
 city_iata('Cordoba', 'COR').
 city_lat('Cordoba', -31.313056).
 city_long('Cordoba', -64.199444).
-has_vibes('Cordoba', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cordoba', [nightlife_and_entertainment, underrated_destinations, art_and_culture]).
 
 city('Colorado Springs Peterson Field').
 city_iata('Colorado Springs Peterson Field', 'COS').
@@ -7727,7 +7727,7 @@ city('San Martin DeLos Andes').
 city_iata('San Martin DeLos Andes', 'CPC').
 city_lat('San Martin DeLos Andes', -40.066667).
 city_long('San Martin DeLos Andes', -71.133333).
-has_vibes('San Martin DeLos Andes', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('San Martin DeLos Andes', [outdoor_adventures]).
 
 city('Coober Pedy').
 city_iata('Coober Pedy', 'CPD').
@@ -7753,7 +7753,7 @@ city('Copenhagen').
 city_iata('Copenhagen', 'CPH').
 city_lat('Copenhagen', 55.608056).
 city_long('Copenhagen', 12.633333).
-has_vibes('Copenhagen', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Copenhagen', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Cape Orford').
 city_iata('Cape Orford', 'CPI').
@@ -7789,7 +7789,7 @@ city('Cape Town').
 city_iata('Cape Town', 'CPT').
 city_lat('Cape Town', -33.9714986).
 city_long('Cape Town', 18.6020744).
-has_vibes('Cape Town', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Cape Town', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Cururupu').
 city_iata('Cururupu', 'CPU').
@@ -7805,7 +7805,7 @@ city('Culebra').
 city_iata('Culebra', 'CPX').
 city_lat('Culebra', 18.3).
 city_long('Culebra', -65.316667).
-has_vibes('Culebra', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Culebra', [outdoor_adventures]).
 
 city('Canarana').
 city_iata('Canarana', 'CQA').
@@ -7871,7 +7871,7 @@ city('Myrtle Beach Grand Strand').
 city_iata('Myrtle Beach Grand Strand', 'CRE').
 city_lat('Myrtle Beach Grand Strand', 33.811389).
 city_long('Myrtle Beach Grand Strand', -78.724444).
-has_vibes('Myrtle Beach Grand Strand', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Myrtle Beach Grand Strand', [beach]).
 
 city('Carnot').
 city_iata('Carnot', 'CRF').
@@ -7907,7 +7907,7 @@ city('Brussels S. Charleroi').
 city_iata('Brussels S. Charleroi', 'CRL').
 city_lat('Brussels S. Charleroi', 50.459197).
 city_long('Brussels S. Charleroi', 4.453817).
-has_vibes('Brussels S. Charleroi', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Brussels S. Charleroi', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Catarman').
 city_iata('Catarman', 'CRM').
@@ -7923,7 +7923,7 @@ city('Corpus Christi International').
 city_iata('Corpus Christi International', 'CRP').
 city_lat('Corpus Christi International', 27.772222).
 city_long('Corpus Christi International', -97.501389).
-has_vibes('Corpus Christi International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Corpus Christi International', [beach]).
 
 city('Caravelas').
 city_iata('Caravelas', 'CRQ').
@@ -8089,7 +8089,7 @@ city('Catania Fontanarossa').
 city_iata('Catania Fontanarossa', 'CTA').
 city_lat('Catania Fontanarossa', 37.4672543).
 city_long('Catania Fontanarossa', 15.0657496).
-has_vibes('Catania Fontanarossa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Catania Fontanarossa', [underrated_destinations, beach]).
 
 city('Cut Bank').
 city_iata('Cut Bank', 'CTB').
@@ -8120,7 +8120,7 @@ city('Cartagena').
 city_iata('Cartagena', 'CTG').
 city_lat('Cartagena', 10.446667).
 city_long('Cartagena', -75.510833).
-has_vibes('Cartagena', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Cartagena', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Coatesville').
 city_iata('Coatesville', 'CTH').
@@ -8176,7 +8176,7 @@ city('Sapporo Chitose').
 city_iata('Sapporo Chitose', 'CTS').
 city_lat('Sapporo Chitose', 42.795833).
 city_long('Sapporo Chitose', 141.669167).
-has_vibes('Sapporo Chitose', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sapporo Chitose', [nightlife_and_entertainment]).
 
 city('Le Castellet').
 city_iata('Le Castellet', 'CTT').
@@ -8187,7 +8187,7 @@ city('Chengdu Shuangliu International').
 city_iata('Chengdu Shuangliu International', 'CTU').
 city_lat('Chengdu Shuangliu International', 30.578611).
 city_long('Chengdu Shuangliu International', 103.947222).
-has_vibes('Chengdu Shuangliu International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chengdu Shuangliu International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Cottonwood').
 city_iata('Cottonwood', 'CTW').
@@ -8233,7 +8233,7 @@ city('Cuenca').
 city_iata('Cuenca', 'CUE').
 city_lat('Cuenca', -2.866667).
 city_long('Cuenca', -78.983333).
-has_vibes('Cuenca', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Cuenca', [art_and_culture, great_food]).
 
 city('Cuneo Levaldigi').
 city_iata('Cuneo Levaldigi', 'CUF').
@@ -8279,7 +8279,7 @@ city('Cancun').
 city_iata('Cancun', 'CUN').
 city_lat('Cancun', 21.033333).
 city_long('Cancun', -86.866667).
-has_vibes('Cancun', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cancun', [nightlife_and_entertainment]).
 
 city('Caruru').
 city_iata('Caruru', 'CUO').
@@ -8330,7 +8330,7 @@ city('Corpus Christi Cuddihy Field').
 city_iata('Corpus Christi Cuddihy Field', 'CUX').
 city_lat('Corpus Christi Cuddihy Field', 27.75).
 city_long('Corpus Christi Cuddihy Field', -97.336111).
-has_vibes('Corpus Christi Cuddihy Field', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Corpus Christi Cuddihy Field', [beach]).
 
 city('Cue').
 city_iata('Cue', 'CUY').
@@ -8341,13 +8341,13 @@ city('Cuzco').
 city_iata('Cuzco', 'CUZ').
 city_lat('Cuzco', -13.529444).
 city_long('Cuzco', -71.959722).
-has_vibes('Cuzco', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cuzco', [art_and_culture]).
 
 city('Pittsburgh Civic Ar Heli').
 city_iata('Pittsburgh Civic Ar Heli', 'CVA').
 city_lat('Pittsburgh Civic Ar Heli', 40.496667).
 city_long('Pittsburgh Civic Ar Heli', -80.235833).
-has_vibes('Pittsburgh Civic Ar Heli', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pittsburgh Civic Ar Heli', [underrated_destinations]).
 
 city('Chungribu').
 city_iata('Chungribu', 'CVB').
@@ -8438,7 +8438,7 @@ city('Curitiba').
 city_iata('Curitiba', 'CWB').
 city_lat('Curitiba', -25.526667).
 city_long('Curitiba', -49.177778).
-has_vibes('Curitiba', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Curitiba', [nightlife_and_entertainment, underrated_destinations]).
 
 city('Chernivtsi').
 city_iata('Chernivtsi', 'CWC').
@@ -8469,7 +8469,7 @@ city('Cardiff').
 city_iata('Cardiff', 'CWL').
 city_lat('Cardiff', 51.3977068).
 city_long('Cardiff', -3.3462304).
-has_vibes('Cardiff', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cardiff', [underrated_destinations]).
 
 city('Mineral Wells Ft Wolter AAF').
 city_iata('Mineral Wells Ft Wolter AAF', 'CWO').
@@ -8510,7 +8510,7 @@ city('Coxs Bazar').
 city_iata('Coxs Bazar', 'CXB').
 city_lat('Coxs Bazar', 21.45).
 city_long('Coxs Bazar', 91.966667).
-has_vibes('Coxs Bazar', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Coxs Bazar', [beach, outdoor_adventures]).
 
 city('Chitina').
 city_iata('Chitina', 'CXC').
@@ -8526,7 +8526,7 @@ city('Vancouver Coal Harbour').
 city_iata('Vancouver Coal Harbour', 'CXH').
 city_lat('Vancouver Coal Harbour', 49.29017).
 city_long('Vancouver Coal Harbour', -123.117541).
-has_vibes('Vancouver Coal Harbour', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Vancouver Coal Harbour', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Cassidy International').
 city_iata('Cassidy International', 'CXI').
@@ -8567,7 +8567,7 @@ city('Nha Trang Cam Ranh').
 city_iata('Nha Trang Cam Ranh', 'CXR').
 city_lat('Nha Trang Cam Ranh', 11.993611).
 city_long('Nha Trang Cam Ranh', 109.225).
-has_vibes('Nha Trang Cam Ranh', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Nha Trang Cam Ranh', [nightlife_and_entertainment, art_and_culture]).
 
 city('Charters Towers').
 city_iata('Charters Towers', 'CXT').
@@ -8598,7 +8598,7 @@ city('San Ignacio Cayo').
 city_iata('San Ignacio Cayo', 'CYD').
 city_lat('San Ignacio Cayo', 17.160125).
 city_long('San Ignacio Cayo', -89.06).
-has_vibes('San Ignacio Cayo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('San Ignacio Cayo', [great_food, outdoor_adventures]).
 
 city('Crystal Lake').
 city_iata('Crystal Lake', 'CYE').
@@ -8619,7 +8619,7 @@ city('Chiayi').
 city_iata('Chiayi', 'CYI').
 city_lat('Chiayi', 23.466667).
 city_long('Chiayi', 120.383333).
-has_vibes('Chiayi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chiayi', [great_food]).
 
 city('Coyoles').
 city_iata('Coyoles', 'CYL').
@@ -8790,19 +8790,19 @@ city('Daytona Beach').
 city_iata('Daytona Beach', 'DAB').
 city_lat('Daytona Beach', 29.1825).
 city_long('Daytona Beach', -81.052778).
-has_vibes('Daytona Beach', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Daytona Beach', [beach]).
 
 city('Hazrat Shahjalal International Airport').
 city_iata('Hazrat Shahjalal International Airport', 'DAC').
 city_lat('Hazrat Shahjalal International Airport', 23.843826926091108).
 city_long('Hazrat Shahjalal International Airport', 90.40301103068674).
-has_vibes('Hazrat Shahjalal International Airport', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hazrat Shahjalal International Airport', [art_and_culture, great_food]).
 
 city('Da Nang').
 city_iata('Da Nang', 'DAD').
 city_lat('Da Nang', 16.042222).
 city_long('Da Nang', 108.203611).
-has_vibes('Da Nang', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Da Nang', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food, outdoor_adventures]).
 
 city('Daparizo').
 city_iata('Daparizo', 'DAE').
@@ -8843,13 +8843,13 @@ city('Dallas Love Field').
 city_iata('Dallas Love Field', 'DAL').
 city_lat('Dallas Love Field', 32.846944).
 city_long('Dallas Love Field', -96.853333).
-has_vibes('Dallas Love Field', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas Love Field', [nightlife_and_entertainment]).
 
 city('Damascus').
 city_iata('Damascus', 'DAM').
 city_lat('Damascus', 33.413889).
 city_long('Damascus', 36.517778).
-has_vibes('Damascus', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Damascus', [great_food]).
 
 city('Danville').
 city_iata('Danville', 'DAN').
@@ -8870,7 +8870,7 @@ city('Dar Es Salaam').
 city_iata('Dar Es Salaam', 'DAR').
 city_lat('Dar Es Salaam', -6.875278).
 city_long('Dar Es Salaam', 39.201944).
-has_vibes('Dar Es Salaam', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dar Es Salaam', [nightlife_and_entertainment]).
 
 city('Datong').
 city_iata('Datong', 'DAT').
@@ -8971,7 +8971,7 @@ city('Dubrovnik').
 city_iata('Dubrovnik', 'DBV').
 city_lat('Dubrovnik', 42.5608737).
 city_long('Dubrovnik', 18.2621316).
-has_vibes('Dubrovnik', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Dubrovnik', [beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Dalby').
 city_iata('Dalby', 'DBY').
@@ -8982,13 +8982,13 @@ city('Washington Ronald Reagan').
 city_iata('Washington Ronald Reagan', 'DCA').
 city_lat('Washington Ronald Reagan', 38.8517).
 city_long('Washington Ronald Reagan', -77.0369).
-has_vibes('Washington Ronald Reagan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Washington Ronald Reagan', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Dominica Canefield').
 city_iata('Dominica Canefield', 'DCF').
 city_lat('Dominica Canefield', 15.336667).
 city_long('Dominica Canefield', -61.391944).
-has_vibes('Dominica Canefield', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dominica Canefield', [nightlife_and_entertainment]).
 
 city('Decimomannu').
 city_iata('Decimomannu', 'DCI').
@@ -9119,7 +9119,7 @@ city('Indira Gandhi International').
 city_iata('Indira Gandhi International', 'DEL').
 city_lat('Indira Gandhi International', 28.573611).
 city_long('Indira Gandhi International', 77.100833).
-has_vibes('Indira Gandhi International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Indira Gandhi International', [art_and_culture]).
 
 city('Dembidollo').
 city_iata('Dembidollo', 'DEM').
@@ -9130,7 +9130,7 @@ city('Denver International').
 city_iata('Denver International', 'DEN').
 city_lat('Denver International', 39.862317).
 city_long('Denver International', -104.675331).
-has_vibes('Denver International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Denver International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Dearborn').
 city_iata('Dearborn', 'DEO').
@@ -9156,7 +9156,7 @@ city('Detroit City').
 city_iata('Detroit City', 'DET').
 city_lat('Detroit City', 42.416667).
 city_long('Detroit City', -83.016667).
-has_vibes('Detroit City', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Detroit City', [nightlife_and_entertainment]).
 
 city('Nop Goliath').
 city_iata('Nop Goliath', 'DEX').
@@ -9182,13 +9182,13 @@ city('Dallas Fort Worth International').
 city_iata('Dallas Fort Worth International', 'DFW').
 city_lat('Dallas Fort Worth International', 32.894444).
 city_long('Dallas Fort Worth International', -97.029723).
-has_vibes('Dallas Fort Worth International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas Fort Worth International', [nightlife_and_entertainment]).
 
 city('Dangriga').
 city_iata('Dangriga', 'DGA').
 city_lat('Dangriga', 16.98251).
 city_long('Dangriga', -88.23099).
-has_vibes('Dangriga', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dangriga', [beach]).
 
 city('Danger Bay').
 city_iata('Danger Bay', 'DGB').
@@ -9254,7 +9254,7 @@ city('Dumaguete').
 city_iata('Dumaguete', 'DGT').
 city_lat('Dumaguete', 9.334151).
 city_long('Dumaguete', 123.30162).
-has_vibes('Dumaguete', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Dumaguete', [beach, great_food]).
 
 city('Dedougou').
 city_iata('Dedougou', 'DGU').
@@ -9285,7 +9285,7 @@ city('Abu Dhabi Al Dhafra Military Apt').
 city_iata('Abu Dhabi Al Dhafra Military Apt', 'DHF').
 city_lat('Abu Dhabi Al Dhafra Military Apt', 24.24).
 city_long('Abu Dhabi Al Dhafra Military Apt', 54.548333).
-has_vibes('Abu Dhabi Al Dhafra Military Apt', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Abu Dhabi Al Dhafra Military Apt', [nightlife_and_entertainment, art_and_culture]).
 
 city('Dalnegorsk').
 city_iata('Dalnegorsk', 'DHG').
@@ -9356,7 +9356,7 @@ city('Dili').
 city_iata('Dili', 'DIL').
 city_lat('Dili', -8.546667).
 city_long('Dili', 125.524722).
-has_vibes('Dili', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Dili', [nightlife_and_entertainment, beach, art_and_culture, outdoor_adventures]).
 
 city('Dimbokro').
 city_iata('Dimbokro', 'DIM').
@@ -9397,7 +9397,7 @@ city('Diu').
 city_iata('Diu', 'DIU').
 city_lat('Diu', 20.716667).
 city_long('Diu', 70.916667).
-has_vibes('Diu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Diu', [underrated_destinations, beach]).
 
 city('Divo').
 city_iata('Divo', 'DIV').
@@ -9438,7 +9438,7 @@ city('Jebel Ali SPB').
 city_iata('Jebel Ali SPB', 'DJH').
 city_lat('Jebel Ali SPB', 24.988889).
 city_long('Jebel Ali SPB', 55.023611).
-has_vibes('Jebel Ali SPB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Jebel Ali SPB', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Jayapura').
 city_iata('Jayapura', 'DJJ').
@@ -9484,7 +9484,7 @@ city('Leopold Sedar Senghor').
 city_iata('Leopold Sedar Senghor', 'DKR').
 city_lat('Leopold Sedar Senghor', 14.740833).
 city_long('Leopold Sedar Senghor', -17.490556).
-has_vibes('Leopold Sedar Senghor', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Leopold Sedar Senghor', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Dikson').
 city_iata('Dikson', 'DKS').
@@ -9500,7 +9500,7 @@ city('Douala').
 city_iata('Douala', 'DLA').
 city_lat('Douala', 4.013333).
 city_long('Douala', 9.709167).
-has_vibes('Douala', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Douala', [nightlife_and_entertainment, great_food]).
 
 city('Dalbertis').
 city_iata('Dalbertis', 'DLB').
@@ -9541,7 +9541,7 @@ city('Dalat').
 city_iata('Dalat', 'DLI').
 city_lat('Dalat', 11.749722).
 city_long('Dalat', 108.377778).
-has_vibes('Dalat', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Dalat', [nightlife_and_entertainment, outdoor_adventures]).
 
 city('Dulkaninna').
 city_iata('Dulkaninna', 'DLK').
@@ -9557,7 +9557,7 @@ city('Dalaman').
 city_iata('Dalaman', 'DLM').
 city_lat('Dalaman', 36.716667).
 city_long('Dalaman', 28.783333).
-has_vibes('Dalaman', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dalaman', [beach]).
 
 city('Dillon').
 city_iata('Dillon', 'DLN').
@@ -9628,7 +9628,7 @@ city('Don Mueang').
 city_iata('Don Mueang', 'DMK').
 city_lat('Don Mueang', 13.91).
 city_long('Don Mueang', 100.610001).
-has_vibes('Don Mueang', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Don Mueang', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Dammam').
 city_iata('Dammam', 'DMM').
@@ -9679,7 +9679,7 @@ city('Dallas North').
 city_iata('Dallas North', 'DNE').
 city_lat('Dallas North', 32.75).
 city_long('Dallas North', -97.383333).
-has_vibes('Dallas North', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas North', [nightlife_and_entertainment]).
 
 city('Derna').
 city_iata('Derna', 'DNF').
@@ -9750,7 +9750,7 @@ city('Santa Ana Downtown Heliport').
 city_iata('Santa Ana Downtown Heliport', 'DNT').
 city_lat('Santa Ana Downtown Heliport', 33.766667).
 city_long('Santa Ana Downtown Heliport', -117.866667).
-has_vibes('Santa Ana Downtown Heliport', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santa Ana Downtown Heliport', [beach]).
 
 city('Dinangat').
 city_iata('Dinangat', 'DNU').
@@ -9811,7 +9811,7 @@ city('Hamad International').
 city_iata('Hamad International', 'DOH').
 city_lat('Hamad International', 25.2609244).
 city_long('Hamad International', 51.6137988).
-has_vibes('Hamad International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hamad International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Doini').
 city_iata('Doini', 'DOI').
@@ -9877,7 +9877,7 @@ city('Chicago Dupage County').
 city_iata('Chicago Dupage County', 'DPA').
 city_lat('Chicago Dupage County', 41.914444).
 city_long('Chicago Dupage County', -88.246389).
-has_vibes('Chicago Dupage County', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chicago Dupage County', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Pampa Guanaco').
 city_iata('Pampa Guanaco', 'DPB').
@@ -9913,7 +9913,7 @@ city('Bali (Denpasar)').
 city_iata('Bali (Denpasar)', 'DPS').
 city_lat('Bali (Denpasar)', -8.7467293).
 city_long('Bali (Denpasar)', 115.1666931).
-has_vibes('Bali (Denpasar)', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bali (Denpasar)', [nightlife_and_entertainment, beach, art_and_culture, great_food]).
 
 city('Deputatsky').
 city_iata('Deputatsky', 'DPT').
@@ -10039,7 +10039,7 @@ city('Darwin').
 city_iata('Darwin', 'DRW').
 city_lat('Darwin', -12.416667).
 city_long('Darwin', 130.872222).
-has_vibes('Darwin', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Darwin', [underrated_destinations, great_food]).
 
 city('Drysdale River').
 city_iata('Drysdale River', 'DRY').
@@ -10100,7 +10100,7 @@ city('Blaise Diagne International').
 city_iata('Blaise Diagne International', 'DSS').
 city_lat('Blaise Diagne International', 14.670833).
 city_long('Blaise Diagne International', -17.072777).
-has_vibes('Blaise Diagne International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Blaise Diagne International', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Dansville').
 city_iata('Dansville', 'DSV').
@@ -10171,7 +10171,7 @@ city('Detroit Wayne County').
 city_iata('Detroit Wayne County', 'DTW').
 city_lat('Detroit Wayne County', 42.218611).
 city_long('Detroit Wayne County', -83.348611).
-has_vibes('Detroit Wayne County', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Detroit Wayne County', [nightlife_and_entertainment]).
 
 city('Durant').
 city_iata('Durant', 'DUA').
@@ -10182,7 +10182,7 @@ city('Dublin').
 city_iata('Dublin', 'DUB').
 city_lat('Dublin', 53.4325).
 city_long('Dublin', -6.252222).
-has_vibes('Dublin', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dublin', [nightlife_and_entertainment, art_and_culture]).
 
 city('Duncan').
 city_iata('Duncan', 'DUC').
@@ -10193,7 +10193,7 @@ city('Dunedin').
 city_iata('Dunedin', 'DUD').
 city_lat('Dunedin', -45.925).
 city_long('Dunedin', 170.2).
-has_vibes('Dunedin', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Dunedin', [nightlife_and_entertainment, great_food]).
 
 city('Dundo').
 city_iata('Dundo', 'DUE').
@@ -10234,7 +10234,7 @@ city('Durban King Shaka International').
 city_iata('Durban King Shaka International', 'DUR').
 city_lat('Durban King Shaka International', -29.611081).
 city_long('Durban King Shaka International', 31.114062).
-has_vibes('Durban King Shaka International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Durban King Shaka International', [great_food, outdoor_adventures]).
 
 city('Dusseldorf International').
 city_iata('Dusseldorf International', 'DUS').
@@ -10265,7 +10265,7 @@ city('Davao International').
 city_iata('Davao International', 'DVO').
 city_lat('Davao International', 7.131667).
 city_long('Davao International', 125.649444).
-has_vibes('Davao International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Davao International', [nightlife_and_entertainment, underrated_destinations, art_and_culture]).
 
 city('Davenport Downs').
 city_iata('Davenport Downs', 'DVP').
@@ -10281,7 +10281,7 @@ city('Phoenix-Deer Valley').
 city_iata('Phoenix-Deer Valley', 'DVT').
 city_lat('Phoenix-Deer Valley', 33.688333).
 city_long('Phoenix-Deer Valley', -112.0825).
-has_vibes('Phoenix-Deer Valley', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Phoenix-Deer Valley', [beach]).
 
 city('Dwangwa').
 city_iata('Dwangwa', 'DWA').
@@ -10297,7 +10297,7 @@ city('Dubai Al Maktoum International').
 city_iata('Dubai Al Maktoum International', 'DWC').
 city_lat('Dubai Al Maktoum International', 24.886111).
 city_long('Dubai Al Maktoum International', 55.172222).
-has_vibes('Dubai Al Maktoum International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Dubai Al Maktoum International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Dawadmi').
 city_iata('Dawadmi', 'DWD').
@@ -10313,7 +10313,7 @@ city('Houston David Wayne Hooks').
 city_iata('Houston David Wayne Hooks', 'DWH').
 city_lat('Houston David Wayne Hooks', 30.061945).
 city_long('Houston David Wayne Hooks', -95.55278).
-has_vibes('Houston David Wayne Hooks', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston David Wayne Hooks', [nightlife_and_entertainment]).
 
 city('Diyawanna Oya').
 city_iata('Diyawanna Oya', 'DWO').
@@ -10329,7 +10329,7 @@ city('Dubai').
 city_iata('Dubai', 'DXB').
 city_lat('Dubai', 25.2531454).
 city_long('Dubai', 55.3657479).
-has_vibes('Dubai', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Dubai', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Dixie').
 city_iata('Dixie', 'DXD').
@@ -10380,7 +10380,7 @@ city('Dushanbe').
 city_iata('Dushanbe', 'DYU').
 city_lat('Dushanbe', 38.55).
 city_long('Dushanbe', 68.823611).
-has_vibes('Dushanbe', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Dushanbe', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Daly Waters').
 city_iata('Daly Waters', 'DYW').
@@ -10441,7 +10441,7 @@ city('Nejran').
 city_iata('Nejran', 'EAM').
 city_lat('Nejran', 17.611667).
 city_long('Nejran', 44.429722).
-has_vibes('Nejran', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Nejran', [art_and_culture]).
 
 city('Wheatland').
 city_iata('Wheatland', 'EAN').
@@ -10457,7 +10457,7 @@ city('San Sebastian').
 city_iata('San Sebastian', 'EAS').
 city_lat('San Sebastian', 43.357778).
 city_long('San Sebastian', -1.79).
-has_vibes('San Sebastian', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Sebastian', [underrated_destinations, beach, art_and_culture, great_food]).
 
 city('Wenatchee').
 city_iata('Wenatchee', 'EAT').
@@ -10478,7 +10478,7 @@ city('Entebbe').
 city_iata('Entebbe', 'EBB').
 city_lat('Entebbe', 0.0425).
 city_long('Entebbe', 32.438056).
-has_vibes('Entebbe', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Entebbe', [nightlife_and_entertainment]).
 
 city('El Obeid').
 city_iata('El Obeid', 'EBD').
@@ -10504,7 +10504,7 @@ city('Erbil').
 city_iata('Erbil', 'EBL').
 city_lat('Erbil', 36.2375).
 city_long('Erbil', 43.963056).
-has_vibes('Erbil', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Erbil', [nightlife_and_entertainment, great_food]).
 
 city('El Borma').
 city_iata('El Borma', 'EBM').
@@ -10575,7 +10575,7 @@ city('Northwest Florida Beaches International').
 city_iata('Northwest Florida Beaches International', 'ECP').
 city_lat('Northwest Florida Beaches International', 30.357803).
 city_long('Northwest Florida Beaches International', -85.79892).
-has_vibes('Northwest Florida Beaches International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Northwest Florida Beaches International', [beach]).
 
 city('El Charco').
 city_iata('El Charco', 'ECR').
@@ -10616,7 +10616,7 @@ city('Edinburgh').
 city_iata('Edinburgh', 'EDI').
 city_lat('Edinburgh', 55.9497).
 city_long('Edinburgh', -3.3635).
-has_vibes('Edinburgh', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Edinburgh', [art_and_culture, great_food]).
 
 city('El Dorado').
 city_iata('El Dorado', 'EDK').
@@ -10687,7 +10687,7 @@ city('Houston Ellington Field').
 city_iata('Houston Ellington Field', 'EFD').
 city_lat('Houston Ellington Field', 29.6).
 city_long('Houston Ellington Field', -95.15).
-has_vibes('Houston Ellington Field', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Ellington Field', [nightlife_and_entertainment]).
 
 city('Efogi').
 city_iata('Efogi', 'EFG').
@@ -10823,7 +10823,7 @@ city('Eindhoven').
 city_iata('Eindhoven', 'EIN').
 city_lat('Eindhoven', 51.45045).
 city_long('Eindhoven', 5.3783917).
-has_vibes('Eindhoven', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Eindhoven', [underrated_destinations]).
 
 city('Terrance B. Lettsome International').
 city_iata('Terrance B. Lettsome International', 'EIS').
@@ -11044,7 +11044,7 @@ city('San Francisco Embarkadero').
 city_iata('San Francisco Embarkadero', 'EMB').
 city_lat('San Francisco Embarkadero', 37.625278).
 city_long('San Francisco Embarkadero', -122.375).
-has_vibes('San Francisco Embarkadero', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Francisco Embarkadero', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Emerald').
 city_iata('Emerald', 'EMD').
@@ -11155,7 +11155,7 @@ city('El Nido').
 city_iata('El Nido', 'ENI').
 city_lat('El Nido', 11.205556).
 city_long('El Nido', 119.412778).
-has_vibes('El Nido', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('El Nido', [beach, great_food, outdoor_adventures]).
 
 city('El Naranjo').
 city_iata('El Naranjo', 'ENJ').
@@ -11221,7 +11221,7 @@ city('Medellin Enrique Olaya Herrera').
 city_iata('Medellin Enrique Olaya Herrera', 'EOH').
 city_lat('Medellin Enrique Olaya Herrera', 6.216667).
 city_long('Medellin Enrique Olaya Herrera', -75.583333).
-has_vibes('Medellin Enrique Olaya Herrera', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Medellin Enrique Olaya Herrera', [nightlife_and_entertainment]).
 
 city('Eday').
 city_iata('Eday', 'EOI').
@@ -11252,7 +11252,7 @@ city('El Palomar').
 city_iata('El Palomar', 'EPA').
 city_lat('El Palomar', -34.610111).
 city_long('El Palomar', -58.616266).
-has_vibes('El Palomar', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('El Palomar', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Weeping Water').
 city_iata('Weeping Water', 'EPG').
@@ -11378,7 +11378,7 @@ city('Windhoek Eros').
 city_iata('Windhoek Eros', 'ERS').
 city_lat('Windhoek Eros', -22.616667).
 city_long('Windhoek Eros', 17.083333).
-has_vibes('Windhoek Eros', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Windhoek Eros', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Erdenet').
 city_iata('Erdenet', 'ERT').
@@ -11449,7 +11449,7 @@ city('Eskisehir').
 city_iata('Eskisehir', 'ESK').
 city_lat('Eskisehir', 39.78414).
 city_long('Eskisehir', 30.58211).
-has_vibes('Eskisehir', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Eskisehir', [nightlife_and_entertainment]).
 
 city('Elista').
 city_iata('Elista', 'ESL').
@@ -11495,7 +11495,7 @@ city('Essaouira').
 city_iata('Essaouira', 'ESU').
 city_lat('Essaouira', 31.3975).
 city_long('Essaouira', -9.681667).
-has_vibes('Essaouira', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Essaouira', [nightlife_and_entertainment, underrated_destinations, great_food, outdoor_adventures]).
 
 city('Easton').
 city_iata('Easton', 'ESW').
@@ -11526,7 +11526,7 @@ city('Ramon International').
 city_iata('Ramon International', 'ETM').
 city_lat('Ramon International', 29.723284).
 city_long('Ramon International', 35.006307).
-has_vibes('Ramon International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Ramon International', [nightlife_and_entertainment, beach, outdoor_adventures]).
 
 city('Eastland').
 city_iata('Eastland', 'ETN').
@@ -11632,7 +11632,7 @@ city('Zvartnots International').
 city_iata('Zvartnots International', 'EVN').
 city_lat('Zvartnots International', 40.15).
 city_long('Zvartnots International', 44.4).
-has_vibes('Zvartnots International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Zvartnots International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Evansville').
 city_iata('Evansville', 'EVV').
@@ -11688,7 +11688,7 @@ city('New York Newark').
 city_iata('New York Newark', 'EWR').
 city_lat('New York Newark', 40.695833).
 city_long('New York Newark', -74.171667).
-has_vibes('New York Newark', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('New York Newark', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Newbury').
 city_iata('Newbury', 'EWY').
@@ -11744,13 +11744,13 @@ city('Key West International').
 city_iata('Key West International', 'EYW').
 city_lat('Key West International', 24.556111).
 city_long('Key West International', -81.759722).
-has_vibes('Key West International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Key West International', [beach]).
 
 city('Buenos Aires Ministro Pistarini').
 city_iata('Buenos Aires Ministro Pistarini', 'EZE').
 city_lat('Buenos Aires Ministro Pistarini', -34.82).
 city_long('Buenos Aires Ministro Pistarini', -58.533889).
-has_vibes('Buenos Aires Ministro Pistarini', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Buenos Aires Ministro Pistarini', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Elazig').
 city_iata('Elazig', 'EZS').
@@ -11831,7 +11831,7 @@ city('Faro').
 city_iata('Faro', 'FAO').
 city_lat('Faro', 37.0176127).
 city_long('Faro', -7.9697522).
-has_vibes('Faro', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Faro', [beach]).
 
 city('Freida River').
 city_iata('Freida River', 'FAQ').
@@ -11922,7 +11922,7 @@ city('Oslo Fornebu Sea Plane Base').
 city_iata('Oslo Fornebu Sea Plane Base', 'FBU').
 city_lat('Oslo Fornebu Sea Plane Base', 59.899786).
 city_long('Oslo Fornebu Sea Plane Base', 10.631332).
-has_vibes('Oslo Fornebu Sea Plane Base', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Oslo Fornebu Sea Plane Base', [nightlife_and_entertainment, underrated_destinations, great_food]).
 
 city('Fairbury').
 city_iata('Fairbury', 'FBY').
@@ -11958,7 +11958,7 @@ city('Rome Fiumicino').
 city_iata('Rome Fiumicino', 'FCO').
 city_lat('Rome Fiumicino', 41.7998468).
 city_long('Rome Fiumicino', 12.2462277).
-has_vibes('Rome Fiumicino', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Rome Fiumicino', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Colorado Springs Butts AAF').
 city_iata('Colorado Springs Butts AAF', 'FCS').
@@ -12079,7 +12079,7 @@ city('Fes-Saïss').
 city_iata('Fes-Saïss', 'FEZ').
 city_lat('Fes-Saïss', 33.933333).
 city_long('Fes-Saïss', -4.966667).
-has_vibes('Fes-Saïss', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Fes-Saïss', [art_and_culture, great_food]).
 
 city('Kill Devil Hills').
 city_iata('Kill Devil Hills', 'FFA').
@@ -12120,7 +12120,7 @@ city('Apia Fagali I').
 city_iata('Apia Fagali I', 'FGI').
 city_lat('Apia Fagali I', -13.833333).
 city_long('Apia Fagali I', -171.733333).
-has_vibes('Apia Fagali I', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Apia Fagali I', [nightlife_and_entertainment, underrated_destinations, great_food, outdoor_adventures]).
 
 city('Fox Glacier').
 city_iata('Fox Glacier', 'FGL').
@@ -12171,7 +12171,7 @@ city('Kinshasa NDjili').
 city_iata('Kinshasa NDjili', 'FIH').
 city_lat('Kinshasa NDjili', -4.383333).
 city_long('Kinshasa NDjili', 15.433334).
-has_vibes('Kinshasa NDjili', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kinshasa NDjili', [nightlife_and_entertainment]).
 
 city('Finke').
 city_iata('Finke', 'FIK').
@@ -12202,7 +12202,7 @@ city('Al-Fujairah').
 city_iata('Al-Fujairah', 'FJR').
 city_lat('Al-Fujairah', 25.109444).
 city_long('Al-Fujairah', 56.330556).
-has_vibes('Al-Fujairah', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Al-Fujairah', [beach, great_food]).
 
 city('Karlsruhe / Baden-Baden').
 city_iata('Karlsruhe / Baden-Baden', 'FKB').
@@ -12298,7 +12298,7 @@ city('Fort Lauderdale International').
 city_iata('Fort Lauderdale International', 'FLL').
 city_lat('Fort Lauderdale International', 26.074167).
 city_long('Fort Lauderdale International', -80.151667).
-has_vibes('Fort Lauderdale International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Fort Lauderdale International', [beach]).
 
 city('Filadelfia').
 city_iata('Filadelfia', 'FLM').
@@ -12309,7 +12309,7 @@ city('Florianopolis').
 city_iata('Florianopolis', 'FLN').
 city_lat('Florianopolis', -27.669722).
 city_long('Florianopolis', -48.550556).
-has_vibes('Florianopolis', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Florianopolis', [beach, art_and_culture, great_food]).
 
 city('Florence').
 city_iata('Florence', 'FLO').
@@ -12325,7 +12325,7 @@ city('Florence').
 city_iata('Florence', 'FLR').
 city_lat('Florence', 43.8084908).
 city_long('Florence', 11.2011818).
-has_vibes('Florence', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Florence', [art_and_culture]).
 
 city('Flinders Island').
 city_iata('Flinders Island', 'FLS').
@@ -12406,7 +12406,7 @@ city('Munster Osnabruck').
 city_iata('Munster Osnabruck', 'FMO').
 city_lat('Munster Osnabruck', 52.133333).
 city_long('Munster Osnabruck', 7.683333).
-has_vibes('Munster Osnabruck', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Munster Osnabruck', [great_food]).
 
 city('Fort Madison').
 city_iata('Fort Madison', 'FMS').
@@ -12422,13 +12422,13 @@ city('Fort Myers Page Field').
 city_iata('Fort Myers Page Field', 'FMY').
 city_lat('Fort Myers Page Field', 26.583333).
 city_long('Fort Myers Page Field', -81.866667).
-has_vibes('Fort Myers Page Field', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Fort Myers Page Field', [beach]).
 
 city('Freetown Lungi International').
 city_iata('Freetown Lungi International', 'FNA').
 city_lat('Freetown Lungi International', 8.6175).
 city_long('Freetown Lungi International', -13.196944).
-has_vibes('Freetown Lungi International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Freetown Lungi International', [nightlife_and_entertainment]).
 
 city('Neubrandenburg').
 city_iata('Neubrandenburg', 'FNB').
@@ -12529,7 +12529,7 @@ city('Fortuna').
 city_iata('Fortuna', 'FON').
 city_lat('Fortuna', 10.4).
 city_long('Fortuna', -84.483333).
-has_vibes('Fortuna', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Fortuna', [outdoor_adventures]).
 
 city('Numfoor').
 city_iata('Numfoor', 'FOO').
@@ -12545,7 +12545,7 @@ city('Fortaleza').
 city_iata('Fortaleza', 'FOR').
 city_lat('Fortaleza', -3.776667).
 city_long('Fortaleza', -38.534444).
-has_vibes('Fortaleza', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Fortaleza', [nightlife_and_entertainment, underrated_destinations]).
 
 city('Forrest').
 city_iata('Forrest', 'FOS').
@@ -12576,7 +12576,7 @@ city('Freeport').
 city_iata('Freeport', 'FPO').
 city_lat('Freeport', 26.555278).
 city_long('Freeport', -78.7).
-has_vibes('Freeport', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Freeport', [nightlife_and_entertainment, beach, great_food]).
 
 city('Fort Pierce').
 city_iata('Fort Pierce', 'FPR').
@@ -12682,7 +12682,7 @@ city('Flores').
 city_iata('Flores', 'FRS').
 city_lat('Flores', 16.916667).
 city_long('Flores', -89.883333).
-has_vibes('Flores', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Flores', [outdoor_adventures]).
 
 city('Frutillar').
 city_iata('Frutillar', 'FRT').
@@ -12693,7 +12693,7 @@ city('Bishkek').
 city_iata('Bishkek', 'FRU').
 city_lat('Bishkek', 43.061389).
 city_long('Bishkek', 74.4775).
-has_vibes('Bishkek', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Bishkek', [nightlife_and_entertainment, art_and_culture, outdoor_adventures]).
 
 city('Francistown').
 city_iata('Francistown', 'FRW').
@@ -12779,7 +12779,7 @@ city('El Calafate').
 city_iata('El Calafate', 'FTE').
 city_lat('El Calafate', -50.280278).
 city_long('El Calafate', -72.053333).
-has_vibes('El Calafate', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('El Calafate', [outdoor_adventures]).
 
 city('Fitiuta').
 city_iata('Fitiuta', 'FTI').
@@ -12815,7 +12815,7 @@ city('Atlanta Fulton County').
 city_iata('Atlanta Fulton County', 'FTY').
 city_lat('Atlanta Fulton County', 33.783333).
 city_long('Atlanta Fulton County', -84.516667).
-has_vibes('Atlanta Fulton County', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Atlanta Fulton County', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Fulleborn').
 city_iata('Fulleborn', 'FUB').
@@ -12831,7 +12831,7 @@ city('Fuerteventura').
 city_iata('Fuerteventura', 'FUE').
 city_lat('Fuerteventura', 28.452717).
 city_long('Fuerteventura', -13.863761).
-has_vibes('Fuerteventura', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Fuerteventura', [beach]).
 
 city('Fuyang').
 city_iata('Fuyang', 'FUG').
@@ -12842,13 +12842,13 @@ city('Fukue').
 city_iata('Fukue', 'FUJ').
 city_lat('Fukue', 32.666667).
 city_long('Fukue', 128.833333).
-has_vibes('Fukue', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Fukue', [beach]).
 
 city('Fukuoka').
 city_iata('Fukuoka', 'FUK').
 city_lat('Fukuoka', 33.582222).
 city_long('Fukuoka', 130.453333).
-has_vibes('Fukuoka', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Fukuoka', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Fullerton').
 city_iata('Fullerton', 'FUL').
@@ -12864,7 +12864,7 @@ city('Funafuti').
 city_iata('Funafuti', 'FUN').
 city_lat('Funafuti', -8.516667).
 city_long('Funafuti', 179.208333).
-has_vibes('Funafuti', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Funafuti', [outdoor_adventures]).
 
 city('Fuoshan').
 city_iata('Fuoshan', 'FUO').
@@ -12900,7 +12900,7 @@ city('Dallas Carswell AFB').
 city_iata('Dallas Carswell AFB', 'FWH').
 city_lat('Dallas Carswell AFB', 32.763889).
 city_long('Dallas Carswell AFB', -97.3).
-has_vibes('Dallas Carswell AFB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas Carswell AFB', [nightlife_and_entertainment]).
 
 city('Farewell').
 city_iata('Farewell', 'FWL').
@@ -12916,7 +12916,7 @@ city('Fort Lauderdale Executive').
 city_iata('Fort Lauderdale Executive', 'FXE').
 city_lat('Fort Lauderdale Executive', 26.19758).
 city_long('Fort Lauderdale Executive', -80.17032).
-has_vibes('Fort Lauderdale Executive', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Fort Lauderdale Executive', [beach]).
 
 city('Cuamba').
 city_iata('Cuamba', 'FXO').
@@ -13112,7 +13112,7 @@ city('Gaborone').
 city_iata('Gaborone', 'GBE').
 city_lat('Gaborone', -24.55522).
 city_long('Gaborone', 25.91821).
-has_vibes('Gaborone', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Gaborone', [nightlife_and_entertainment]).
 
 city('Negarbo').
 city_iata('Negarbo', 'GBF').
@@ -13163,7 +13163,7 @@ city('Baltimore Greenbelt T').
 city_iata('Baltimore Greenbelt T', 'GBO').
 city_lat('Baltimore Greenbelt T', 39.266667).
 city_long('Baltimore Greenbelt T', -76.75).
-has_vibes('Baltimore Greenbelt T', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Baltimore Greenbelt T', [underrated_destinations, art_and_culture, great_food]).
 
 city('Gamboola').
 city_iata('Gamboola', 'GBP').
@@ -13224,7 +13224,7 @@ city('Johannesburg Grand Central').
 city_iata('Johannesburg Grand Central', 'GCJ').
 city_lat('Johannesburg Grand Central', -25.98941).
 city_long('Johannesburg Grand Central', 28.14079).
-has_vibes('Johannesburg Grand Central', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Johannesburg Grand Central', [nightlife_and_entertainment, art_and_culture]).
 
 city('Garden City').
 city_iata('Garden City', 'GCK').
@@ -13305,7 +13305,7 @@ city('Guadalajara').
 city_iata('Guadalajara', 'GDL').
 city_lat('Guadalajara', 20.523889).
 city_long('Guadalajara', -103.3125).
-has_vibes('Guadalajara', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Guadalajara', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Gardner').
 city_iata('Gardner', 'GDM').
@@ -13316,7 +13316,7 @@ city('Gdansk').
 city_iata('Gdansk', 'GDN').
 city_lat('Gdansk', 54.376558).
 city_long('Gdansk', 18.470078).
-has_vibes('Gdansk', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Gdansk', [nightlife_and_entertainment, underrated_destinations, great_food]).
 
 city('Guasdualito').
 city_iata('Guasdualito', 'GDO').
@@ -13397,7 +13397,7 @@ city('Spokane International').
 city_iata('Spokane International', 'GEG').
 city_lat('Spokane International', 47.616944).
 city_long('Spokane International', -117.537222).
-has_vibes('Spokane International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Spokane International', [underrated_destinations]).
 
 city('Green Islands').
 city_iata('Green Islands', 'GEI').
@@ -13423,7 +13423,7 @@ city('Georgetown').
 city_iata('Georgetown', 'GEO').
 city_lat('Georgetown', 6.5).
 city_long('Georgetown', -58.25).
-has_vibes('Georgetown', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Georgetown', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Nueva Gerona').
 city_iata('Nueva Gerona', 'GER').
@@ -13584,7 +13584,7 @@ city('George Town').
 city_iata('George Town', 'GGT').
 city_lat('George Town', 23.468056).
 city_long('George Town', -75.7825).
-has_vibes('George Town', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('George Town', [nightlife_and_entertainment]).
 
 city('Glasgow').
 city_iata('Glasgow', 'GGW').
@@ -13680,7 +13680,7 @@ city('Rio De Janeiro Internacional').
 city_iata('Rio De Janeiro Internacional', 'GIG').
 city_lat('Rio De Janeiro Internacional', -22.808889).
 city_long('Rio De Janeiro Internacional', -43.243611).
-has_vibes('Rio De Janeiro Internacional', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Rio De Janeiro Internacional', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Siguiri').
 city_iata('Siguiri', 'GII').
@@ -13706,7 +13706,7 @@ city('Gisborne').
 city_iata('Gisborne', 'GIS').
 city_lat('Gisborne', -38.659722).
 city_long('Gisborne', 177.972222).
-has_vibes('Gisborne', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Gisborne', [nightlife_and_entertainment]).
 
 city('Geita').
 city_iata('Geita', 'GIT').
@@ -13802,7 +13802,7 @@ city('Glasgow Intl').
 city_iata('Glasgow Intl', 'GLA').
 city_lat('Glasgow Intl', 55.866667).
 city_long('Glasgow Intl', -4.433333).
-has_vibes('Glasgow Intl', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Glasgow Intl', [underrated_destinations, great_food]).
 
 city('Geladi').
 city_iata('Geladi', 'GLC').
@@ -13958,7 +13958,7 @@ city('Gimpo International').
 city_iata('Gimpo International', 'GMP').
 city_lat('Gimpo International', 37.551111).
 city_long('Gimpo International', 126.785278).
-has_vibes('Gimpo International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Gimpo International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Maqin').
 city_iata('Maqin', 'GMQ').
@@ -14014,7 +14014,7 @@ city('Maurice Bishop International').
 city_iata('Maurice Bishop International', 'GND').
 city_lat('Maurice Bishop International', 12.004167).
 city_long('Maurice Bishop International', -61.786111).
-has_vibes('Maurice Bishop International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Maurice Bishop International', [nightlife_and_entertainment]).
 
 city('Ghent').
 city_iata('Ghent', 'GNE').
@@ -14075,7 +14075,7 @@ city('Sanliurfa Guney Anadoulu Projesi').
 city_iata('Sanliurfa Guney Anadoulu Projesi', 'GNY').
 city_lat('Sanliurfa Guney Anadoulu Projesi', 37.44556).
 city_long('Sanliurfa Guney Anadoulu Projesi', 38.90216).
-has_vibes('Sanliurfa Guney Anadoulu Projesi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sanliurfa Guney Anadoulu Projesi', [art_and_culture]).
 
 city('Ghanzi').
 city_iata('Ghanzi', 'GNZ').
@@ -14121,7 +14121,7 @@ city('Goa Dabolim').
 city_iata('Goa Dabolim', 'GOI').
 city_lat('Goa Dabolim', 15.383333).
 city_long('Goa Dabolim', 73.833333).
-has_vibes('Goa Dabolim', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Goa Dabolim', [beach]).
 
 city('Nizhniy Novgorod').
 city_iata('Nizhniy Novgorod', 'GOJ').
@@ -14177,7 +14177,7 @@ city('Gothenburg Landvetter').
 city_iata('Gothenburg Landvetter', 'GOT').
 city_lat('Gothenburg Landvetter', 57.666667).
 city_long('Gothenburg Landvetter', 12.283333).
-has_vibes('Gothenburg Landvetter', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Gothenburg Landvetter', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Garoua').
 city_iata('Garoua', 'GOU').
@@ -14193,7 +14193,7 @@ city('Goa North Manohar International').
 city_iata('Goa North Manohar International', 'GOX').
 city_lat('Goa North Manohar International', 15.732552433046504).
 city_long('Goa North Manohar International', 73.8683135613662).
-has_vibes('Goa North Manohar International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Goa North Manohar International', [beach]).
 
 city('Tura').
 city_iata('Tura', 'GOY').
@@ -14244,7 +14244,7 @@ city('Gulfport').
 city_iata('Gulfport', 'GPT').
 city_lat('Gulfport', 30.406111).
 city_long('Gulfport', -89.070278).
-has_vibes('Gulfport', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Gulfport', [beach]).
 
 city('Grand Rapids').
 city_iata('Grand Rapids', 'GPZ').
@@ -14305,7 +14305,7 @@ city('George').
 city_iata('George', 'GRJ').
 city_lat('George', -34.005556).
 city_long('George', 22.378889).
-has_vibes('George', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('George', [beach]).
 
 city('Killeen Gray AAF').
 city_iata('Killeen Gray AAF', 'GRK').
@@ -14331,7 +14331,7 @@ city('Girona').
 city_iata('Girona', 'GRO').
 city_lat('Girona', 41.909167).
 city_long('Girona', 2.763333).
-has_vibes('Girona', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Girona', [underrated_destinations, art_and_culture]).
 
 city('Gurupi').
 city_iata('Gurupi', 'GRP').
@@ -14362,7 +14362,7 @@ city('Sao Paulo Guarulhos').
 city_iata('Sao Paulo Guarulhos', 'GRU').
 city_lat('Sao Paulo Guarulhos', -23.433333).
 city_long('Sao Paulo Guarulhos', -46.483333).
-has_vibes('Sao Paulo Guarulhos', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sao Paulo Guarulhos', [great_food]).
 
 city('Grozny').
 city_iata('Grozny', 'GRV').
@@ -14378,7 +14378,7 @@ city('Granada').
 city_iata('Granada', 'GRX').
 city_lat('Granada', 37.187454).
 city_long('Granada', -3.7778719).
-has_vibes('Granada', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Granada', [art_and_culture]).
 
 city('Grimsey').
 city_iata('Grimsey', 'GRY').
@@ -14409,7 +14409,7 @@ city('Gothenburg Save').
 city_iata('Gothenburg Save', 'GSE').
 city_lat('Gothenburg Save', 57.768333).
 city_long('Gothenburg Save', 11.867778).
-has_vibes('Gothenburg Save', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Gothenburg Save', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Goshen').
 city_iata('Goshen', 'GSH').
@@ -14565,7 +14565,7 @@ city('Guatemala City').
 city_iata('Guatemala City', 'GUA').
 city_lat('Guatemala City', 14.581944).
 city_long('Guatemala City', -90.5275).
-has_vibes('Guatemala City', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Guatemala City', [nightlife_and_entertainment, art_and_culture]).
 
 city('Guerrero Negro').
 city_iata('Guerrero Negro', 'GUB').
@@ -14751,7 +14751,7 @@ city('Gwadar').
 city_iata('Gwadar', 'GWD').
 city_lat('Gwadar', 25.230556).
 city_long('Gwadar', 62.338889).
-has_vibes('Gwadar', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Gwadar', [beach]).
 
 city('Gweru').
 city_iata('Gweru', 'GWE').
@@ -14832,13 +14832,13 @@ city('Baku Heydar Aliyev International').
 city_iata('Baku Heydar Aliyev International', 'GYD').
 city_lat('Baku Heydar Aliyev International', 40.4655635).
 city_long('Baku Heydar Aliyev International', 50.0521822).
-has_vibes('Baku Heydar Aliyev International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Baku Heydar Aliyev International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Guayaquil').
 city_iata('Guayaquil', 'GYE').
 city_lat('Guayaquil', -2.154444).
 city_long('Guayaquil', -79.875556).
-has_vibes('Guayaquil', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Guayaquil', [nightlife_and_entertainment, great_food]).
 
 city('Magan').
 city_iata('Magan', 'GYG').
@@ -14909,7 +14909,7 @@ city('Gizo').
 city_iata('Gizo', 'GZO').
 city_lat('Gizo', -8.116667).
 city_long('Gizo', 156.833333).
-has_vibes('Gizo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Gizo', [outdoor_adventures]).
 
 city('Gazipasa Alanya').
 city_iata('Gazipasa Alanya', 'GZP').
@@ -14920,7 +14920,7 @@ city('Gaziantep').
 city_iata('Gaziantep', 'GZT').
 city_lat('Gaziantep', 36.947183).
 city_long('Gaziantep', 37.478683).
-has_vibes('Gaziantep', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Gaziantep', [nightlife_and_entertainment, great_food]).
 
 city('Ghazvin').
 city_iata('Ghazvin', 'GZW').
@@ -14991,13 +14991,13 @@ city('Hamburg International').
 city_iata('Hamburg International', 'HAM').
 city_lat('Hamburg International', 53.6336347).
 city_long('Hamburg International', 9.9973162).
-has_vibes('Hamburg International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Hamburg International', [underrated_destinations]).
 
 city('Hanoi').
 city_iata('Hanoi', 'HAN').
 city_lat('Hanoi', 21.2191764).
 city_long('Hanoi', 105.8030369).
-has_vibes('Hanoi', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hanoi', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Hamilton').
 city_iata('Hamilton', 'HAO').
@@ -15023,7 +15023,7 @@ city('Hail').
 city_iata('Hail', 'HAS').
 city_lat('Hail', 27.43792).
 city_long('Hail', 41.68629).
-has_vibes('Hail', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Hail', [nightlife_and_entertainment]).
 
 city('Heathlands').
 city_iata('Heathlands', 'HAT').
@@ -15039,7 +15039,7 @@ city('Havana').
 city_iata('Havana', 'HAV').
 city_lat('Havana', 22.989444).
 city_long('Havana', -82.4075).
-has_vibes('Havana', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Havana', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Haverfordwest').
 city_iata('Haverfordwest', 'HAW').
@@ -15065,7 +15065,7 @@ city('Hobart').
 city_iata('Hobart', 'HBA').
 city_lat('Hobart', -42.833333).
 city_long('Hobart', 147.483333).
-has_vibes('Hobart', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hobart', [underrated_destinations, art_and_culture, great_food]).
 
 city('Hobbs Industrial Airpark').
 city_iata('Hobbs Industrial Airpark', 'HBB').
@@ -15086,7 +15086,7 @@ city('Alexandria Borg El Arab').
 city_iata('Alexandria Borg El Arab', 'HBE').
 city_lat('Alexandria Borg El Arab', 30.9).
 city_long('Alexandria Borg El Arab', 29.683333).
-has_vibes('Alexandria Borg El Arab', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Alexandria Borg El Arab', [great_food]).
 
 city('Hattiesburg').
 city_iata('Hattiesburg', 'HBG').
@@ -15177,7 +15177,7 @@ city('Johannesburg Randburg Heliport').
 city_iata('Johannesburg Randburg Heliport', 'HCS').
 city_lat('Johannesburg Randburg Heliport', -26.140278).
 city_long('Johannesburg Randburg Heliport', 28.242778).
-has_vibes('Johannesburg Randburg Heliport', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Johannesburg Randburg Heliport', [nightlife_and_entertainment, art_and_culture]).
 
 city('Cheraw').
 city_iata('Cheraw', 'HCW').
@@ -15263,7 +15263,7 @@ city('Herat').
 city_iata('Herat', 'HEA').
 city_lat('Herat', 34.206944).
 city_long('Herat', 62.226667).
-has_vibes('Herat', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Herat', [great_food]).
 
 city('Henzada').
 city_iata('Henzada', 'HEB').
@@ -15299,13 +15299,13 @@ city('Helsinki Vantaa').
 city_iata('Helsinki Vantaa', 'HEL').
 city_lat('Helsinki Vantaa', 60.321031).
 city_long('Helsinki Vantaa', 24.9529784).
-has_vibes('Helsinki Vantaa', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Helsinki Vantaa', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Hendon').
 city_iata('Hendon', 'HEN').
 city_lat('Hendon', 60.147714).
 city_long('Hendon', 24.924057).
-has_vibes('Hendon', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hendon', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Haelogo').
 city_iata('Haelogo', 'HEO').
@@ -15316,7 +15316,7 @@ city('Crete Heraklion').
 city_iata('Crete Heraklion', 'HER').
 city_lat('Crete Heraklion', 35.340278).
 city_long('Crete Heraklion', 25.183333).
-has_vibes('Crete Heraklion', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Crete Heraklion', [beach]).
 
 city('Hermiston').
 city_iata('Hermiston', 'HES').
@@ -15337,7 +15337,7 @@ city('Santo Domingo Herrera').
 city_iata('Santo Domingo Herrera', 'HEX').
 city_lat('Santo Domingo Herrera', 18.475).
 city_long('Santo Domingo Herrera', -69.975).
-has_vibes('Santo Domingo Herrera', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santo Domingo Herrera', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Ozark Hanchey Army Heliport').
 city_iata('Ozark Hanchey Army Heliport', 'HEY').
@@ -15353,7 +15353,7 @@ city('Haifa').
 city_iata('Haifa', 'HFA').
 city_lat('Haifa', 32.811111).
 city_long('Haifa', 35.041667).
-has_vibes('Haifa', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Haifa', [nightlife_and_entertainment, beach, art_and_culture, great_food]).
 
 city('Hartford Brainard').
 city_iata('Hartford Brainard', 'HFD').
@@ -15399,7 +15399,7 @@ city('Hangzhou').
 city_iata('Hangzhou', 'HGH').
 city_lat('Hangzhou', 30.229444).
 city_long('Hangzhou', 120.434444).
-has_vibes('Hangzhou', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Hangzhou', [nightlife_and_entertainment, art_and_culture, outdoor_adventures]).
 
 city('Itanagar').
 city_iata('Itanagar', 'HGI').
@@ -15430,7 +15430,7 @@ city('Freetown Hastings').
 city_iata('Freetown Hastings', 'HGS').
 city_lat('Freetown Hastings', 8.393056).
 city_long('Freetown Hastings', -13.13).
-has_vibes('Freetown Hastings', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Freetown Hastings', [nightlife_and_entertainment]).
 
 city('Jolon').
 city_iata('Jolon', 'HGT').
@@ -15471,19 +15471,19 @@ city('Hong Kong H K Heliport').
 city_iata('Hong Kong H K Heliport', 'HHP').
 city_lat('Hong Kong H K Heliport', 22.318056).
 city_long('Hong Kong H K Heliport', 114.2).
-has_vibes('Hong Kong H K Heliport', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hong Kong H K Heliport', [great_food]).
 
 city('Hua Hin (Prachuap Khiri Khan)').
 city_iata('Hua Hin (Prachuap Khiri Khan)', 'HHQ').
 city_lat('Hua Hin (Prachuap Khiri Khan)', 12.630556).
 city_long('Hua Hin (Prachuap Khiri Khan)', 99.954444).
-has_vibes('Hua Hin (Prachuap Khiri Khan)', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Hua Hin (Prachuap Khiri Khan)', [outdoor_adventures]).
 
 city('Hawthorne').
 city_iata('Hawthorne', 'HHR').
 city_lat('Hawthorne', 33.926944).
 city_long('Hawthorne', -118.336389).
-has_vibes('Hawthorne', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Hawthorne', [beach]).
 
 city('Hikueru').
 city_iata('Hikueru', 'HHZ').
@@ -15539,7 +15539,7 @@ city('Hiroshima International').
 city_iata('Hiroshima International', 'HIJ').
 city_lat('Hiroshima International', 34.432778).
 city_long('Hiroshima International', 132.924722).
-has_vibes('Hiroshima International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Hiroshima International', [nightlife_and_entertainment, art_and_culture]).
 
 city('Shillavo').
 city_iata('Shillavo', 'HIL').
@@ -15570,7 +15570,7 @@ city('Honiara').
 city_iata('Honiara', 'HIR').
 city_lat('Honiara', -9.425278).
 city_long('Honiara', 160.045556).
-has_vibes('Honiara', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Honiara', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Hayman Island').
 city_iata('Hayman Island', 'HIS').
@@ -15621,7 +15621,7 @@ city('Hong Kong Intl').
 city_iata('Hong Kong Intl', 'HKG').
 city_lat('Hong Kong Intl', 22.3081165).
 city_long('Hong Kong Intl', 113.9184593).
-has_vibes('Hong Kong Intl', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hong Kong Intl', [great_food]).
 
 city('Hokitika').
 city_iata('Hokitika', 'HKK').
@@ -15647,7 +15647,7 @@ city('Phuket').
 city_iata('Phuket', 'HKT').
 city_lat('Phuket', 8.1111907).
 city_long('Phuket', 98.306529).
-has_vibes('Phuket', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Phuket', [nightlife_and_entertainment]).
 
 city('Haskovo').
 city_iata('Haskovo', 'HKV').
@@ -15663,7 +15663,7 @@ city('Lanseria').
 city_iata('Lanseria', 'HLA').
 city_lat('Lanseria', -25.938611).
 city_long('Lanseria', 27.909444).
-has_vibes('Lanseria', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Lanseria', [nightlife_and_entertainment, art_and_culture]).
 
 city('Batesville').
 city_iata('Batesville', 'HLB').
@@ -15764,7 +15764,7 @@ city('Hamilton').
 city_iata('Hamilton', 'HLZ').
 city_lat('Hamilton', -37.861111).
 city_long('Hamilton', 175.333333).
-has_vibes('Hamilton', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hamilton', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Khanty-Mansiysk').
 city_iata('Khanty-Mansiysk', 'HMA').
@@ -15845,7 +15845,7 @@ city('Tokyo Haneda').
 city_iata('Tokyo Haneda', 'HND').
 city_lat('Tokyo Haneda', 35.553611).
 city_long('Tokyo Haneda', 139.765833).
-has_vibes('Tokyo Haneda', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tokyo Haneda', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Tahneta Pass Lodge').
 city_iata('Tahneta Pass Lodge', 'HNE').
@@ -15871,7 +15871,7 @@ city('Honolulu International').
 city_iata('Honolulu International', 'HNL').
 city_lat('Honolulu International', 21.325833).
 city_long('Honolulu International', -157.921667).
-has_vibes('Honolulu International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Honolulu International', [beach]).
 
 city('Hana').
 city_iata('Hana', 'HNM').
@@ -16002,7 +16002,7 @@ city('Houston Hobby').
 city_iata('Houston Hobby', 'HOU').
 city_lat('Houston Hobby', 29.645).
 city_long('Houston Hobby', -95.278611).
-has_vibes('Houston Hobby', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Hobby', [nightlife_and_entertainment]).
 
 city('Orsta / Volda Hovden').
 city_iata('Orsta / Volda Hovden', 'HOV').
@@ -16113,7 +16113,7 @@ city('Harare').
 city_iata('Harare', 'HRE').
 city_lat('Harare', -17.922778).
 city_long('Harare', 31.101389).
-has_vibes('Harare', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Harare', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Hoarafushi').
 city_iata('Hoarafushi', 'HRF').
@@ -16214,7 +16214,7 @@ city('Las Vegas Henderson Sky Harbor').
 city_iata('Las Vegas Henderson Sky Harbor', 'HSH').
 city_lat('Las Vegas Henderson Sky Harbor', 35.968333).
 city_long('Las Vegas Henderson Sky Harbor', -115.119167).
-has_vibes('Las Vegas Henderson Sky Harbor', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Las Vegas Henderson Sky Harbor', [nightlife_and_entertainment]).
 
 city('Hastings').
 city_iata('Hastings', 'HSI').
@@ -16355,7 +16355,7 @@ city('Antakya').
 city_iata('Antakya', 'HTY').
 city_lat('Antakya', 36.369604).
 city_long('Antakya', 36.282349).
-has_vibes('Antakya', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Antakya', [great_food]).
 
 city('Hato Corozal').
 city_iata('Hato Corozal', 'HTZ').
@@ -16406,7 +16406,7 @@ city('Hue').
 city_iata('Hue', 'HUI').
 city_lat('Hue', 16.399167).
 city_long('Hue', 107.703333).
-has_vibes('Hue', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hue', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Hugo').
 city_iata('Hugo', 'HUJ').
@@ -16432,7 +16432,7 @@ city('Hualien').
 city_iata('Hualien', 'HUN').
 city_lat('Hualien', 24.022222).
 city_long('Hualien', 121.6125).
-has_vibes('Hualien', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Hualien', [beach, outdoor_adventures]).
 
 city('Huolinhe').
 city_iata('Huolinhe', 'HUO').
@@ -16498,7 +16498,7 @@ city('Khovd').
 city_iata('Khovd', 'HVD').
 city_lat('Khovd', 47.962304).
 city_long('Khovd', 91.624809).
-has_vibes('Khovd', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Khovd', [outdoor_adventures]).
 
 city('Hanksville').
 city_iata('Hanksville', 'HVE').
@@ -16674,7 +16674,7 @@ city('Washington Dulles').
 city_iata('Washington Dulles', 'IAD').
 city_lat('Washington Dulles', 38.95).
 city_long('Washington Dulles', -77.45).
-has_vibes('Washington Dulles', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Washington Dulles', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Niagara Falls').
 city_iata('Niagara Falls', 'IAG').
@@ -16685,7 +16685,7 @@ city('Houston George Bush Intercntl.').
 city_iata('Houston George Bush Intercntl.', 'IAH').
 city_lat('Houston George Bush Intercntl.', 29.983333).
 city_long('Houston George Bush Intercntl.', -95.34).
-has_vibes('Houston George Bush Intercntl.', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston George Bush Intercntl.', [nightlife_and_entertainment]).
 
 city('Salinas Municipal').
 city_iata('Salinas Municipal', 'IAL').
@@ -16706,7 +16706,7 @@ city('Sayak').
 city_iata('Sayak', 'IAO').
 city_lat('Sayak', 9.855132).
 city_long('Sayak', 126.015372).
-has_vibes('Sayak', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sayak', [nightlife_and_entertainment]).
 
 city('Bahregan').
 city_iata('Bahregan', 'IAQ').
@@ -16772,7 +16772,7 @@ city('Ibiza').
 city_iata('Ibiza', 'IBZ').
 city_lat('Ibiza', 38.873611).
 city_long('Ibiza', 1.372778).
-has_vibes('Ibiza', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Ibiza', [nightlife_and_entertainment, beach]).
 
 city('Icabaru').
 city_iata('Icabaru', 'ICA').
@@ -16798,7 +16798,7 @@ city('Incheon International').
 city_iata('Incheon International', 'ICN').
 city_lat('Incheon International', 37.469167).
 city_long('Incheon International', 126.450556).
-has_vibes('Incheon International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Incheon International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Sicogon Island').
 city_iata('Sicogon Island', 'ICO').
@@ -16924,7 +16924,7 @@ city('Isfahan').
 city_iata('Isfahan', 'IFN').
 city_lat('Isfahan', 32.75).
 city_long('Isfahan', 51.85).
-has_vibes('Isfahan', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Isfahan', [great_food]).
 
 city('Ivano-Frankivsk').
 city_iata('Ivano-Frankivsk', 'IFO').
@@ -16975,7 +16975,7 @@ city('Izmir Cigli').
 city_iata('Izmir Cigli', 'IGL').
 city_lat('Izmir Cigli', 38.318889).
 city_long('Izmir Cigli', 27.159444).
-has_vibes('Izmir Cigli', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Izmir Cigli', [underrated_destinations, art_and_culture]).
 
 city('Kingman').
 city_iata('Kingman', 'IGM').
@@ -16996,7 +16996,7 @@ city('Iguazu').
 city_iata('Iguazu', 'IGR').
 city_lat('Iguazu', -25.73504).
 city_long('Iguazu', -54.482574).
-has_vibes('Iguazu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Iguazu', [outdoor_adventures]).
 
 city('Magas').
 city_iata('Magas', 'IGT').
@@ -17007,7 +17007,7 @@ city('Iguassu Falls').
 city_iata('Iguassu Falls', 'IGU').
 city_lat('Iguassu Falls', -25.6).
 city_long('Iguassu Falls', -54.483333).
-has_vibes('Iguassu Falls', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Iguassu Falls', [outdoor_adventures]).
 
 city('Niihama').
 city_iata('Niihama', 'IHA').
@@ -17078,7 +17078,7 @@ city('Imam Khomeini International').
 city_iata('Imam Khomeini International', 'IKA').
 city_lat('Imam Khomeini International', 35.4097).
 city_long('Imam Khomeini International', 51.1508).
-has_vibes('Imam Khomeini International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Imam Khomeini International', [great_food, outdoor_adventures]).
 
 city('Wilkesboro').
 city_iata('Wilkesboro', 'IKB').
@@ -17179,7 +17179,7 @@ city('Wilmington').
 city_iata('Wilmington', 'ILM').
 city_lat('Wilmington', 34.266944).
 city_long('Wilmington', -77.903889).
-has_vibes('Wilmington', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Wilmington', [beach]).
 
 city('Wilmington').
 city_iata('Wilmington', 'ILN').
@@ -17370,7 +17370,7 @@ city('Innsbruck').
 city_iata('Innsbruck', 'INN').
 city_lat('Innsbruck', 47.260833).
 city_long('Innsbruck', 11.347222).
-has_vibes('Innsbruck', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Innsbruck', [outdoor_adventures]).
 
 city('Inongo').
 city_iata('Inongo', 'INO').
@@ -17406,7 +17406,7 @@ city('Inverness').
 city_iata('Inverness', 'INV').
 city_lat('Inverness', 57.5425).
 city_long('Inverness', -4.048333).
-has_vibes('Inverness', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Inverness', [outdoor_adventures]).
 
 city('Winslow').
 city_iata('Winslow', 'INW').
@@ -17497,7 +17497,7 @@ city('Ipoh').
 city_iata('Ipoh', 'IPH').
 city_lat('Ipoh', 4.566944).
 city_long('Ipoh', 101.095833).
-has_vibes('Ipoh', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ipoh', [underrated_destinations, art_and_culture, great_food]).
 
 city('Ipiales').
 city_iata('Ipiales', 'IPI').
@@ -17553,7 +17553,7 @@ city('Iquitos').
 city_iata('Iquitos', 'IQT').
 city_lat('Iquitos', -3.781698).
 city_long('Iquitos', -73.309193).
-has_vibes('Iquitos', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Iquitos', [underrated_destinations, art_and_culture]).
 
 city('Kirakira').
 city_iata('Kirakira', 'IRA').
@@ -17634,13 +17634,13 @@ city('Mount Isa').
 city_iata('Mount Isa', 'ISA').
 city_lat('Mount Isa', -20.655833).
 city_long('Mount Isa', 139.479167).
-has_vibes('Mount Isa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Mount Isa', [art_and_culture]).
 
 city('Islamabad').
 city_iata('Islamabad', 'ISB').
 city_lat('Islamabad', 33.5562322).
 city_long('Islamabad', 72.8335624).
-has_vibes('Islamabad', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Islamabad', [outdoor_adventures]).
 
 city('Isles of Scilly St. Marys').
 city_iata('Isles of Scilly St. Marys', 'ISC').
@@ -17656,13 +17656,13 @@ city('Isparta').
 city_iata('Isparta', 'ISE').
 city_lat('Isparta', 37.866111).
 city_long('Isparta', 30.382222).
-has_vibes('Isparta', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Isparta', [outdoor_adventures]).
 
 city('Ishigaki').
 city_iata('Ishigaki', 'ISG').
 city_lat('Ishigaki', 24.336944).
 city_long('Ishigaki', 124.168889).
-has_vibes('Ishigaki', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Ishigaki', [beach]).
 
 city('Ischia').
 city_iata('Ischia', 'ISH').
@@ -17718,13 +17718,13 @@ city('Istanbul').
 city_iata('Istanbul', 'IST').
 city_lat('Istanbul', 41.2599083).
 city_long('Istanbul', 28.7427717).
-has_vibes('Istanbul', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Istanbul', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Sulaymaniyah International').
 city_iata('Sulaymaniyah International', 'ISU').
 city_lat('Sulaymaniyah International', 35.5608).
 city_long('Sulaymaniyah International', 45.314701).
-has_vibes('Sulaymaniyah International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Sulaymaniyah International', [outdoor_adventures]).
 
 city('Wisconsin Rapids').
 city_iata('Wisconsin Rapids', 'ISW').
@@ -17765,7 +17765,7 @@ city('Itami Domestic (Osaka)').
 city_iata('Itami Domestic (Osaka)', 'ITM').
 city_lat('Itami Domestic (Osaka)', 34.781667).
 city_long('Itami Domestic (Osaka)', 135.441667).
-has_vibes('Itami Domestic (Osaka)', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Itami Domestic (Osaka)', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Itabuna').
 city_iata('Itabuna', 'ITN').
@@ -17831,7 +17831,7 @@ city('Invercargill').
 city_iata('Invercargill', 'IVC').
 city_lat('Invercargill', -46.4125).
 city_long('Invercargill', 168.320833).
-has_vibes('Invercargill', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Invercargill', [art_and_culture]).
 
 city('Ivangrad').
 city_iata('Ivangrad', 'IVG').
@@ -17892,7 +17892,7 @@ city('West Houston').
 city_iata('West Houston', 'IWS').
 city_lat('West Houston', 29.816667).
 city_long('West Houston', -95.666667).
-has_vibes('West Houston', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('West Houston', [nightlife_and_entertainment]).
 
 city('Agartala').
 city_iata('Agartala', 'IXA').
@@ -17948,13 +17948,13 @@ city('Leh').
 city_iata('Leh', 'IXL').
 city_lat('Leh', 34.166667).
 city_long('Leh', 77.583333).
-has_vibes('Leh', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Leh', [outdoor_adventures]).
 
 city('Madurai').
 city_iata('Madurai', 'IXM').
 city_lat('Madurai', 9.8325).
 city_long('Madurai', 78.088056).
-has_vibes('Madurai', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Madurai', [underrated_destinations]).
 
 city('Khowai').
 city_iata('Khowai', 'IXN').
@@ -17990,7 +17990,7 @@ city('Aurangabad').
 city_iata('Aurangabad', 'IXU').
 city_lat('Aurangabad', 19.863611).
 city_long('Aurangabad', 75.401111).
-has_vibes('Aurangabad', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Aurangabad', [outdoor_adventures]).
 
 city('Along').
 city_iata('Along', 'IXV').
@@ -18081,13 +18081,13 @@ city('Jaipur').
 city_iata('Jaipur', 'JAI').
 city_lat('Jaipur', 26.821667).
 city_long('Jaipur', 75.806111).
-has_vibes('Jaipur', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Jaipur', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Atlanta Perimeter Mall').
 city_iata('Atlanta Perimeter Mall', 'JAJ').
 city_lat('Atlanta Perimeter Mall', 33.635278).
 city_long('Atlanta Perimeter Mall', -84.421667).
-has_vibes('Atlanta Perimeter Mall', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Atlanta Perimeter Mall', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Jacmel').
 city_iata('Jacmel', 'JAK').
@@ -18113,7 +18113,7 @@ city('Atlanta Beaver Ruin').
 city_iata('Atlanta Beaver Ruin', 'JAO').
 city_lat('Atlanta Beaver Ruin', 33.646389).
 city_long('Atlanta Beaver Ruin', -84.432778).
-has_vibes('Atlanta Beaver Ruin', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Atlanta Beaver Ruin', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Punta Renes').
 city_iata('Punta Renes', 'JAP').
@@ -18169,7 +18169,7 @@ city('Boston City Heliport').
 city_iata('Boston City Heliport', 'JBC').
 city_lat('Boston City Heliport', 42.343889).
 city_long('Boston City Heliport', -71.049444).
-has_vibes('Boston City Heliport', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Boston City Heliport', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Jiangbulake').
 city_iata('Jiangbulake', 'JBK').
@@ -18180,7 +18180,7 @@ city('La Isabela International').
 city_iata('La Isabela International', 'JBQ').
 city_lat('La Isabela International', 18.575731).
 city_long('La Isabela International', -69.98144).
-has_vibes('La Isabela International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('La Isabela International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Jonesboro').
 city_iata('Jonesboro', 'JBR').
@@ -18216,7 +18216,7 @@ city('Oakland Convention Center H / P').
 city_iata('Oakland Convention Center H / P', 'JCE').
 city_lat('Oakland Convention Center H / P', 37.816667).
 city_long('Oakland Convention Center H / P', -122.266667).
-has_vibes('Oakland Convention Center H / P', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Oakland Convention Center H / P', [underrated_destinations, beach]).
 
 city('Qasigiannguit').
 city_iata('Qasigiannguit', 'JCH').
@@ -18232,7 +18232,7 @@ city('Jeju Chuja Heliport').
 city_iata('Jeju Chuja Heliport', 'JCJ').
 city_lat('Jeju Chuja Heliport', 33.944444).
 city_long('Jeju Chuja Heliport', 126.327778).
-has_vibes('Jeju Chuja Heliport', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Jeju Chuja Heliport', [outdoor_adventures]).
 
 city('Julia Creek').
 city_iata('Julia Creek', 'JCK').
@@ -18283,7 +18283,7 @@ city('Los Angeles Citicorp Plaza H / P').
 city_iata('Los Angeles Citicorp Plaza H / P', 'JCX').
 city_lat('Los Angeles Citicorp Plaza H / P', 34.066667).
 city_long('Los Angeles Citicorp Plaza H / P', -118.25).
-has_vibes('Los Angeles Citicorp Plaza H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles Citicorp Plaza H / P', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Johnson').
 city_iata('Johnson', 'JCY').
@@ -18299,7 +18299,7 @@ city('Dallas Downtown Heliport').
 city_iata('Dallas Downtown Heliport', 'JDB').
 city_lat('Dallas Downtown Heliport', 32.766667).
 city_long('Dallas Downtown Heliport', -97.316667).
-has_vibes('Dallas Downtown Heliport', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas Downtown Heliport', [nightlife_and_entertainment]).
 
 city('Juiz De Fora').
 city_iata('Juiz De Fora', 'JDF').
@@ -18335,7 +18335,7 @@ city('Houston Central Bus. District').
 city_iata('Houston Central Bus. District', 'JDX').
 city_lat('Houston Central Bus. District', 29.766667).
 city_long('Houston Central Bus. District', -95.333333).
-has_vibes('Houston Central Bus. District', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Central Bus. District', [nightlife_and_entertainment]).
 
 city('Downey').
 city_iata('Downey', 'JDY').
@@ -18351,7 +18351,7 @@ city('Jeddah').
 city_iata('Jeddah', 'JED').
 city_lat('Jeddah', 21.6621967).
 city_long('Jeddah', 39.1733294).
-has_vibes('Jeddah', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Jeddah', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Jeremie').
 city_iata('Jeremie', 'JEE').
@@ -18397,7 +18397,7 @@ city('New York John F. Kennedy').
 city_iata('New York John F. Kennedy', 'JFK').
 city_lat('New York John F. Kennedy', 40.6412215).
 city_long('New York John F. Kennedy', -73.7781176).
-has_vibes('New York John F. Kennedy', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('New York John F. Kennedy', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Fremantle').
 city_iata('Fremantle', 'JFM').
@@ -18443,7 +18443,7 @@ city('Atlanta Galleria').
 city_iata('Atlanta Galleria', 'JGL').
 city_lat('Atlanta Galleria', 33.886111).
 city_long('Atlanta Galleria', -84.466944).
-has_vibes('Atlanta Galleria', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Atlanta Galleria', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Jiayuguan').
 city_iata('Jiayuguan', 'JGN').
@@ -18459,13 +18459,13 @@ city('Houston Greenway Plaza H / P').
 city_iata('Houston Greenway Plaza H / P', 'JGP').
 city_lat('Houston Greenway Plaza H / P', 29.666667).
 city_long('Houston Greenway Plaza H / P', -95.25).
-has_vibes('Houston Greenway Plaza H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Greenway Plaza H / P', [nightlife_and_entertainment]).
 
 city('Houston Transco Twr Galleria').
 city_iata('Houston Transco Twr Galleria', 'JGQ').
 city_lat('Houston Transco Twr Galleria', 29.766667).
 city_long('Houston Transco Twr Galleria', -95.466667).
-has_vibes('Houston Transco Twr Galleria', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Transco Twr Galleria', [nightlife_and_entertainment]).
 
 city('Groennedal').
 city_iata('Groennedal', 'JGR').
@@ -18486,7 +18486,7 @@ city('Senai International').
 city_iata('Senai International', 'JHB').
 city_lat('Senai International', 1.638889).
 city_long('Senai International', 103.670833).
-has_vibes('Senai International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Senai International', [nightlife_and_entertainment]).
 
 city('Garden City').
 city_iata('Garden City', 'JHC').
@@ -18507,7 +18507,7 @@ city('Kapalua').
 city_iata('Kapalua', 'JHM').
 city_lat('Kapalua', 20.964722).
 city_long('Kapalua', -156.676667).
-has_vibes('Kapalua', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kapalua', [beach]).
 
 city('Shute Harbour').
 city_iata('Shute Harbour', 'JHQ').
@@ -18538,7 +18538,7 @@ city('Djibouti').
 city_iata('Djibouti', 'JIB').
 city_lat('Djibouti', 11.546667).
 city_long('Djibouti', 43.158889).
-has_vibes('Djibouti', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Djibouti', [nightlife_and_entertainment, great_food, outdoor_adventures]).
 
 city('Jinchuan').
 city_iata('Jinchuan', 'JIC').
@@ -18549,7 +18549,7 @@ city('Los Angeles City Of Industry H / P').
 city_iata('Los Angeles City Of Industry H / P', 'JID').
 city_lat('Los Angeles City Of Industry H / P', 34).
 city_long('Los Angeles City Of Industry H / P', -118).
-has_vibes('Los Angeles City Of Industry H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles City Of Industry H / P', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Jijiga').
 city_iata('Jijiga', 'JIJ').
@@ -18575,7 +18575,7 @@ city('Jinja').
 city_iata('Jinja', 'JIN').
 city_lat('Jinja', 0.456389).
 city_long('Jinja', 33.192222).
-has_vibes('Jinja', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Jinja', [outdoor_adventures]).
 
 city('Jos Orno Imsula').
 city_iata('Jos Orno Imsula', 'JIO').
@@ -18671,7 +18671,7 @@ city('Long Beach Heliport').
 city_iata('Long Beach Heliport', 'JLB').
 city_lat('Long Beach Heliport', 33.8175).
 city_long('Long Beach Heliport', -118.151111).
-has_vibes('Long Beach Heliport', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Long Beach Heliport', [beach]).
 
 city('Landskrona Heliport').
 city_iata('Landskrona Heliport', 'JLD').
@@ -18732,7 +18732,7 @@ city('Dallas Market Centre H / P').
 city_iata('Dallas Market Centre H / P', 'JMD').
 city_lat('Dallas Market Centre H / P', 32.8).
 city_long('Dallas Market Centre H / P', -97.333333).
-has_vibes('Dallas Market Centre H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas Market Centre H / P', [nightlife_and_entertainment]).
 
 city('Schaumburg').
 city_iata('Schaumburg', 'JMH').
@@ -18748,7 +18748,7 @@ city('Mykonos').
 city_iata('Mykonos', 'JMK').
 city_lat('Mykonos', 37.436111).
 city_long('Mykonos', 25.344444).
-has_vibes('Mykonos', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Mykonos', [beach]).
 
 city('Malmo Harbour Heliport').
 city_iata('Malmo Harbour Heliport', 'JMM').
@@ -18764,7 +18764,7 @@ city('Jomsom').
 city_iata('Jomsom', 'JMO').
 city_lat('Jomsom', 28.783333).
 city_long('Jomsom', 83.733333).
-has_vibes('Jomsom', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Jomsom', [outdoor_adventures]).
 
 city('Jamestown').
 city_iata('Jamestown', 'JMS').
@@ -18780,7 +18780,7 @@ city('Freetown Mammy Yoko Heliport').
 city_iata('Freetown Mammy Yoko Heliport', 'JMY').
 city_lat('Freetown Mammy Yoko Heliport', 8.483333).
 city_long('Freetown Mammy Yoko Heliport', -13.266667).
-has_vibes('Freetown Mammy Yoko Heliport', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Freetown Mammy Yoko Heliport', [nightlife_and_entertainment]).
 
 city('Januaria').
 city_iata('Januaria', 'JNA').
@@ -18791,7 +18791,7 @@ city('Johannesburg O.R. Tambo').
 city_iata('Johannesburg O.R. Tambo', 'JNB').
 city_lat('Johannesburg O.R. Tambo', -26.133333).
 city_long('Johannesburg O.R. Tambo', 28.25).
-has_vibes('Johannesburg O.R. Tambo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Johannesburg O.R. Tambo', [nightlife_and_entertainment, art_and_culture]).
 
 city('Jining').
 city_iata('Jining', 'JNG').
@@ -18802,7 +18802,7 @@ city('Dallas North Park Inn H / P').
 city_iata('Dallas North Park Inn H / P', 'JNH').
 city_lat('Dallas North Park Inn H / P', 32.816667).
 city_long('Dallas North Park Inn H / P', -97.35).
-has_vibes('Dallas North Park Inn H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas North Park Inn H / P', [nightlife_and_entertainment]).
 
 city('Junin').
 city_iata('Junin', 'JNI').
@@ -18828,7 +18828,7 @@ city('Juneau').
 city_iata('Juneau', 'JNU').
 city_lat('Juneau', 58.355556).
 city_long('Juneau', -134.574722).
-has_vibes('Juneau', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Juneau', [underrated_destinations]).
 
 city('Naxos').
 city_iata('Naxos', 'JNX').
@@ -18844,7 +18844,7 @@ city('Santa Ana Centerport Heliport').
 city_iata('Santa Ana Centerport Heliport', 'JOC').
 city_lat('Santa Ana Centerport Heliport', 33.666667).
 city_long('Santa Ana Centerport Heliport', -117.869444).
-has_vibes('Santa Ana Centerport Heliport', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santa Ana Centerport Heliport', [beach]).
 
 city('Joensuu').
 city_iata('Joensuu', 'JOE').
@@ -18855,7 +18855,7 @@ city('Yogyakarta').
 city_iata('Yogyakarta', 'JOG').
 city_lat('Yogyakarta', -7.789722).
 city_long('Yogyakarta', 110.430556).
-has_vibes('Yogyakarta', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Yogyakarta', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Port Saint Johns').
 city_iata('Port Saint Johns', 'JOH').
@@ -18921,7 +18921,7 @@ city('Washington Pentagon Army').
 city_iata('Washington Pentagon Army', 'JPN').
 city_lat('Washington Pentagon Army', 38.766667).
 city_long('Washington Pentagon Army', -77.066667).
-has_vibes('Washington Pentagon Army', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Washington Pentagon Army', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Brigadeiro Firmino Ayr').
 city_iata('Brigadeiro Firmino Ayr', 'JPO').
@@ -18937,7 +18937,7 @@ city('Houston Park Ten Heliport').
 city_iata('Houston Park Ten Heliport', 'JPT').
 city_lat('Houston Park Ten Heliport', 29.786389).
 city_long('Houston Park Ten Heliport', -95.811667).
-has_vibes('Houston Park Ten Heliport', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Park Ten Heliport', [nightlife_and_entertainment]).
 
 city('Qaarsut').
 city_iata('Qaarsut', 'JQA').
@@ -18998,7 +18998,7 @@ city('Jaisalmer').
 city_iata('Jaisalmer', 'JSA').
 city_lat('Jaisalmer', 26.916667).
 city_long('Jaisalmer', 70.9).
-has_vibes('Jaisalmer', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Jaisalmer', [art_and_culture]).
 
 city('São Benedito').
 city_iata('São Benedito', 'JSB').
@@ -19049,7 +19049,7 @@ city('Los Angeles Sherman Oaks H / P').
 city_iata('Los Angeles Sherman Oaks H / P', 'JSN').
 city_lat('Los Angeles Sherman Oaks H / P', 34.066667).
 city_long('Los Angeles Sherman Oaks H / P', -118.25).
-has_vibes('Los Angeles Sherman Oaks H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles Sherman Oaks H / P', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Sobral Regional').
 city_iata('Sobral Regional', 'JSO').
@@ -19060,7 +19060,7 @@ city('Jeju Seogwipo Heliport').
 city_iata('Jeju Seogwipo Heliport', 'JSP').
 city_lat('Jeju Seogwipo Heliport', 33.483333).
 city_long('Jeju Seogwipo Heliport', 126.566667).
-has_vibes('Jeju Seogwipo Heliport', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Jeju Seogwipo Heliport', [outdoor_adventures]).
 
 city('Jessore').
 city_iata('Jessore', 'JSR').
@@ -19106,7 +19106,7 @@ city('Santorini (Thira)').
 city_iata('Santorini (Thira)', 'JTR').
 city_lat('Santorini (Thira)', 36.402959).
 city_long('Santorini (Thira)', 25.473093).
-has_vibes('Santorini (Thira)', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santorini (Thira)', [beach, great_food]).
 
 city('Astypalaia').
 city_iata('Astypalaia', 'JTY').
@@ -19127,7 +19127,7 @@ city('Los Angeles Universal City H / P').
 city_iata('Los Angeles Universal City H / P', 'JUC').
 city_lat('Los Angeles Universal City H / P', 34.083333).
 city_long('Los Angeles Universal City H / P', -118.266667).
-has_vibes('Los Angeles Universal City H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles Universal City H / P', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Chizhou Jiuhuashan').
 city_iata('Chizhou Jiuhuashan', 'JUH').
@@ -19213,19 +19213,19 @@ city('Los Angeles Warner Cntr Bus. Plaza').
 city_iata('Los Angeles Warner Cntr Bus. Plaza', 'JWC').
 city_lat('Los Angeles Warner Cntr Bus. Plaza', 34.066667).
 city_long('Los Angeles Warner Cntr Bus. Plaza', -118.25).
-has_vibes('Los Angeles Warner Cntr Bus. Plaza', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles Warner Cntr Bus. Plaza', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Houston Westchase Hilton H / P').
 city_iata('Houston Westchase Hilton H / P', 'JWH').
 city_lat('Houston Westchase Hilton H / P', 29.736111).
 city_long('Houston Westchase Hilton H / P', -95.417778).
-has_vibes('Houston Westchase Hilton H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Westchase Hilton H / P', [nightlife_and_entertainment]).
 
 city('Houston Woodlawns').
 city_iata('Houston Woodlawns', 'JWL').
 city_lat('Houston Woodlawns', 30.150556).
 city_long('Houston Woodlawns', -95.471389).
-has_vibes('Houston Woodlawns', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Woodlawns', [nightlife_and_entertainment]).
 
 city('Zanjan').
 city_iata('Zanjan', 'JWN').
@@ -19431,7 +19431,7 @@ city('Kabul').
 city_iata('Kabul', 'KBL').
 city_lat('Kabul', 34.563889).
 city_long('Kabul', 69.213889).
-has_vibes('Kabul', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kabul', [great_food]).
 
 city('Kabwum').
 city_iata('Kabwum', 'KBM').
@@ -19482,7 +19482,7 @@ city('Krabi').
 city_iata('Krabi', 'KBV').
 city_lat('Krabi', 8.09985).
 city_long('Krabi', 98.98527).
-has_vibes('Krabi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Krabi', [beach, outdoor_adventures]).
 
 city('Chignik Bay').
 city_iata('Chignik Bay', 'KBW').
@@ -19543,7 +19543,7 @@ city('Kuching').
 city_iata('Kuching', 'KCH').
 city_lat('Kuching', 1.484167).
 city_long('Kuching', 110.340833).
-has_vibes('Kuching', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Kuching', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Kon').
 city_iata('Kon', 'KCI').
@@ -19604,7 +19604,7 @@ city('Koggala').
 city_iata('Koggala', 'KCT').
 city_lat('Koggala', 5.983056).
 city_long('Koggala', 80.333056).
-has_vibes('Koggala', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Koggala', [beach]).
 
 city('Masindi').
 city_iata('Masindi', 'KCU').
@@ -19735,7 +19735,7 @@ city('Victoria Resevour Kandy').
 city_iata('Victoria Resevour Kandy', 'KDW').
 city_lat('Victoria Resevour Kandy', 7.3).
 city_long('Victoria Resevour Kandy', 80.6333).
-has_vibes('Victoria Resevour Kandy', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Victoria Resevour Kandy', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Teply Klyuch').
 city_iata('Teply Klyuch', 'KDY').
@@ -19776,7 +19776,7 @@ city('Reykjavik Keflavik').
 city_iata('Reykjavik Keflavik', 'KEF').
 city_lat('Reykjavik Keflavik', 63.985).
 city_long('Reykjavik Keflavik', -22.606111).
-has_vibes('Reykjavik Keflavik', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Reykjavik Keflavik', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Keglsugl').
 city_iata('Keglsugl', 'KEG').
@@ -19957,7 +19957,7 @@ city('Kigali').
 city_iata('Kigali', 'KGL').
 city_lat('Kigali', -1.967778).
 city_long('Kigali', 30.14).
-has_vibes('Kigali', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kigali', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Kungum').
 city_iata('Kungum', 'KGM').
@@ -20048,13 +20048,13 @@ city('Kaohsiung').
 city_iata('Kaohsiung', 'KHH').
 city_lat('Kaohsiung', 22.5725).
 city_long('Kaohsiung', 120.345278).
-has_vibes('Kaohsiung', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kaohsiung', [underrated_destinations, art_and_culture, great_food]).
 
 city('Karachi').
 city_iata('Karachi', 'KHI').
 city_lat('Karachi', 24.905556).
 city_long('Karachi', 67.156944).
-has_vibes('Karachi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Karachi', [art_and_culture, great_food]).
 
 city('Kauhajoki').
 city_iata('Kauhajoki', 'KHJ').
@@ -20200,7 +20200,7 @@ city('Kingston Norman Manley').
 city_iata('Kingston Norman Manley', 'KIN').
 city_lat('Kingston Norman Manley', 17.935556).
 city_long('Kingston Norman Manley', -76.7875).
-has_vibes('Kingston Norman Manley', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Kingston Norman Manley', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Kili Island').
 city_iata('Kili Island', 'KIO').
@@ -20246,7 +20246,7 @@ city('Kansai International (Osaka)').
 city_iata('Kansai International (Osaka)', 'KIX').
 city_lat('Kansai International (Osaka)', 34.423889).
 city_long('Kansai International (Osaka)', 135.246944).
-has_vibes('Kansai International (Osaka)', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kansai International (Osaka)', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Kilwa').
 city_iata('Kilwa', 'KIY').
@@ -20642,7 +20642,7 @@ city('Kumasi').
 city_iata('Kumasi', 'KMS').
 city_lat('Kumasi', 6.7125).
 city_long('Kumasi', -1.591111).
-has_vibes('Kumasi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kumasi', [great_food]).
 
 city('Kampot').
 city_iata('Kampot', 'KMT').
@@ -20753,7 +20753,7 @@ city('Medan Kuala Namu').
 city_iata('Medan Kuala Namu', 'KNO').
 city_lat('Medan Kuala Namu', 3.650824).
 city_long('Medan Kuala Namu', 98.876556).
-has_vibes('Medan Kuala Namu', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Medan Kuala Namu', [nightlife_and_entertainment, art_and_culture]).
 
 city('Capanda').
 city_iata('Capanda', 'KNP').
@@ -20904,7 +20904,7 @@ city('Sihanoukville').
 city_iata('Sihanoukville', 'KOS').
 city_lat('Sihanoukville', 10.633333).
 city_long('Sihanoukville', 103.5).
-has_vibes('Sihanoukville', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sihanoukville', [nightlife_and_entertainment, beach, great_food]).
 
 city('Kotlik').
 city_iata('Kotlik', 'KOT').
@@ -21115,7 +21115,7 @@ city('Krakow').
 city_iata('Krakow', 'KRK').
 city_lat('Krakow', 50.077731).
 city_long('Krakow', 19.784836).
-has_vibes('Krakow', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Krakow', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Korla').
 city_iata('Korla', 'KRL').
@@ -21386,7 +21386,7 @@ city('Kathmandu').
 city_iata('Kathmandu', 'KTM').
 city_lat('Kathmandu', 27.700556).
 city_long('Kathmandu', 85.363056).
-has_vibes('Kathmandu', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Kathmandu', [nightlife_and_entertainment, art_and_culture, outdoor_adventures]).
 
 city('Ketchikan International').
 city_iata('Ketchikan International', 'KTN').
@@ -21402,7 +21402,7 @@ city('Kingston Tinson').
 city_iata('Kingston Tinson', 'KTP').
 city_lat('Kingston Tinson', 17.9875).
 city_long('Kingston Tinson', -76.823333).
-has_vibes('Kingston Tinson', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Kingston Tinson', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Kitee').
 city_iata('Kitee', 'KTQ').
@@ -21508,7 +21508,7 @@ city('Kuala Lumpur International').
 city_iata('Kuala Lumpur International', 'KUL').
 city_lat('Kuala Lumpur International', 2.7347148).
 city_long('Kuala Lumpur International', 101.7050671).
-has_vibes('Kuala Lumpur International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kuala Lumpur International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Yakushima').
 city_iata('Yakushima', 'KUM').
@@ -21599,7 +21599,7 @@ city('Kavieng').
 city_iata('Kavieng', 'KVG').
 city_lat('Kavieng', -2.577778).
 city_long('Kavieng', 150.815556).
-has_vibes('Kavieng', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Kavieng', [outdoor_adventures]).
 
 city('Kirovsk-Apatity').
 city_iata('Kirovsk-Apatity', 'KVK').
@@ -21675,7 +21675,7 @@ city('Kuwait').
 city_iata('Kuwait', 'KWI').
 city_lat('Kuwait', 29.2409482).
 city_long('Kuwait', 47.9711266).
-has_vibes('Kuwait', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Kuwait', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Gwangju').
 city_iata('Gwangju', 'KWJ').
@@ -21876,7 +21876,7 @@ city('Topp Of Tampa').
 city_iata('Topp Of Tampa', 'KYO').
 city_lat('Topp Of Tampa', 28.216667).
 city_long('Topp Of Tampa', -82.366667).
-has_vibes('Topp Of Tampa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Topp Of Tampa', [beach]).
 
 city('Kyaukpyu').
 city_iata('Kyaukpyu', 'KYP').
@@ -21987,13 +21987,13 @@ city('Luanda').
 city_iata('Luanda', 'LAD').
 city_lat('Luanda', -8.853056).
 city_long('Luanda', 13.236111).
-has_vibes('Luanda', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Luanda', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Lae').
 city_iata('Lae', 'LAE').
 city_lat('Lae', -6.569722).
 city_long('Lae', 146.726111).
-has_vibes('Lae', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Lae', [great_food]).
 
 city('Lafayette').
 city_iata('Lafayette', 'LAF').
@@ -22049,7 +22049,7 @@ city('La Paz').
 city_iata('La Paz', 'LAP').
 city_lat('La Paz', 24.125556).
 city_long('La Paz', -110.298333).
-has_vibes('La Paz', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('La Paz', [outdoor_adventures]).
 
 city('Beida').
 city_iata('Beida', 'LAQ').
@@ -22065,13 +22065,13 @@ city('Las Vegas Harry Reid International').
 city_iata('Las Vegas Harry Reid International', 'LAS').
 city_lat('Las Vegas Harry Reid International', 36.080056).
 city_long('Las Vegas Harry Reid International', -115.15225).
-has_vibes('Las Vegas Harry Reid International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Las Vegas Harry Reid International', [nightlife_and_entertainment]).
 
 city('Lamu').
 city_iata('Lamu', 'LAU').
 city_lat('Lamu', -2.25).
 city_long('Lamu', 40.911667).
-has_vibes('Lamu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Lamu', [art_and_culture]).
 
 city('Lalomalava').
 city_iata('Lalomalava', 'LAV').
@@ -22087,7 +22087,7 @@ city('Los Angeles International').
 city_iata('Los Angeles International', 'LAX').
 city_lat('Los Angeles International', 33.9415355).
 city_long('Los Angeles International', -118.4087982).
-has_vibes('Los Angeles International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Ladysmith').
 city_iata('Ladysmith', 'LAY').
@@ -22113,13 +22113,13 @@ city('Hamburg Lubeck').
 city_iata('Hamburg Lubeck', 'LBC').
 city_lat('Hamburg Lubeck', 53.806111).
 city_long('Hamburg Lubeck', 10.720556).
-has_vibes('Hamburg Lubeck', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Hamburg Lubeck', [underrated_destinations]).
 
 city('Khudzhand').
 city_iata('Khudzhand', 'LBD').
 city_lat('Khudzhand', 40.216667).
 city_long('Khudzhand', 69.7).
-has_vibes('Khudzhand', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Khudzhand', [great_food]).
 
 city('Latrobe').
 city_iata('Latrobe', 'LBE').
@@ -22135,13 +22135,13 @@ city('Paris Le Bourget').
 city_iata('Paris Le Bourget', 'LBG').
 city_lat('Paris Le Bourget', 48.971944).
 city_long('Paris Le Bourget', 2.4425).
-has_vibes('Paris Le Bourget', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Paris Le Bourget', [art_and_culture, great_food]).
 
 city('Sydney Palm Beach SPB').
 city_iata('Sydney Palm Beach SPB', 'LBH').
 city_lat('Sydney Palm Beach SPB', -33.5875).
 city_long('Sydney Palm Beach SPB', 151.323889).
-has_vibes('Sydney Palm Beach SPB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sydney Palm Beach SPB', [nightlife_and_entertainment, beach, art_and_culture, great_food]).
 
 city('Albi Sequestre').
 city_iata('Albi Sequestre', 'LBI').
@@ -22207,13 +22207,13 @@ city('Labuan').
 city_iata('Labuan', 'LBU').
 city_lat('Labuan', 5.300556).
 city_long('Labuan', 115.248333).
-has_vibes('Labuan', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Labuan', [beach]).
 
 city('Libreville').
 city_iata('Libreville', 'LBV').
 city_lat('Libreville', 0.459167).
 city_long('Libreville', 9.415278).
-has_vibes('Libreville', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Libreville', [nightlife_and_entertainment]).
 
 city('Long Bawan').
 city_iata('Long Bawan', 'LBW').
@@ -22239,7 +22239,7 @@ city('Larnaca').
 city_iata('Larnaca', 'LCA').
 city_lat('Larnaca', 34.8725074).
 city_long('Larnaca', 33.6203301).
-has_vibes('Larnaca', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Larnaca', [nightlife_and_entertainment, beach]).
 
 city('Pontes e Lacerda').
 city_iata('Pontes e Lacerda', 'LCB').
@@ -22260,7 +22260,7 @@ city('La Ceiba').
 city_iata('La Ceiba', 'LCE').
 city_lat('La Ceiba', 15.740556).
 city_long('La Ceiba', -86.857222).
-has_vibes('La Ceiba', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('La Ceiba', [great_food, outdoor_adventures]).
 
 city('Rio Dulce').
 city_iata('Rio Dulce', 'LCF').
@@ -22341,7 +22341,7 @@ city('London City').
 city_iata('London City', 'LCY').
 city_lat('London City', 51.503753).
 city_long('London City', 0.048512).
-has_vibes('London City', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('London City', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Malda').
 city_iata('Malda', 'LDA').
@@ -22462,7 +22462,7 @@ city('St Petersburg Pulkovo').
 city_iata('St Petersburg Pulkovo', 'LED').
 city_lat('St Petersburg Pulkovo', 59.8).
 city_long('St Petersburg Pulkovo', 30.3).
-has_vibes('St Petersburg Pulkovo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('St Petersburg Pulkovo', [nightlife_and_entertainment]).
 
 city('Leesburg').
 city_iata('Leesburg', 'LEE').
@@ -22493,7 +22493,7 @@ city('Leipzig').
 city_iata('Leipzig', 'LEJ').
 city_lat('Leipzig', 51.416667).
 city_long('Leipzig', 12.233333).
-has_vibes('Leipzig', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Leipzig', [underrated_destinations, art_and_culture]).
 
 city('Labe').
 city_iata('Labe', 'LEK').
@@ -22544,7 +22544,7 @@ city('Leticia').
 city_iata('Leticia', 'LET').
 city_lat('Leticia', -4.196389).
 city_long('Leticia', -69.939444).
-has_vibes('Leticia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Leticia', [outdoor_adventures]).
 
 city('Andorra-La Seu d’Urgell').
 city_iata('Andorra-La Seu d’Urgell', 'LEU').
@@ -22585,7 +22585,7 @@ city('Newport News Langley AFB').
 city_iata('Newport News Langley AFB', 'LFI').
 city_lat('Newport News Langley AFB', 37.08288).
 city_long('Newport News Langley AFB', -76.36055).
-has_vibes('Newport News Langley AFB', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Newport News Langley AFB', [beach]).
 
 city('Nacogdoches Lufkin Angelina County').
 city_iata('Nacogdoches Lufkin Angelina County', 'LFK').
@@ -22636,13 +22636,13 @@ city('New York LaGuardia').
 city_iata('New York LaGuardia', 'LGA').
 city_lat('New York LaGuardia', 40.779444).
 city_long('New York LaGuardia', -73.875833).
-has_vibes('New York LaGuardia', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('New York LaGuardia', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Long Beach Municipal').
 city_iata('Long Beach Municipal', 'LGB').
 city_lat('Long Beach Municipal', 33.8175).
 city_long('Long Beach Municipal', -118.151111).
-has_vibes('Long Beach Municipal', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Long Beach Municipal', [beach]).
 
 city('La Grange').
 city_iata('La Grange', 'LGC').
@@ -22683,7 +22683,7 @@ city('Langkawi').
 city_iata('Langkawi', 'LGK').
 city_lat('Langkawi', 6.333333).
 city_long('Langkawi', 99.733333).
-has_vibes('Langkawi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Langkawi', [beach, great_food]).
 
 city('Long Lellang').
 city_iata('Long Lellang', 'LGL').
@@ -22739,7 +22739,7 @@ city('London Gatwick').
 city_iata('London Gatwick', 'LGW').
 city_lat('London Gatwick', 51.148056).
 city_long('London Gatwick', -0.196667).
-has_vibes('London Gatwick', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('London Gatwick', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Lugh Ganane').
 city_iata('Lugh Ganane', 'LGX').
@@ -22770,7 +22770,7 @@ city('Lahore').
 city_iata('Lahore', 'LHE').
 city_lat('Lahore', 31.5207607).
 city_long('Lahore', 74.4105177).
-has_vibes('Lahore', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Lahore', [art_and_culture, great_food]).
 
 city('Lightning Ridge').
 city_iata('Lightning Ridge', 'LHG').
@@ -22801,7 +22801,7 @@ city('London Heathrow').
 city_iata('London Heathrow', 'LHR').
 city_lat('London Heathrow', 51.471389).
 city_long('London Heathrow', -0.452778).
-has_vibes('London Heathrow', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('London Heathrow', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Las Heras').
 city_iata('Las Heras', 'LHS').
@@ -22877,7 +22877,7 @@ city('Lima').
 city_iata('Lima', 'LIM').
 city_lat('Lima', -12.024882).
 city_long('Lima', -77.110634).
-has_vibes('Lima', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Lima', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Milan Linate').
 city_iata('Milan Linate', 'LIN').
@@ -22908,7 +22908,7 @@ city('Lisbon').
 city_iata('Lisbon', 'LIS').
 city_lat('Lisbon', 38.7755769).
 city_long('Lisbon', -9.1353882).
-has_vibes('Lisbon', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Lisbon', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Little Rock').
 city_iata('Little Rock', 'LIT').
@@ -22949,7 +22949,7 @@ city('Lijiang Sanyi International').
 city_iata('Lijiang Sanyi International', 'LJG').
 city_lat('Lijiang Sanyi International', 26.666888677963172).
 city_long('Lijiang Sanyi International', 100.24805589085365).
-has_vibes('Lijiang Sanyi International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Lijiang Sanyi International', [art_and_culture, outdoor_adventures]).
 
 city('Lake Jackson').
 city_iata('Lake Jackson', 'LJN').
@@ -22960,7 +22960,7 @@ city('Ljubljana').
 city_iata('Ljubljana', 'LJU').
 city_lat('Ljubljana', 46.224722).
 city_long('Ljubljana', 14.460833).
-has_vibes('Ljubljana', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Ljubljana', [underrated_destinations, great_food, outdoor_adventures]).
 
 city('Larantuka').
 city_iata('Larantuka', 'LKA').
@@ -22986,7 +22986,7 @@ city('Seattle Lake Union SPB').
 city_iata('Seattle Lake Union SPB', 'LKE').
 city_lat('Seattle Lake Union SPB', 47.6275).
 city_long('Seattle Lake Union SPB', -122.331667).
-has_vibes('Seattle Lake Union SPB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Seattle Lake Union SPB', [nightlife_and_entertainment]).
 
 city('Lokichoggio').
 city_iata('Lokichoggio', 'LKG').
@@ -23107,7 +23107,7 @@ city('Lankaran International').
 city_iata('Lankaran International', 'LLK').
 city_lat('Lankaran International', 38.74203).
 city_long('Lankaran International', 48.824093).
-has_vibes('Lankaran International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Lankaran International', [beach]).
 
 city('Lissadell').
 city_iata('Lissadell', 'LLL').
@@ -23153,7 +23153,7 @@ city('Lilongwe').
 city_iata('Lilongwe', 'LLW').
 city_lat('Lilongwe', -13.783333).
 city_long('Lilongwe', 33.783333).
-has_vibes('Lilongwe', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Lilongwe', [nightlife_and_entertainment, great_food]).
 
 city('Lyndonville').
 city_iata('Lyndonville', 'LLX').
@@ -23274,7 +23274,7 @@ city('West Palm Beach Palm Beach County').
 city_iata('West Palm Beach Palm Beach County', 'LNA').
 city_lat('West Palm Beach Palm Beach County', 26.59285).
 city_long('West Palm Beach Palm Beach County', -80.08504).
-has_vibes('West Palm Beach Palm Beach County', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('West Palm Beach Palm Beach County', [beach]).
 
 city('Lamen Bay').
 city_iata('Lamen Bay', 'LNB').
@@ -23380,7 +23380,7 @@ city('Lanai City').
 city_iata('Lanai City', 'LNY').
 city_lat('Lanai City', 20.784722).
 city_long('Lanai City', -156.949444).
-has_vibes('Lanai City', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Lanai City', [beach]).
 
 city('Linz').
 city_iata('Linz', 'LNZ').
@@ -23411,7 +23411,7 @@ city('Loei').
 city_iata('Loei', 'LOE').
 city_lat('Loei', 17.45).
 city_long('Loei', 101.733333).
-has_vibes('Loei', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Loei', [art_and_culture]).
 
 city('Loen').
 city_iata('Loen', 'LOF').
@@ -23457,7 +23457,7 @@ city('Lombok International').
 city_iata('Lombok International', 'LOP').
 city_lat('Lombok International', -8.757322).
 city_long('Lombok International', 116.276675).
-has_vibes('Lombok International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Lombok International', [beach]).
 
 city('Lobatse').
 city_iata('Lobatse', 'LOQ').
@@ -23473,7 +23473,7 @@ city('Lagos').
 city_iata('Lagos', 'LOS').
 city_lat('Lagos', 6.588889).
 city_long('Lagos', 3.326389).
-has_vibes('Lagos', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Lagos', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Lewis Lockport').
 city_iata('Lewis Lockport', 'LOT').
@@ -23514,13 +23514,13 @@ city('Gran Canaria').
 city_iata('Gran Canaria', 'LPA').
 city_lat('Gran Canaria', 27.9331753).
 city_long('Gran Canaria', -15.3876959).
-has_vibes('Gran Canaria', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Gran Canaria', [beach]).
 
 city('La Paz').
 city_iata('La Paz', 'LPB').
 city_lat('La Paz', -16.51334).
 city_long('La Paz', -68.19226).
-has_vibes('La Paz', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('La Paz', [nightlife_and_entertainment, art_and_culture]).
 
 city('Lompoc').
 city_iata('Lompoc', 'LPC').
@@ -23571,7 +23571,7 @@ city('Liverpool').
 city_iata('Liverpool', 'LPL').
 city_lat('Liverpool', 53.3358306).
 city_long('Liverpool', -2.8551011).
-has_vibes('Liverpool', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Liverpool', [underrated_destinations]).
 
 city('Lamap').
 city_iata('Lamap', 'LPM').
@@ -23597,7 +23597,7 @@ city('Luang Prabang').
 city_iata('Luang Prabang', 'LPQ').
 city_lat('Luang Prabang', 19.895833).
 city_long('Luang Prabang', 102.163889).
-has_vibes('Luang Prabang', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Luang Prabang', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food, outdoor_adventures]).
 
 city('Lopez Island').
 city_iata('Lopez Island', 'LPS').
@@ -23608,7 +23608,7 @@ city('Lampang').
 city_iata('Lampang', 'LPT').
 city_lat('Lampang', 18.274167).
 city_long('Lampang', 99.507222).
-has_vibes('Lampang', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Lampang', [art_and_culture]).
 
 city('Long Apung').
 city_iata('Long Apung', 'LPU').
@@ -23684,7 +23684,7 @@ city('La Rochelle').
 city_iata('La Rochelle', 'LRH').
 city_lat('La Rochelle', 46.180556).
 city_long('La Rochelle', -1.185833).
-has_vibes('La Rochelle', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('La Rochelle', [beach]).
 
 city('Lorica').
 city_iata('Lorica', 'LRI').
@@ -23705,7 +23705,7 @@ city('La Romana').
 city_iata('La Romana', 'LRM').
 city_lat('La Romana', 18.45258).
 city_long('La Romana', -68.909383).
-has_vibes('La Romana', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('La Romana', [nightlife_and_entertainment, beach, art_and_culture]).
 
 city('Moses Lake Larson AFB').
 city_iata('Moses Lake Larson AFB', 'LRN').
@@ -23761,7 +23761,7 @@ city('La Serena').
 city_iata('La Serena', 'LSC').
 city_lat('La Serena', -29.913333).
 city_long('La Serena', -71.197778).
-has_vibes('La Serena', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('La Serena', [great_food, outdoor_adventures]).
 
 city('Lexington Creech AAF').
 city_iata('Lexington Creech AAF', 'LSD').
@@ -23847,7 +23847,7 @@ city('Launceston').
 city_iata('Launceston', 'LST').
 city_lat('Launceston', -41.545833).
 city_long('Launceston', 147.21).
-has_vibes('Launceston', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Launceston', [nightlife_and_entertainment, art_and_culture]).
 
 city('Long Sukang').
 city_iata('Long Sukang', 'LSU').
@@ -23858,7 +23858,7 @@ city('Las Vegas Nellis AFB').
 city_iata('Las Vegas Nellis AFB', 'LSV').
 city_lat('Las Vegas Nellis AFB', 36.3).
 city_long('Las Vegas Nellis AFB', -115.8).
-has_vibes('Las Vegas Nellis AFB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Las Vegas Nellis AFB', [nightlife_and_entertainment]).
 
 city('Lhoksumawe').
 city_iata('Lhoksumawe', 'LSW').
@@ -23939,7 +23939,7 @@ city('London Luton').
 city_iata('London Luton', 'LTN').
 city_lat('London Luton', 51.878704).
 city_long('London Luton', -0.375705).
-has_vibes('London Luton', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('London Luton', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Loreto').
 city_iata('Loreto', 'LTO').
@@ -24020,7 +24020,7 @@ city('Phoenix Luke AFB').
 city_iata('Phoenix Luke AFB', 'LUF').
 city_lat('Phoenix Luke AFB', 33.616667).
 city_long('Phoenix Luke AFB', -111.916667).
-has_vibes('Phoenix Luke AFB', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Phoenix Luke AFB', [beach]).
 
 city('Ludhiana').
 city_iata('Ludhiana', 'LUH').
@@ -24056,7 +24056,7 @@ city('Lusaka').
 city_iata('Lusaka', 'LUN').
 city_lat('Lusaka', -15.329221).
 city_long('Lusaka', 28.449783).
-has_vibes('Lusaka', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Lusaka', [nightlife_and_entertainment, outdoor_adventures]).
 
 city('Luena').
 city_iata('Luena', 'LUO').
@@ -24067,7 +24067,7 @@ city('Kalaupapa').
 city_iata('Kalaupapa', 'LUP').
 city_lat('Kalaupapa', 21.211111).
 city_long('Kalaupapa', -156.974444).
-has_vibes('Kalaupapa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kalaupapa', [beach]).
 
 city('San Luis').
 city_iata('San Luis', 'LUQ').
@@ -24108,7 +24108,7 @@ city('Luxembourg').
 city_iata('Luxembourg', 'LUX').
 city_lat('Luxembourg', 49.6288793).
 city_long('Luxembourg', 6.2147231).
-has_vibes('Luxembourg', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Luxembourg', [underrated_destinations, great_food]).
 
 city('Lushoto').
 city_iata('Lushoto', 'LUY').
@@ -24139,7 +24139,7 @@ city('Livingstone').
 city_iata('Livingstone', 'LVI').
 city_lat('Livingstone', -17.821262).
 city_long('Livingstone', 25.822678).
-has_vibes('Livingstone', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Livingstone', [great_food, outdoor_adventures]).
 
 city('Livermore').
 city_iata('Livermore', 'LVK').
@@ -24230,7 +24230,7 @@ city('Lviv').
 city_iata('Lviv', 'LWO').
 city_lat('Lviv', 49.8125).
 city_long('Lviv', 23.956111).
-has_vibes('Lviv', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Lviv', [nightlife_and_entertainment]).
 
 city('Leeuwarden').
 city_iata('Leeuwarden', 'LWR').
@@ -24261,7 +24261,7 @@ city('Lhasa Gonggar').
 city_iata('Lhasa Gonggar', 'LXA').
 city_lat('Lhasa Gonggar', 29.297778).
 city_long('Lhasa Gonggar', 90.911944).
-has_vibes('Lhasa Gonggar', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Lhasa Gonggar', [art_and_culture]).
 
 city('Luang Namtha').
 city_iata('Luang Namtha', 'LXG').
@@ -24337,7 +24337,7 @@ city('Lyon Bron').
 city_iata('Lyon Bron', 'LYN').
 city_lat('Lyon Bron', 45.730833).
 city_long('Lyon Bron', 4.943333).
-has_vibes('Lyon Bron', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Lyon Bron', [underrated_destinations, art_and_culture, great_food]).
 
 city('Lyon').
 city_iata('Lyon', 'LYO').
@@ -24358,7 +24358,7 @@ city('Lyon').
 city_iata('Lyon', 'LYS').
 city_lat('Lyon', 45.725556).
 city_long('Lyon', 5.081667).
-has_vibes('Lyon', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Lyon', [underrated_destinations, art_and_culture, great_food]).
 
 city('Lady Elliot Island').
 city_iata('Lady Elliot Island', 'LYT').
@@ -24454,7 +24454,7 @@ city('Madrid').
 city_iata('Madrid', 'MAD').
 city_lat('Madrid', 40.490384).
 city_long('Madrid', -3.5921839).
-has_vibes('Madrid', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Madrid', [nightlife_and_entertainment, art_and_culture]).
 
 city('Madera').
 city_iata('Madera', 'MAE').
@@ -24470,7 +24470,7 @@ city('Madang').
 city_iata('Madang', 'MAG').
 city_lat('Madang', -5.209167).
 city_long('Madang', 145.781667).
-has_vibes('Madang', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Madang', [outdoor_adventures]).
 
 city('Menorca').
 city_iata('Menorca', 'MAH').
@@ -24486,7 +24486,7 @@ city('Amata Kabua International').
 city_iata('Amata Kabua International', 'MAJ').
 city_lat('Amata Kabua International', 7.063611).
 city_long('Amata Kabua International', 171.270278).
-has_vibes('Amata Kabua International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Amata Kabua International', [nightlife_and_entertainment]).
 
 city('Malakal').
 city_iata('Malakal', 'MAK').
@@ -24507,13 +24507,13 @@ city('Manchester').
 city_iata('Manchester', 'MAN').
 city_lat('Manchester', 53.358812).
 city_long('Manchester', -2.272687).
-has_vibes('Manchester', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Manchester', [underrated_destinations]).
 
 city('Manaus').
 city_iata('Manaus', 'MAO').
 city_lat('Manaus', -3.033333).
 city_long('Manaus', -60.05).
-has_vibes('Manaus', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Manaus', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Mamai').
 city_iata('Mamai', 'MAP').
@@ -24529,7 +24529,7 @@ city('Maracaibo').
 city_iata('Maracaibo', 'MAR').
 city_lat('Maracaibo', 10.566667).
 city_long('Maracaibo', -71.733333).
-has_vibes('Maracaibo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Maracaibo', [art_and_culture, great_food]).
 
 city('Momote').
 city_iata('Momote', 'MAS').
@@ -24570,13 +24570,13 @@ city('Mayaguez').
 city_iata('Mayaguez', 'MAZ').
 city_lat('Mayaguez', 18.257778).
 city_long('Mayaguez', -67.148889).
-has_vibes('Mayaguez', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Mayaguez', [nightlife_and_entertainment, beach, great_food]).
 
 city('Mombasa').
 city_iata('Mombasa', 'MBA').
 city_lat('Mombasa', -4.031389).
 city_long('Mombasa', 39.593056).
-has_vibes('Mombasa', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Mombasa', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Marble Bar').
 city_iata('Marble Bar', 'MBB').
@@ -24622,7 +24622,7 @@ city('Montego Bay').
 city_iata('Montego Bay', 'MBJ').
 city_lat('Montego Bay', 18.501944).
 city_long('Montego Bay', -77.9125).
-has_vibes('Montego Bay', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Montego Bay', [nightlife_and_entertainment, beach, art_and_culture, great_food]).
 
 city('Matupa').
 city_iata('Matupa', 'MBK').
@@ -24733,7 +24733,7 @@ city('Tampa Mac Dill AFB').
 city_iata('Tampa Mac Dill AFB', 'MCF').
 city_lat('Tampa Mac Dill AFB', 27.84934).
 city_long('Tampa Mac Dill AFB', -82.52121).
-has_vibes('Tampa Mac Dill AFB', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tampa Mac Dill AFB', [beach]).
 
 city('Mcgrath').
 city_iata('Mcgrath', 'MCG').
@@ -24774,7 +24774,7 @@ city('Orlando International').
 city_iata('Orlando International', 'MCO').
 city_lat('Orlando International', 28.432166).
 city_long('Orlando International', -81.324921).
-has_vibes('Orlando International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Orlando International', [nightlife_and_entertainment]).
 
 city('Macapa').
 city_iata('Macapa', 'MCP').
@@ -24795,7 +24795,7 @@ city('Muscat').
 city_iata('Muscat', 'MCT').
 city_lat('Muscat', 23.591667).
 city_long('Muscat', 58.279167).
-has_vibes('Muscat', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Muscat', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food, outdoor_adventures]).
 
 city('Montlucon Gueret').
 city_iata('Montlucon Gueret', 'MCU').
@@ -24821,7 +24821,7 @@ city('Sunshine Coast').
 city_iata('Sunshine Coast', 'MCY').
 city_lat('Sunshine Coast', -26.604167).
 city_long('Sunshine Coast', 153.09).
-has_vibes('Sunshine Coast', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sunshine Coast', [nightlife_and_entertainment]).
 
 city('Maceio').
 city_iata('Maceio', 'MCZ').
@@ -24832,7 +24832,7 @@ city('San Antonio Martindale AAF').
 city_iata('San Antonio Martindale AAF', 'MDA').
 city_lat('San Antonio Martindale AAF', 29.416667).
 city_long('San Antonio Martindale AAF', -98.5).
-has_vibes('San Antonio Martindale AAF', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Antonio Martindale AAF', [underrated_destinations, art_and_culture, great_food]).
 
 city('Melinda').
 city_iata('Melinda', 'MDB').
@@ -24843,7 +24843,7 @@ city('Manado').
 city_iata('Manado', 'MDC').
 city_lat('Manado', 1.549444).
 city_long('Manado', 124.925833).
-has_vibes('Manado', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Manado', [beach]).
 
 city('Midland Airpark').
 city_iata('Midland Airpark', 'MDD').
@@ -24854,7 +24854,7 @@ city('Medellin Jose Maria Cordova').
 city_iata('Medellin Jose Maria Cordova', 'MDE').
 city_lat('Medellin Jose Maria Cordova', 6.164444).
 city_long('Medellin Jose Maria Cordova', -75.423056).
-has_vibes('Medellin Jose Maria Cordova', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Medellin Jose Maria Cordova', [nightlife_and_entertainment]).
 
 city('Medford').
 city_iata('Medford', 'MDF').
@@ -24890,7 +24890,7 @@ city('Mandalay').
 city_iata('Mandalay', 'MDL').
 city_lat('Mandalay', 21.702222).
 city_long('Mandalay', 95.978056).
-has_vibes('Mandalay', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Mandalay', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Munduku').
 city_iata('Munduku', 'MDM').
@@ -24916,7 +24916,7 @@ city('Mar Del Plata').
 city_iata('Mar Del Plata', 'MDQ').
 city_lat('Mar Del Plata', -37.934722).
 city_long('Mar Del Plata', -57.572222).
-has_vibes('Mar Del Plata', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Mar Del Plata', [nightlife_and_entertainment, great_food]).
 
 city('Musiara').
 city_iata('Musiara', 'MDR').
@@ -24947,7 +24947,7 @@ city('Chicago Midway').
 city_iata('Chicago Midway', 'MDW').
 city_lat('Chicago Midway', 41.785).
 city_long('Chicago Midway', -87.751944).
-has_vibes('Chicago Midway', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chicago Midway', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Mercedes').
 city_iata('Mercedes', 'MDX').
@@ -24958,7 +24958,7 @@ city('Mendoza').
 city_iata('Mendoza', 'MDZ').
 city_lat('Mendoza', -32.831944).
 city_long('Mendoza', -68.784722).
-has_vibes('Mendoza', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Mendoza', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Macae').
 city_iata('Macae', 'MEA').
@@ -24969,19 +24969,19 @@ city('Melbourne Essendon').
 city_iata('Melbourne Essendon', 'MEB').
 city_lat('Melbourne Essendon', -37.72806).
 city_long('Melbourne Essendon', 144.90194).
-has_vibes('Melbourne Essendon', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Melbourne Essendon', [nightlife_and_entertainment, great_food]).
 
 city('Manta').
 city_iata('Manta', 'MEC').
 city_lat('Manta', -0.95).
 city_long('Manta', -80.683333).
-has_vibes('Manta', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Manta', [nightlife_and_entertainment, beach]).
 
 city('Madinah').
 city_iata('Madinah', 'MED').
 city_lat('Madinah', 24.545).
 city_long('Madinah', 39.721111).
-has_vibes('Madinah', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Madinah', [great_food]).
 
 city('La Roche').
 city_iata('La Roche', 'MEE').
@@ -25022,7 +25022,7 @@ city('Melbourne Tullamarine').
 city_iata('Melbourne Tullamarine', 'MEL').
 city_lat('Melbourne Tullamarine', -37.67333).
 city_long('Melbourne Tullamarine', 144.84333).
-has_vibes('Melbourne Tullamarine', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Melbourne Tullamarine', [nightlife_and_entertainment, great_food]).
 
 city('Memphis International').
 city_iata('Memphis International', 'MEM').
@@ -25078,7 +25078,7 @@ city('Mexico City Juarez International').
 city_iata('Mexico City Juarez International', 'MEX').
 city_lat('Mexico City Juarez International', 19.4360661).
 city_long('Mexico City Juarez International', -99.0718976).
-has_vibes('Mexico City Juarez International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Mexico City Juarez International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Meghauli').
 city_iata('Meghauli', 'MEY').
@@ -25154,7 +25154,7 @@ city('Macau').
 city_iata('Macau', 'MFM').
 city_lat('Macau', 22.149444).
 city_long('Macau', 113.591667).
-has_vibes('Macau', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Macau', [great_food]).
 
 city('Milford Sound').
 city_iata('Milford Sound', 'MFN').
@@ -25225,7 +25225,7 @@ city('Managua').
 city_iata('Managua', 'MGA').
 city_lat('Managua', 12.141111).
 city_long('Managua', -86.168611).
-has_vibes('Managua', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Managua', [nightlife_and_entertainment, art_and_culture]).
 
 city('Mount Gambier').
 city_iata('Mount Gambier', 'MGB').
@@ -25261,7 +25261,7 @@ city('Margate').
 city_iata('Margate', 'MGH').
 city_lat('Margate', -30.85741).
 city_long('Margate', 30.34302).
-has_vibes('Margate', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Margate', [beach]).
 
 city('Matagorda Island').
 city_iata('Matagorda Island', 'MGI').
@@ -25362,7 +25362,7 @@ city('Auckland Mechanics Bay').
 city_iata('Auckland Mechanics Bay', 'MHB').
 city_lat('Auckland Mechanics Bay', -36.845).
 city_long('Auckland Mechanics Bay', 174.784722).
-has_vibes('Auckland Mechanics Bay', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Auckland Mechanics Bay', [nightlife_and_entertainment, great_food]).
 
 city('Mocopulli').
 city_iata('Mocopulli', 'MHC').
@@ -25373,7 +25373,7 @@ city('Mashhad').
 city_iata('Mashhad', 'MHD').
 city_lat('Mashhad', 36.236667).
 city_long('Mashhad', 59.641667).
-has_vibes('Mashhad', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Mashhad', [great_food]).
 
 city('Mitchell').
 city_iata('Mitchell', 'MHE').
@@ -25394,7 +25394,7 @@ city('Marsh Harbour').
 city_iata('Marsh Harbour', 'MHH').
 city_lat('Marsh Harbour', 26.511111).
 city_long('Marsh Harbour', -77.084722).
-has_vibes('Marsh Harbour', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Marsh Harbour', [beach]).
 
 city('Musha').
 city_iata('Musha', 'MHI').
@@ -25430,7 +25430,7 @@ city('Minsk International 1').
 city_iata('Minsk International 1', 'MHP').
 city_lat('Minsk International 1', 53.85).
 city_long('Minsk International 1', 27.55).
-has_vibes('Minsk International 1', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Minsk International 1', [nightlife_and_entertainment, art_and_culture]).
 
 city('Mariehamn').
 city_iata('Mariehamn', 'MHQ').
@@ -25486,7 +25486,7 @@ city('Miami International').
 city_iata('Miami International', 'MIA').
 city_lat('Miami International', 25.7958723).
 city_long('Miami International', -80.2870187).
-has_vibes('Miami International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Miami International', [nightlife_and_entertainment, beach]).
 
 city('Minot AFB').
 city_iata('Minot AFB', 'MIB').
@@ -25502,7 +25502,7 @@ city('Merida').
 city_iata('Merida', 'MID').
 city_lat('Merida', 20.933333).
 city_long('Merida', -89.65).
-has_vibes('Merida', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Merida', [underrated_destinations, art_and_culture, great_food]).
 
 city('Muncie').
 city_iata('Muncie', 'MIE').
@@ -25758,7 +25758,7 @@ city('Milwaukee General Mitchell').
 city_iata('Milwaukee General Mitchell', 'MKE').
 city_lat('Milwaukee General Mitchell', 42.950278).
 city_long('Milwaukee General Mitchell', -87.897222).
-has_vibes('Milwaukee General Mitchell', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Milwaukee General Mitchell', [underrated_destinations]).
 
 city('Muskegon').
 city_iata('Muskegon', 'MKG').
@@ -25859,19 +25859,19 @@ city('Malacca').
 city_iata('Malacca', 'MKZ').
 city_lat('Malacca', 2.264167).
 city_long('Malacca', 102.253333).
-has_vibes('Malacca', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Malacca', [art_and_culture, great_food]).
 
 city('Luqa Malta International').
 city_iata('Luqa Malta International', 'MLA').
 city_lat('Luqa Malta International', 35.852827).
 city_long('Luqa Malta International', 14.4868294).
-has_vibes('Luqa Malta International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Luqa Malta International', [beach, art_and_culture]).
 
 city('Melbourne Orlando International').
 city_iata('Melbourne Orlando International', 'MLB').
 city_lat('Melbourne Orlando International', 28.1025).
 city_long('Melbourne Orlando International', -80.630278).
-has_vibes('Melbourne Orlando International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Melbourne Orlando International', [underrated_destinations, beach]).
 
 city('Mc Alester').
 city_iata('Mc Alester', 'MLC').
@@ -25887,7 +25887,7 @@ city('Velana International').
 city_iata('Velana International', 'MLE').
 city_lat('Velana International', 4.201389).
 city_long('Velana International', 73.524444).
-has_vibes('Velana International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Velana International', [beach]).
 
 city('Milford').
 city_iata('Milford', 'MLF').
@@ -25928,7 +25928,7 @@ city('Morelia').
 city_iata('Morelia', 'MLM').
 city_lat('Morelia', 19.833333).
 city_long('Morelia', -101.016667).
-has_vibes('Morelia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Morelia', [art_and_culture, great_food]).
 
 city('Melilla').
 city_iata('Melilla', 'MLN').
@@ -25979,7 +25979,7 @@ city('Monrovia Sprigg Payne').
 city_iata('Monrovia Sprigg Payne', 'MLW').
 city_lat('Monrovia Sprigg Payne', 6.289444).
 city_long('Monrovia Sprigg Payne', -10.758333).
-has_vibes('Monrovia Sprigg Payne', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Monrovia Sprigg Payne', [nightlife_and_entertainment]).
 
 city('Malatya').
 city_iata('Malatya', 'MLX').
@@ -26080,7 +26080,7 @@ city('Austin Camp Maybry AHP').
 city_iata('Austin Camp Maybry AHP', 'MMR').
 city_lat('Austin Camp Maybry AHP', 30.283333).
 city_long('Austin Camp Maybry AHP', -97.75).
-has_vibes('Austin Camp Maybry AHP', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Austin Camp Maybry AHP', [nightlife_and_entertainment, underrated_destinations]).
 
 city('Marks').
 city_iata('Marks', 'MMS').
@@ -26116,7 +26116,7 @@ city('Miyako Jima').
 city_iata('Miyako Jima', 'MMY').
 city_lat('Miyako Jima', 24.780833).
 city_long('Miyako Jima', 125.297222).
-has_vibes('Miyako Jima', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Miyako Jima', [beach]).
 
 city('Maimana').
 city_iata('Maimana', 'MMZ').
@@ -26177,7 +26177,7 @@ city('Manila Ninoy Aquino').
 city_iata('Manila Ninoy Aquino', 'MNL').
 city_lat('Manila Ninoy Aquino', 14.5120662).
 city_long('Manila Ninoy Aquino', 121.0166046).
-has_vibes('Manila Ninoy Aquino', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Manila Ninoy Aquino', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Menominee').
 city_iata('Menominee', 'MNM').
@@ -26223,7 +26223,7 @@ city('Maulmyine').
 city_iata('Maulmyine', 'MNU').
 city_lat('Maulmyine', 16.441667).
 city_long('Maulmyine', 97.669444).
-has_vibes('Maulmyine', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Maulmyine', [art_and_culture]).
 
 city('Mountain Valley').
 city_iata('Mountain Valley', 'MNV').
@@ -26409,7 +26409,7 @@ city('Caticlan (Boracay)').
 city_iata('Caticlan (Boracay)', 'MPH').
 city_lat('Caticlan (Boracay)', 11.925833).
 city_long('Caticlan (Boracay)', 121.952222).
-has_vibes('Caticlan (Boracay)', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Caticlan (Boracay)', [nightlife_and_entertainment]).
 
 city('Mamitupo').
 city_iata('Mamitupo', 'MPI').
@@ -26435,7 +26435,7 @@ city('Maputo').
 city_iata('Maputo', 'MPM').
 city_lat('Maputo', -25.916667).
 city_long('Maputo', 32.566667).
-has_vibes('Maputo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Maputo', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Stanley').
 city_iata('Stanley', 'MPN').
@@ -26561,7 +26561,7 @@ city('Mardin').
 city_iata('Mardin', 'MQM').
 city_lat('Mardin', 37.223336).
 city_long('Mardin', 40.631667).
-has_vibes('Mardin', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Mardin', [nightlife_and_entertainment]).
 
 city('Mo I Rana Rossvoll').
 city_iata('Mo I Rana Rossvoll', 'MQN').
@@ -26672,7 +26672,7 @@ city('Anchorage Merrill Field').
 city_iata('Anchorage Merrill Field', 'MRI').
 city_lat('Anchorage Merrill Field', 61.21444).
 city_long('Anchorage Merrill Field', -149.84583).
-has_vibes('Anchorage Merrill Field', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Anchorage Merrill Field', [outdoor_adventures]).
 
 city('Marcala').
 city_iata('Marcala', 'MRJ').
@@ -26733,7 +26733,7 @@ city('Mauritius').
 city_iata('Mauritius', 'MRU').
 city_lat('Mauritius', -20.4275).
 city_long('Mauritius', 57.676389).
-has_vibes('Mauritius', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Mauritius', [nightlife_and_entertainment]).
 
 city('Mineralnye Vody').
 city_iata('Mineralnye Vody', 'MRV').
@@ -26834,7 +26834,7 @@ city('Minsk International 2').
 city_iata('Minsk International 2', 'MSQ').
 city_lat('Minsk International 2', 53.88247).
 city_long('Minsk International 2', 28.03073).
-has_vibes('Minsk International 2', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Minsk International 2', [nightlife_and_entertainment, art_and_culture]).
 
 city('Mus').
 city_iata('Mus', 'MSR').
@@ -26855,7 +26855,7 @@ city('Maseru').
 city_iata('Maseru', 'MSU').
 city_lat('Maseru', -29.455854).
 city_long('Maseru', 27.558732).
-has_vibes('Maseru', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Maseru', [nightlife_and_entertainment]).
 
 city('Monticello').
 city_iata('Monticello', 'MSV').
@@ -26876,7 +26876,7 @@ city('New Orleans Louis Armstrong').
 city_iata('New Orleans Louis Armstrong', 'MSY').
 city_lat('New Orleans Louis Armstrong', 29.991111).
 city_long('New Orleans Louis Armstrong', -90.251389).
-has_vibes('New Orleans Louis Armstrong', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('New Orleans Louis Armstrong', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Namibe').
 city_iata('Namibe', 'MSZ').
@@ -26947,7 +26947,7 @@ city('Baltimore Glenn L Martin').
 city_iata('Baltimore Glenn L Martin', 'MTN').
 city_lat('Baltimore Glenn L Martin', 39.321667).
 city_long('Baltimore Glenn L Martin', -76.411667).
-has_vibes('Baltimore Glenn L Martin', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Baltimore Glenn L Martin', [underrated_destinations, art_and_culture, great_food]).
 
 city('Mattoon').
 city_iata('Mattoon', 'MTO').
@@ -27003,7 +27003,7 @@ city('Monterrey Gen Mariano Escobedo').
 city_iata('Monterrey Gen Mariano Escobedo', 'MTY').
 city_lat('Monterrey Gen Mariano Escobedo', 25.766667).
 city_long('Monterrey Gen Mariano Escobedo', -100.1).
-has_vibes('Monterrey Gen Mariano Escobedo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Monterrey Gen Mariano Escobedo', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Masada Bar Yehuda').
 city_iata('Masada Bar Yehuda', 'MTZ').
@@ -27014,7 +27014,7 @@ city('Munda').
 city_iata('Munda', 'MUA').
 city_lat('Munda', -8.333333).
 city_long('Munda', 157.266667).
-has_vibes('Munda', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Munda', [outdoor_adventures]).
 
 city('Maun').
 city_iata('Maun', 'MUB').
@@ -27035,7 +27035,7 @@ city('Kamuela').
 city_iata('Kamuela', 'MUE').
 city_lat('Kamuela', 20.0125).
 city_long('Kamuela', -155.673333).
-has_vibes('Kamuela', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kamuela', [beach]).
 
 city('Muting').
 city_iata('Muting', 'MUF').
@@ -27121,7 +27121,7 @@ city('Philadelphia Mustin Alf').
 city_iata('Philadelphia Mustin Alf', 'MUV').
 city_lat('Philadelphia Mustin Alf', 39.868056).
 city_long('Philadelphia Mustin Alf', -75.248611).
-has_vibes('Philadelphia Mustin Alf', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Philadelphia Mustin Alf', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Mascara').
 city_iata('Mascara', 'MUW').
@@ -27162,7 +27162,7 @@ city('Montevideo').
 city_iata('Montevideo', 'MVD').
 city_lat('Montevideo', -34.833333).
 city_long('Montevideo', -56.033333).
-has_vibes('Montevideo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Montevideo', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Montevideo').
 city_iata('Montevideo', 'MVE').
@@ -27288,7 +27288,7 @@ city('Milwaukee Lawrence J Timmerman').
 city_iata('Milwaukee Lawrence J Timmerman', 'MWC').
 city_lat('Milwaukee Lawrence J Timmerman', 43.11084).
 city_long('Milwaukee Lawrence J Timmerman', -88.03426).
-has_vibes('Milwaukee Lawrence J Timmerman', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Milwaukee Lawrence J Timmerman', [underrated_destinations]).
 
 city('Mianwali').
 city_iata('Mianwali', 'MWD').
@@ -27399,7 +27399,7 @@ city('Mwanza').
 city_iata('Mwanza', 'MWZ').
 city_lat('Mwanza', -2.444722).
 city_long('Mwanza', 32.928056).
-has_vibes('Mwanza', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Mwanza', [nightlife_and_entertainment, great_food]).
 
 city('Manila Municipal').
 city_iata('Manila Municipal', 'MXA').
@@ -27560,7 +27560,7 @@ city('San Diego Montgomery Field').
 city_iata('San Diego Montgomery Field', 'MYF').
 city_lat('San Diego Montgomery Field', 32.81588).
 city_long('San Diego Montgomery Field', -117.14114).
-has_vibes('San Diego Montgomery Field', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Diego Montgomery Field', [nightlife_and_entertainment]).
 
 city('Mayaguana').
 city_iata('Mayaguana', 'MYG').
@@ -27621,7 +27621,7 @@ city('Myrtle Beach International').
 city_iata('Myrtle Beach International', 'MYR').
 city_lat('Myrtle Beach International', 33.679167).
 city_long('Myrtle Beach International', -78.929722).
-has_vibes('Myrtle Beach International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Myrtle Beach International', [beach]).
 
 city('Moyale').
 city_iata('Moyale', 'MYS').
@@ -27657,7 +27657,7 @@ city('Miri').
 city_iata('Miri', 'MYY').
 city_lat('Miri', 4.321944).
 city_long('Miri', 113.986944).
-has_vibes('Miri', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Miri', [beach]).
 
 city('Monkey Bay').
 city_iata('Monkey Bay', 'MYZ').
@@ -27773,7 +27773,7 @@ city('Mulu').
 city_iata('Mulu', 'MZV').
 city_lat('Mulu', 4.033333).
 city_long('Mulu', 114.8).
-has_vibes('Mulu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Mulu', [outdoor_adventures]).
 
 city('Mechria').
 city_iata('Mechria', 'MZW').
@@ -27864,7 +27864,7 @@ city('Nadi').
 city_iata('Nadi', 'NAN').
 city_lat('Nadi', -17.753056).
 city_long('Nadi', 177.447778).
-has_vibes('Nadi', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Nadi', [nightlife_and_entertainment, beach, art_and_culture, outdoor_adventures]).
 
 city('Nanchong').
 city_iata('Nanchong', 'NAO').
@@ -27875,7 +27875,7 @@ city('Naples International').
 city_iata('Naples International', 'NAP').
 city_lat('Naples International', 40.8846357).
 city_long('Naples International', 14.2892323).
-has_vibes('Naples International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Naples International', [art_and_culture, great_food]).
 
 city('Qaanaaq').
 city_iata('Qaanaaq', 'NAQ').
@@ -27891,7 +27891,7 @@ city('Nassau International').
 city_iata('Nassau International', 'NAS').
 city_lat('Nassau International', 25.040556).
 city_long('Nassau International', -77.471944).
-has_vibes('Nassau International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Nassau International', [nightlife_and_entertainment, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Natal').
 city_iata('Natal', 'NAT').
@@ -27922,7 +27922,7 @@ city('Beijing Nanyuan').
 city_iata('Beijing Nanyuan', 'NAY').
 city_lat('Beijing Nanyuan', 40.073611).
 city_long('Beijing Nanyuan', 116.608333).
-has_vibes('Beijing Nanyuan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Beijing Nanyuan', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Star Harbour').
 city_iata('Star Harbour', 'NAZ').
@@ -27953,7 +27953,7 @@ city('New Orleans NAS / Alvin Callendar').
 city_iata('New Orleans NAS / Alvin Callendar', 'NBG').
 city_lat('New Orleans NAS / Alvin Callendar', 29.833333).
 city_long('New Orleans NAS / Alvin Callendar', -90.033333).
-has_vibes('New Orleans NAS / Alvin Callendar', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('New Orleans NAS / Alvin Callendar', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Nambucca Heads').
 city_iata('Nambucca Heads', 'NBH').
@@ -27964,7 +27964,7 @@ city('Dr Antonio Agostinho Neto').
 city_iata('Dr Antonio Agostinho Neto', 'NBJ').
 city_lat('Dr Antonio Agostinho Neto', -9.05032287812233).
 city_long('Dr Antonio Agostinho Neto', 13.499044901853132).
-has_vibes('Dr Antonio Agostinho Neto', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Dr Antonio Agostinho Neto', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('San Blas').
 city_iata('San Blas', 'NBL').
@@ -27980,7 +27980,7 @@ city('Nairobi Jomo Kenyatta').
 city_iata('Nairobi Jomo Kenyatta', 'NBO').
 city_lat('Nairobi Jomo Kenyatta', -1.316667).
 city_long('Nairobi Jomo Kenyatta', 36.930833).
-has_vibes('Nairobi Jomo Kenyatta', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Nairobi Jomo Kenyatta', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Nambour').
 city_iata('Nambour', 'NBR').
@@ -28016,7 +28016,7 @@ city('Nice').
 city_iata('Nice', 'NCE').
 city_lat('Nice', 43.6596539).
 city_long('Nice', 7.215359).
-has_vibes('Nice', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Nice', [nightlife_and_entertainment, beach, great_food]).
 
 city('Nueva Casas Grandes').
 city_iata('Nueva Casas Grandes', 'NCG').
@@ -28042,7 +28042,7 @@ city('Newcastle').
 city_iata('Newcastle', 'NCL').
 city_lat('Newcastle', 55.037778).
 city_long('Newcastle', -1.686667).
-has_vibes('Newcastle', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Newcastle', [underrated_destinations]).
 
 city('Chenega Bay').
 city_iata('Chenega Bay', 'NCN').
@@ -28083,7 +28083,7 @@ city('Annecy').
 city_iata('Annecy', 'NCY').
 city_lat('Annecy', 45.930556).
 city_long('Annecy', 6.100833).
-has_vibes('Annecy', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Annecy', [outdoor_adventures]).
 
 city('Bandanaira').
 city_iata('Bandanaira', 'NDA').
@@ -28159,7 +28159,7 @@ city('Pensacola Ellyson NAS').
 city_iata('Pensacola Ellyson NAS', 'NDP').
 city_lat('Pensacola Ellyson NAS', 30.4725).
 city_long('Pensacola Ellyson NAS', -87.188333).
-has_vibes('Pensacola Ellyson NAS', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pensacola Ellyson NAS', [beach]).
 
 city('Nador').
 city_iata('Nador', 'NDR').
@@ -28210,7 +28210,7 @@ city('Negril').
 city_iata('Negril', 'NEG').
 city_lat('Negril', 18.308333).
 city_long('Negril', -78.333333).
-has_vibes('Negril', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Negril', [nightlife_and_entertainment]).
 
 city('Terney').
 city_iata('Terney', 'NEI').
@@ -28251,13 +28251,13 @@ city('Vance W. Amory International').
 city_iata('Vance W. Amory International', 'NEV').
 city_lat('Vance W. Amory International', 17.205).
 city_long('Vance W. Amory International', -62.5925).
-has_vibes('Vance W. Amory International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Vance W. Amory International', [nightlife_and_entertainment]).
 
 city('New Orleans Lakefront').
 city_iata('New Orleans Lakefront', 'NEW').
 city_lat('New Orleans Lakefront', 30.039444).
 city_long('New Orleans Lakefront', -90.026667).
-has_vibes('New Orleans Lakefront', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('New Orleans Lakefront', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Mt Clemens Detroit NAF').
 city_iata('Mt Clemens Detroit NAF', 'NFB').
@@ -28338,13 +28338,13 @@ city('Nagoya Chubu Centrair').
 city_iata('Nagoya Chubu Centrair', 'NGO').
 city_lat('Nagoya Chubu Centrair', 34.859876).
 city_long('Nagoya Chubu Centrair', 136.807337).
-has_vibes('Nagoya Chubu Centrair', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Nagoya Chubu Centrair', [great_food]).
 
 city('Corpus Christi NAS').
 city_iata('Corpus Christi NAS', 'NGP').
 city_lat('Corpus Christi NAS', 27.7).
 city_long('Corpus Christi NAS', -97.283333).
-has_vibes('Corpus Christi NAS', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Corpus Christi NAS', [beach]).
 
 city('Shiquanhe').
 city_iata('Shiquanhe', 'NGQ').
@@ -28360,13 +28360,13 @@ city('Nagasaki').
 city_iata('Nagasaki', 'NGS').
 city_lat('Nagasaki', 32.911944).
 city_long('Nagasaki', 129.9175).
-has_vibes('Nagasaki', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Nagasaki', [underrated_destinations]).
 
 city('Norfolk NAS Chambers').
 city_iata('Norfolk NAS Chambers', 'NGU').
 city_lat('Norfolk NAS Chambers', 36.93012).
 city_long('Norfolk NAS Chambers', -76.29115).
-has_vibes('Norfolk NAS Chambers', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Norfolk NAS Chambers', [beach]).
 
 city('Ngiva').
 city_iata('Ngiva', 'NGV').
@@ -28377,7 +28377,7 @@ city('Corpus Christi Cabaniss Field').
 city_iata('Corpus Christi Cabaniss Field', 'NGW').
 city_lat('Corpus Christi Cabaniss Field', 27.783333).
 city_long('Corpus Christi Cabaniss Field', -97.4).
-has_vibes('Corpus Christi Cabaniss Field', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Corpus Christi Cabaniss Field', [beach]).
 
 city('Manang').
 city_iata('Manang', 'NGX').
@@ -28513,7 +28513,7 @@ city('Najaf').
 city_iata('Najaf', 'NJF').
 city_lat('Najaf', 31.991667).
 city_long('Najaf', 44.404167).
-has_vibes('Najaf', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Najaf', [great_food]).
 
 city('Imperial NAF').
 city_iata('Imperial NAF', 'NJK').
@@ -28544,7 +28544,7 @@ city('Nanking / Nanjing').
 city_iata('Nanking / Nanjing', 'NKG').
 city_lat('Nanking / Nanjing', 31.74204).
 city_long('Nanking / Nanjing', 118.86202).
-has_vibes('Nanking / Nanjing', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Nanking / Nanjing', [underrated_destinations, art_and_culture]).
 
 city('Naukiti').
 city_iata('Naukiti', 'NKI').
@@ -28560,7 +28560,7 @@ city('Nagoya Komaki Air Force Base').
 city_iata('Nagoya Komaki Air Force Base', 'NKM').
 city_lat('Nagoya Komaki Air Force Base', 35.2517).
 city_long('Nagoya Komaki Air Force Base', 136.9275).
-has_vibes('Nagoya Komaki Air Force Base', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Nagoya Komaki Air Force Base', [great_food]).
 
 city('Nankina').
 city_iata('Nankina', 'NKN').
@@ -28601,7 +28601,7 @@ city('San Diego Miramar NAS').
 city_iata('San Diego Miramar NAS', 'NKX').
 city_lat('San Diego Miramar NAS', 32.866667).
 city_long('San Diego Miramar NAS', -117.116667).
-has_vibes('San Diego Miramar NAS', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Diego Miramar NAS', [nightlife_and_entertainment]).
 
 city('Nkayi').
 city_iata('Nkayi', 'NKY').
@@ -28662,7 +28662,7 @@ city('Kinshasa NDolo').
 city_iata('Kinshasa NDolo', 'NLO').
 city_lat('Kinshasa NDolo', -4.325).
 city_long('Kinshasa NDolo', 15.326389).
-has_vibes('Kinshasa NDolo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kinshasa NDolo', [nightlife_and_entertainment]).
 
 city('Nelspruit').
 city_iata('Nelspruit', 'NLP').
@@ -28683,7 +28683,7 @@ city('Felipe Angeles International').
 city_iata('Felipe Angeles International', 'NLU').
 city_lat('Felipe Angeles International', 19.755278).
 city_long('Felipe Angeles International', -99.01639).
-has_vibes('Felipe Angeles International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Felipe Angeles International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Mykolaiv').
 city_iata('Mykolaiv', 'NLV').
@@ -28849,7 +28849,7 @@ city('Chicago NAS').
 city_iata('Chicago NAS', 'NOH').
 city_lat('Chicago NAS', 41.880556).
 city_long('Chicago NAS', -87.616667).
-has_vibes('Chicago NAS', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chicago NAS', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Novorossijsk').
 city_iata('Novorossijsk', 'NOI').
@@ -28890,7 +28890,7 @@ city('Sinop').
 city_iata('Sinop', 'NOP').
 city_lat('Sinop', 42.015833).
 city_long('Sinop', 35.066389).
-has_vibes('Sinop', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sinop', [beach]).
 
 city('Nordfjordur').
 city_iata('Nordfjordur', 'NOR').
@@ -28926,13 +28926,13 @@ city('Pensacola NAS').
 city_iata('Pensacola NAS', 'NPA').
 city_lat('Pensacola NAS', 30.35266).
 city_long('Pensacola NAS', -87.31865).
-has_vibes('Pensacola NAS', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pensacola NAS', [beach]).
 
 city('Napier-Hastings').
 city_iata('Napier-Hastings', 'NPE').
 city_lat('Napier-Hastings', -39.468056).
 city_long('Napier-Hastings', 176.865278).
-has_vibes('Napier-Hastings', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Napier-Hastings', [art_and_culture]).
 
 city('Nipa').
 city_iata('Nipa', 'NPG').
@@ -29013,7 +29013,7 @@ city('Key West NAS').
 city_iata('Key West NAS', 'NQX').
 city_lat('Key West NAS', 24.55).
 city_long('Key West NAS', -81.8).
-has_vibes('Key West NAS', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Key West NAS', [beach]).
 
 city('Newquay').
 city_iata('Newquay', 'NQY').
@@ -29024,7 +29024,7 @@ city('Astana Nursultan Nazarbayev').
 city_iata('Astana Nursultan Nazarbayev', 'NQZ').
 city_lat('Astana Nursultan Nazarbayev', 51.166667).
 city_long('Astana Nursultan Nazarbayev', 71.5).
-has_vibes('Astana Nursultan Nazarbayev', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Astana Nursultan Nazarbayev', [nightlife_and_entertainment]).
 
 city('Narrandera').
 city_iata('Narrandera', 'NRA').
@@ -29095,7 +29095,7 @@ city('Tokyo Narita').
 city_iata('Tokyo Narita', 'NRT').
 city_lat('Tokyo Narita', 35.763889).
 city_long('Tokyo Narita', 140.391111).
-has_vibes('Tokyo Narita', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tokyo Narita', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Guam Uscg Shore St').
 city_iata('Guam Uscg Shore St', 'NRV').
@@ -29151,7 +29151,7 @@ city('Nelson').
 city_iata('Nelson', 'NSN').
 city_lat('Nelson', -41.3).
 city_long('Nelson', 173.219444).
-has_vibes('Nelson', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Nelson', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Scone').
 city_iata('Scone', 'NSO').
@@ -29222,7 +29222,7 @@ city('Newcastle Williamtown').
 city_iata('Newcastle Williamtown', 'NTL').
 city_lat('Newcastle Williamtown', -32.795833).
 city_long('Newcastle Williamtown', 151.833333).
-has_vibes('Newcastle Williamtown', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Newcastle Williamtown', [nightlife_and_entertainment, beach, great_food]).
 
 city('Miracema Do Norte').
 city_iata('Miracema Do Norte', 'NTM').
@@ -29248,7 +29248,7 @@ city('Monterrey Aeropuerto Del Norte').
 city_iata('Monterrey Aeropuerto Del Norte', 'NTR').
 city_lat('Monterrey Aeropuerto Del Norte', 25.86557).
 city_long('Monterrey Aeropuerto Del Norte', -100.23724).
-has_vibes('Monterrey Aeropuerto Del Norte', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Monterrey Aeropuerto Del Norte', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Kuini Lavenia').
 city_iata('Kuini Lavenia', 'NTT').
@@ -29289,7 +29289,7 @@ city('Nuremberg').
 city_iata('Nuremberg', 'NUE').
 city_lat('Nuremberg', 49.5).
 city_long('Nuremberg', 11.083333).
-has_vibes('Nuremberg', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Nuremberg', [underrated_destinations]).
 
 city('Castlereigh Resrvr SPB').
 city_iata('Castlereigh Resrvr SPB', 'NUF').
@@ -29335,7 +29335,7 @@ city('Pensacola Saufley NAS').
 city_iata('Pensacola Saufley NAS', 'NUN').
 city_lat('Pensacola Saufley NAS', 30.4725).
 city_long('Pensacola Saufley NAS', -87.188333).
-has_vibes('Pensacola Saufley NAS', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pensacola Saufley NAS', [beach]).
 
 city('Nunapitchuk').
 city_iata('Nunapitchuk', 'NUP').
@@ -29496,7 +29496,7 @@ city('Stockholm Skavsta').
 city_iata('Stockholm Skavsta', 'NYO').
 city_lat('Stockholm Skavsta', 58.788636).
 city_long('Stockholm Skavsta', 16.912189).
-has_vibes('Stockholm Skavsta', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Stockholm Skavsta', [nightlife_and_entertainment, great_food, outdoor_adventures]).
 
 city('Nyurba').
 city_iata('Nyurba', 'NYR').
@@ -29507,7 +29507,7 @@ city('Skyports Seaplane Base').
 city_iata('Skyports Seaplane Base', 'NYS').
 city_lat('Skyports Seaplane Base', 40.733889).
 city_long('Skyports Seaplane Base', -73.972778).
-has_vibes('Skyports Seaplane Base', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Skyports Seaplane Base', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Naypyidaw').
 city_iata('Naypyidaw', 'NYT').
@@ -29573,7 +29573,7 @@ city('San Diego North Island NAS').
 city_iata('San Diego North Island NAS', 'NZY').
 city_lat('San Diego North Island NAS', 32.7).
 city_long('San Diego North Island NAS', -117.2).
-has_vibes('San Diego North Island NAS', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Diego North Island NAS', [nightlife_and_entertainment]).
 
 city('Orange').
 city_iata('Orange', 'OAG').
@@ -29589,7 +29589,7 @@ city('Oakland Metropolitan Oak').
 city_iata('Oakland Metropolitan Oak', 'OAK').
 city_lat('Oakland Metropolitan Oak', 37.723611).
 city_long('Oakland Metropolitan Oak', -122.215556).
-has_vibes('Oakland Metropolitan Oak', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Oakland Metropolitan Oak', [underrated_destinations, beach]).
 
 city('Cacoal').
 city_iata('Cacoal', 'OAL').
@@ -29620,7 +29620,7 @@ city('Oaxaca').
 city_iata('Oaxaca', 'OAX').
 city_lat('Oaxaca', 17).
 city_long('Oaxaca', -96.733333).
-has_vibes('Oaxaca', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Oaxaca', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Camp Shorabak').
 city_iata('Camp Shorabak', 'OAZ').
@@ -29741,7 +29741,7 @@ city('Ocho Rios').
 city_iata('Ocho Rios', 'OCJ').
 city_lat('Ocho Rios', 18.400556).
 city_long('Ocho Rios', -76.969722).
-has_vibes('Ocho Rios', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Ocho Rios', [nightlife_and_entertainment, beach, great_food, outdoor_adventures]).
 
 city('Boolgeeda').
 city_iata('Boolgeeda', 'OCM').
@@ -29772,7 +29772,7 @@ city('Cordoba').
 city_iata('Cordoba', 'ODB').
 city_lat('Cordoba', 37.841111).
 city_long('Cordoba', -4.847222).
-has_vibes('Cordoba', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Cordoba', [art_and_culture]).
 
 city('Oodnadatta').
 city_iata('Oodnadatta', 'ODD').
@@ -29908,7 +29908,7 @@ city('Ogle').
 city_iata('Ogle', 'OGL').
 city_lat('Ogle', 6.8).
 city_long('Ogle', -58.105556).
-has_vibes('Ogle', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ogle', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Ustupo Ogobsucum').
 city_iata('Ustupo Ogobsucum', 'OGM').
@@ -29969,7 +29969,7 @@ city('Ohrid').
 city_iata('Ohrid', 'OHD').
 city_lat('Ohrid', 41.185).
 city_long('Ohrid', 20.743056).
-has_vibes('Ohrid', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Ohrid', [outdoor_adventures]).
 
 city('Mohe').
 city_iata('Mohe', 'OHE').
@@ -30005,7 +30005,7 @@ city('Sohar').
 city_iata('Sohar', 'OHS').
 city_lat('Sohar', 24.394909).
 city_long('Sohar', 56.610366).
-has_vibes('Sohar', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sohar', [beach, great_food]).
 
 city('Kohat').
 city_iata('Kohat', 'OHT').
@@ -30056,7 +30056,7 @@ city('Okinawa Naha').
 city_iata('Okinawa Naha', 'OKA').
 city_lat('Okinawa Naha', 26.2).
 city_long('Okinawa Naha', 127.65).
-has_vibes('Okinawa Naha', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Okinawa Naha', [beach]).
 
 city('Orchid Beach').
 city_iata('Orchid Beach', 'OKB').
@@ -30072,7 +30072,7 @@ city('Sapporo Okadama').
 city_iata('Sapporo Okadama', 'OKD').
 city_lat('Sapporo Okadama', 43.115556).
 city_long('Sapporo Okadama', 141.385).
-has_vibes('Sapporo Okadama', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sapporo Okadama', [nightlife_and_entertainment]).
 
 city('Okino Erabu').
 city_iata('Okino Erabu', 'OKE').
@@ -30173,7 +30173,7 @@ city('Olbia').
 city_iata('Olbia', 'OLB').
 city_lat('Olbia', 40.898593).
 city_long('Olbia', 9.51725).
-has_vibes('Olbia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Olbia', [underrated_destinations, beach]).
 
 city('São Paulo de Olivença').
 city_iata('São Paulo de Olivença', 'OLC').
@@ -30484,7 +30484,7 @@ city('Gold Coast').
 city_iata('Gold Coast', 'OOL').
 city_lat('Gold Coast', -28.165).
 city_long('Gold Coast', 153.506111).
-has_vibes('Gold Coast', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Gold Coast', [nightlife_and_entertainment, great_food]).
 
 city('Mooraberree').
 city_iata('Mooraberree', 'OOR').
@@ -30510,7 +30510,7 @@ city('Miami Opa Locka').
 city_iata('Miami Opa Locka', 'OPF').
 city_lat('Miami Opa Locka', 25.9).
 city_long('Miami Opa Locka', -80.283333).
-has_vibes('Miami Opa Locka', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Miami Opa Locka', [nightlife_and_entertainment, beach]).
 
 city('Oenpelli').
 city_iata('Oenpelli', 'OPI').
@@ -30526,7 +30526,7 @@ city('Porto').
 city_iata('Porto', 'OPO').
 city_lat('Porto', 41.2420863).
 city_long('Porto', -8.6786158).
-has_vibes('Porto', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Porto', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Salinópolis').
 city_iata('Salinópolis', 'OPP').
@@ -30572,7 +30572,7 @@ city('Chicago OHare International').
 city_iata('Chicago OHare International', 'ORD').
 city_lat('Chicago OHare International', 41.978056).
 city_long('Chicago OHare International', -87.906111).
-has_vibes('Chicago OHare International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chicago OHare International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Orleans').
 city_iata('Orleans', 'ORE').
@@ -30583,13 +30583,13 @@ city('Norfolk International').
 city_iata('Norfolk International', 'ORF').
 city_lat('Norfolk International', 36.895833).
 city_long('Norfolk International', -76.201389).
-has_vibes('Norfolk International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Norfolk International', [beach]).
 
 city('Paramaribo Zorg En Hoop').
 city_iata('Paramaribo Zorg En Hoop', 'ORG').
 city_lat('Paramaribo Zorg En Hoop', 5.809444).
 city_long('Paramaribo Zorg En Hoop', -55.191111).
-has_vibes('Paramaribo Zorg En Hoop', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Paramaribo Zorg En Hoop', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Worcester').
 city_iata('Worcester', 'ORH').
@@ -30610,7 +30610,7 @@ city('Cork').
 city_iata('Cork', 'ORK').
 city_lat('Cork', 51.843333).
 city_long('Cork', -8.490278).
-has_vibes('Cork', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Cork', [great_food]).
 
 city('Northampton').
 city_iata('Northampton', 'ORM').
@@ -30676,7 +30676,7 @@ city('Paris Orly').
 city_iata('Paris Orly', 'ORY').
 city_lat('Paris Orly', 48.728889).
 city_long('Paris Orly', 2.357222).
-has_vibes('Paris Orly', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Paris Orly', [art_and_culture, great_food]).
 
 city('Orange Walk').
 city_iata('Orange Walk', 'ORZ').
@@ -30732,7 +30732,7 @@ city('Oslo Gardermoen').
 city_iata('Oslo Gardermoen', 'OSL').
 city_lat('Oslo Gardermoen', 60.2).
 city_long('Oslo Gardermoen', 11.083333).
-has_vibes('Oslo Gardermoen', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Oslo Gardermoen', [nightlife_and_entertainment, underrated_destinations, great_food]).
 
 city('Mosul').
 city_iata('Mosul', 'OSM').
@@ -30853,7 +30853,7 @@ city('Bucharest Otopeni').
 city_iata('Bucharest Otopeni', 'OTP').
 city_lat('Bucharest Otopeni', 44.5706159).
 city_long('Bucharest Otopeni', 26.0843908).
-has_vibes('Bucharest Otopeni', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bucharest Otopeni', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Coto 47').
 city_iata('Coto 47', 'OTR').
@@ -31149,7 +31149,7 @@ city('Ouarzazate').
 city_iata('Ouarzazate', 'OZZ').
 city_lat('Ouarzazate', 30.916667).
 city_long('Ouarzazate', -6.916667).
-has_vibes('Ouarzazate', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Ouarzazate', [underrated_destinations, outdoor_adventures]).
 
 city('Pa-an').
 city_iata('Pa-an', 'PAA').
@@ -31165,7 +31165,7 @@ city('Panama City Paitilla').
 city_iata('Panama City Paitilla', 'PAC').
 city_lat('Panama City Paitilla', 8.97334).
 city_long('Panama City Paitilla', -79.55558).
-has_vibes('Panama City Paitilla', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Panama City Paitilla', [great_food]).
 
 city('Paderborn').
 city_iata('Paderborn', 'PAD').
@@ -31176,7 +31176,7 @@ city('Paine Field').
 city_iata('Paine Field', 'PAE').
 city_lat('Paine Field', 47.909722).
 city_long('Paine Field', -122.284444).
-has_vibes('Paine Field', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Paine Field', [nightlife_and_entertainment]).
 
 city('Pakuba').
 city_iata('Pakuba', 'PAF').
@@ -31217,7 +31217,7 @@ city('Panama City Tyndall AFB').
 city_iata('Panama City Tyndall AFB', 'PAM').
 city_lat('Panama City Tyndall AFB', 30.07095).
 city_long('Panama City Tyndall AFB', -85.576977).
-has_vibes('Panama City Tyndall AFB', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Panama City Tyndall AFB', [beach]).
 
 city('Pattani').
 city_iata('Pattani', 'PAN').
@@ -31233,7 +31233,7 @@ city('Port Au Prince').
 city_iata('Port Au Prince', 'PAP').
 city_lat('Port Au Prince', 18.58).
 city_long('Port Au Prince', -72.2925).
-has_vibes('Port Au Prince', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Port Au Prince', [nightlife_and_entertainment, great_food]).
 
 city('Palmer').
 city_iata('Palmer', 'PAQ').
@@ -31244,13 +31244,13 @@ city('Paros').
 city_iata('Paros', 'PAS').
 city_lat('Paros', 37.010161).
 city_long('Paros', 25.128137).
-has_vibes('Paros', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Paros', [beach]).
 
 city('Patna').
 city_iata('Patna', 'PAT').
 city_lat('Patna', 25.590556).
 city_long('Patna', 85.09).
-has_vibes('Patna', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Patna', [art_and_culture]).
 
 city('Pauk').
 city_iata('Pauk', 'PAU').
@@ -31296,7 +31296,7 @@ city('Puebla').
 city_iata('Puebla', 'PBC').
 city_lat('Puebla', 19.135).
 city_long('Puebla', -98.3675).
-has_vibes('Puebla', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Puebla', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Porbandar').
 city_iata('Porbandar', 'PBD').
@@ -31322,13 +31322,13 @@ city('Paro').
 city_iata('Paro', 'PBH').
 city_lat('Paro', 27.433333).
 city_long('Paro', 89.416667).
-has_vibes('Paro', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Paro', [nightlife_and_entertainment, great_food, outdoor_adventures]).
 
 city('West Palm Beach International').
 city_iata('West Palm Beach International', 'PBI').
 city_lat('West Palm Beach International', 26.682222).
 city_long('West Palm Beach International', -80.094167).
-has_vibes('West Palm Beach International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('West Palm Beach International', [beach]).
 
 city('Paama').
 city_iata('Paama', 'PBJ').
@@ -31349,7 +31349,7 @@ city('Paramaribo Zanderij').
 city_iata('Paramaribo Zanderij', 'PBM').
 city_lat('Paramaribo Zanderij', 5.451389).
 city_long('Paramaribo Zanderij', -55.191111).
-has_vibes('Paramaribo Zanderij', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Paramaribo Zanderij', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Porto Amboim').
 city_iata('Porto Amboim', 'PBN').
@@ -31410,7 +31410,7 @@ city('Plettenberg Bay').
 city_iata('Plettenberg Bay', 'PBZ').
 city_lat('Plettenberg Bay', -34.0875).
 city_long('Plettenberg Bay', 23.329167).
-has_vibes('Plettenberg Bay', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Plettenberg Bay', [beach]).
 
 city('Portage Creek').
 city_iata('Portage Creek', 'PCA').
@@ -31456,7 +31456,7 @@ city('Pucallpa').
 city_iata('Pucallpa', 'PCL').
 city_lat('Pucallpa', -8.333333).
 city_long('Pucallpa', -74.633333).
-has_vibes('Pucallpa', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Pucallpa', [nightlife_and_entertainment, outdoor_adventures]).
 
 city('Playa del Carmen').
 city_iata('Playa del Carmen', 'PCM').
@@ -31552,13 +31552,13 @@ city('Atlanta De Kalb / Peachtree').
 city_iata('Atlanta De Kalb / Peachtree', 'PDK').
 city_lat('Atlanta De Kalb / Peachtree', 33.87737).
 city_long('Atlanta De Kalb / Peachtree', -84.30456).
-has_vibes('Atlanta De Kalb / Peachtree', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Atlanta De Kalb / Peachtree', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Ponta Delgada').
 city_iata('Ponta Delgada', 'PDL').
 city_lat('Ponta Delgada', 37.747222).
 city_long('Ponta Delgada', -25.681944).
-has_vibes('Ponta Delgada', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Ponta Delgada', [underrated_destinations]).
 
 city('Parndana').
 city_iata('Parndana', 'PDN').
@@ -31574,7 +31574,7 @@ city('Punta Del Este').
 city_iata('Punta Del Este', 'PDP').
 city_lat('Punta Del Este', -34.853115).
 city_long('Punta Del Este', -55.093517).
-has_vibes('Punta Del Este', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Punta Del Este', [nightlife_and_entertainment, beach, outdoor_adventures]).
 
 city('Presidente Dutra').
 city_iata('Presidente Dutra', 'PDR').
@@ -31600,7 +31600,7 @@ city('Plovdiv').
 city_iata('Plovdiv', 'PDV').
 city_lat('Plovdiv', 42.067778).
 city_long('Plovdiv', 24.850833).
-has_vibes('Plovdiv', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Plovdiv', [underrated_destinations]).
 
 city('Portland').
 city_iata('Portland', 'PDX').
@@ -31646,7 +31646,7 @@ city('Perugia Santegidio').
 city_iata('Perugia Santegidio', 'PEG').
 city_lat('Perugia Santegidio', 43.096721).
 city_long('Perugia Santegidio', 12.513428).
-has_vibes('Perugia Santegidio', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Perugia Santegidio', [underrated_destinations]).
 
 city('Pehuajo').
 city_iata('Pehuajo', 'PEH').
@@ -31667,7 +31667,7 @@ city('Beijing Capital').
 city_iata('Beijing Capital', 'PEK').
 city_lat('Beijing Capital', 40.066667).
 city_long('Beijing Capital', 116.6).
-has_vibes('Beijing Capital', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Beijing Capital', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Pelaneng').
 city_iata('Pelaneng', 'PEL').
@@ -31678,13 +31678,13 @@ city('Puerto Maldonado').
 city_iata('Puerto Maldonado', 'PEM').
 city_lat('Puerto Maldonado', -12.583333).
 city_long('Puerto Maldonado', -69.233333).
-has_vibes('Puerto Maldonado', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Puerto Maldonado', [outdoor_adventures]).
 
 city('Penang').
 city_iata('Penang', 'PEN').
 city_lat('Penang', 5.289722).
 city_long('Penang', 100.2725).
-has_vibes('Penang', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Penang', [nightlife_and_entertainment, underrated_destinations, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Peppimenarti').
 city_iata('Peppimenarti', 'PEP').
@@ -31700,7 +31700,7 @@ city('Perth').
 city_iata('Perth', 'PER').
 city_lat('Perth', -31.9385749).
 city_long('Perth', 115.9672385).
-has_vibes('Perth', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Perth', [nightlife_and_entertainment, underrated_destinations, great_food]).
 
 city('Petrozavodsk').
 city_iata('Petrozavodsk', 'PES').
@@ -31726,7 +31726,7 @@ city('Peshawar').
 city_iata('Peshawar', 'PEW').
 city_lat('Peshawar', 34).
 city_long('Peshawar', 71.5).
-has_vibes('Peshawar', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Peshawar', [great_food]).
 
 city('Pechora').
 city_iata('Pechora', 'PEX').
@@ -31772,7 +31772,7 @@ city('Paphos').
 city_iata('Paphos', 'PFO').
 city_lat('Paphos', 34.7175174).
 city_long('Paphos', 32.4839392).
-has_vibes('Paphos', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Paphos', [beach, art_and_culture]).
 
 city('Parsabad').
 city_iata('Parsabad', 'PFQ').
@@ -31923,7 +31923,7 @@ city('Newport News Williamsburg International').
 city_iata('Newport News Williamsburg International', 'PHF').
 city_lat('Newport News Williamsburg International', 37.130833).
 city_long('Newport News Williamsburg International', -76.493889).
-has_vibes('Newport News Williamsburg International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Newport News Williamsburg International', [beach]).
 
 city('Port Harcourt City').
 city_iata('Port Harcourt City', 'PHG').
@@ -31934,7 +31934,7 @@ city('Pokhara International').
 city_iata('Pokhara International', 'PHH').
 city_lat('Pokhara International', 28.1845).
 city_long('Pokhara International', 84.0143).
-has_vibes('Pokhara International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Pokhara International', [art_and_culture, outdoor_adventures]).
 
 city('Pinheiro').
 city_iata('Pinheiro', 'PHI').
@@ -31955,7 +31955,7 @@ city('Philadelphia International').
 city_iata('Philadelphia International', 'PHL').
 city_lat('Philadelphia International', 39.871667).
 city_long('Philadelphia International', -75.242222).
-has_vibes('Philadelphia International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Philadelphia International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Boeblingen').
 city_iata('Boeblingen', 'PHM').
@@ -31986,7 +31986,7 @@ city('Phitsanulok').
 city_iata('Phitsanulok', 'PHS').
 city_lat('Phitsanulok', 16.788333).
 city_long('Phitsanulok', 100.279444).
-has_vibes('Phitsanulok', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Phitsanulok', [art_and_culture]).
 
 city('Paris').
 city_iata('Paris', 'PHT').
@@ -32007,7 +32007,7 @@ city('Phoenix Sky Harbor').
 city_iata('Phoenix Sky Harbor', 'PHX').
 city_lat('Phoenix Sky Harbor', 33.43316).
 city_long('Phoenix Sky Harbor', -112.011795).
-has_vibes('Phoenix Sky Harbor', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Phoenix Sky Harbor', [beach]).
 
 city('Phetchabun').
 city_iata('Phetchabun', 'PHY').
@@ -32038,13 +32038,13 @@ city('Nassau Paradise Island').
 city_iata('Nassau Paradise Island', 'PID').
 city_lat('Nassau Paradise Island', 25.083333).
 city_long('Nassau Paradise Island', -77.3).
-has_vibes('Nassau Paradise Island', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Nassau Paradise Island', [nightlife_and_entertainment, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('St. Pete–Clearwater International').
 city_iata('St. Pete–Clearwater International', 'PIE').
 city_lat('St. Pete–Clearwater International', 27.916667).
 city_long('St. Pete–Clearwater International', -82.683333).
-has_vibes('St. Pete–Clearwater International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('St. Pete–Clearwater International', [beach]).
 
 city('Pingtung').
 city_iata('Pingtung', 'PIF').
@@ -32070,7 +32070,7 @@ city('Glasgow Prestwick').
 city_iata('Glasgow Prestwick', 'PIK').
 city_lat('Glasgow Prestwick', 55.5098273).
 city_long('Glasgow Prestwick', -4.592294).
-has_vibes('Glasgow Prestwick', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Glasgow Prestwick', [underrated_destinations, great_food]).
 
 city('Pilar').
 city_iata('Pilar', 'PIL').
@@ -32091,7 +32091,7 @@ city('Pisco').
 city_iata('Pisco', 'PIO').
 city_lat('Pisco', -13.75).
 city_long('Pisco', -76.216667).
-has_vibes('Pisco', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pisco', [beach]).
 
 city('Pilot Point Arpt').
 city_iata('Pilot Point Arpt', 'PIP').
@@ -32117,7 +32117,7 @@ city('Pittsburgh International').
 city_iata('Pittsburgh International', 'PIT').
 city_lat('Pittsburgh International', 40.496667).
 city_long('Pittsburgh International', -80.235833).
-has_vibes('Pittsburgh International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pittsburgh International', [underrated_destinations]).
 
 city('Piura').
 city_iata('Piura', 'PIU').
@@ -32258,7 +32258,7 @@ city('Pokhara').
 city_iata('Pokhara', 'PKR').
 city_lat('Pokhara', 28.1994).
 city_long('Pokhara', 83.9784).
-has_vibes('Pokhara', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Pokhara', [art_and_culture, outdoor_adventures]).
 
 city('Paksane').
 city_iata('Paksane', 'PKS').
@@ -32289,7 +32289,7 @@ city('Beijing Daxing').
 city_iata('Beijing Daxing', 'PKX').
 city_lat('Beijing Daxing', 39.509167).
 city_long('Beijing Daxing', 116.410556).
-has_vibes('Beijing Daxing', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Beijing Daxing', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Palangkaraya').
 city_iata('Palangkaraya', 'PKY').
@@ -32300,7 +32300,7 @@ city('Pakse').
 city_iata('Pakse', 'PKZ').
 city_lat('Pakse', 15.131667).
 city_long('Pakse', 105.783889).
-has_vibes('Pakse', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Pakse', [art_and_culture, outdoor_adventures]).
 
 city('Planadas').
 city_iata('Planadas', 'PLA').
@@ -32346,7 +32346,7 @@ city('Placencia').
 city_iata('Placencia', 'PLJ').
 city_lat('Placencia', 16.533346).
 city_long('Placencia', -88.35336).
-has_vibes('Placencia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Placencia', [beach, great_food, outdoor_adventures]).
 
 city('Branson / Point Lookout').
 city_iata('Branson / Point Lookout', 'PLK').
@@ -32402,7 +32402,7 @@ city('Belo Horizonte Pampulha').
 city_iata('Belo Horizonte Pampulha', 'PLU').
 city_lat('Belo Horizonte Pampulha', -19.851111).
 city_long('Belo Horizonte Pampulha', -43.950556).
-has_vibes('Belo Horizonte Pampulha', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Belo Horizonte Pampulha', [nightlife_and_entertainment]).
 
 city('Poltava').
 city_iata('Poltava', 'PLV').
@@ -32428,7 +32428,7 @@ city('Port Elizabeth').
 city_iata('Port Elizabeth', 'PLZ').
 city_lat('Port Elizabeth', -33.986111).
 city_long('Port Elizabeth', 25.613889).
-has_vibes('Port Elizabeth', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Port Elizabeth', [art_and_culture, outdoor_adventures]).
 
 city('Pemba').
 city_iata('Pemba', 'PMA').
@@ -32474,7 +32474,7 @@ city('Palma - Majorca').
 city_iata('Palma - Majorca', 'PMI').
 city_lat('Palma - Majorca', 39.5517159).
 city_long('Palma - Majorca', 2.7361971).
-has_vibes('Palma - Majorca', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Palma - Majorca', [nightlife_and_entertainment, beach]).
 
 city('Palm Island').
 city_iata('Palm Island', 'PMK').
@@ -32500,7 +32500,7 @@ city('Palermo').
 city_iata('Palermo', 'PMO').
 city_lat('Palermo', 38.166667).
 city_long('Palermo', 13.1).
-has_vibes('Palermo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Palermo', [great_food]).
 
 city('Pimaga').
 city_iata('Pimaga', 'PMP').
@@ -32536,7 +32536,7 @@ city('Porlamar').
 city_iata('Porlamar', 'PMV').
 city_lat('Porlamar', 10.911696).
 city_long('Porlamar', -63.966179).
-has_vibes('Porlamar', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Porlamar', [beach]).
 
 city('Palmas').
 city_iata('Palmas', 'PMW').
@@ -32552,7 +32552,7 @@ city('Puerto Madryn').
 city_iata('Puerto Madryn', 'PMY').
 city_lat('Puerto Madryn', -42.759167).
 city_long('Puerto Madryn', -65.102778).
-has_vibes('Puerto Madryn', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Puerto Madryn', [beach, outdoor_adventures]).
 
 city('Palmar').
 city_iata('Palmar', 'PMZ').
@@ -32583,7 +32583,7 @@ city('North Philadelphia').
 city_iata('North Philadelphia', 'PNE').
 city_lat('North Philadelphia', 40.080278).
 city_long('North Philadelphia', -75.0125).
-has_vibes('North Philadelphia', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('North Philadelphia', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Petersons Point').
 city_iata('Petersons Point', 'PNF').
@@ -32599,7 +32599,7 @@ city('Phnom Penh').
 city_iata('Phnom Penh', 'PNH').
 city_lat('Phnom Penh', 11.546111).
 city_long('Phnom Penh', 104.847778).
-has_vibes('Phnom Penh', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Phnom Penh', [nightlife_and_entertainment, art_and_culture]).
 
 city('Pohnpei').
 city_iata('Pohnpei', 'PNI').
@@ -32650,13 +32650,13 @@ city('Pensacola').
 city_iata('Pensacola', 'PNS').
 city_lat('Pensacola', 30.4725).
 city_long('Pensacola', -87.188333).
-has_vibes('Pensacola', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pensacola', [beach]).
 
 city('Puerto Natales').
 city_iata('Puerto Natales', 'PNT').
 city_lat('Puerto Natales', -51.683333).
 city_long('Puerto Natales', -72.516667).
-has_vibes('Puerto Natales', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Puerto Natales', [outdoor_adventures]).
 
 city('Panguitch').
 city_iata('Panguitch', 'PNU').
@@ -32687,7 +32687,7 @@ city('Porto Alegre').
 city_iata('Porto Alegre', 'POA').
 city_lat('Porto Alegre', -29.993333).
 city_long('Porto Alegre', -51.170833).
-has_vibes('Porto Alegre', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Porto Alegre', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Fayetteville Pope AFB').
 city_iata('Fayetteville Pope AFB', 'POB').
@@ -32738,7 +32738,7 @@ city('Port Moresby').
 city_iata('Port Moresby', 'POM').
 city_lat('Port Moresby', -9.442693).
 city_long('Port Moresby', 147.216715).
-has_vibes('Port Moresby', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Port Moresby', [art_and_culture, great_food, outdoor_adventures]).
 
 city('Poptun').
 city_iata('Poptun', 'PON').
@@ -32754,7 +32754,7 @@ city('Puerto Plata').
 city_iata('Puerto Plata', 'POP').
 city_lat('Puerto Plata', 19.757778).
 city_long('Puerto Plata', -70.57).
-has_vibes('Puerto Plata', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Puerto Plata', [nightlife_and_entertainment, beach, great_food]).
 
 city('Polk Inlet').
 city_iata('Polk Inlet', 'POQ').
@@ -32770,7 +32770,7 @@ city('Port Of Spain').
 city_iata('Port Of Spain', 'POS').
 city_lat('Port Of Spain', 10.6).
 city_long('Port Of Spain', -61.35).
-has_vibes('Port Of Spain', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Port Of Spain', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Port Antonio').
 city_iata('Port Antonio', 'POT').
@@ -32886,7 +32886,7 @@ city('Paraparaumu').
 city_iata('Paraparaumu', 'PPQ').
 city_lat('Paraparaumu', -40.9).
 city_long('Paraparaumu', 174.983333).
-has_vibes('Paraparaumu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Paraparaumu', [great_food]).
 
 city('Pasir Pangarayan').
 city_iata('Pasir Pangarayan', 'PPR').
@@ -32897,7 +32897,7 @@ city('Puerto Princesa (Palawan)').
 city_iata('Puerto Princesa (Palawan)', 'PPS').
 city_lat('Puerto Princesa (Palawan)', 9.742222).
 city_long('Puerto Princesa (Palawan)', 118.753889).
-has_vibes('Puerto Princesa (Palawan)', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Puerto Princesa (Palawan)', [underrated_destinations, art_and_culture]).
 
 city('Papeete').
 city_iata('Papeete', 'PPT').
@@ -32938,7 +32938,7 @@ city('Phu Quoc').
 city_iata('Phu Quoc', 'PQC').
 city_lat('Phu Quoc', 10.233333).
 city_long('Phu Quoc', 103.966667).
-has_vibes('Phu Quoc', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Phu Quoc', [nightlife_and_entertainment, outdoor_adventures]).
 
 city('Presque Isle').
 city_iata('Presque Isle', 'PQI').
@@ -32999,7 +32999,7 @@ city('Prague').
 city_iata('Prague', 'PRG').
 city_lat('Prague', 50.1017428).
 city_long('Prague', 14.2631275).
-has_vibes('Prague', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Prague', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Phrae').
 city_iata('Phrae', 'PRH').
@@ -33100,7 +33100,7 @@ city('Pisa International').
 city_iata('Pisa International', 'PSA').
 city_lat('Pisa International', 43.6889756).
 city_long('Pisa International', 10.3978416).
-has_vibes('Pisa International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pisa International', [art_and_culture]).
 
 city('Philipsburg').
 city_iata('Philipsburg', 'PSB').
@@ -33121,7 +33121,7 @@ city('Ponce').
 city_iata('Ponce', 'PSE').
 city_lat('Ponce', 18.010833).
 city_long('Ponce', -66.563611).
-has_vibes('Ponce', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ponce', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Pittsfield').
 city_iata('Pittsfield', 'PSF').
@@ -33182,7 +33182,7 @@ city('Philadelphia SPB').
 city_iata('Philadelphia SPB', 'PSQ').
 city_lat('Philadelphia SPB', 39.868056).
 city_long('Philadelphia SPB', -75.248611).
-has_vibes('Philadelphia SPB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Philadelphia SPB', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Pescara').
 city_iata('Pescara', 'PSR').
@@ -33348,7 +33348,7 @@ city('Panama City Tocumen International').
 city_iata('Panama City Tocumen International', 'PTY').
 city_lat('Panama City Tocumen International', 9.083333).
 city_long('Panama City Tocumen International', -79.383333).
-has_vibes('Panama City Tocumen International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Panama City Tocumen International', [great_food]).
 
 city('Pastaza').
 city_iata('Pastaza', 'PTZ').
@@ -33404,7 +33404,7 @@ city('Punta Cana').
 city_iata('Punta Cana', 'PUJ').
 city_lat('Punta Cana', 18.566667).
 city_long('Punta Cana', -68.383333).
-has_vibes('Punta Cana', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Punta Cana', [nightlife_and_entertainment, beach, great_food, outdoor_adventures]).
 
 city('Pukarua').
 city_iata('Pukarua', 'PUK').
@@ -33440,7 +33440,7 @@ city('Punta Arenas').
 city_iata('Punta Arenas', 'PUQ').
 city_lat('Punta Arenas', -53.002778).
 city_long('Punta Arenas', -70.854722).
-has_vibes('Punta Arenas', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Punta Arenas', [underrated_destinations, art_and_culture]).
 
 city('Puerto Rico').
 city_iata('Puerto Rico', 'PUR').
@@ -33451,7 +33451,7 @@ city('Gimhae International').
 city_iata('Gimhae International', 'PUS').
 city_lat('Gimhae International', 35.179444).
 city_long('Gimhae International', 128.938333).
-has_vibes('Gimhae International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Gimhae International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Puttaparthi').
 city_iata('Puttaparthi', 'PUT').
@@ -33482,7 +33482,7 @@ city('Pula').
 city_iata('Pula', 'PUY').
 city_lat('Pula', 44.891667).
 city_long('Pula', 13.923611).
-has_vibes('Pula', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Pula', [underrated_destinations, beach]).
 
 city('Puerto Cabezas').
 city_iata('Puerto Cabezas', 'PUZ').
@@ -33503,7 +33503,7 @@ city('Providence').
 city_iata('Providence', 'PVD').
 city_lat('Providence', 41.728333).
 city_long('Providence', -71.426111).
-has_vibes('Providence', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Providence', [underrated_destinations]).
 
 city('El Porvenir').
 city_iata('El Porvenir', 'PVE').
@@ -33519,7 +33519,7 @@ city('Shanghai Pudong').
 city_iata('Shanghai Pudong', 'PVG').
 city_lat('Shanghai Pudong', 31.1494).
 city_long('Shanghai Pudong', 121.8038).
-has_vibes('Shanghai Pudong', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Shanghai Pudong', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Porto Velho').
 city_iata('Porto Velho', 'PVH').
@@ -33550,7 +33550,7 @@ city('Puerto Vallarta').
 city_iata('Puerto Vallarta', 'PVR').
 city_lat('Puerto Vallarta', 20.686667).
 city_long('Puerto Vallarta', -105.265).
-has_vibes('Puerto Vallarta', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Puerto Vallarta', [art_and_culture, great_food]).
 
 city('Provideniya').
 city_iata('Provideniya', 'PVS').
@@ -33601,7 +33601,7 @@ city('Chicago Pal-Waukee').
 city_iata('Chicago Pal-Waukee', 'PWK').
 city_lat('Chicago Pal-Waukee', 41.980833).
 city_long('Chicago Pal-Waukee', -87.908889).
-has_vibes('Chicago Pal-Waukee', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chicago Pal-Waukee', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Purwokerto').
 city_iata('Purwokerto', 'PWL').
@@ -33922,7 +33922,7 @@ city('Johannesburg Randgermiston').
 city_iata('Johannesburg Randgermiston', 'QRA').
 city_lat('Johannesburg Randgermiston', -26.24243).
 city_long('Johannesburg Randgermiston', 28.1512).
-has_vibes('Johannesburg Randgermiston', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Johannesburg Randgermiston', [nightlife_and_entertainment, art_and_culture]).
 
 city('Queretaro').
 city_iata('Queretaro', 'QRO').
@@ -34068,7 +34068,7 @@ city('Marrakech Menara').
 city_iata('Marrakech Menara', 'RAK').
 city_lat('Marrakech Menara', 31.608333).
 city_long('Marrakech Menara', -8.038333).
-has_vibes('Marrakech Menara', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Marrakech Menara', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Riverside Municipal').
 city_iata('Riverside Municipal', 'RAL').
@@ -34109,7 +34109,7 @@ city('Rasht').
 city_iata('Rasht', 'RAS').
 city_lat('Rasht', 37.266667).
 city_long('Rasht', 49.600001).
-has_vibes('Rasht', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Rasht', [outdoor_adventures]).
 
 city('Raduzhnyi').
 city_iata('Raduzhnyi', 'RAT').
@@ -34150,7 +34150,7 @@ city('Rabat').
 city_iata('Rabat', 'RBA').
 city_lat('Rabat', 34.05).
 city_long('Rabat', -6.756944).
-has_vibes('Rabat', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Rabat', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Borba').
 city_iata('Borba', 'RBB').
@@ -34166,7 +34166,7 @@ city('Dallas Redbird').
 city_iata('Dallas Redbird', 'RBD').
 city_lat('Dallas Redbird', 32.783333).
 city_long('Dallas Redbird', -96.816667).
-has_vibes('Dallas Redbird', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dallas Redbird', [nightlife_and_entertainment]).
 
 city('Ratanakiri').
 city_iata('Ratanakiri', 'RBE').
@@ -34232,7 +34232,7 @@ city('Rurrenabaque').
 city_iata('Rurrenabaque', 'RBQ').
 city_lat('Rurrenabaque', -14.427014375917357).
 city_long('Rurrenabaque', -67.49771343052068).
-has_vibes('Rurrenabaque', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Rurrenabaque', [outdoor_adventures]).
 
 city('Rio Branco').
 city_iata('Rio Branco', 'RBR').
@@ -34438,7 +34438,7 @@ city('Recife').
 city_iata('Recife', 'REC').
 city_lat('Recife', -8.125833).
 city_long('Recife', -34.923889).
-has_vibes('Recife', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Recife', [nightlife_and_entertainment, underrated_destinations]).
 
 city('Reedsville').
 city_iata('Reedsville', 'RED').
@@ -34529,7 +34529,7 @@ city('Chicago Rockford').
 city_iata('Chicago Rockford', 'RFD').
 city_lat('Chicago Rockford', 42.195278).
 city_long('Chicago Rockford', -89.097222).
-has_vibes('Chicago Rockford', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chicago Rockford', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Refugio Rooke Field').
 city_iata('Refugio Rooke Field', 'RFG').
@@ -34595,7 +34595,7 @@ city('Yangon').
 city_iata('Yangon', 'RGN').
 city_lat('Yangon', 16.906389).
 city_long('Yangon', 96.138889).
-has_vibes('Yangon', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Yangon', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Ranger').
 city_iata('Ranger', 'RGR').
@@ -34651,7 +34651,7 @@ city('Rhodes').
 city_iata('Rhodes', 'RHO').
 city_lat('Rhodes', 36.406501).
 city_long('Rhodes', 28.08629).
-has_vibes('Rhodes', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Rhodes', [beach]).
 
 city('Ramechhap').
 city_iata('Ramechhap', 'RHP').
@@ -34662,7 +34662,7 @@ city('Al Hamra SPB').
 city_iata('Al Hamra SPB', 'RHR').
 city_lat('Al Hamra SPB', 25.691).
 city_long('Al Hamra SPB', 55.778).
-has_vibes('Al Hamra SPB', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Al Hamra SPB', [nightlife_and_entertainment, beach, outdoor_adventures]).
 
 city('Alxa Right Banner').
 city_iata('Alxa Right Banner', 'RHT').
@@ -34768,7 +34768,7 @@ city('Riga International').
 city_iata('Riga International', 'RIX').
 city_lat('Riga International', 56.925).
 city_long('Riga International', 23.972222).
-has_vibes('Riga International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Riga International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Riyan Mukalla').
 city_iata('Riyan Mukalla', 'RIY').
@@ -34804,7 +34804,7 @@ city('Rijeka').
 city_iata('Rijeka', 'RJK').
 city_lat('Rijeka', 45.215833).
 city_long('Rijeka', 14.568333).
-has_vibes('Rijeka', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Rijeka', [underrated_destinations]).
 
 city('Logrono').
 city_iata('Logrono', 'RJL').
@@ -34870,7 +34870,7 @@ city('Ras Al Khaimah').
 city_iata('Ras Al Khaimah', 'RKT').
 city_lat('Ras Al Khaimah', 25.613333).
 city_long('Ras Al Khaimah', 55.938889).
-has_vibes('Ras Al Khaimah', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Ras Al Khaimah', [nightlife_and_entertainment, beach, outdoor_adventures]).
 
 city('Yule Island').
 city_iata('Yule Island', 'RKU').
@@ -34881,7 +34881,7 @@ city('Reykjavik Domestic').
 city_iata('Reykjavik Domestic', 'RKV').
 city_lat('Reykjavik Domestic', 64.133333).
 city_long('Reykjavik Domestic', -21.95).
-has_vibes('Reykjavik Domestic', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Reykjavik Domestic', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Rockwood').
 city_iata('Rockwood', 'RKW').
@@ -34987,7 +34987,7 @@ city('Colombo Ratmalana').
 city_iata('Colombo Ratmalana', 'RML').
 city_lat('Colombo Ratmalana', 6.819444).
 city_long('Colombo Ratmalana', 79.8875).
-has_vibes('Colombo Ratmalana', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Colombo Ratmalana', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Rumginae').
 city_iata('Rumginae', 'RMN').
@@ -34998,7 +34998,7 @@ city('Chisinau').
 city_iata('Chisinau', 'RMO').
 city_lat('Chisinau', 46.93541086595586).
 city_long('Chisinau', 28.934955126078997).
-has_vibes('Chisinau', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Chisinau', [art_and_culture, outdoor_adventures]).
 
 city('Rampart').
 city_iata('Rampart', 'RMP').
@@ -35009,7 +35009,7 @@ city('Taichung').
 city_iata('Taichung', 'RMQ').
 city_lat('Taichung', 24.265).
 city_long('Taichung', 120.620833).
-has_vibes('Taichung', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Taichung', [art_and_culture]).
 
 city('Rimatara').
 city_iata('Rimatara', 'RMT').
@@ -35045,7 +35045,7 @@ city('San Antonio Randolph AFB').
 city_iata('San Antonio Randolph AFB', 'RND').
 city_lat('San Antonio Randolph AFB', 29.416667).
 city_long('San Antonio Randolph AFB', -98.5).
-has_vibes('San Antonio Randolph AFB', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Antonio Randolph AFB', [underrated_destinations, art_and_culture, great_food]).
 
 city('Roanne Renaison').
 city_iata('Roanne Renaison', 'RNE').
@@ -35066,7 +35066,7 @@ city('Corn Island').
 city_iata('Corn Island', 'RNI').
 city_lat('Corn Island', 12.15).
 city_long('Corn Island', -83.066667).
-has_vibes('Corn Island', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Corn Island', [beach]).
 
 city('Yoronjima').
 city_iata('Yoronjima', 'RNJ').
@@ -35132,7 +35132,7 @@ city('Monrovia Roberts').
 city_iata('Monrovia Roberts', 'ROB').
 city_lat('Monrovia Roberts', 6.239722).
 city_long('Monrovia Roberts', -10.358889).
-has_vibes('Monrovia Roberts', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Monrovia Roberts', [nightlife_and_entertainment]).
 
 city('Rochester').
 city_iata('Rochester', 'ROC').
@@ -35188,19 +35188,19 @@ city('Koror').
 city_iata('Koror', 'ROR').
 city_lat('Koror', 7.364444).
 city_long('Koror', 134.553056).
-has_vibes('Koror', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Koror', [nightlife_and_entertainment, beach, art_and_culture, outdoor_adventures]).
 
 city('Rosario').
 city_iata('Rosario', 'ROS').
 city_lat('Rosario', -32.90361).
 city_long('Rosario', -60.785).
-has_vibes('Rosario', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Rosario', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Rotorua').
 city_iata('Rotorua', 'ROT').
 city_lat('Rotorua', -38.111111).
 city_long('Rotorua', 176.316667).
-has_vibes('Rotorua', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Rotorua', [art_and_culture, great_food]).
 
 city('Rousse').
 city_iata('Rousse', 'ROU').
@@ -35296,7 +35296,7 @@ city('Jacarepaguá').
 city_iata('Jacarepaguá', 'RRJ').
 city_lat('Jacarepaguá', -22.98700126904291).
 city_long('Jacarepaguá', -43.37007883192485).
-has_vibes('Jacarepaguá', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Jacarepaguá', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Rourkela').
 city_iata('Rourkela', 'RRK').
@@ -35362,7 +35362,7 @@ city('Sydney Au-Rose Bay').
 city_iata('Sydney Au-Rose Bay', 'RSE').
 city_lat('Sydney Au-Rose Bay', -33.8).
 city_long('Sydney Au-Rose Bay', 151.216667).
-has_vibes('Sydney Au-Rose Bay', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sydney Au-Rose Bay', [nightlife_and_entertainment, beach, art_and_culture, great_food]).
 
 city('Serra Pelada').
 city_iata('Serra Pelada', 'RSG').
@@ -35423,7 +35423,7 @@ city('Fort Myers Southwest Florida Reg').
 city_iata('Fort Myers Southwest Florida Reg', 'RSW').
 city_lat('Fort Myers Southwest Florida Reg', 26.536167).
 city_long('Fort Myers Southwest Florida Reg', -81.755167).
-has_vibes('Fort Myers Southwest Florida Reg', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Fort Myers Southwest Florida Reg', [beach]).
 
 city('Rouses Point').
 city_iata('Rouses Point', 'RSX').
@@ -35439,7 +35439,7 @@ city('Roatan').
 city_iata('Roatan', 'RTB').
 city_lat('Roatan', 16.316667).
 city_long('Roatan', -86.516667).
-has_vibes('Roatan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Roatan', [nightlife_and_entertainment, underrated_destinations, beach, great_food, outdoor_adventures]).
 
 city('Ratnagiri').
 city_iata('Ratnagiri', 'RTC').
@@ -35475,7 +35475,7 @@ city('Rotterdam').
 city_iata('Rotterdam', 'RTM').
 city_lat('Rotterdam', 51.958333).
 city_long('Rotterdam', 4.444444).
-has_vibes('Rotterdam', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Rotterdam', [underrated_destinations]).
 
 city('Raton').
 city_iata('Raton', 'RTN').
@@ -35526,7 +35526,7 @@ city('Riyadh').
 city_iata('Riyadh', 'RUH').
 city_lat('Riyadh', 24.9777991).
 city_long('Riyadh', 46.702109).
-has_vibes('Riyadh', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Riyadh', [art_and_culture, great_food]).
 
 city('Ruidoso').
 city_iata('Ruidoso', 'RUI').
@@ -35607,7 +35607,7 @@ city('St Petersburg Rzhevka').
 city_iata('St Petersburg Rzhevka', 'RVH').
 city_lat('St Petersburg Rzhevka', 59.983333).
 city_long('St Petersburg Rzhevka', 30.6).
-has_vibes('St Petersburg Rzhevka', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('St Petersburg Rzhevka', [nightlife_and_entertainment]).
 
 city('Roervik Ryumsjoen').
 city_iata('Roervik Ryumsjoen', 'RVK').
@@ -35618,7 +35618,7 @@ city('Rovaniemi').
 city_iata('Rovaniemi', 'RVN').
 city_lat('Rovaniemi', 66.563056).
 city_long('Rovaniemi', 25.826667).
-has_vibes('Rovaniemi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Rovaniemi', [outdoor_adventures]).
 
 city('Reivilo').
 city_iata('Reivilo', 'RVO').
@@ -35779,7 +35779,7 @@ city('Santa Fe').
 city_iata('Santa Fe', 'SAF').
 city_lat('Santa Fe', 35.616837).
 city_long('Santa Fe', -106.090164).
-has_vibes('Santa Fe', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santa Fe', [art_and_culture, great_food]).
 
 city('Shirdi').
 city_iata('Shirdi', 'SAG').
@@ -35790,13 +35790,13 @@ city('Sanaa').
 city_iata('Sanaa', 'SAH').
 city_lat('Sanaa', 15.478611).
 city_long('Sanaa', 44.219167).
-has_vibes('Sanaa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Sanaa', [great_food, outdoor_adventures]).
 
 city('Siem Reap–Angkor').
 city_iata('Siem Reap–Angkor', 'SAI').
 city_lat('Siem Reap–Angkor', 13.422034911916723).
 city_long('Siem Reap–Angkor', 104.23439424749267).
-has_vibes('Siem Reap–Angkor', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Siem Reap–Angkor', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Sirajganj').
 city_iata('Sirajganj', 'SAJ').
@@ -35812,7 +35812,7 @@ city('San Salvador').
 city_iata('San Salvador', 'SAL').
 city_lat('San Salvador', 13.441883).
 city_long('San Salvador', -89.053974).
-has_vibes('San Salvador', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Salvador', [nightlife_and_entertainment]).
 
 city('Salamo').
 city_iata('Salamo', 'SAM').
@@ -35823,13 +35823,13 @@ city('San Diego International').
 city_iata('San Diego International', 'SAN').
 city_lat('San Diego International', 32.732778).
 city_long('San Diego International', -117.187222).
-has_vibes('San Diego International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Diego International', [nightlife_and_entertainment]).
 
 city('San Pedro Sula').
 city_iata('San Pedro Sula', 'SAP').
 city_lat('San Pedro Sula', 15.452778).
 city_long('San Pedro Sula', -87.923611).
-has_vibes('San Pedro Sula', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('San Pedro Sula', [nightlife_and_entertainment, outdoor_adventures]).
 
 city('San Andros').
 city_iata('San Andros', 'SAQ').
@@ -35850,7 +35850,7 @@ city('San Antonio International').
 city_iata('San Antonio International', 'SAT').
 city_lat('San Antonio International', 29.538333).
 city_long('San Antonio International', -98.471944).
-has_vibes('San Antonio International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Antonio International', [underrated_destinations, art_and_culture, great_food]).
 
 city('Sawu').
 city_iata('Sawu', 'SAU').
@@ -35861,13 +35861,13 @@ city('Savannah / Hilton Head').
 city_iata('Savannah / Hilton Head', 'SAV').
 city_lat('Savannah / Hilton Head', 32.127222).
 city_long('Savannah / Hilton Head', -81.199444).
-has_vibes('Savannah / Hilton Head', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Savannah / Hilton Head', [underrated_destinations, beach, art_and_culture, great_food]).
 
 city('Istanbul Sabiha').
 city_iata('Istanbul Sabiha', 'SAW').
 city_lat('Istanbul Sabiha', 40.899444).
 city_long('Istanbul Sabiha', 29.309167).
-has_vibes('Istanbul Sabiha', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Istanbul Sabiha', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Sambu').
 city_iata('Sambu', 'SAX').
@@ -35888,7 +35888,7 @@ city('Santa Barbara Municipal').
 city_iata('Santa Barbara Municipal', 'SBA').
 city_lat('Santa Barbara Municipal', 34.427778).
 city_long('Santa Barbara Municipal', -119.839444).
-has_vibes('Santa Barbara Municipal', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santa Barbara Municipal', [beach]).
 
 city('Santa Barbara Ba').
 city_iata('Santa Barbara Ba', 'SBB').
@@ -35964,7 +35964,7 @@ city('San Luis Obispo County').
 city_iata('San Luis Obispo County', 'SBP').
 city_lat('San Luis Obispo County', 35.236667).
 city_long('San Luis Obispo County', -120.639167).
-has_vibes('San Luis Obispo County', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Luis Obispo County', [underrated_destinations]).
 
 city('Sibi').
 city_iata('Sibi', 'SBQ').
@@ -36045,7 +36045,7 @@ city('Phoenix Scottsdale Municipal').
 city_iata('Phoenix Scottsdale Municipal', 'SCF').
 city_lat('Phoenix Scottsdale Municipal', 33.616667).
 city_long('Phoenix Scottsdale Municipal', -111.916667).
-has_vibes('Phoenix Scottsdale Municipal', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Phoenix Scottsdale Municipal', [beach]).
 
 city('Spring Creek').
 city_iata('Spring Creek', 'SCG').
@@ -36076,7 +36076,7 @@ city('Santiago Arturo Merino Benitez').
 city_iata('Santiago Arturo Merino Benitez', 'SCL').
 city_lat('Santiago Arturo Merino Benitez', -33.39298).
 city_long('Santiago Arturo Merino Benitez', -70.7858).
-has_vibes('Santiago Arturo Merino Benitez', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santiago Arturo Merino Benitez', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Scammon Bay').
 city_iata('Scammon Bay', 'SCM').
@@ -36102,7 +36102,7 @@ city('Santiago de Compostela').
 city_iata('Santiago de Compostela', 'SCQ').
 city_lat('Santiago de Compostela', 42.9).
 city_long('Santiago de Compostela', -8.4168).
-has_vibes('Santiago de Compostela', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santiago de Compostela', [underrated_destinations, art_and_culture]).
 
 city('Scandinavian Mountains').
 city_iata('Scandinavian Mountains', 'SCR').
@@ -36123,7 +36123,7 @@ city('Santiago').
 city_iata('Santiago', 'SCU').
 city_lat('Santiago', 19.969167).
 city_long('Santiago', -75.835833).
-has_vibes('Santiago', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santiago', [nightlife_and_entertainment]).
 
 city('Suceava Salcea').
 city_iata('Suceava Salcea', 'SCV').
@@ -36209,7 +36209,7 @@ city('San Diego Brown Field Municipal').
 city_iata('San Diego Brown Field Municipal', 'SDM').
 city_lat('San Diego Brown Field Municipal', 32.572222).
 city_long('San Diego Brown Field Municipal', -116.98).
-has_vibes('San Diego Brown Field Municipal', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Diego Brown Field Municipal', [nightlife_and_entertainment]).
 
 city('Sandane').
 city_iata('Sandane', 'SDN').
@@ -36230,13 +36230,13 @@ city('Santo Domingo Las Americas').
 city_iata('Santo Domingo Las Americas', 'SDQ').
 city_lat('Santo Domingo Las Americas', 18.429167).
 city_long('Santo Domingo Las Americas', -69.669167).
-has_vibes('Santo Domingo Las Americas', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santo Domingo Las Americas', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Santander').
 city_iata('Santander', 'SDR').
 city_lat('Santander', 43.429167).
 city_long('Santander', -3.826389).
-has_vibes('Santander', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santander', [underrated_destinations]).
 
 city('Sado Shima').
 city_iata('Sado Shima', 'SDS').
@@ -36252,13 +36252,13 @@ city('Rio De Janeiro Santos Dumont').
 city_iata('Rio De Janeiro Santos Dumont', 'SDU').
 city_lat('Rio De Janeiro Santos Dumont', -22.91046).
 city_long('Rio De Janeiro Santos Dumont', -43.16313).
-has_vibes('Rio De Janeiro Santos Dumont', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Rio De Janeiro Santos Dumont', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Sindhudurg').
 city_iata('Sindhudurg', 'SDW').
 city_lat('Sindhudurg', 16).
 city_long('Sindhudurg', 73.533333).
-has_vibes('Sindhudurg', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sindhudurg', [beach]).
 
 city('Sedona').
 city_iata('Sedona', 'SDX').
@@ -36274,7 +36274,7 @@ city('Seattle / Tacoma International').
 city_iata('Seattle / Tacoma International', 'SEA').
 city_lat('Seattle / Tacoma International', 47.447222).
 city_long('Seattle / Tacoma International', -122.305556).
-has_vibes('Seattle / Tacoma International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Seattle / Tacoma International', [nightlife_and_entertainment]).
 
 city('Sebha').
 city_iata('Sebha', 'SEB').
@@ -36295,7 +36295,7 @@ city('San Diego Gillespie Field').
 city_iata('San Diego Gillespie Field', 'SEE').
 city_lat('San Diego Gillespie Field', 32.826111).
 city_long('San Diego Gillespie Field', -116.972222).
-has_vibes('San Diego Gillespie Field', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('San Diego Gillespie Field', [nightlife_and_entertainment]).
 
 city('Sebring').
 city_iata('Sebring', 'SEF').
@@ -36336,7 +36336,7 @@ city('London Southend').
 city_iata('London Southend', 'SEN').
 city_lat('London Southend', 51.5701698).
 city_long('London Southend', 0.6922722).
-has_vibes('London Southend', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('London Southend', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Seguela').
 city_iata('Seguela', 'SEO').
@@ -36397,19 +36397,19 @@ city('Seychelles').
 city_iata('Seychelles', 'SEZ').
 city_lat('Seychelles', -4.672222).
 city_long('Seychelles', 55.5225).
-has_vibes('Seychelles', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Seychelles', [nightlife_and_entertainment, great_food, outdoor_adventures]).
 
 city('Sfax El Maou').
 city_iata('Sfax El Maou', 'SFA').
 city_lat('Sfax El Maou', 34.716667).
 city_long('Sfax El Maou', 10.683333).
-has_vibes('Sfax El Maou', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sfax El Maou', [great_food]).
 
 city('Orlando Sanford').
 city_iata('Orlando Sanford', 'SFB').
 city_lat('Orlando Sanford', 28.777778).
 city_long('Orlando Sanford', -81.2375).
-has_vibes('Orlando Sanford', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Orlando Sanford', [nightlife_and_entertainment]).
 
 city('St Francois').
 city_iata('St Francois', 'SFC').
@@ -36430,7 +36430,7 @@ city('Spokane Felts Field').
 city_iata('Spokane Felts Field', 'SFF').
 city_lat('Spokane Felts Field', 47.68267).
 city_long('Spokane Felts Field', -117.32243).
-has_vibes('Spokane Felts Field', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Spokane Felts Field', [underrated_destinations]).
 
 city('Grand Case-Espérance').
 city_iata('Grand Case-Espérance', 'SFG').
@@ -36471,25 +36471,25 @@ city('Santa Fe').
 city_iata('Santa Fe', 'SFN').
 city_lat('Santa Fe', -31.71167).
 city_long('Santa Fe', -60.81167).
-has_vibes('Santa Fe', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santa Fe', [art_and_culture]).
 
 city('San Francisco International').
 city_iata('San Francisco International', 'SFO').
 city_lat('San Francisco International', 37.618972).
 city_long('San Francisco International', -122.374889).
-has_vibes('San Francisco International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Francisco International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Surfers Paradise').
 city_iata('Surfers Paradise', 'SFP').
 city_lat('Surfers Paradise', -28).
 city_long('Surfers Paradise', 153).
-has_vibes('Surfers Paradise', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Surfers Paradise', [nightlife_and_entertainment, great_food]).
 
 city('Sanliurfa').
 city_iata('Sanliurfa', 'SFQ').
 city_lat('Sanliurfa', 37.085278).
 city_long('Sanliurfa', 38.85).
-has_vibes('Sanliurfa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sanliurfa', [art_and_culture]).
 
 city('San Fernando').
 city_iata('San Fernando', 'SFR').
@@ -36585,7 +36585,7 @@ city('Manila Sangley Point NAS').
 city_iata('Manila Sangley Point NAS', 'SGL').
 city_lat('Manila Sangley Point NAS', 14.6).
 city_long('Manila Sangley Point NAS', 120.95).
-has_vibes('Manila Sangley Point NAS', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Manila Sangley Point NAS', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('San Ignacio').
 city_iata('San Ignacio', 'SGM').
@@ -36596,7 +36596,7 @@ city('Ho Chi Minh City').
 city_iata('Ho Chi Minh City', 'SGN').
 city_lat('Ho Chi Minh City', 10.8187121).
 city_long('Ho Chi Minh City', 106.6584738).
-has_vibes('Ho Chi Minh City', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ho Chi Minh City', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('St George').
 city_iata('St George', 'SGO').
@@ -36617,7 +36617,7 @@ city('Houston Sugar Land Municipal').
 city_iata('Houston Sugar Land Municipal', 'SGR').
 city_lat('Houston Sugar Land Municipal', 29.698889).
 city_long('Houston Sugar Land Municipal', -95.407778).
-has_vibes('Houston Sugar Land Municipal', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Houston Sugar Land Municipal', [nightlife_and_entertainment]).
 
 city('Stuttgart').
 city_iata('Stuttgart', 'SGT').
@@ -36658,7 +36658,7 @@ city('Shanghai Hongqiao').
 city_iata('Shanghai Hongqiao', 'SHA').
 city_lat('Shanghai Hongqiao', 31.2).
 city_long('Shanghai Hongqiao', 121.333333).
-has_vibes('Shanghai Hongqiao', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Shanghai Hongqiao', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Nakashibetsu').
 city_iata('Nakashibetsu', 'SHB').
@@ -36699,13 +36699,13 @@ city('Shimojishima').
 city_iata('Shimojishima', 'SHI').
 city_lat('Shimojishima', 24.825789549124874).
 city_long('Shimojishima', 125.14631369425804).
-has_vibes('Shimojishima', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Shimojishima', [beach]).
 
 city('Sharjah').
 city_iata('Sharjah', 'SHJ').
 city_lat('Sharjah', 25.328611).
 city_long('Sharjah', 55.500556).
-has_vibes('Sharjah', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Sharjah', [underrated_destinations, art_and_culture, great_food, outdoor_adventures]).
 
 city('Sehonghong').
 city_iata('Sehonghong', 'SHK').
@@ -36811,7 +36811,7 @@ city('San Juan Isla Grande').
 city_iata('San Juan Isla Grande', 'SIG').
 city_lat('San Juan Isla Grande', 18.458889).
 city_long('San Juan Isla Grande', -66.102778).
-has_vibes('San Juan Isla Grande', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('San Juan Isla Grande', [nightlife_and_entertainment, underrated_destinations, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Silgadi Doti').
 city_iata('Silgadi Doti', 'SIH').
@@ -36847,7 +36847,7 @@ city('Singapore Changi').
 city_iata('Singapore Changi', 'SIN').
 city_lat('Singapore Changi', 1.3643773).
 city_long('Singapore Changi', 103.9915093).
-has_vibes('Singapore Changi', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Singapore Changi', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Smithton').
 city_iata('Smithton', 'SIO').
@@ -36928,7 +36928,7 @@ city('Los Cabos International').
 city_iata('Los Cabos International', 'SJD').
 city_lat('Los Cabos International', 23.166667).
 city_long('Los Cabos International', -109.7).
-has_vibes('Los Cabos International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Los Cabos International', [beach]).
 
 city('San Jose Del Gua').
 city_iata('San Jose Del Gua', 'SJE').
@@ -36984,7 +36984,7 @@ city('San Jose Juan Santamaria').
 city_iata('San Jose Juan Santamaria', 'SJO').
 city_lat('San Jose Juan Santamaria', 10).
 city_long('San Jose Juan Santamaria', -84.2).
-has_vibes('San Jose Juan Santamaria', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Jose Juan Santamaria', [art_and_culture, great_food]).
 
 city('Sao Jose Do Rio Preto').
 city_iata('Sao Jose Do Rio Preto', 'SJP').
@@ -37015,7 +37015,7 @@ city('San Juan Luis Munoz Marin').
 city_iata('San Juan Luis Munoz Marin', 'SJU').
 city_lat('San Juan Luis Munoz Marin', 18.44).
 city_long('San Juan Luis Munoz Marin', -66.002222).
-has_vibes('San Juan Luis Munoz Marin', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('San Juan Luis Munoz Marin', [nightlife_and_entertainment, underrated_destinations, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('San Javier').
 city_iata('San Javier', 'SJV').
@@ -37046,13 +37046,13 @@ city('Spokane Fairchild AFB').
 city_iata('Spokane Fairchild AFB', 'SKA').
 city_lat('Spokane Fairchild AFB', 47.61506).
 city_long('Spokane Fairchild AFB', -117.65577).
-has_vibes('Spokane Fairchild AFB', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Spokane Fairchild AFB', [underrated_destinations]).
 
 city('Basseterre').
 city_iata('Basseterre', 'SKB').
 city_lat('Basseterre', 17.308056).
 city_long('Basseterre', -62.721389).
-has_vibes('Basseterre', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Basseterre', [nightlife_and_entertainment, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Suki').
 city_iata('Suki', 'SKC').
@@ -37063,7 +37063,7 @@ city('Samarkand').
 city_iata('Samarkand', 'SKD').
 city_lat('Samarkand', 39.7).
 city_long('Samarkand', 67).
-has_vibes('Samarkand', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Samarkand', [art_and_culture]).
 
 city('Skien Geiterygen').
 city_iata('Skien Geiterygen', 'SKE').
@@ -37074,13 +37074,13 @@ city('San Antonio Kelly AFB').
 city_iata('San Antonio Kelly AFB', 'SKF').
 city_lat('San Antonio Kelly AFB', 29.416667).
 city_long('San Antonio Kelly AFB', -98.5).
-has_vibes('San Antonio Kelly AFB', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Antonio Kelly AFB', [underrated_destinations, art_and_culture, great_food]).
 
 city('Thessaloniki').
 city_iata('Thessaloniki', 'SKG').
 city_lat('Thessaloniki', 40.5205776).
 city_long('Thessaloniki', 22.9717187).
-has_vibes('Thessaloniki', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Thessaloniki', [nightlife_and_entertainment, beach, art_and_culture]).
 
 city('Surkhet').
 city_iata('Surkhet', 'SKH').
@@ -37126,7 +37126,7 @@ city('Skopje').
 city_iata('Skopje', 'SKP').
 city_lat('Skopje', 41.966667).
 city_long('Skopje', 21.633333).
-has_vibes('Skopje', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Skopje', [art_and_culture, outdoor_adventures]).
 
 city('Sekakes').
 city_iata('Sekakes', 'SKQ').
@@ -37182,7 +37182,7 @@ city('Salta').
 city_iata('Salta', 'SLA').
 city_lat('Salta', -24.855).
 city_long('Salta', -65.472222).
-has_vibes('Salta', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Salta', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Storm Lake').
 city_iata('Storm Lake', 'SLB').
@@ -37193,7 +37193,7 @@ city('Salt Lake City').
 city_iata('Salt Lake City', 'SLC').
 city_lat('Salt Lake City', 40.797437).
 city_long('Salt Lake City', -111.979523).
-has_vibes('Salt Lake City', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Salt Lake City', [underrated_destinations]).
 
 city('Sliac').
 city_iata('Sliac', 'SLD').
@@ -37234,13 +37234,13 @@ city('Salalah').
 city_iata('Salalah', 'SLL').
 city_lat('Salalah', 17.036389).
 city_long('Salalah', 54.101667).
-has_vibes('Salalah', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Salalah', [beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Salamanca Matacan').
 city_iata('Salamanca Matacan', 'SLM').
 city_lat('Salamanca Matacan', 40.952117).
 city_long('Salamanca Matacan', -5.501986).
-has_vibes('Salamanca Matacan', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Salamanca Matacan', [underrated_destinations]).
 
 city('Salina').
 city_iata('Salina', 'SLN').
@@ -37256,7 +37256,7 @@ city('San Luis Potosi').
 city_iata('San Luis Potosi', 'SLP').
 city_lat('San Luis Potosi', 22.177222).
 city_long('San Luis Potosi', -100.988333).
-has_vibes('San Luis Potosi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Luis Potosi', [underrated_destinations, art_and_culture, great_food]).
 
 city('Sleetmute').
 city_iata('Sleetmute', 'SLQ').
@@ -37282,7 +37282,7 @@ city('St Lucia Vigie').
 city_iata('St Lucia Vigie', 'SLU').
 city_lat('St Lucia Vigie', 14.019167).
 city_long('St Lucia Vigie', -60.992778).
-has_vibes('St Lucia Vigie', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('St Lucia Vigie', [nightlife_and_entertainment, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Shimla').
 city_iata('Shimla', 'SLV').
@@ -37308,7 +37308,7 @@ city('Sao Luiz').
 city_iata('Sao Luiz', 'SLZ').
 city_lat('Sao Luiz', -2.583333).
 city_long('Sao Luiz', -44.233333).
-has_vibes('Sao Luiz', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sao Luiz', [nightlife_and_entertainment]).
 
 city('Santa Maria').
 city_iata('Santa Maria', 'SMA').
@@ -37344,7 +37344,7 @@ city('Santa Maria').
 city_iata('Santa Maria', 'SMG').
 city_lat('Santa Maria', -12.391375301015746).
 city_long('Santa Maria', -76.75588795958802).
-has_vibes('Santa Maria', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santa Maria', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Sapmanga').
 city_iata('Sapmanga', 'SMH').
@@ -37385,7 +37385,7 @@ city('Santa Monica').
 city_iata('Santa Monica', 'SMO').
 city_lat('Santa Monica', 34.016667).
 city_long('Santa Monica', -118.5).
-has_vibes('Santa Monica', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santa Monica', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Stockholm').
 city_iata('Stockholm', 'SMP').
@@ -37401,7 +37401,7 @@ city('Santa Marta').
 city_iata('Santa Marta', 'SMR').
 city_lat('Santa Marta', 11.122222).
 city_long('Santa Marta', -74.228611).
-has_vibes('Santa Marta', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Santa Marta', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Sainte Marie').
 city_iata('Sainte Marie', 'SMS').
@@ -37447,7 +37447,7 @@ city('Santa Ana John Wayne').
 city_iata('Santa Ana John Wayne', 'SNA').
 city_lat('Santa Ana John Wayne', 33.675556).
 city_long('Santa Ana John Wayne', -117.866944).
-has_vibes('Santa Ana John Wayne', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santa Ana John Wayne', [beach]).
 
 city('Snake Bay').
 city_iata('Snake Bay', 'SNB').
@@ -37548,7 +37548,7 @@ city('Santa Clara').
 city_iata('Santa Clara', 'SNU').
 city_lat('Santa Clara', 22.491944).
 city_long('Santa Clara', -79.941944).
-has_vibes('Santa Clara', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santa Clara', [great_food]).
 
 city('Santa Elena').
 city_iata('Santa Elena', 'SNV').
@@ -37604,7 +37604,7 @@ city('Sofia').
 city_iata('Sofia', 'SOF').
 city_lat('Sofia', 42.693412).
 city_long('Sofia', 23.4069323).
-has_vibes('Sofia', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sofia', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Sogndal Haukasen').
 city_iata('Sogndal Haukasen', 'SOG').
@@ -37735,7 +37735,7 @@ city('St Petersburg').
 city_iata('St Petersburg', 'SPG').
 city_lat('St Petersburg', 27.766944).
 city_long('St Petersburg', -82.625278).
-has_vibes('St Petersburg', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('St Petersburg', [beach]).
 
 city('Sopu').
 city_iata('Sopu', 'SPH').
@@ -37776,7 +37776,7 @@ city('San Pedro').
 city_iata('San Pedro', 'SPR').
 city_lat('San Pedro', 17.911111).
 city_long('San Pedro', -87.968611).
-has_vibes('San Pedro', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('San Pedro', [underrated_destinations, great_food, outdoor_adventures]).
 
 city('Wichita Falls Sheppard AFB').
 city_iata('Wichita Falls Sheppard AFB', 'SPS').
@@ -37792,7 +37792,7 @@ city('Split').
 city_iata('Split', 'SPU').
 city_lat('Split', 43.5364477).
 city_long('Split', 16.2991324).
-has_vibes('Split', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"1", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Split', [nightlife_and_entertainment, underrated_destinations, beach, art_and_culture, outdoor_adventures]).
 
 city('Sepik Plains').
 city_iata('Sepik Plains', 'SPV').
@@ -37808,7 +37808,7 @@ city('Sphinx International').
 city_iata('Sphinx International', 'SPX').
 city_lat('Sphinx International', 30.109722).
 city_long('Sphinx International', 30.894444).
-has_vibes('Sphinx International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sphinx International', [art_and_culture]).
 
 city('San Pedro').
 city_iata('San Pedro', 'SPY').
@@ -37914,7 +37914,7 @@ city('San Ignacio').
 city_iata('San Ignacio', 'SQS').
 city_lat('San Ignacio', 17.183333).
 city_long('San Ignacio', -89.033333).
-has_vibes('San Ignacio', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('San Ignacio', [great_food, outdoor_adventures]).
 
 city('Samarai Island').
 city_iata('Samarai Island', 'SQT').
@@ -37970,7 +37970,7 @@ city('Alcantarí International').
 city_iata('Alcantarí International', 'SRE').
 city_lat('Alcantarí International', -19.246537092225623).
 city_long('Alcantarí International', -65.1497326264935).
-has_vibes('Alcantarí International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Alcantarí International', [underrated_destinations, art_and_culture, great_food]).
 
 city('San Rafael Hamilton Field').
 city_iata('San Rafael Hamilton Field', 'SRF').
@@ -37981,7 +37981,7 @@ city('Semarang').
 city_iata('Semarang', 'SRG').
 city_lat('Semarang', -6.975833).
 city_long('Semarang', 110.38).
-has_vibes('Semarang', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Semarang', [nightlife_and_entertainment, art_and_culture]).
 
 city('Sarh').
 city_iata('Sarh', 'SRH').
@@ -38027,7 +38027,7 @@ city('Sarasota').
 city_iata('Sarasota', 'SRQ').
 city_lat('Sarasota', 27.393889).
 city_long('Sarasota', -82.554167).
-has_vibes('Sarasota', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Sarasota', [beach]).
 
 city('Stradbroke Island').
 city_iata('Stradbroke Island', 'SRR').
@@ -38073,13 +38073,13 @@ city('Santa Cruz El Trompillo').
 city_iata('Santa Cruz El Trompillo', 'SRZ').
 city_lat('Santa Cruz El Trompillo', -17.81158).
 city_long('Santa Cruz El Trompillo', -63.17148).
-has_vibes('Santa Cruz El Trompillo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santa Cruz El Trompillo', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Salvador').
 city_iata('Salvador', 'SSA').
 city_lat('Salvador', -12.916667).
 city_long('Salvador', -38.333333).
-has_vibes('Salvador', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Salvador', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Christiansted SPB').
 city_iata('Christiansted SPB', 'SSB').
@@ -38105,7 +38105,7 @@ city('San Antonio Stinson Municipal').
 city_iata('San Antonio Stinson Municipal', 'SSF').
 city_lat('San Antonio Stinson Municipal', 29.33718).
 city_long('San Antonio Stinson Municipal', -98.4714).
-has_vibes('San Antonio Stinson Municipal', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Antonio Stinson Municipal', [underrated_destinations, art_and_culture, great_food]).
 
 city('Malabo').
 city_iata('Malabo', 'SSG').
@@ -38241,7 +38241,7 @@ city('Santiago').
 city_iata('Santiago', 'STI').
 city_lat('Santiago', 19.469167).
 city_long('Santiago', -70.700278).
-has_vibes('Santiago', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santiago', [art_and_culture, great_food]).
 
 city('St Joseph').
 city_iata('St Joseph', 'STJ').
@@ -38267,7 +38267,7 @@ city('London Stansted').
 city_iata('London Stansted', 'STN').
 city_lat('London Stansted', 51.883333).
 city_long('London Stansted', 0.233333).
-has_vibes('London Stansted', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('London Stansted', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Minneapolis Downtown').
 city_iata('Minneapolis Downtown', 'STP').
@@ -38288,7 +38288,7 @@ city('Santa Rosa').
 city_iata('Santa Rosa', 'STS').
 city_lat('Santa Rosa', 38.508889).
 city_long('Santa Rosa', -122.811667).
-has_vibes('Santa Rosa', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santa Rosa', [beach]).
 
 city('Cyril E. King').
 city_iata('Cyril E. King', 'STT').
@@ -38334,7 +38334,7 @@ city('Surabaya').
 city_iata('Surabaya', 'SUB').
 city_lat('Surabaya', -7.379722).
 city_long('Surabaya', 112.786944).
-has_vibes('Surabaya', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Surabaya', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Sundance').
 city_iata('Sundance', 'SUC').
@@ -38435,7 +38435,7 @@ city('Suva').
 city_iata('Suva', 'SUV').
 city_lat('Suva', -18.044993).
 city_long('Suva', 178.559602).
-has_vibes('Suva', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Suva', [nightlife_and_entertainment, great_food]).
 
 city('Superior').
 city_iata('Superior', 'SUW').
@@ -38476,7 +38476,7 @@ city('Kingstown').
 city_iata('Kingstown', 'SVD').
 city_lat('Kingstown', 13.143845).
 city_long('Kingstown', -61.210885).
-has_vibes('Kingstown', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kingstown', [beach]).
 
 city('Susanville').
 city_iata('Susanville', 'SVE').
@@ -38527,7 +38527,7 @@ city('Savannah Hunter AAF').
 city_iata('Savannah Hunter AAF', 'SVN').
 city_lat('Savannah Hunter AAF', 32.01).
 city_long('Savannah Hunter AAF', -81.14568).
-has_vibes('Savannah Hunter AAF', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Savannah Hunter AAF', [underrated_destinations, beach, art_and_culture, great_food]).
 
 city('Moscow Sheremetyevo').
 city_iata('Moscow Sheremetyevo', 'SVO').
@@ -38543,7 +38543,7 @@ city('Seville').
 city_iata('Seville', 'SVQ').
 city_lat('Seville', 37.4201248).
 city_long('Seville', -5.8934041).
-has_vibes('Seville', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Seville', [underrated_destinations, art_and_culture, great_food]).
 
 city('Stevens Village').
 city_iata('Stevens Village', 'SVS').
@@ -38559,7 +38559,7 @@ city('Savusavu').
 city_iata('Savusavu', 'SVU').
 city_lat('Savusavu', -16.802778).
 city_long('Savusavu', 179.344444).
-has_vibes('Savusavu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Savusavu', [outdoor_adventures]).
 
 city('San Salvador De').
 city_iata('San Salvador De', 'SVV').
@@ -38615,7 +38615,7 @@ city('Stewart International').
 city_iata('Stewart International', 'SWF').
 city_lat('Stewart International', 41.505833).
 city_long('Stewart International', -74.097222).
-has_vibes('Stewart International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Stewart International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Satwag').
 city_iata('Satwag', 'SWG').
@@ -38666,7 +38666,7 @@ city('Swakopmund').
 city_iata('Swakopmund', 'SWP').
 city_lat('Swakopmund', -22.683333).
 city_long('Swakopmund', 14.566667).
-has_vibes('Swakopmund', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Swakopmund', [outdoor_adventures]).
 
 city('Sumbawa').
 city_iata('Sumbawa', 'SWQ').
@@ -38717,7 +38717,7 @@ city('Sydney West').
 city_iata('Sydney West', 'SWZ').
 city_lat('Sydney West', -33.888056).
 city_long('Sydney West', 150.721667).
-has_vibes('Sydney West', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sydney West', [nightlife_and_entertainment, beach, art_and_culture, great_food]).
 
 city('Sialum').
 city_iata('Sialum', 'SXA').
@@ -38863,7 +38863,7 @@ city('Sydney').
 city_iata('Sydney', 'SYD').
 city_lat('Sydney', -33.944167).
 city_long('Sydney', 151.175833).
-has_vibes('Sydney', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sydney', [nightlife_and_entertainment, beach, art_and_culture, great_food]).
 
 city('Sadah').
 city_iata('Sadah', 'SYE').
@@ -38924,7 +38924,7 @@ city('San Jose Tobias Bolanos').
 city_iata('San Jose Tobias Bolanos', 'SYQ').
 city_lat('San Jose Tobias Bolanos', 9.95705).
 city_long('San Jose Tobias Bolanos', -84.1398).
-has_vibes('San Jose Tobias Bolanos', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('San Jose Tobias Bolanos', [art_and_culture, great_food]).
 
 city('Syracuse').
 city_iata('Syracuse', 'SYR').
@@ -38970,7 +38970,7 @@ city('Shiraz').
 city_iata('Shiraz', 'SYZ').
 city_lat('Shiraz', 29.540278).
 city_long('Shiraz', 52.590833).
-has_vibes('Shiraz', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Shiraz', [great_food, outdoor_adventures]).
 
 city('Soyo').
 city_iata('Soyo', 'SZA').
@@ -38981,7 +38981,7 @@ city('Kuala Lumpur Sultan Abdul Azziz Shah').
 city_iata('Kuala Lumpur Sultan Abdul Azziz Shah', 'SZB').
 city_lat('Kuala Lumpur Sultan Abdul Azziz Shah', 3.133333).
 city_long('Kuala Lumpur Sultan Abdul Azziz Shah', 101.55).
-has_vibes('Kuala Lumpur Sultan Abdul Azziz Shah', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kuala Lumpur Sultan Abdul Azziz Shah', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Semera').
 city_iata('Semera', 'SZE').
@@ -38997,7 +38997,7 @@ city('Salzburg').
 city_iata('Salzburg', 'SZG').
 city_lat('Salzburg', 47.7942439).
 city_long('Salzburg', 13.003332).
-has_vibes('Salzburg', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Salzburg', [nightlife_and_entertainment, art_and_culture]).
 
 city('Shuozhou Zirun').
 city_iata('Shuozhou Zirun', 'SZH').
@@ -39033,7 +39033,7 @@ city('Santa Barbara Santa Cruz Island').
 city_iata('Santa Barbara Santa Cruz Island', 'SZN').
 city_lat('Santa Barbara Santa Cruz Island', 34.060556).
 city_long('Santa Barbara Santa Cruz Island', -119.915).
-has_vibes('Santa Barbara Santa Cruz Island', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Santa Barbara Santa Cruz Island', [beach]).
 
 city('Shanzhou').
 city_iata('Shanzhou', 'SZO').
@@ -39184,7 +39184,7 @@ city('Tashkent').
 city_iata('Tashkent', 'TAS').
 city_lat('Tashkent', 41.25).
 city_long('Tashkent', 69.283333).
-has_vibes('Tashkent', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tashkent', [nightlife_and_entertainment, great_food]).
 
 city('Poprad-Tatry').
 city_iata('Poprad-Tatry', 'TAT').
@@ -39215,7 +39215,7 @@ city('Tartu').
 city_iata('Tartu', 'TAY').
 city_lat('Tartu', 58.3075).
 city_long('Tartu', 26.690556).
-has_vibes('Tartu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tartu', [art_and_culture]).
 
 city('Dashoguz').
 city_iata('Dashoguz', 'TAZ').
@@ -39316,7 +39316,7 @@ city('Tbilisi').
 city_iata('Tbilisi', 'TBS').
 city_lat('Tbilisi', 41.666667).
 city_long('Tbilisi', 44.95).
-has_vibes('Tbilisi', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tbilisi', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Tabatinga').
 city_iata('Tabatinga', 'TBT').
@@ -39347,7 +39347,7 @@ city('Tabriz').
 city_iata('Tabriz', 'TBZ').
 city_lat('Tabriz', 38.131667).
 city_long('Tabriz', 46.243333).
-has_vibes('Tabriz', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tabriz', [great_food]).
 
 city('Tennant Creek').
 city_iata('Tennant Creek', 'TCA').
@@ -39658,7 +39658,7 @@ city('Telluride').
 city_iata('Telluride', 'TEX').
 city_lat('Telluride', 37.953132).
 city_long('Telluride', -107.909088).
-has_vibes('Telluride', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Telluride', [outdoor_adventures]).
 
 city('Thingeyri').
 city_iata('Thingeyri', 'TEY').
@@ -39704,7 +39704,7 @@ city('Tenerife North').
 city_iata('Tenerife North', 'TFN').
 city_lat('Tenerife North', 28.473056).
 city_long('Tenerife North', -16.332778).
-has_vibes('Tenerife North', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tenerife North', [beach]).
 
 city('Ramadan').
 city_iata('Ramadan', 'TFR').
@@ -39715,7 +39715,7 @@ city('Tenerife South').
 city_iata('Tenerife South', 'TFS').
 city_lat('Tenerife South', 28.0466723).
 city_long('Tenerife South', -16.5726912).
-has_vibes('Tenerife South', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tenerife South', [beach]).
 
 city('Taftan').
 city_iata('Taftan', 'TFT').
@@ -39726,7 +39726,7 @@ city('Chengdu Tianfu International').
 city_iata('Chengdu Tianfu International', 'TFU').
 city_lat('Chengdu Tianfu International', 30.290833).
 city_long('Chengdu Tianfu International', 104.44361).
-has_vibes('Chengdu Tianfu International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Chengdu Tianfu International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Tarfaya').
 city_iata('Tarfaya', 'TFY').
@@ -39762,7 +39762,7 @@ city('Kuala Terengganu').
 city_iata('Kuala Terengganu', 'TGG').
 city_lat('Kuala Terengganu', 5.381111).
 city_long('Kuala Terengganu', 103.109722).
-has_vibes('Kuala Terengganu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Kuala Terengganu', [beach]).
 
 city('Tongoa').
 city_iata('Tongoa', 'TGH').
@@ -39928,7 +39928,7 @@ city('Mehrabad International').
 city_iata('Mehrabad International', 'THR').
 city_lat('Mehrabad International', 35.689722).
 city_long('Mehrabad International', 51.315833).
-has_vibes('Mehrabad International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Mehrabad International', [great_food, outdoor_adventures]).
 
 city('Sukhothai').
 city_iata('Sukhothai', 'THS').
@@ -39969,7 +39969,7 @@ city('Tirana').
 city_iata('Tirana', 'TIA').
 city_lat('Tirana', 41.416944).
 city_long('Tirana', 19.716667).
-has_vibes('Tirana', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tirana', [underrated_destinations, beach]).
 
 city('Tibu').
 city_iata('Tibu', 'TIB').
@@ -39995,7 +39995,7 @@ city('Taif').
 city_iata('Taif', 'TIF').
 city_lat('Taif', 21.488333).
 city_long('Taif', 40.543333).
-has_vibes('Taif', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Taif', [great_food, outdoor_adventures]).
 
 city('Tingwon').
 city_iata('Tingwon', 'TIG').
@@ -40066,7 +40066,7 @@ city('Tivat').
 city_iata('Tivat', 'TIV').
 city_lat('Tivat', 42.403611).
 city_long('Tivat', 18.725556).
-has_vibes('Tivat', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tivat', [underrated_destinations, beach]).
 
 city('Tacoma Industrial').
 city_iata('Tacoma Industrial', 'TIW').
@@ -40267,7 +40267,7 @@ city('Turku').
 city_iata('Turku', 'TKU').
 city_lat('Turku', 60.514167).
 city_long('Turku', 22.270556).
-has_vibes('Turku', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Turku', [outdoor_adventures]).
 
 city('Tatakoto').
 city_iata('Tatakoto', 'TKV').
@@ -40318,7 +40318,7 @@ city('Tulear').
 city_iata('Tulear', 'TLE').
 city_lat('Tulear', -23.389722).
 city_long('Tulear', 43.724167).
-has_vibes('Tulear', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Tulear', [outdoor_adventures]).
 
 city('Telida').
 city_iata('Telida', 'TLF').
@@ -40354,7 +40354,7 @@ city('Tallinn').
 city_iata('Tallinn', 'TLL').
 city_lat('Tallinn', 59.413317).
 city_long('Tallinn', 24.832844).
-has_vibes('Tallinn', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tallinn', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Tlemcen').
 city_iata('Tlemcen', 'TLM').
@@ -40400,13 +40400,13 @@ city('Tolu').
 city_iata('Tolu', 'TLU').
 city_lat('Tolu', 9.516667).
 city_long('Tolu', -75.583333).
-has_vibes('Tolu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tolu', [beach]).
 
 city('Ben Gurion Intl').
 city_iata('Ben Gurion Intl', 'TLV').
 city_lat('Ben Gurion Intl', 32.0054774).
 city_long('Ben Gurion Intl', 34.8853146).
-has_vibes('Ben Gurion Intl', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ben Gurion Intl', [nightlife_and_entertainment, great_food]).
 
 city('Talasea').
 city_iata('Talasea', 'TLW').
@@ -40502,7 +40502,7 @@ city('Tampere').
 city_iata('Tampere', 'TMP').
 city_lat('Tampere', 61.463889).
 city_long('Tampere', 23.738889).
-has_vibes('Tampere', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tampere', [underrated_destinations]).
 
 city('Tambao').
 city_iata('Tambao', 'TMQ').
@@ -40583,7 +40583,7 @@ city('Tangier Ibn Battouta').
 city_iata('Tangier Ibn Battouta', 'TNG').
 city_lat('Tangier Ibn Battouta', 35.716667).
 city_long('Tangier Ibn Battouta', -5.916667).
-has_vibes('Tangier Ibn Battouta', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tangier Ibn Battouta', [great_food]).
 
 city('Sanyuanpu').
 city_iata('Sanyuanpu', 'TNH').
@@ -40619,13 +40619,13 @@ city('Tainan').
 city_iata('Tainan', 'TNN').
 city_lat('Tainan', 22.951944).
 city_long('Tainan', 120.2).
-has_vibes('Tainan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tainan', [nightlife_and_entertainment, art_and_culture]).
 
 city('Tamarindo').
 city_iata('Tamarindo', 'TNO').
 city_lat('Tamarindo', 10.31495).
 city_long('Tamarindo', -85.81541).
-has_vibes('Tamarindo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tamarindo', [beach]).
 
 city('Twentynine Palms').
 city_iata('Twentynine Palms', 'TNP').
@@ -40641,7 +40641,7 @@ city('Antananarivo').
 city_iata('Antananarivo', 'TNR').
 city_lat('Antananarivo', -18.8).
 city_long('Antananarivo', 47.483333).
-has_vibes('Antananarivo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Antananarivo', [nightlife_and_entertainment, outdoor_adventures]).
 
 city('Newton').
 city_iata('Newton', 'TNU').
@@ -40752,7 +40752,7 @@ city('Tromso').
 city_iata('Tromso', 'TOS').
 city_lat('Tromso', 69.681389).
 city_long('Tromso', 18.921667).
-has_vibes('Tromso', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Tromso', [outdoor_adventures]).
 
 city('Totness').
 city_iata('Totness', 'TOT').
@@ -40793,7 +40793,7 @@ city('Tampa International').
 city_iata('Tampa International', 'TPA').
 city_lat('Tampa International', 27.973056).
 city_long('Tampa International', -82.535278).
-has_vibes('Tampa International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tampa International', [beach]).
 
 city('Tarapoa').
 city_iata('Tarapoa', 'TPC').
@@ -40804,13 +40804,13 @@ city('Taipei Taiwan Taoyuan').
 city_iata('Taipei Taiwan Taoyuan', 'TPE').
 city_lat('Taipei Taiwan Taoyuan', 25.077778).
 city_long('Taipei Taiwan Taoyuan', 121.232778).
-has_vibes('Taipei Taiwan Taoyuan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Taipei Taiwan Taoyuan', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Tampa Peter OKnight').
 city_iata('Tampa Peter OKnight', 'TPF').
 city_lat('Tampa Peter OKnight', 27.91556).
 city_long('Tampa Peter OKnight', -82.44917).
-has_vibes('Tampa Peter OKnight', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tampa Peter OKnight', [beach]).
 
 city('Taiping').
 city_iata('Taiping', 'TPG').
@@ -40871,7 +40871,7 @@ city('Trapani Birgi').
 city_iata('Trapani Birgi', 'TPS').
 city_lat('Trapani Birgi', 37.911667).
 city_long('Trapani Birgi', 12.486389).
-has_vibes('Trapani Birgi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Trapani Birgi', [beach]).
 
 city('Tapeta').
 city_iata('Tapeta', 'TPT').
@@ -40902,7 +40902,7 @@ city('Tulum Felipe Carrillo').
 city_iata('Tulum Felipe Carrillo', 'TQO').
 city_lat('Tulum Felipe Carrillo', 20.166667).
 city_long('Tulum Felipe Carrillo', -87.666667).
-has_vibes('Tulum Felipe Carrillo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Tulum Felipe Carrillo', [nightlife_and_entertainment, outdoor_adventures]).
 
 city('San Domino Island').
 city_iata('San Domino Island', 'TQR').
@@ -40943,13 +40943,13 @@ city('Oslo Torp').
 city_iata('Oslo Torp', 'TRF').
 city_lat('Oslo Torp', 59.183333).
 city_long('Oslo Torp', 10.266667).
-has_vibes('Oslo Torp', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Oslo Torp', [nightlife_and_entertainment, underrated_destinations, great_food]).
 
 city('Tauranga').
 city_iata('Tauranga', 'TRG').
 city_lat('Tauranga', -37.670833).
 city_long('Tauranga', 176.194444).
-has_vibes('Tauranga', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Tauranga', [nightlife_and_entertainment, beach, great_food, outdoor_adventures]).
 
 city('Trona').
 city_iata('Trona', 'TRH').
@@ -40985,7 +40985,7 @@ city('Turin').
 city_iata('Turin', 'TRN').
 city_lat('Turin', 45.1965208).
 city_long('Turin', 7.6480601).
-has_vibes('Turin', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Turin', [underrated_destinations]).
 
 city('Tarauaca').
 city_iata('Tarauaca', 'TRQ').
@@ -41001,7 +41001,7 @@ city('Trieste').
 city_iata('Trieste', 'TRS').
 city_lat('Trieste', 45.833333).
 city_long('Trieste', 13.466667).
-has_vibes('Trieste', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Trieste', [underrated_destinations]).
 
 city('Toraja').
 city_iata('Toraja', 'TRT').
@@ -41012,7 +41012,7 @@ city('Trujillo').
 city_iata('Trujillo', 'TRU').
 city_lat('Trujillo', -8.09).
 city_long('Trujillo', -79.115).
-has_vibes('Trujillo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Trujillo', [art_and_culture]).
 
 city('Thiruvananthapuram').
 city_iata('Thiruvananthapuram', 'TRV').
@@ -41043,7 +41043,7 @@ city('Taipei Sung Shan').
 city_iata('Taipei Sung Shan', 'TSA').
 city_lat('Taipei Sung Shan', 25.066667).
 city_long('Taipei Sung Shan', 121.516667).
-has_vibes('Taipei Sung Shan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Taipei Sung Shan', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Tsumeb').
 city_iata('Tsumeb', 'TSB').
@@ -41064,7 +41064,7 @@ city('Venice Treviso').
 city_iata('Venice Treviso', 'TSF').
 city_lat('Venice Treviso', 45.6484).
 city_long('Venice Treviso', 12.194422).
-has_vibes('Venice Treviso', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Venice Treviso', [nightlife_and_entertainment, art_and_culture]).
 
 city('Tanacross').
 city_iata('Tanacross', 'TSG').
@@ -41130,7 +41130,7 @@ city('Trang').
 city_iata('Trang', 'TST').
 city_lat('Trang', 7.5).
 city_long('Trang', 99.616667).
-has_vibes('Trang', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Trang', [underrated_destinations]).
 
 city('Tabiteuea South').
 city_iata('Tabiteuea South', 'TSU').
@@ -41141,7 +41141,7 @@ city('Townsville').
 city_iata('Townsville', 'TSV').
 city_lat('Townsville', -19.25).
 city_long('Townsville', 146.766667).
-has_vibes('Townsville', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Townsville', [nightlife_and_entertainment]).
 
 city('Tsewi').
 city_iata('Tsewi', 'TSW').
@@ -41222,7 +41222,7 @@ city('Philadelphia Trenton-Mercer').
 city_iata('Philadelphia Trenton-Mercer', 'TTN').
 city_lat('Philadelphia Trenton-Mercer', 40.278056).
 city_long('Philadelphia Trenton-Mercer', -74.8125).
-has_vibes('Philadelphia Trenton-Mercer', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Philadelphia Trenton-Mercer', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Britton').
 city_iata('Britton', 'TTO').
@@ -41233,7 +41233,7 @@ city('Tortuquero').
 city_iata('Tortuquero', 'TTQ').
 city_lat('Tortuquero', 10.566667).
 city_long('Tortuquero', -83.516667).
-has_vibes('Tortuquero', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Tortuquero', [outdoor_adventures]).
 
 city('Tana Toraja').
 city_iata('Tana Toraja', 'TTR').
@@ -41249,13 +41249,13 @@ city('Taitung').
 city_iata('Taitung', 'TTT').
 city_lat('Taitung', 22.75).
 city_long('Taitung', 121.1).
-has_vibes('Taitung', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Taitung', [art_and_culture]).
 
 city('Tetuan S. Ramel').
 city_iata('Tetuan S. Ramel', 'TTU').
 city_lat('Tetuan S. Ramel', 35.583333).
 city_long('Tetuan S. Ramel', -5.316667).
-has_vibes('Tetuan S. Ramel', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Tetuan S. Ramel', [beach]).
 
 city('Tulcan').
 city_iata('Tulcan', 'TUA').
@@ -41326,13 +41326,13 @@ city('Tunis Carthage').
 city_iata('Tunis Carthage', 'TUN').
 city_lat('Tunis Carthage', 36.851111).
 city_long('Tunis Carthage', 10.227222).
-has_vibes('Tunis Carthage', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tunis Carthage', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Taupo').
 city_iata('Taupo', 'TUO').
 city_lat('Taupo', -38.742222).
 city_long('Taupo', 176.083889).
-has_vibes('Taupo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Taupo', [outdoor_adventures]).
 
 city('Tupelo').
 city_iata('Tupelo', 'TUP').
@@ -41363,7 +41363,7 @@ city('Tabuk').
 city_iata('Tabuk', 'TUU').
 city_lat('Tabuk', 28.372222).
 city_long('Tabuk', 36.625278).
-has_vibes('Tabuk', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Tabuk', [great_food]).
 
 city('Tucupita').
 city_iata('Tucupita', 'TUV').
@@ -41424,7 +41424,7 @@ city('Dawe').
 city_iata('Dawe', 'TVY').
 city_lat('Dawe', 14.1).
 city_long('Dawe', 98.2).
-has_vibes('Dawe', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Dawe', [art_and_culture]).
 
 city('Twin Hills').
 city_iata('Twin Hills', 'TWA').
@@ -41475,7 +41475,7 @@ city('Tawau').
 city_iata('Tawau', 'TWU').
 city_lat('Tawau', 4.31337).
 city_long('Tawau', 118.12195).
-has_vibes('Tawau', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Tawau', [outdoor_adventures]).
 
 city('Tawa').
 city_iata('Tawa', 'TWY').
@@ -41706,7 +41706,7 @@ city('Chinggis Khaan').
 city_iata('Chinggis Khaan', 'UBN').
 city_lat('Chinggis Khaan', 47.65).
 city_long('Chinggis Khaan', 106.818889).
-has_vibes('Chinggis Khaan', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Chinggis Khaan', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food, outdoor_adventures]).
 
 city('Ubon Ratchathani').
 city_iata('Ubon Ratchathani', 'UBP').
@@ -41937,7 +41937,7 @@ city('Quito').
 city_iata('Quito', 'UIO').
 city_lat('Quito', -0.137778).
 city_long('Quito', -78.486111).
-has_vibes('Quito', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Quito', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food, outdoor_adventures]).
 
 city('Quimper').
 city_iata('Quimper', 'UIP').
@@ -41973,13 +41973,13 @@ city('Ukunda').
 city_iata('Ukunda', 'UKA').
 city_lat('Ukunda', -4.3).
 city_long('Ukunda', 39.566667).
-has_vibes('Ukunda', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Ukunda', [beach]).
 
 city('Kobe').
 city_iata('Kobe', 'UKB').
 city_lat('Kobe', 34.63541334563468).
 city_long('Kobe', 135.2250383159125).
-has_vibes('Kobe', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kobe', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Utkela').
 city_iata('Utkela', 'UKE').
@@ -42045,7 +42045,7 @@ city('Santiago Los Cerrillos').
 city_iata('Santiago Los Cerrillos', 'ULC').
 city_lat('Santiago Los Cerrillos', -33.489722).
 city_long('Santiago Los Cerrillos', -70.694722).
-has_vibes('Santiago Los Cerrillos', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santiago Los Cerrillos', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Ulundi').
 city_iata('Ulundi', 'ULD').
@@ -42211,7 +42211,7 @@ city('Kiunga').
 city_iata('Kiunga', 'UNG').
 city_lat('Kiunga', -6.116667).
 city_long('Kiunga', 141.291667).
-has_vibes('Kiunga', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Kiunga', [outdoor_adventures]).
 
 city('Union Island').
 city_iata('Union Island', 'UNI').
@@ -42337,7 +42337,7 @@ city('Urumqi').
 city_iata('Urumqi', 'URC').
 city_lat('Urumqi', 43.9).
 city_long('Urumqi', 87.483333).
-has_vibes('Urumqi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Urumqi', [great_food]).
 
 city('Burg Feuerstein').
 city_iata('Burg Feuerstein', 'URD').
@@ -42418,7 +42418,7 @@ city('Ushuaia').
 city_iata('Ushuaia', 'USH').
 city_lat('Ushuaia', -54.84328).
 city_long('Ushuaia', -68.29575).
-has_vibes('Ushuaia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Ushuaia', [outdoor_adventures]).
 
 city('Mabaruma').
 city_iata('Mabaruma', 'USI').
@@ -42444,7 +42444,7 @@ city('Samui International').
 city_iata('Samui International', 'USM').
 city_lat('Samui International', 9.55).
 city_long('Samui International', 100.066667).
-has_vibes('Samui International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Samui International', [nightlife_and_entertainment]).
 
 city('Ulsan').
 city_iata('Ulsan', 'USN').
@@ -42475,13 +42475,13 @@ city('St Augustine').
 city_iata('St Augustine', 'UST').
 city_lat('St Augustine', 29.959248).
 city_long('St Augustine', -81.339169).
-has_vibes('St Augustine', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('St Augustine', [beach]).
 
 city('Busuanga').
 city_iata('Busuanga', 'USU').
 city_lat('Busuanga', 12.1).
 city_long('Busuanga', 120.166667).
-has_vibes('Busuanga', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Busuanga', [beach]).
 
 city('Mutare').
 city_iata('Mutare', 'UTA').
@@ -42622,7 +42622,7 @@ city('St Lucia Hewanorra').
 city_iata('St Lucia Hewanorra', 'UVF').
 city_lat('St Lucia Hewanorra', 13.735556).
 city_long('St Lucia Hewanorra', -60.952222).
-has_vibes('St Lucia Hewanorra', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('St Lucia Hewanorra', [nightlife_and_entertainment, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Uniao da Vitoria').
 city_iata('Uniao da Vitoria', 'UVI').
@@ -42738,7 +42738,7 @@ city('Van').
 city_iata('Van', 'VAN').
 city_lat('Van', 38.458611).
 city_long('Van', 43.332222).
-has_vibes('Van', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Van', [great_food, outdoor_adventures]).
 
 city('Suavanao').
 city_iata('Suavanao', 'VAO').
@@ -42759,13 +42759,13 @@ city('Varna').
 city_iata('Varna', 'VAR').
 city_lat('Varna', 43.2325).
 city_long('Varna', 27.825556).
-has_vibes('Varna', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Varna', [beach]).
 
 city('Sivas').
 city_iata('Sivas', 'VAS').
 city_lat('Sivas', 39.813889).
 city_long('Sivas', 36.904167).
-has_vibes('Sivas', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sivas', [great_food]).
 
 city('Vatomandry').
 city_iata('Vatomandry', 'VAT').
@@ -42811,7 +42811,7 @@ city('Verona Brescia').
 city_iata('Verona Brescia', 'VBS').
 city_lat('Verona Brescia', 45.428611).
 city_long('Verona Brescia', 10.331388).
-has_vibes('Verona Brescia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Verona Brescia', [underrated_destinations]).
 
 city('Vanuabalavu').
 city_iata('Vanuabalavu', 'VBV').
@@ -42827,7 +42827,7 @@ city('Can Tho').
 city_iata('Can Tho', 'VCA').
 city_lat('Can Tho', 10.0851).
 city_long('Can Tho', 105.712).
-has_vibes('Can Tho', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Can Tho', [great_food]).
 
 city('View Cove').
 city_iata('View Cove', 'VCB').
@@ -42848,7 +42848,7 @@ city('Venice Marco Polo').
 city_iata('Venice Marco Polo', 'VCE').
 city_lat('Venice Marco Polo', 45.5).
 city_long('Venice Marco Polo', 12.35).
-has_vibes('Venice Marco Polo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Venice Marco Polo', [nightlife_and_entertainment, art_and_culture]).
 
 city('Valcheta').
 city_iata('Valcheta', 'VCF').
@@ -42869,7 +42869,7 @@ city('Sao Paulo Viracopos').
 city_iata('Sao Paulo Viracopos', 'VCP').
 city_lat('Sao Paulo Viracopos', -23.00738).
 city_long('Sao Paulo Viracopos', -47.13452).
-has_vibes('Sao Paulo Viracopos', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Sao Paulo Viracopos', [great_food]).
 
 city('Carora').
 city_iata('Carora', 'VCR').
@@ -43010,7 +43010,7 @@ city('Victoria Falls').
 city_iata('Victoria Falls', 'VFA').
 city_lat('Victoria Falls', -18.093056).
 city_long('Victoria Falls', 25.840278).
-has_vibes('Victoria Falls', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Victoria Falls', [outdoor_adventures]).
 
 city('Vijayawada').
 city_iata('Vijayawada', 'VGA').
@@ -43041,7 +43041,7 @@ city('Las Vegas North Air Terminal').
 city_iata('Las Vegas North Air Terminal', 'VGT').
 city_lat('Las Vegas North Air Terminal', 36.096667).
 city_long('Las Vegas North Air Terminal', -115.168889).
-has_vibes('Las Vegas North Air Terminal', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Las Vegas North Air Terminal', [nightlife_and_entertainment]).
 
 city('Villagarzon').
 city_iata('Villagarzon', 'VGZ').
@@ -43097,7 +43097,7 @@ city('Vienna').
 city_iata('Vienna', 'VIE').
 city_lat('Vienna', 48.1221).
 city_long('Vienna', 16.55751).
-has_vibes('Vienna', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Vienna', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Vieste').
 city_iata('Vieste', 'VIF').
@@ -43143,7 +43143,7 @@ city('Durban Virginia').
 city_iata('Durban Virginia', 'VIR').
 city_lat('Durban Virginia', -29.77061).
 city_long('Durban Virginia', 31.05841).
-has_vibes('Durban Virginia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Durban Virginia', [great_food, outdoor_adventures]).
 
 city('Visalia').
 city_iata('Visalia', 'VIS').
@@ -43214,7 +43214,7 @@ city('Valencia').
 city_iata('Valencia', 'VLC').
 city_lat('Valencia', 39.4891002).
 city_long('Valencia', -0.4778432).
-has_vibes('Valencia', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Valencia', [nightlife_and_entertainment, underrated_destinations, great_food, outdoor_adventures]).
 
 city('Valdosta Regional').
 city_iata('Valdosta Regional', 'VLD').
@@ -43235,7 +43235,7 @@ city('Port Vila').
 city_iata('Port Vila', 'VLI').
 city_lat('Port Vila', -17.699444).
 city_long('Port Vila', 168.319722).
-has_vibes('Port Vila', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Port Vila', [underrated_destinations, beach, great_food, outdoor_adventures]).
 
 city('Volgodonsk').
 city_iata('Volgodonsk', 'VLK').
@@ -43256,7 +43256,7 @@ city('Valencia').
 city_iata('Valencia', 'VLN').
 city_lat('Valencia', 10.150296).
 city_long('Valencia', -67.926235).
-has_vibes('Valencia', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Valencia', [art_and_culture]).
 
 city('Vallejo').
 city_iata('Vallejo', 'VLO').
@@ -43337,7 +43337,7 @@ city('Vilnius').
 city_iata('Vilnius', 'VNO').
 city_lat('Vilnius', 54.6379807).
 city_long('Vilnius', 25.2867086).
-has_vibes('Vilnius', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Vilnius', [nightlife_and_entertainment, underrated_destinations, art_and_culture]).
 
 city('Vanrook').
 city_iata('Vanrook', 'VNR').
@@ -43348,7 +43348,7 @@ city('Varanasi').
 city_iata('Varanasi', 'VNS').
 city_lat('Varanasi', 25.451944).
 city_long('Varanasi', 82.863056).
-has_vibes('Varanasi', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Varanasi', [art_and_culture]).
 
 city('Ventspils').
 city_iata('Ventspils', 'VNT').
@@ -43364,7 +43364,7 @@ city('Los Angeles Van Nuys').
 city_iata('Los Angeles Van Nuys', 'VNY').
 city_lat('Los Angeles Van Nuys', 34.20973).
 city_long('Los Angeles Van Nuys', -118.49064).
-has_vibes('Los Angeles Van Nuys', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles Van Nuys', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Volgograd').
 city_iata('Volgograd', 'VOG').
@@ -43410,7 +43410,7 @@ city('Vipingo Airstrip').
 city_iata('Vipingo Airstrip', 'VPG').
 city_lat('Vipingo Airstrip', -3.842631).
 city_long('Vipingo Airstrip', 39.805205).
-has_vibes('Vipingo Airstrip', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Vipingo Airstrip', [beach]).
 
 city('Vopnafjordur').
 city_iata('Vopnafjordur', 'VPN').
@@ -43446,13 +43446,13 @@ city('Varadero').
 city_iata('Varadero', 'VRA').
 city_lat('Varadero', 23.034444).
 city_long('Varadero', -81.435278).
-has_vibes('Varadero', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Varadero', [nightlife_and_entertainment, beach, great_food]).
 
 city('Vero Beach').
 city_iata('Vero Beach', 'VRB').
 city_lat('Vero Beach', 27.6525).
 city_long('Vero Beach', -80.413611).
-has_vibes('Vero Beach', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Vero Beach', [beach]).
 
 city('Virac').
 city_iata('Virac', 'VRC').
@@ -43478,7 +43478,7 @@ city('Verona International').
 city_iata('Verona International', 'VRN').
 city_lat('Verona International', 45.395706).
 city_long('Verona International', 10.888533).
-has_vibes('Verona International', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Verona International', [underrated_destinations]).
 
 city('Matanzas').
 city_iata('Matanzas', 'VRO').
@@ -43529,7 +43529,7 @@ city('Stockholm Vasteras').
 city_iata('Stockholm Vasteras', 'VST').
 city_lat('Stockholm Vasteras', 59.589167).
 city_long('Stockholm Vasteras', 16.630556).
-has_vibes('Stockholm Vasteras', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Stockholm Vasteras', [nightlife_and_entertainment, great_food, outdoor_adventures]).
 
 city('Shravasti').
 city_iata('Shravasti', 'VSV').
@@ -43550,7 +43550,7 @@ city('Vientiane').
 city_iata('Vientiane', 'VTE').
 city_lat('Vientiane', 17.984722).
 city_long('Vientiane', 102.566667).
-has_vibes('Vientiane', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Vientiane', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Vatulele').
 city_iata('Vatulele', 'VTF').
@@ -43611,7 +43611,7 @@ city('Santa Cruz Viru Viru').
 city_iata('Santa Cruz Viru Viru', 'VVI').
 city_lat('Santa Cruz Viru Viru', -17.64476).
 city_long('Santa Cruz Viru Viru', -63.13536).
-has_vibes('Santa Cruz Viru Viru', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Santa Cruz Viru Viru', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Vastervik').
 city_iata('Vastervik', 'VVK').
@@ -43762,7 +43762,7 @@ city('Warsaw Chopin').
 city_iata('Warsaw Chopin', 'WAW').
 city_lat('Warsaw Chopin', 52.166667).
 city_long('Warsaw Chopin', 20.966667).
-has_vibes('Warsaw Chopin', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Warsaw Chopin', [nightlife_and_entertainment, great_food]).
 
 city('Zwara').
 city_iata('Zwara', 'WAX').
@@ -43883,7 +43883,7 @@ city('Windhoek Hosea Kutako').
 city_iata('Windhoek Hosea Kutako', 'WDH').
 city_lat('Windhoek Hosea Kutako', -22.483333).
 city_long('Windhoek Hosea Kutako', 17.466667).
-has_vibes('Windhoek Hosea Kutako', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Windhoek Hosea Kutako', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Wondai').
 city_iata('Wondai', 'WDI').
@@ -44079,7 +44079,7 @@ city('Los Angeles Whiteman').
 city_iata('Los Angeles Whiteman', 'WHP').
 city_lat('Los Angeles Whiteman', 34.25972).
 city_long('Los Angeles Whiteman', -118.41425).
-has_vibes('Los Angeles Whiteman', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Los Angeles Whiteman', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Whalsay').
 city_iata('Whalsay', 'WHS').
@@ -44120,7 +44120,7 @@ city('Nairobi Wilson').
 city_iata('Nairobi Wilson', 'WIL').
 city_lat('Nairobi Wilson', -1.316667).
 city_long('Nairobi Wilson', 36.816667).
-has_vibes('Nairobi Wilson', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Nairobi Wilson', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Winton').
 city_iata('Winton', 'WIN').
@@ -44241,7 +44241,7 @@ city('Wellington').
 city_iata('Wellington', 'WLG').
 city_lat('Wellington', -41.323889).
 city_long('Wellington', 174.801389).
-has_vibes('Wellington', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Wellington', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Walaha').
 city_iata('Walaha', 'WLH').
@@ -44327,7 +44327,7 @@ city('Warsaw Modlin').
 city_iata('Warsaw Modlin', 'WMI').
 city_lat('Warsaw Modlin', 52.447176).
 city_long('Warsaw Modlin', 20.654275).
-has_vibes('Warsaw Modlin', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Warsaw Modlin', [nightlife_and_entertainment, great_food]).
 
 city('Meyers Chuck').
 city_iata('Meyers Chuck', 'WMK').
@@ -44468,7 +44468,7 @@ city('Wollongong').
 city_iata('Wollongong', 'WOL').
 city_lat('Wollongong', -34.566667).
 city_long('Wollongong', 150.783333).
-has_vibes('Wollongong', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Wollongong', [nightlife_and_entertainment]).
 
 city('Wondoola').
 city_iata('Wondoola', 'WON').
@@ -44579,7 +44579,7 @@ city('Wroclaw').
 city_iata('Wroclaw', 'WRO').
 city_lat('Wroclaw', 51.1).
 city_long('Wroclaw', 16.883333).
-has_vibes('Wroclaw', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Wroclaw', [underrated_destinations]).
 
 city('Warrawagine').
 city_iata('Warrawagine', 'WRW').
@@ -44595,7 +44595,7 @@ city('Weerawila').
 city_iata('Weerawila', 'WRZ').
 city_lat('Weerawila', 6.25449).
 city_long('Weerawila', 81.2352).
-has_vibes('Weerawila', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Weerawila', [beach]).
 
 city('Wasua').
 city_iata('Wasua', 'WSA').
@@ -44931,7 +44931,7 @@ city('Nassau Seaplane Base').
 city_iata('Nassau Seaplane Base', 'WZY').
 city_lat('Nassau Seaplane Base', 25.0825).
 city_long('Nassau Seaplane Base', -77.327222).
-has_vibes('Nassau Seaplane Base', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"1", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Nassau Seaplane Base', [nightlife_and_entertainment, beach, art_and_culture, great_food, outdoor_adventures]).
 
 city('Minggang').
 city_iata('Minggang', 'XAI').
@@ -45047,7 +45047,7 @@ city('Ottawa Train Station').
 city_iata('Ottawa Train Station', 'XDS').
 city_lat('Ottawa Train Station', 45.416317).
 city_long('Ottawa Train Station', -75.650675).
-has_vibes('Ottawa Train Station', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ottawa Train Station', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Tsukuba').
 city_iata('Tsukuba', 'XEI').
@@ -45083,7 +45083,7 @@ city('Quebec Charny').
 city_iata('Quebec Charny', 'XFZ').
 city_lat('Quebec Charny', 46.716667).
 city_long('Quebec Charny', -71.25).
-has_vibes('Quebec Charny', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Quebec Charny', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Gaoua').
 city_iata('Gaoua', 'XGA').
@@ -45159,13 +45159,13 @@ city('Xi An Xianyang').
 city_iata('Xi An Xianyang', 'XIY').
 city_lat('Xi An Xianyang', 34.433333).
 city_long('Xi An Xianyang', 108.75).
-has_vibes('Xi An Xianyang', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Xi An Xianyang', [art_and_culture]).
 
 city('Air Base').
 city_iata('Air Base', 'XJD').
 city_lat('Air Base', 25.117317).
 city_long('Air Base', 51.314989).
-has_vibes('Air Base', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Air Base', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Kantchari').
 city_iata('Kantchari', 'XKA').
@@ -45326,7 +45326,7 @@ city('Doha Free Zone').
 city_iata('Doha Free Zone', 'XOZ').
 city_lat('Doha Free Zone', 24.8333).
 city_long('Doha Free Zone', 50.9167).
-has_vibes('Doha Free Zone', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Doha Free Zone', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Pama').
 city_iata('Pama', 'XPA').
@@ -45367,7 +45367,7 @@ city('Quepos').
 city_iata('Quepos', 'XQP').
 city_lat('Quepos', 9.45).
 city_long('Quepos', -84.15).
-has_vibes('Quepos', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Quepos', [nightlife_and_entertainment]).
 
 city('Qualicum').
 city_iata('Qualicum', 'XQU').
@@ -45438,7 +45438,7 @@ city('Seletar').
 city_iata('Seletar', 'XSP').
 city_lat('Seletar', 1.41695).
 city_long('Seletar', 103.867653).
-has_vibes('Seletar', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Seletar', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Thargomindah').
 city_iata('Thargomindah', 'XTG').
@@ -45559,7 +45559,7 @@ city('Macau').
 city_iata('Macau', 'XZM').
 city_lat('Macau', 22.25).
 city_long('Macau', 113).
-has_vibes('Macau', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Macau', [great_food]).
 
 city('Anahim Lake').
 city_iata('Anahim Lake', 'YAA').
@@ -45665,7 +45665,7 @@ city('Halifax Shearwater').
 city_iata('Halifax Shearwater', 'YAW').
 city_lat('Halifax Shearwater', 44.866667).
 city_long('Halifax Shearwater', -63.616667).
-has_vibes('Halifax Shearwater', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Halifax Shearwater', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Angling Lake').
 city_iata('Angling Lake', 'YAX').
@@ -45681,7 +45681,7 @@ city('Tofino').
 city_iata('Tofino', 'YAZ').
 city_lat('Tofino', 49.076944).
 city_long('Tofino', -125.776389).
-has_vibes('Tofino', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Tofino', [outdoor_adventures]).
 
 city('Banff').
 city_iata('Banff', 'YBA').
@@ -46012,7 +46012,7 @@ city('Vancouver Boundary Bay').
 city_iata('Vancouver Boundary Bay', 'YDT').
 city_lat('Vancouver Boundary Bay', 49.08062482054207).
 city_long('Vancouver Boundary Bay', -123.00887858336918).
-has_vibes('Vancouver Boundary Bay', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Vancouver Boundary Bay', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Bloodvein').
 city_iata('Bloodvein', 'YDV').
@@ -46033,7 +46033,7 @@ city('Edmonton International').
 city_iata('Edmonton International', 'YEG').
 city_lat('Edmonton International', 53.309722).
 city_long('Edmonton International', -113.579722).
-has_vibes('Edmonton International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Edmonton International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Asaloyeh').
 city_iata('Asaloyeh', 'YEH').
@@ -46044,7 +46044,7 @@ city('Bursa').
 city_iata('Bursa', 'YEI').
 city_lat('Bursa', 40.233333).
 city_long('Bursa', 29.55).
-has_vibes('Bursa', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Bursa', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Arviat').
 city_iata('Arviat', 'YEK').
@@ -46315,7 +46315,7 @@ city('Hamilton').
 city_iata('Hamilton', 'YHM').
 city_lat('Hamilton', 43.166944).
 city_long('Hamilton', -79.930556).
-has_vibes('Hamilton', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Hamilton', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Hornepayne').
 city_iata('Hornepayne', 'YHN').
@@ -46351,7 +46351,7 @@ city('Montreal St Hubert').
 city_iata('Montreal St Hubert', 'YHU').
 city_lat('Montreal St Hubert', 45.51667).
 city_long('Montreal St Hubert', -73.41667).
-has_vibes('Montreal St Hubert', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Montreal St Hubert', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Hay River').
 city_iata('Hay River', 'YHY').
@@ -46362,13 +46362,13 @@ city('Halifax International').
 city_iata('Halifax International', 'YHZ').
 city_lat('Halifax International', 44.883333).
 city_long('Halifax International', -63.516667).
-has_vibes('Halifax International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Halifax International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Yogyakarta International').
 city_iata('Yogyakarta International', 'YIA').
 city_lat('Yogyakarta International', -7.907499).
 city_long('Yogyakarta International', 110.054444).
-has_vibes('Yogyakarta International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Yogyakarta International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Atikokan').
 city_iata('Atikokan', 'YIB').
@@ -46419,7 +46419,7 @@ city('Detroit Willow Run').
 city_iata('Detroit Willow Run', 'YIP').
 city_lat('Detroit Willow Run', 42.233333).
 city_long('Detroit Willow Run', -83.533333).
-has_vibes('Detroit Willow Run', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Detroit Willow Run', [nightlife_and_entertainment]).
 
 city('Island Lake').
 city_iata('Island Lake', 'YIV').
@@ -46475,7 +46475,7 @@ city('Kitchener / Waterloo').
 city_iata('Kitchener / Waterloo', 'YKF').
 city_lat('Kitchener / Waterloo', 43.460833).
 city_long('Kitchener / Waterloo', -80.378611).
-has_vibes('Kitchener / Waterloo', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Kitchener / Waterloo', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Kangirsuk').
 city_iata('Kangirsuk', 'YKG').
@@ -46551,7 +46551,7 @@ city('Toronto Buttonville').
 city_iata('Toronto Buttonville', 'YKZ').
 city_lat('Toronto Buttonville', 43.866667).
 city_long('Toronto Buttonville', -79.366667).
-has_vibes('Toronto Buttonville', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Toronto Buttonville', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Langara').
 city_iata('Langara', 'YLA').
@@ -46767,7 +46767,7 @@ city('Montreal Mirabel').
 city_iata('Montreal Mirabel', 'YMX').
 city_lat('Montreal Mirabel', 45.666667).
 city_long('Montreal Mirabel', -74.03).
-has_vibes('Montreal Mirabel', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Montreal Mirabel', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Natashquan').
 city_iata('Natashquan', 'YNA').
@@ -46778,7 +46778,7 @@ city('Yanbu').
 city_iata('Yanbu', 'YNB').
 city_lat('Yanbu', 24.116667).
 city_long('Yanbu', 38.066667).
-has_vibes('Yanbu', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Yanbu', [beach]).
 
 city('Wemindji').
 city_iata('Wemindji', 'YNC').
@@ -46789,7 +46789,7 @@ city('Ottawa Gatineau').
 city_iata('Ottawa Gatineau', 'YND').
 city_lat('Ottawa Gatineau', 45.52169).
 city_long('Ottawa Gatineau', -75.56359).
-has_vibes('Ottawa Gatineau', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ottawa Gatineau', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Norway House').
 city_iata('Norway House', 'YNE').
@@ -46935,7 +46935,7 @@ city('Ottawa International').
 city_iata('Ottawa International', 'YOW').
 city_lat('Ottawa International', 45.320833).
 city_long('Ottawa International', -75.672778).
-has_vibes('Ottawa International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ottawa International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Valcartier').
 city_iata('Valcartier', 'YOY').
@@ -47066,7 +47066,7 @@ city('Quebec').
 city_iata('Quebec', 'YQB').
 city_lat('Quebec', 46.79227).
 city_long('Quebec', -71.38431).
-has_vibes('Quebec', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Quebec', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Quaqtaq').
 city_iata('Quaqtaq', 'YQC').
@@ -47237,7 +47237,7 @@ city('Ottawa Rockcliffe St').
 city_iata('Ottawa Rockcliffe St', 'YRO').
 city_lat('Ottawa Rockcliffe St', 45.4603).
 city_long('Ottawa Rockcliffe St', -75.6461).
-has_vibes('Ottawa Rockcliffe St', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Ottawa Rockcliffe St', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Trois-Rivieres').
 city_iata('Trois-Rivieres', 'YRQ').
@@ -47433,7 +47433,7 @@ city('Tofino Seaplane Base').
 city_iata('Tofino Seaplane Base', 'YTP').
 city_lat('Tofino Seaplane Base', 49.15278).
 city_long('Tofino Seaplane Base', -125.89861).
-has_vibes('Tofino Seaplane Base', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Tofino Seaplane Base', [outdoor_adventures]).
 
 city('Tasiujuaq').
 city_iata('Tasiujuaq', 'YTQ').
@@ -47479,7 +47479,7 @@ city('Toronto Island').
 city_iata('Toronto Island', 'YTZ').
 city_lat('Toronto Island', 43.6275).
 city_long('Toronto Island', -79.39617).
-has_vibes('Toronto Island', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Toronto Island', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Yuanmou').
 city_iata('Yuanmou', 'YUA').
@@ -47505,7 +47505,7 @@ city('Montreal Pierre Elliott Trudeau').
 city_iata('Montreal Pierre Elliott Trudeau', 'YUL').
 city_lat('Montreal Pierre Elliott Trudeau', 45.463889).
 city_long('Montreal Pierre Elliott Trudeau', -73.75).
-has_vibes('Montreal Pierre Elliott Trudeau', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Montreal Pierre Elliott Trudeau', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Yuma International').
 city_iata('Yuma International', 'YUM').
@@ -47586,7 +47586,7 @@ city('Vancouver International').
 city_iata('Vancouver International', 'YVR').
 city_lat('Vancouver International', 49.187222).
 city_long('Vancouver International', -123.185278).
-has_vibes('Vancouver International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Vancouver International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Buffalo Narrows').
 city_iata('Buffalo Narrows', 'YVT').
@@ -47617,19 +47617,19 @@ city('Halifax Dwtown Waterfront H / P').
 city_iata('Halifax Dwtown Waterfront H / P', 'YWF').
 city_lat('Halifax Dwtown Waterfront H / P', 44.633333).
 city_long('Halifax Dwtown Waterfront H / P', -63.583333).
-has_vibes('Halifax Dwtown Waterfront H / P', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Halifax Dwtown Waterfront H / P', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Winnipeg').
 city_iata('Winnipeg', 'YWG').
 city_lat('Winnipeg', 49.908124).
 city_long('Winnipeg', -97.238961).
-has_vibes('Winnipeg', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Winnipeg', [nightlife_and_entertainment]).
 
 city('Victoria Inner Harbor').
 city_iata('Victoria Inner Harbor', 'YWH').
 city_lat('Victoria Inner Harbor', 48.423989).
 city_long('Victoria Inner Harbor', -123.370628).
-has_vibes('Victoria Inner Harbor', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Victoria Inner Harbor', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Deline').
 city_iata('Deline', 'YWJ').
@@ -47675,7 +47675,7 @@ city('Whistler').
 city_iata('Whistler', 'YWS').
 city_lat('Whistler', 50.15).
 city_long('Whistler', -122.966667).
-has_vibes('Whistler', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Whistler', [outdoor_adventures]).
 
 city('Wrigley').
 city_iata('Wrigley', 'YWY').
@@ -47691,7 +47691,7 @@ city('Saskatoon').
 city_iata('Saskatoon', 'YXE').
 city_lat('Saskatoon', 52.166667).
 city_long('Saskatoon', -106.683333).
-has_vibes('Saskatoon', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Saskatoon', [underrated_destinations]).
 
 city('Snake River').
 city_iata('Snake River', 'YXF').
@@ -47762,7 +47762,7 @@ city('Abbotsford').
 city_iata('Abbotsford', 'YXX').
 city_lat('Abbotsford', 49.025556).
 city_long('Abbotsford', -122.361944).
-has_vibes('Abbotsford', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Abbotsford', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Whitehorse').
 city_iata('Whitehorse', 'YXY').
@@ -47788,7 +47788,7 @@ city('Calgary').
 city_iata('Calgary', 'YYC').
 city_lat('Calgary', 51.114084).
 city_long('Calgary', -114.021263).
-has_vibes('Calgary', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Calgary', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Smithers').
 city_iata('Smithers', 'YYD').
@@ -47824,7 +47824,7 @@ city('Victoria International').
 city_iata('Victoria International', 'YYJ').
 city_lat('Victoria International', 48.648611).
 city_long('Victoria International', -123.423611).
-has_vibes('Victoria International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Victoria International', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Lynn Lake').
 city_iata('Lynn Lake', 'YYL').
@@ -47855,7 +47855,7 @@ city('St Johns').
 city_iata('St Johns', 'YYT').
 city_lat('St Johns', 47.616944).
 city_long('St Johns', -52.75).
-has_vibes('St Johns', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('St Johns', [outdoor_adventures]).
 
 city('Kapuskasing').
 city_iata('Kapuskasing', 'YYU').
@@ -47876,7 +47876,7 @@ city('Toronto Pearson International').
 city_iata('Toronto Pearson International', 'YYZ').
 city_lat('Toronto Pearson International', 43.683333).
 city_long('Toronto Pearson International', -79.633333).
-has_vibes('Toronto Pearson International', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Toronto Pearson International', [nightlife_and_entertainment, art_and_culture, great_food]).
 
 city('Ashcroft').
 city_iata('Ashcroft', 'YZA').
@@ -47972,13 +47972,13 @@ city('Zadar').
 city_iata('Zadar', 'ZAD').
 city_lat('Zadar', 44.097778).
 city_long('Zadar', 15.356667).
-has_vibes('Zadar', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Zadar', [nightlife_and_entertainment, underrated_destinations]).
 
 city('Zagreb').
 city_iata('Zagreb', 'ZAG').
 city_lat('Zagreb', 45.7408627).
 city_long('Zagreb', 16.067501).
-has_vibes('Zagreb', [{"nightlife_and_entertainment":"1", "underrated_destinations":"1", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Zagreb', [nightlife_and_entertainment, underrated_destinations, art_and_culture, great_food]).
 
 city('Zahedan').
 city_iata('Zahedan', 'ZAH').
@@ -48029,7 +48029,7 @@ city('Zaragoza').
 city_iata('Zaragoza', 'ZAZ').
 city_lat('Zaragoza', 41.663423).
 city_long('Zaragoza', -1.011086).
-has_vibes('Zaragoza', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Zaragoza', [underrated_destinations]).
 
 city('Jiang Men').
 city_iata('Jiang Men', 'ZBD').
@@ -48215,7 +48215,7 @@ city('Ixtapa / Zihuatanejo').
 city_iata('Ixtapa / Zihuatanejo', 'ZIH').
 city_lat('Ixtapa / Zihuatanejo', 17.643333).
 city_long('Ixtapa / Zihuatanejo', -101.555278).
-has_vibes('Ixtapa / Zihuatanejo', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"1"}]).
+has_vibes('Ixtapa / Zihuatanejo', [outdoor_adventures]).
 
 city('Zintan').
 city_iata('Zintan', 'ZIS').
@@ -48316,7 +48316,7 @@ city('Zanzibar').
 city_iata('Zanzibar', 'ZNZ').
 city_lat('Zanzibar', -6.219167).
 city_long('Zanzibar', 39.221944).
-has_vibes('Zanzibar', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"1", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Zanzibar', [nightlife_and_entertainment, art_and_culture, great_food, outdoor_adventures]).
 
 city('Osorno').
 city_iata('Osorno', 'ZOS').
@@ -48337,7 +48337,7 @@ city('Queenstown').
 city_iata('Queenstown', 'ZQN').
 city_lat('Queenstown', -45.021389).
 city_long('Queenstown', 168.738889).
-has_vibes('Queenstown', [{"nightlife_and_entertainment":"0", "underrated_destinations":"1", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"1"}]).
+has_vibes('Queenstown', [underrated_destinations, great_food, outdoor_adventures]).
 
 city('Zweibrücken').
 city_iata('Zweibrücken', 'ZQW').
@@ -48353,7 +48353,7 @@ city('Zurich').
 city_iata('Zurich', 'ZRH').
 city_lat('Zurich', 47.4612134).
 city_long('Zurich', 8.5534547).
-has_vibes('Zurich', [{"nightlife_and_entertainment":"1", "underrated_destinations":"0", "beach":"0", "art_and_culture":"0", "great_food":"1", "outdoor_adventures":"0"}]).
+has_vibes('Zurich', [nightlife_and_entertainment, great_food]).
 
 city('Sudjarwo Tjondronegoro').
 city_iata('Sudjarwo Tjondronegoro', 'ZRI').
@@ -48409,7 +48409,7 @@ city('Zante (Zakynthos)').
 city_iata('Zante (Zakynthos)', 'ZTH').
 city_lat('Zante (Zakynthos)', 37.7558).
 city_long('Zante (Zakynthos)', 20.8883).
-has_vibes('Zante (Zakynthos)', [{"nightlife_and_entertainment":"0", "underrated_destinations":"0", "beach":"1", "art_and_culture":"0", "great_food":"0", "outdoor_adventures":"0"}]).
+has_vibes('Zante (Zakynthos)', [beach]).
 
 city('Shamattawa').
 city_iata('Shamattawa', 'ZTM').
