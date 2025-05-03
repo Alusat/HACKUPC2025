@@ -68,7 +68,7 @@ body {
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 15px;
   }
   
   input[type="text"],
@@ -76,10 +76,10 @@ body {
   select {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #aaa;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
   }
   
   .dual-range-slider {
