@@ -5,24 +5,49 @@ set -e
 
 echo "--- Running Simple Build and Execute ---"
 
+echo "calling server"
+node server/server.js &
+
+echo "Running 'npx live-server for index..."
+npx live-server --open=index.html &
+
+while [ ! -f "data/user_info.json" ]; do
+    echo "File not found. Waiting..."
+    sleep 0.10  # Wait for 1 second before checking again
+done
+
+sleep 1.5
+
 # 1. Navigate to the scripts directory
-echo "[1/5] Changing directory to 'scripts'..."
+echo "[1/6] Changing directory to 'scripts'..."
 cd scripts
 
 # 2. Run the Python script
-echo "[2/5] Running Python script 'fromJSONtoPL.py'..."
+echo "[2/6] Running Python script 'fromJSONtoPL.py'..."
 python3 fromJSONtoPL.py
 
 # 3. Navigate to the src directory (relative to 'scripts')
-echo "[3/5] Changing directory to '../src'..."
+echo "[3/6] Changing directory to '../src'..."
 cd ../src
 
 # 4. Run make
-echo "[4/5] Running 'make'..."
+echo "[4/6] Running 'make'..."
 make
 
 # 5. Run the executable
-echo "[5/5] Running './recommend'..."
+echo "[5/6] Running './recommend'..."
 ./recommend
+cd ../
+
+sleep 1
+
+# 6. 
+echo "[6/6] Running 'npx live-server..."
+npx live-server --open=output.html &
+
+sleep 1
+
+echo "removing"
+rm "data/user_info.json"
 
 echo "--- Script finished successfully ---"
