@@ -40,6 +40,8 @@ apiinfo: filter
 	@echo "[PY] Fetching API data into SQLite cache..."
 	@$(PYTHON) $(SCRIPTS_DIR)/fetch_flights.py --input $(FILTERED_ROUTES) --output $(API_CACHE)
 
+
+
 # --- 4. Grade + Rank the destinations ---
 getlist: apiinfo
 	@echo "[PY] Grading and scoring destinations..."
