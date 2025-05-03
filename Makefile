@@ -7,42 +7,45 @@ SRC_DIR := src
 SCRIPTS_DIR := scripts
 API_CACHE := $(DATA_DIR)/api_cache.db
 FILTERED_ROUTES := $(DATA_DIR)/filtered_routes.txt
+GRADED := $(DATA_DIR)/graded.txt
 
-# Targets
-.PHONY: all clean run filter grade api-cache
+# Default target
+.PHONY: all clean cities users prepinfo filter apiinfo getlist
 
-all: $(DATA_DIR)/graded
+all: getlist
 
-# --- Data Generation ---
+# --- 1. Preprocess data ---
+cities: $(DATA_DIR)/cities.pl
+
 $(DATA_DIR)/cities.pl: $(DATA_DIR)/iata_airports.csv
 	@echo "[PY] Converting CSV to Prolog..."
 	@$(PYTHON) $(SCRIPTS_DIR)/csv_to_prolog.py $< $@
+
+users: $(DATA_DIR)/users.pl
 
 $(DATA_DIR)/users.pl: $(DATA_DIR)/input.json
 	@echo "[PY] Converting JSON to Prolog..."
 	@$(PYTHON) $(SCRIPTS_DIR)/json_to_prolog.py $< $@
 
-# --- Filtering ---
-filter: $(DATA_DIR)/users.pl $(DATA_DIR)/cities.pl
+prepinfo: cities users
+	@echo "[PL] Checked cities and users facts."
+
+# --- 2. Filter destinations using Prolog ---
+filter: prepinfo
 	@echo "[PL] Filtering candidate routes..."
 	@$(PROLOG_COMPILER) -g "export_routes" -t halt $(SRC_DIR)/filter_rules.pl > $(FILTERED_ROUTES)
 
-# --- API Cache ---
-api-cache: filter
-	@echo "[PY] Fetching flight data..."
+# --- 3. API Calls + Cache to SQLite ---
+apiinfo: filter
+	@echo "[PY] Fetching API data into SQLite cache..."
 	@$(PYTHON) $(SCRIPTS_DIR)/fetch_flights.py --input $(FILTERED_ROUTES) --output $(API_CACHE)
 
-# --- Grading ---
-grade: api-cache
-	@echo "[PL] Compiling grading rules..."
-	@$(PROLOG_COMPILER) $(PROLOG_FLAGS) -o $(DATA_DIR)/graded -c $(SRC_DIR)/grade_rules.pl
-
-# --- Run ---
-run: grade
-	@echo "[PL] Running recommendations..."
-	@$(DATA_DIR)/graded
+# --- 4. Grade + Rank the destinations ---
+getlist: apiinfo
+	@echo "[PY] Grading and scoring destinations..."
+	@$(PYTHON) $(SCRIPTS_DIR)/score_and_rank.py --input $(API_CACHE) --output $(GRADED)
 
 # --- Clean ---
 clean:
-	@rm -f $(DATA_DIR)/*.pl $(DATA_DIR)/graded $(FILTERED_ROUTES) $(API_CACHE)
+	@rm -f $(DATA_DIR)/*.pl $(DATA_DIR)/*.txt $(GRADED) $(FILTERED_ROUTES) $(API_CACHE)
 	@echo "Cleaned all generated files."
