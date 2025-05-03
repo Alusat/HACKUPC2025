@@ -25,7 +25,7 @@ function initDateRangeSlider(containerId) {
   
       // Example: Save to localStorage
       localStorage.setItem('selectedDateRange', JSON.stringify(dateRange));
-      alert('Date range saved successfully!');
+      //alert('Date range saved successfully!');
     });
   }
   

@@ -56,6 +56,7 @@ function collectAllAnswers(peopleCount, submittedData) {
 function saveAnswersToJson(peopleCount, submittedData) {
     const answers = collectAllAnswers(peopleCount, submittedData);
     
+    
     // Send data to Node.js server
     fetch('http://localhost:3000/save-json', {
         method: 'POST',
@@ -68,6 +69,7 @@ function saveAnswersToJson(peopleCount, submittedData) {
     .then(message => console.log(message))
     .catch(error => console.error('Error:', error));
     
+    window.location.href = 'loading-screen.html?destination=output.html';
     
 }
 
@@ -90,7 +92,7 @@ function updateSaveButtonVisibility(peopleCount, submittedData) {
             // Create the save button if it doesn't exist
             const newSaveButton = document.createElement('button');
             newSaveButton.id = 'save-answers';
-            newSaveButton.textContent = 'Save All Answers to JSON';
+            newSaveButton.textContent = 'Find the perfect reunion!';
             newSaveButton.style.marginTop = '20px';
             newSaveButton.style.backgroundColor = '#9c27b0';
             newSaveButton.addEventListener('click', () => saveAnswersToJson(peopleCount, submittedData));
