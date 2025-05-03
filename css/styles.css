@@ -1,15 +1,42 @@
 body {
+    background-color: #05203c;
     font-family: Arial, sans-serif;
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0;        /* Remove default margin */
+    padding: 0px 30px 30px; /* Top, Right/Left, Bottom */
   }
   
+  .logo {
+    width: 190px;
+    height: auto;
+    margin-top: -65px;    /* Ensure no extra space */
+    margin-bottom: 0px;
+    display: block;   /* Removes inline element spacing */
+  
+  }
+
+  h1 {
+    color: #ffffff;
+    font-size: 17px;
+    margin-top: -60px; /* Reduced from default ~21px */
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+
+  h3 {
+    color: #000000;
+  }
+
   .question {
     margin-bottom: 20px;
     padding: 15px;
-    background-color: #f5f5f5;
-    border-radius: 5px;
+    background-color: #ffffff;
+    border-radius: 20px;
   }
   
   .person-form {
@@ -34,6 +61,7 @@ body {
   }
   
   label {
+    color: #000000;
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
@@ -113,7 +141,7 @@ body {
   }
   
   button {
-    background-color: #4caf50;
+    background-color: #0062e4;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -124,10 +152,10 @@ body {
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #024cae;
   }
   
-  button.secondary {
+  /*button.secondary {
     background-color: #2196f3;
   }
   
@@ -141,7 +169,7 @@ body {
   
   button.tertiary:hover {
     background-color: #e68a00;
-  }
+  }*/
   
   #selected-items {
     margin: 15px 0;
@@ -174,15 +202,9 @@ body {
   .multi-select-container select {
     flex-grow: 1;
   }
-  
-  h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 5px;
-  }
 
   .save-date-range {
-    background-color: #45a049; /* Change to your desired color */
+    background-color: #0062e4; /* Change to your desired color */
     color: white;             /* Text color */
     border: none;
     padding: 10px 20px;
@@ -191,7 +213,7 @@ body {
 }
 
 .save-date-range:hover {
-    background-color: #45a049; /* Optional: Hover effect */
+    background-color: #024cae; /* Optional: Hover effect */
 }
 
 .edit-date-range {
