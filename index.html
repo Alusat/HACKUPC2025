@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skyscanner: the perfect reunion</title>
+    <!-- Add this FIRST in <head> (before your custom CSS) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -24,9 +29,12 @@
 
     <div id="forms-container"></div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
     <script src="js/loadCities.js"></script>
     <script src="js/slider.js"></script>
-    <script src="js/formHandlers.js"></script>
+    <script type="module" src="js/formHandler.js"></script>
     <script src="js/main.js"></script>
     <script src="js/saveAnswers.js"></script>
   </body>

@@ -180,3 +180,16 @@ body {
     border-bottom: 2px solid #eee;
     padding-bottom: 5px;
   }
+
+  /* Fix dropdown height/visibility */
+.select2-container .select2-selection--single {
+    height: 38px !important;
+    padding: 6px 12px;
+  }
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 24px !important;
+  }
+  /* Fix dropdown positioning */
+  .select2-container--open .select2-dropdown {
+    z-index: 999999 !important; /* Ensure it appears above other elements */
+  }
