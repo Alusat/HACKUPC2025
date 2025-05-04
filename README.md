@@ -5,9 +5,9 @@ This project builds a semantic travel destination recommender. It processes user
 ---
 
 ## 🧠 Pipeline Overview
+![pipeline](https://github.com/user-attachments/assets/700a2d1b-768f-47ff-95a8-3b8342a02b6f)
 
 ```text
-![Pipeline Diagram](./extra/pipeline.png)
 
 🗂 Project Structure
 graphql
