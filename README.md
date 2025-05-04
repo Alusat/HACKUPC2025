@@ -10,33 +10,7 @@ This project builds a semantic travel destination recommender. It processes user
 ```text
 
 🗂 Project Structure
-graphql
-Copiar
-Editar
-.
-├── data/
-│   ├── iata_airports_and_locations_with_vibes.csv      # Raw input with city names, IATA, tags
-│   └── ...                                              # Other cleaned or processed files
-│
-├── preprocess/
-│   ├── append_iata.py                                   # Adds IATA codes to names
-│   ├── prepare_prolog_facts.py                          # Converts CSV to Prolog rules
-│   └── ...                                              # User input transformation tools
-│
-├── prolog/
-│   ├── ontology.pl                                      # Logic rules and filtering
-│   └── run_query.py                                     # Interface between Python and SWI-Prolog
-│
-├── api/
-│   ├── skyscanner_query.py                              # Handles API querying
-│   └── scoring.py                                       # Ranks options based on price, tags, etc.
-│
-├── frontend/
-│   └── app.js / main.py                                 # Final display logic
-│
-├── README.md                                            # You are here
-└── requirements.txt                                     # Dependencies
-✅ How It Works
+
 Raw Data + Preferences: The system starts with a tagged CSV of destinations and a user input JSON containing preferences like weather, vibe, and origin.
 
 Preprocessing:
