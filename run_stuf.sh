@@ -51,7 +51,7 @@ python3 fetch_flights.py
 
 cd ..
 
-while [ ! -f "xdata/final_scored.json" ]; do
+while [ ! -f "data/final_scored.json" ]; do
     echo "Final scored not found. Waiting..."
     sleep 0.50  # Wait for 1 second before checking again
 done
