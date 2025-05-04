@@ -96,5 +96,3 @@ MIT License. See LICENSE file for details.
 vbnet
 Copiar
 Editar
-
-Let me know if you want this turned into a real file or enhanced with badges, 
