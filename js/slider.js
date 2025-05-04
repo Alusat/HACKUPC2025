@@ -11,9 +11,9 @@ function initDualRangeSlider(personNum) {
     const rangeInput = document.getElementById(`budget-range-${personNum}`);
   
     const min = 0;
-    const max = 5000;
+    const max = 1000;
     let minVal = 0;
-    let maxVal = 5000;
+    let maxVal = 1000;
   
     // Update slider positions and values
     function updateSlider() {

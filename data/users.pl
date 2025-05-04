@@ -2,11 +2,11 @@
 % Facts are grouped by predicate.
 % All city and vibe names are quoted.
 
-user_preference(user1, ['beach', 'art_and_culture', 'great_food']).
-user_preference(user2, ['art_and_culture', 'outdoor_adventures', 'underrated_destinations']).
+user_preference(user1, ['nightlife_and_entertainment', 'art_and_culture', 'beach']).
+user_preference(user2, ['nightlife_and_entertainment', 'great_food']).
 
-user_city(user1, 'Barcelona (BCN)').
-user_city(user2, 'Berlin Brandenburg (BER)').
+user_city(user1, 'Hong Kong Intl (HKG)').
+user_city(user2, 'Tirana (TIA)').
 
-user_dest(user1, 'Vienna (VIE)').
-user_dest(user2, 'Rome (RME)').
+user_dest(user1, 'Barcelona (BCN)').
+user_dest(user2, 'Barcelona (BCN)').

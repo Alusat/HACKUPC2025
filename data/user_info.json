@@ -1,37 +1,36 @@
 {
-  "timestamp": "2025-05-03T23:50:14.974Z",
+  "timestamp": "2025-05-04T00:20:10.424Z",
   "dateRange": {
-    "startDate": "2025-05-10",
-    "endDate": "2025-05-16"
+    "startDate": "2025-05-14",
+    "endDate": "2025-05-29"
   },
   "travelers": [
     {
       "travelerNumber": 1,
       "budgetRange": {
         "min": "0",
-        "max": "1502"
+        "max": "1000"
       },
       "preferredVibes": [
-        "beach",
+        "nightlife_and_entertainment",
         "art_and_culture",
-        "great_food"
+        "beach"
       ],
-      "preferredDestination": "Vienna (VIE)",
-      "startingPoint": "Barcelona (BCN)"
+      "preferredDestination": "Barcelona (BCN)",
+      "startingPoint": "Hong Kong Intl (HKG)"
     },
     {
       "travelerNumber": 2,
       "budgetRange": {
         "min": "0",
-        "max": "2503"
+        "max": "1000"
       },
       "preferredVibes": [
-        "art_and_culture",
-        "outdoor_adventures",
-        "underrated_destinations"
+        "nightlife_and_entertainment",
+        "great_food"
       ],
-      "preferredDestination": "Rome (RME)",
-      "startingPoint": "Berlin Brandenburg (BER)"
+      "preferredDestination": "Barcelona (BCN)",
+      "startingPoint": "Tirana (TIA)"
     }
   ]
 }

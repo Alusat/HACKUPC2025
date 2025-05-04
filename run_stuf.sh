@@ -5,6 +5,9 @@ set -e
 
 echo "--- Running Simple Build and Execute ---"
 
+[ -f "data/user_info.json" ] && rm "data/user_info.json"
+[ -f "data/final_scored.json" ] && rm "data/final_scored.json"
+
 echo "calling server"
 node server/server.js &
 
@@ -13,7 +16,7 @@ npx live-server --open=index.html &
 
 while [ ! -f "data/user_info.json" ]; do
     echo "File not found. Waiting..."
-    sleep 0.10  # Wait for 1 second before checking again
+    sleep 0.50  # Wait for 1 second before checking again
 done
 
 sleep 1.5
@@ -36,18 +39,27 @@ make
 
 # 5. Run the executable
 echo "[5/6] Running './recommend'..."
+
 ./recommend
-cd ../
+
+cd ../scripts
 
 sleep 1
+
+echo "ejecutando codigo de pito"
+python3 fetch_flights.py
+
+cd ..
+
+while [ ! -f "xdata/final_scored.json" ]; do
+    echo "Final scored not found. Waiting..."
+    sleep 0.50  # Wait for 1 second before checking again
+done
 
 # 6. 
 echo "[6/6] Running 'npx live-server..."
 npx live-server --open=output.html &
 
 sleep 1
-
-echo "removing"
-rm "data/user_info.json"
 
 echo "--- Script finished successfully ---"

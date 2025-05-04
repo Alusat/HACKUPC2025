@@ -14,10 +14,10 @@ API_KEY        = os.getenv("API_KEY")
 HEADERS        = {"x-api-key": API_KEY, "Content-Type": "application/json"}
 INDICATIVE_URL = "https://partners.api.skyscanner.net/apiservices/v3/flights/indicative/search"
 
-INPUT_JSON   = "data/ranked_cities_top20.json"
-USER_JSON    = "data/user_info.json"
-OUTPUT_JSON  = "data/final_scored.json"
-AIRPORTS_CSV = "data/iata_airports_and_locations_with_vibes.csv"
+INPUT_JSON   = "../data/ranked_cities_top20.json"
+USER_JSON    = "../data/user_info.json"
+OUTPUT_JSON  = "../data/final_scored.json"
+AIRPORTS_CSV = "../data/iata_airports_and_locations_with_vibes.csv"
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
