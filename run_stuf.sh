@@ -16,8 +16,10 @@ npx live-server --open=index.html &
 
 while [ ! -f "data/user_info.json" ]; do
     echo "File not found. Waiting..."
-    sleep 0.50  # Wait for 1 second before checking again
+    sleep 0.05  # Wait for 1 second before checking again
 done
+
+npx live-server --open=output.html &
 
 sleep 1.5
 
@@ -58,7 +60,7 @@ done
 
 # 6. 
 echo "[6/6] Running 'npx live-server..."
-npx live-server --open=output.html &
+#npx live-server --open=output.html &
 
 sleep 1
 

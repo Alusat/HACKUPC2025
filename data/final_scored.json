@@ -1,67 +1,208 @@
 [
   {
-    "city": "Barcelona (BCN)",
-    "destination_fit": "HighDest",
-    "distance_fit": "LongDist",
-    "iata": "BCN",
-    "lat": 41.2973241,
-    "long": 2.0833156,
+    "city": "Ibiza (IBZ)",
+    "destination_fit": "MidDest",
+    "distance_fit": "ShortDist",
+    "iata": "IBZ",
+    "lat": 38.873611,
+    "long": 1.372778,
     "rank": 1,
-    "score": 2.8,
-    "vibe_fit": "Mid",
+    "score": 2.85,
+    "vibe_fit": "Low",
     "traveler_prices": [
-      492.0,
-      137.0
+      46.0,
+      127.0
     ],
     "warnings": [
       "Traveler 1 used anytime (x2)"
     ],
-    "price_eur": 314.5,
-    "composite_score": 0.89,
+    "price_eur": 86.5,
+    "composite_score": 0.851,
     "final_rank": 1
   },
   {
-    "city": "Vienna (VIE)",
-    "destination_fit": "NoneDest",
+    "city": "Cagliari (CAG)",
+    "destination_fit": "MidDest",
     "distance_fit": "MediumDist",
-    "iata": "VIE",
-    "lat": 48.1221,
-    "long": 16.55751,
-    "rank": 7,
-    "score": 1.69,
-    "vibe_fit": "Mid",
+    "iata": "CAG",
+    "lat": 39.247222,
+    "long": 9.061111,
+    "rank": 2,
+    "score": 2.5500000000000003,
+    "vibe_fit": "Low",
     "traveler_prices": [
-      550.0,
-      69.0
+      30.0,
+      210.0
     ],
     "warnings": [
       "Traveler 1 used anytime (x2)"
     ],
-    "price_eur": 309.5,
-    "composite_score": 0.45,
+    "price_eur": 120.0,
+    "composite_score": 0.665,
     "final_rank": 2
   },
   {
-    "city": "Sofia (SOF)",
+    "city": "Tetuan S. Ramel (TTU)",
     "destination_fit": "NoneDest",
-    "distance_fit": "MediumDist",
-    "iata": "SOF",
-    "lat": 42.693412,
-    "long": 23.4069323,
-    "rank": 15,
+    "distance_fit": "ShortDist",
+    "iata": "TTU",
+    "lat": 35.583333,
+    "long": -5.316667,
+    "rank": 6,
     "score": 1.69,
-    "vibe_fit": "Mid",
+    "vibe_fit": "Low",
     "traveler_prices": [
-      570.0,
-      70.0
+      30.0,
+      96.0
     ],
     "warnings": [
       "Traveler 1 used anytime (x2)",
       "Traveler 2 used anytime (x2)"
     ],
-    "price_eur": 320.0,
-    "composite_score": 0.43,
+    "price_eur": 63.0,
+    "composite_score": 0.45,
     "final_rank": 3
+  },
+  {
+    "city": "Nice (NCE)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "NCE",
+    "lat": 43.6596539,
+    "long": 7.215359,
+    "rank": 3,
+    "score": 1.99,
+    "vibe_fit": "Mid",
+    "traveler_prices": [
+      60.0,
+      190.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 125.0,
+    "composite_score": 0.437,
+    "final_rank": 4
+  },
+  {
+    "city": "Tangier Ibn Battouta (TNG)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "TNG",
+    "lat": 35.716667,
+    "long": -5.916667,
+    "rank": 7,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      75.0,
+      68.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 71.5,
+    "composite_score": 0.432,
+    "final_rank": 5
+  },
+  {
+    "city": "Valencia (VLC)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "VLC",
+    "lat": 39.4891002,
+    "long": -0.4778432,
+    "rank": 5,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      56.0,
+      101.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 78.5,
+    "composite_score": 0.418,
+    "final_rank": 6
+  },
+  {
+    "city": "Rabat (RBA)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "RBA",
+    "lat": 34.05,
+    "long": -6.756944,
+    "rank": 12,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      64.0,
+      94.0
+    ],
+    "warnings": [
+      "Traveler 2 used anytime (x2)"
+    ],
+    "price_eur": 79.0,
+    "composite_score": 0.417,
+    "final_rank": 7
+  },
+  {
+    "city": "Palma - Majorca (PMI)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "PMI",
+    "lat": 39.5517159,
+    "long": 2.7361971,
+    "rank": 13,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      91.0,
+      108.0
+    ],
+    "price_eur": 99.5,
+    "composite_score": 0.416,
+    "final_rank": 8
+  },
+  {
+    "city": "Seville (SVQ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "SVQ",
+    "lat": 37.4201248,
+    "long": -5.8934041,
+    "rank": 8,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      50.0,
+      119.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 84.5,
+    "composite_score": 0.405,
+    "final_rank": 9
+  },
+  {
+    "city": "Porto (OPO)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "OPO",
+    "lat": 41.2420863,
+    "long": -8.6786158,
+    "rank": 15,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      96.0,
+      125.0
+    ],
+    "price_eur": 110.5,
+    "composite_score": 0.39,
+    "final_rank": 10
   },
   {
     "city": "Split (SPU)",
@@ -70,64 +211,41 @@
     "iata": "SPU",
     "lat": 43.5364477,
     "long": 16.2991324,
-    "rank": 14,
+    "rank": 9,
     "score": 1.69,
     "vibe_fit": "Mid",
     "traveler_prices": [
-      582.0,
-      84.0
+      112.0,
+      92.0
     ],
     "warnings": [
       "Traveler 1 used anytime (x2)",
       "Traveler 2 used anytime (x2)"
     ],
-    "price_eur": 333.0,
-    "composite_score": 0.404,
-    "final_rank": 4
+    "price_eur": 102.0,
+    "composite_score": 0.369,
+    "final_rank": 11
   },
   {
-    "city": "Istanbul Sabiha (SAW)",
+    "city": "San Sebastian (EAS)",
     "destination_fit": "NoneDest",
-    "distance_fit": "MediumDist",
-    "iata": "SAW",
-    "lat": 40.899444,
-    "long": 29.309167,
-    "rank": 18,
-    "score": 1.69,
+    "distance_fit": "ShortDist",
+    "iata": "EAS",
+    "lat": 43.357778,
+    "long": -1.79,
+    "rank": 4,
+    "score": 1.99,
     "vibe_fit": "Mid",
     "traveler_prices": [
-      608.0,
-      76.0
+      68.0,
+      265.0
     ],
     "warnings": [
-      "Traveler 1 used anytime (x2)",
-      "Traveler 2 used anytime (x2)"
+      "Traveler 1 used anytime (x2)"
     ],
-    "price_eur": 342.0,
-    "composite_score": 0.387,
-    "final_rank": 5
-  },
-  {
-    "city": "Zagreb (ZAG)",
-    "destination_fit": "NoneDest",
-    "distance_fit": "MediumDist",
-    "iata": "ZAG",
-    "lat": 45.7408627,
-    "long": 16.067501,
-    "rank": 2,
-    "score": 1.69,
-    "vibe_fit": "Mid",
-    "traveler_prices": [
-      578.0,
-      112.0
-    ],
-    "warnings": [
-      "Traveler 1 used anytime (x2)",
-      "Traveler 2 used anytime (x2)"
-    ],
-    "price_eur": 345.0,
-    "composite_score": 0.381,
-    "final_rank": 6
+    "price_eur": 166.5,
+    "composite_score": 0.351,
+    "final_rank": 12
   },
   {
     "city": "Thessaloniki (SKG)",
@@ -136,128 +254,120 @@
     "iata": "SKG",
     "lat": 40.5205776,
     "long": 22.9717187,
-    "rank": 16,
+    "rank": 10,
     "score": 1.69,
     "vibe_fit": "Mid",
     "traveler_prices": [
-      636.0,
-      82.0
+      118.0,
+      134.0
     ],
     "warnings": [
       "Traveler 1 used anytime (x2)",
       "Traveler 2 used anytime (x2)"
     ],
-    "price_eur": 359.0,
-    "composite_score": 0.354,
-    "final_rank": 7
+    "price_eur": 126.0,
+    "composite_score": 0.319,
+    "final_rank": 13
   },
   {
-    "city": "Riga International (RIX)",
+    "city": "La Rochelle (LRH)",
     "destination_fit": "NoneDest",
-    "distance_fit": "MediumDist",
-    "iata": "RIX",
-    "lat": 56.925,
-    "long": 23.972222,
+    "distance_fit": "ShortDist",
+    "iata": "LRH",
+    "lat": 46.180556,
+    "long": -1.185833,
     "rank": 20,
     "score": 1.69,
-    "vibe_fit": "Mid",
+    "vibe_fit": "Low",
     "traveler_prices": [
-      620.0,
-      114.0
+      134.0,
+      134.0
     ],
     "warnings": [
       "Traveler 1 used anytime (x2)",
       "Traveler 2 used anytime (x2)"
     ],
-    "price_eur": 367.0,
-    "composite_score": 0.338,
-    "final_rank": 8
+    "price_eur": 134.0,
+    "composite_score": 0.302,
+    "final_rank": 14
   },
   {
-    "city": "Tallinn (TLL)",
+    "city": "Paris Orly (ORY)",
     "destination_fit": "NoneDest",
-    "distance_fit": "MediumDist",
-    "iata": "TLL",
-    "lat": 59.413317,
-    "long": 24.832844,
+    "distance_fit": "ShortDist",
+    "iata": "ORY",
+    "lat": 48.728889,
+    "long": 2.357222,
+    "rank": 14,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      74.0,
+      226.0
+    ],
+    "warnings": [
+      "Traveler 1 used anytime (x2)"
+    ],
+    "price_eur": 150.0,
+    "composite_score": 0.269,
+    "final_rank": 15
+  },
+  {
+    "city": "Lyon (LYS)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "LYS",
+    "lat": 45.725556,
+    "long": 5.081667,
+    "rank": 18,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      123.0,
+      287.0
+    ],
+    "price_eur": 205.0,
+    "composite_score": 0.171,
+    "final_rank": 16
+  },
+  {
+    "city": "Santiago de Compostela (SCQ)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "SCQ",
+    "lat": 42.9,
+    "long": -8.4168,
     "rank": 11,
     "score": 1.69,
-    "vibe_fit": "Mid",
+    "vibe_fit": "Low",
     "traveler_prices": [
-      618.0,
-      140.0
+      77.0,
+      342.0
+    ],
+    "price_eur": 209.5,
+    "composite_score": 0.161,
+    "final_rank": 17
+  },
+  {
+    "city": "Cordoba (ODB)",
+    "destination_fit": "NoneDest",
+    "distance_fit": "ShortDist",
+    "iata": "ODB",
+    "lat": 37.841111,
+    "long": -4.847222,
+    "rank": 16,
+    "score": 1.69,
+    "vibe_fit": "Low",
+    "traveler_prices": [
+      330.0,
+      228.0
     ],
     "warnings": [
       "Traveler 1 used anytime (x2)",
       "Traveler 2 used anytime (x2)"
     ],
-    "price_eur": 379.0,
-    "composite_score": 0.315,
-    "final_rank": 9
-  },
-  {
-    "city": "Chengdu Tianfu International (TFU)",
-    "destination_fit": "NoneDest",
-    "distance_fit": "MediumDist",
-    "iata": "TFU",
-    "lat": 30.290833,
-    "long": 104.44361,
-    "rank": 12,
-    "score": 1.69,
-    "vibe_fit": "Mid",
-    "traveler_prices": [
-      182.0,
-      652.0
-    ],
-    "warnings": [
-      "Traveler 1 used anytime (x2)",
-      "Traveler 2 used anytime (x2)"
-    ],
-    "price_eur": 417.0,
-    "composite_score": 0.241,
-    "final_rank": 10
-  },
-  {
-    "city": "Tbilisi (TBS)",
-    "destination_fit": "NoneDest",
-    "distance_fit": "MediumDist",
-    "iata": "TBS",
-    "lat": 41.666667,
-    "long": 44.95,
-    "rank": 13,
-    "score": 1.69,
-    "vibe_fit": "Mid",
-    "traveler_prices": [
-      676.0,
-      178.0
-    ],
-    "warnings": [
-      "Traveler 1 used anytime (x2)",
-      "Traveler 2 used anytime (x2)"
-    ],
-    "price_eur": 427.0,
-    "composite_score": 0.221,
-    "final_rank": 11
-  },
-  {
-    "city": "Shanghai Hongqiao (SHA)",
-    "destination_fit": "NoneDest",
-    "distance_fit": "MediumDist",
-    "iata": "SHA",
-    "lat": 31.2,
-    "long": 121.333333,
-    "rank": 17,
-    "score": 1.69,
-    "vibe_fit": "Mid",
-    "traveler_prices": [
-      549.0,
-      532.0
-    ],
-    "warnings": [
-      "Traveler 2 used anytime (x2)"
-    ],
-    "price_eur": 540.5,
+    "price_eur": 279.0,
     "composite_score": 0.0,
-    "final_rank": 12
+    "final_rank": 18
   }
 ]
