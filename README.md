@@ -9,6 +9,8 @@ This project builds a semantic travel destination recommender. It processes user
 
 ## 🎥 Demo
 
+https://github.com/user-attachments/assets/224f7503-c181-48a6-8145-0269f6dd3837
+
 ## 🗂 Project Structure
 
 Raw Data + Preferences: The system starts with a tagged CSV of destinations and a user input JSON containing preferences like weather, vibe, and origin.
