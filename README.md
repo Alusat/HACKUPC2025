@@ -38,7 +38,6 @@ Display:
 The frontend shows the top-ranked options in a user-friendly interface
 
 ## 📌 Notes
-City names are disambiguated using the format: City (IATA)
 
 Prolog filtering is deterministic due to this disambiguation
 
@@ -46,8 +45,5 @@ Currently focused on en-GB naming; other locales can be added later
 
 ## 🤝 Contributing
 Feel free to open issues or submit pull requests to improve the pipeline, scoring logic, or ontology expressiveness.
-
-## 📄 License
-MIT License. See LICENSE file for details.
 
 
